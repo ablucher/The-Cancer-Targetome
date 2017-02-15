@@ -1,8 +1,8 @@
-# Antineoplastic-Targetome
-This is an initial data release for the drug-target interactions of the antineoplastic targetome. The drug-target interactions were aggregated across four differently publicly available resource: DrugBank, Therapeutic Targets Database, IUPHAR Guide to Pharmacology, and BindingDB. 
+# The Antineoplastic Targetome
+This is an initial data release for the drug-target interactions of the antineoplastic targetome. All drug-target interaction and bioactivity data aggregated from four publicly available resources: DrugBank, Therapeutic Targets Database, IUPHAR Guide to Pharmacology, and BindingDB. 
 
-License: (CC-by-NC?)
-This work is open to public and academic research use. 
+# Data Availability and Use
+This work is open to public and academic research use. It is made available under the Creative Commons Attribution-Non Commercial Share Alike 4.0 International License. https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
-Citation:
-Exploring the Antineoplastic Targetome from an Supporting Evidence Perspective. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
+# Citations
+The Cancer Targetome: FDA-Approved Antineoplastic Drugs and Targets from an Evidence Based Perspective. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
