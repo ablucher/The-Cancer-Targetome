@@ -35,8 +35,7 @@ and bioactivity data with parent database, reference and experimental binding ev
 #### CSV Drug-Target Interactions File
 This is a file of drug-target interactions for 141 antineoplastic drugs. It also includes assigned evidence levels for each
 piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
-and figures generated in the manuscript under preparation (indicated above). It is accompanied by the
-R script CancerTargetome_Analysis.R
+and figures generated in the manuscript under preparation (indicated above).
 
 ### Example Use Case: Imatinib
 In the Cancer Targetome, we aggregate drug-target interaction and bioactivity information across 
