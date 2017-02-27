@@ -16,8 +16,7 @@ Pharmacology, and BindingDB.
 
 ### Data Availability and Use
 This work is open for public and academic research use. It is made available under the 
-Creative Commons Attribution-Non Commercial Share Alike 4.0 International License. 
-https://creativecommons.org/licenses/by-nc/4.0/legalcode
+[Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
 ### Citations
 The Cancer Targetome: A Critical Step Towards Evidence-Base Precision Oncology. 
@@ -41,5 +40,4 @@ R script CancerTargetome_Analysis.R
 ### Example Use Case: Imatinib
 Imatinib 
 
-
-Please contact Aurora Blucher (blucher@ohsu.edu) with questions, concerns, and comments. 
+Please contact Aurora Blucher (blucher@ohsu.edu) with questions and feedback. 
