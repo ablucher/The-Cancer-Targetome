@@ -50,12 +50,7 @@ Level I | Interaction/relationship in database with no reference information
 Level II | Interaction/relationship in database with literature reference
 Level III | Interaction/relationship in database with literature reference and accompanying experimental binding affinity value
 
-Let's say we are interested in putative target interactions for imatinib, a protein kinase inhibitor. In Figure 1, we show all 
-experimental binding affinities (Level III evidence) collected for imatinib in our aggregation process. Binding evidence is grouped according to binding assay 
-type (EC50, IC50, Ki, or Kd). There are a total of eight different protein targets with binding affinities reported under 100nM: ABL1, 
-CA1, CA2, CA9, DDR2, EGFR, LCK, and SLC47A1. We can see that ABL1 has the lowest scoring value (and therefore strongest binding affinity) for Kd, Ki, and IC50 assays, 
-and is only target under 100nM for EC50 assays. We can also see that ABL1 has many assay values reported across three of the assay types, while
-the remaining targets have only one or two assay values reported each. 
+Let's say we are interested in putative target interactions for imatinib, a protein kinase inhibitor. In Figure 1, we show all experimental binding affinities (Level III evidence) collected for imatinib in our aggregation process. Binding evidence is grouped according to binding assay type (EC50, IC50, Ki, or Kd). There are a total of eight different protein targets with binding affinities reported under 100nM: ABL1, CA1, CA2, CA9, DDR2, EGFR, LCK, and SLC47A1. We can see that ABL1 has the lowest scoring value (and therefore strongest binding affinity) for Kd, Ki, and IC50 assays, and is only target under 100nM for EC50 assays. We can also see that ABL1 has many assay values reported across three of the assay types, while the remaining targets have only one or two assay values reported each. 
 
 ![Figure 1. Imatinib Target Interactions with Binding Evidence <100nM](GitPageFigure_Imatinib.png "Figure 1. Imatinib Target Interactions with Binding Evidence <100nM")
 
@@ -64,4 +59,4 @@ set binding affinity thresholds according to our biological question of interest
 the strength of evidence behind a putative drug-target interaction. 
 
 ### Contact
-Please contact Aurora Blucher (blucher@ohsu.edu) with questions, concerns, and comments. 
+Please contact Aurora Blucher (blucher@ohsu.edu) with questions and comments. 
