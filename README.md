@@ -15,7 +15,7 @@ publicly available resources: DrugBank, Therapeutic Targets Database, IUPHAR Gui
 Pharmacology, and BindingDB. 
 
 ### Data Availability and Use
-This work is open for public and academic research use. It is made available under the 
+This work is open for academic research use. It is made available under the 
 [Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
 ### Citations
