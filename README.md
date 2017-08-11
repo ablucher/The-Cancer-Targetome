@@ -19,8 +19,7 @@ This work is open for academic research use. It is made available under the
 [Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
 ### Citations
-The Cancer Targetome: A Critical Step Towards Evidence-Based Precision Oncology. 
-Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
+Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
 
 ### Accessing the Data 
 There are several options for accessing the Cancer Targetome data. Users interested in the data collection and aggregation
@@ -49,13 +48,19 @@ Level I | Interaction/relationship in database with no reference information
 Level II | Interaction/relationship in database with literature reference
 Level III | Interaction/relationship in database with literature reference and accompanying experimental binding affinity value
 
-Let's say we are interested in putative target interactions for imatinib, a protein kinase inhibitor. In Figure 1, we show all experimental binding affinities (Level III evidence) collected for imatinib in our aggregation process. Binding evidence is grouped according to binding assay type (EC50, IC50, Ki, or Kd). There are a total of eight different protein targets with binding affinities reported under 100nM: ABL1, CA1, CA2, CA9, DDR2, EGFR, LCK, and SLC47A1. We can see that ABL1 has the lowest scoring value (and therefore strongest binding affinity) for Kd, Ki, and IC50 assays, and is only target under 100nM for EC50 assays. We can also see that ABL1 has many assay values reported across three of the assay types, while the remaining targets have only one or two assay values reported each. 
+Let's say we are interested in putative target interactions for imatinib, a protein kinase inhibitor. In Figure 1, we show all experimental binding affinities (Level III evidence) collected for imatinib in our aggregation process. Binding evidence is grouped according to binding assay type (EC50, IC50, Ki, or Kd). While there are a total of fourteen targets with assay evidence under 100nM, tyrosine-protein kinase ABL1 (ABL1), the canonical target of imatinib [1,2,3] notably has low nanomolar assay evidence across all four binding assay types (KD, Ki, IC50, and EC50). For KD, Ki, and IC50 assay evidence, ABL1 has multiple low nanomolar assay values, which lends more confidence to ABL1 being a biological target of the drug imatinib. Furthermore, for each of the four binding assay types, ABL1 has either the lowest or second-lowest assay value for target interactions with imatinib (Figure 3A). The case of imatinib serves as an example where evidence of the canonical “primary” target can be seen in experimental binding data. In the cases where a target other than ABL1 occupies the best or close to the best assay value (epithelial discoidin domain-containing receptor 1 (DDR1), platelet-derived growth factor alpha (PDGFRA), and platelet-derived growth factor beta (PDGFRB)), there is binding assay support from only one or two of the binding assay types rather than all four binding types, as in the case of ABL1.
 
 ![Figure 1. Imatinib Target Interactions with Binding Evidence <100nM](GitPageFigure_Imatinib.png "Figure 1. Imatinib Target Interactions with Binding Evidence <100nM")
 
 In this manner, we can evaluate the experimental binding evidence for drug and target relationships, 
 set binding affinity thresholds according to our biological question of interest, and evaluate
 the strength of evidence behind a putative drug-target interaction. 
+#### References
+1 	Druker, B.J. et al. (2001) Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. N. Engl. J. Med. 344, 1031–1037
+2 	Wu, P. et al. (2015) FDA-approved small-molecule kinase inhibitors. Trends Pharmacol. Sci. 36, 422–439
+3 	Druker, B.J. et al. (1996) Effects of a selective inhibitor of the Abl tyrosine kinase on the growth of Bcr–Abl positive cells. Nat. Med. 2, 561–566
+
+
 
 ### Contact
 Please contact Aurora Blucher (blucher@ohsu.edu) with questions and comments. 
