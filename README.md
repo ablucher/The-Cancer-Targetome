@@ -56,9 +56,9 @@ In this manner, we can evaluate the experimental binding evidence for drug and t
 set binding affinity thresholds according to our biological question of interest, and evaluate
 the strength of evidence behind a putative drug-target interaction. 
 #### References
-1 	Druker, B.J. et al. (2001) Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. N. Engl. J. Med. 344, 1031–1037
-2 	Wu, P. et al. (2015) FDA-approved small-molecule kinase inhibitors. Trends Pharmacol. Sci. 36, 422–439
-3 	Druker, B.J. et al. (1996) Effects of a selective inhibitor of the Abl tyrosine kinase on the growth of Bcr–Abl positive cells. Nat. Med. 2, 561–566
+1. 	Druker, B.J. et al. (2001) Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. N. Engl. J. Med. 344, 1031–1037
+2. 	Wu, P. et al. (2015) FDA-approved small-molecule kinase inhibitors. Trends Pharmacol. Sci. 36, 422–439
+3. 	Druker, B.J. et al. (1996) Effects of a selective inhibitor of the Abl tyrosine kinase on the growth of Bcr–Abl positive cells. Nat. Med. 2, 561–566
 
 
 
