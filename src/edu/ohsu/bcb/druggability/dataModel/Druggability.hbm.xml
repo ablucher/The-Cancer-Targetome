@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="edu.ohsu.bcb.druggability.dataModel">
+    <!--  DRUG CLASS MAPPING -->
+    <class name="Drug" table="Drug" batch-size="100">
+        <id name="drugID" column="drugID">
+            <generator class="native" />
+        </id>
+        <property name="drugName" column="drugName" type = "string"/>
+        <set name="drugSynonyms" table="DrugSyn_SET" cascade = "all">
+        	<key column="drugID"/>
+        	<element column = "synonym" type="string" length = "1000"/> 
+        </set>
+        <property name="approvalDate" column="approvalDate" type = "string"/>
+        <property name="atcClassID" column="atcClassID" type = "string"/>
+        <property name="atcClassName" column="atcClassName" type = "string"/>
+        <property name="atcClassStatus" column="atcClassStatus" type = "string"/>
+        <property name="epcClassID" column="epcClassID" type = "string"/>
+        <property name="epcClassName" column="epcClassName" type = "string"/>
+    </class>
+    <!--  TARGET CLASS MAPPING -->
+    <class name="Target" table="Target" batch-size="100">
+        <id name="targetID" column="targetID">
+            <generator class="native" />
+        </id>
+        <property name="targetName" column="targetName" type = "string"/>
+        <property name="targetType" column="targetType" type = "string"/>
+        <property name="uniprotID" column="uniprotID" type = "string"/>
+        <set name="targetSynonyms" table="TargetSyn_SET" cascade = "all">
+        	<key column="targetID"/>
+        	<element column = "synonym" type="string"/> 
+        </set>
+        <property name="targetSpecies" column="targetSpecies" type = "string"/>
+    </class>
+    <!--  INTERACTION CLASS MAPPING -->
+    <class name="Interaction" table="Interaction" batch-size="100">
+        <id name="interactionID" column="interactionID">
+            <generator class="native" />
+        </id>
+		<many-to-one name="intDrug" class="Drug" column="drugID"/>
+		<many-to-one name="intTarget" class="Target" column="targetID"/>
+		<property name="interactionType" column="interactionType" type = "string"/>
+        <set name="expEvidenceSet" table="interactionExpEvidence_Set" cascade = "all">
+        	<key column="interactionID"/>
+        	<many-to-many column = "expID" class = "ExpEvidence"/> 
+        </set>
+        <set name="interactionSourceSet" table="interactionSources_Set" cascade = "all">
+        	<key column="interactionID"/>
+        	<many-to-many column = "SourceID" class = "Source"/> 
+        </set>
+    </class>
+    <!--  LITEVIDENCE CLASS MAPPING -->
+    <class name="LitEvidence" table="LitEvidence" batch-size="100">
+        <id name="litID" column="litID">
+            <generator class="native" />
+        </id>
+        <property name="PubMedID" column="PubMedID" type = "string"/>
+    </class>
+    <!--  EXPEVIDENCE CLASS MAPPING -->
+    <class name="ExpEvidence" table="ExpEvidence" batch-size="100">
+        <id name="expID" column="expID">
+            <generator class="native" />
+        </id>
+        <property name="assayType" column="assayType" type = "string"/>
+        <property name="assayValueLow" column="assayValueLow" type = "string"/>
+        <property name="assayValueMedian" column="assayValueMedian" type = "string"/>
+        <property name="assayValueHigh" column="assayValueHigh" type = "string"/>
+        <property name ="assayUnits" column = "assayUnits" type="string"/>
+        <property name ="assayRelation" column = "assayRelation" type="string"/>
+        <property name ="assayDescription" column = "assayDescription" type="string"/>
+        <property name="assaySpecies" column="assaySpecies" type = "string"/>
+        <property name="parentSource" column="parentSource" type = "string"/>
+        <set name="expSourceSet" table="expEvidenceSource_Set" cascade = "all">
+        	<key column="expID"/>
+        	<many-to-many column = "sourceID" class = "Source"/> 
+        </set>
+    </class>
+    <!--  DATABASE CLASS MAPPING -->
+    <class name="DatabaseRef" table="DatabaseRef" batch-size="100">
+        <id name="databaseID" column="databaseID">
+            <generator class="native" />
+        </id>
+        <property name="databaseName" column="databaseName" type = "string"/>
+        <property name ="version" column = "version" type="string"/>  
+        <property name="downloadURL" column="downloadURL" type = "string"/>
+        <property name="downloadDate" column="downloadDate" type = "string"/>
+    </class>
+    <!--  SOURCE CLASS MAPPING -->
+    <class name="Source" table="Source" batch-size="100">
+        <id name="sourceID" column="sourceID">
+            <generator class="native" />
+        </id>
+        <many-to-one name="sourceLiterature" class="LitEvidence" column="litID"/>
+        <many-to-one name="sourceDatabase" class="DatabaseRef" column="databaseID"/>
+    </class>
+    
+</hibernate-mapping>
