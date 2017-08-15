@@ -16,25 +16,24 @@ Pharmacology, and BindingDB.
 
 ### Data Availability and Use
 This work is open for academic research use. It is made available under the 
-[Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
+[Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commerical use, please contact us.
 
 ### Citations
 Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
 
 ### Accessing the Data 
 There are several options for accessing the Cancer Targetome data. Users interested in the data collection and aggregation
-should see the Java source code, while users interested in the final aggregated drug-target interactions can find access data either 
-as a mysql database dump or an abbreviated CSV file. 
-*Please check back soon for the link to the complete Cancer Targetome GitHub Repository.*
-#### Source Code in Java
-The source code for collection and aggregation of the drug-target interaction and bioactivity data is in Java. 
-#### MySQL Database Dump
-The full drug-target interaction database can be downloaded as a mysql database dump. The database contains all drug-target interaction 
-and bioactivity data with parent database, reference and experimental binding evidence lineage. 
+should see the Java source code, while users interested in the final aggregated drug-target interactions can find access data either as a mysql database dump or an abbreviated CSV file. 
+
 #### Drug-Target Interactions CSV
 This is a file of drug-target interactions for 141 antineoplastic drugs. It also includes assigned evidence levels for each
 piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
 and figures generated in the manuscript under preparation (indicated above).
+#### MySQL Database Dump
+The full drug-target interaction database can be downloaded as a mysql database dump. The database contains all drug-target interaction and bioactivity data with parent database, reference and experimental binding evidence lineage. 
+#### Source Code in Java
+The source code for collection and aggregation of the drug-target interaction and bioactivity data is in Java. 
+
 
 ### Example Use Case: Imatinib
 In the Cancer Targetome, we aggregate drug-target interaction and bioactivity information across 
