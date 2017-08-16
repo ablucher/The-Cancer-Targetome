@@ -16,7 +16,7 @@ Pharmacology, and BindingDB.
 
 ### Data Availability and Use
 This work is open for academic research use. It is made available under the 
-[Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commerical use, please contact us.
+[Creative Commons Attribution-Non Commercial Share Alike 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commercial use, please contact us.
 
 ### Citations
 Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
