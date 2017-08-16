@@ -26,9 +26,8 @@ There are several options for accessing the Cancer Targetome data. Users interes
 should see the Java source code, while users interested in the final aggregated drug-target interactions can find access data either as a mysql database dump or an abbreviated CSV file. 
 
 #### Drug-Target Interactions CSV
-Here is the [text fileof drug-target interactions for 141 antineoplastic drugs](https://github.com/ablucher/The-Cancer-Targetome/tree/master/results_070717). It includes our assigned evidence levels for each
-piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
-and figures generated in the manuscript under preparation (indicated above).
+The text file of all drug-target interactions and supporting evidence for 141 antineoplastic drugs can be found [here](https://github.com/ablucher/The-Cancer-Targetome/tree/master/results_070717). It includes assigned evidence levels (outlined below) for each piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
+and figures generated in the manuscript under preparation indicated above.
 
 #### MySQL Database Dump
 The full drug-target interaction database can be downloaded as a mysql database dump. The database contains all drug-target interaction and bioactivity data with parent database, reference and experimental binding evidence lineage. 
