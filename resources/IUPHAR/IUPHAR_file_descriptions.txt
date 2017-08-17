@@ -1,0 +1,155 @@
+IUPHAR/BPS Guide to PHARMACOLOGY (GtP) downloadable file descriptions
+
+Notes:
+1. Files are in comma separated values (CSV) format
+2. Fields containing multiple values are separated by |
+
+
+########################
+targets_and_families.csv
+########################
+
+Type					The target class
+Family id				The GtP family identifier
+Family name				The GtP family name
+Target id				The GtP target identifier
+Target name				The GtP target name, usually the IUPHAR recommended name or a provisional name (for information on target nomenclature see the online help documentation)
+Subunits				The names of any subunits that make up a multimeric protein
+Target systematic name			A systematic name associated with the target
+Target abbreviated name			A commonly used abbreviation of the target name
+synonyms				Other names commonly used in the literature
+HGNC id					The HUGO Gene Nomenclature Committee (HGNC) gene identifier
+HGNC symbol				The HGNC gene symbol
+HGNC name				The HGNC gene name
+Human genetic localisation		The genetic location of the encoding gene in human
+Human nucleotide RefSeq			The RefSeq identifier for the human mRNA sequence
+Human protein RefSeq			The RefSeq identifier for the human protein sequence
+Human SwissProt				The UniProtKB/SwissProt Accession for the human protein sequence
+Human Entrez Gene			The human Entrez Gene identifier
+RGD id					The Rat Genome Database (RGD) gene identifier
+RGD symbol				The RGD gene symbol
+RGD name				The RGD gene name
+Rat genetic localisation		The genetic location of the encoding gene in rat
+Rat nucleotide RefSeq			The RefSeq identifier for the rat mRNA sequence
+Rat protein RefSeq			The RefSeq identifier for the rat protein sequence
+Rat SwissProt				The UniProtKB/SwissProt Accession for the rat protein sequence
+Rat Entrez Gene				The rat Entrez Gene identifier
+MGI id					The Mouse Genome Informatics (MGI) gene identifier
+MGI symbol				The MGI gene symbol
+MGI name				The MGI gene name
+Mouse genetic localisation		The genetic location of the encoding gene in mouse
+Mouse nucleotide RefSeq			The RefSeq identifier for the mouse mRNA sequence
+Mouse protein RefSeq			The RefSeq identifier for the mouse protein sequence
+Mouse SwissProt				The UniProtKB/SwissProt Accession for the mouse protein sequence
+Mouse Entrez Gene			The mouse Entrez Gene identifier
+
+
+###########
+ligands.csv
+###########
+
+Ligand id				The GtP ligand identifier
+Name					The name of the ligand
+Species					(Peptides) The species which endogenously express a particular peptide ligand sequence
+Type					The type of chemical
+Approved				The drug is or has in the past been approved for human clinical use by a regulatory agency
+Withdrawn				The drug is no longer approved for its original clinical use in one or more countries 
+Labelled				The ligand has been labelled with a chemical group such as a fluorscent tag or unstable isotope
+Radioactive				Ligand has been labelled with radioactive isotope
+PubChem SID				The PubChem Substance identifier assigned when we deposited the ligand in PubChem
+PubChem CID				Our curated PubChem Compound database link
+UniProt id				(Peptides) The UniProtKB/SwissProt Accession for peptide sequences
+IUPAC name				The IUPAC chemical name
+INN					The International Non-proprietary Name assigned by the WHO
+Synonyms				Commonly used synonyms from the literature
+SMILES					Specification of the chemical structure in canonical, isomeric SMILES format
+InChIKey				A hashed version of the full InChI designed for easy web searches of chemical compounds
+InChI					A textual identifier for the chemical structure
+
+
+###########
+peptides.csv
+###########
+
+Ligand id				The GtP ligand identifier
+Name					The name of the ligand
+Species					The species which endogenously express a particular peptide ligand sequence
+Type					Either endogenous (in human, mouse or rat) or other (in other species or synthetic) peptide
+Subunit ids				The GtP ligand identifiers of any subunit polypeptides
+Approved				A version of this peptide (possibly produced synthetically) is or has in the past been approved for human clinical use by a regulatory agency
+Withdrawn				The drug is no longer approved for its original clinical use in one or more countries 
+Labelled				The peptide has been labelled with a chemical group such as a fluorscent tag or unstable isotope
+Radioactive				Has been labelled with radioactive isotope
+PubChem SID				The PubChem Substance identifier assigned when we deposited the ligand in PubChem
+PubChem CID				Our curated PubChem Compound database link
+UniProt id				The UniProtKB/SwissProt Accession for the (parent) peptide sequence
+INN					The International Non-proprietary Name assigned by the WHO
+Single letter amino acid sequence	Single letter amino acid representation of the sequence
+Three letter amino acid sequence	Three letter amino acid representation of the sequence, including non-standard amino acids and chemical groups
+Post-translational modification		Details of any post-translational modifications for endogenous peptides
+Chemical modification			Details of any chemical groups or modifications for synthetic peptides
+SMILES					For some peptides, the chemical structure is also given in canonical, isomeric SMILES format
+InChIKey				A hashed version of the full InChI designed for easy web searches of chemical compounds
+
+
+################
+interactions.csv
+################
+
+target				The GtP target name (for information on target nomenclature see the online help documentation)
+target_id			The GtP target identifier
+target_gene_symbol		The target gene symbol
+target_uniprot			The target's UniProtKB accession
+target_ligand			The name of a GtP ligand which in this case is actually the target of the interaction 
+target_ligand_id		The identifier of the ligand which in this case is the target of the interaction 
+target_ligand_gene_symbol	The gene symbol of the target ligand (for peptides)
+target_ligand_uniprot		The target ligand's UniProtKB accession (if endogenous peptide)
+target_ligand_pubchem_sid	The target ligand's PubChem Substance ID
+target_species			The name of the target species 
+ligand				The name of the GtP ligand 
+ligand_id			The GtP ligand identifier
+ligand_gene_symbol		The ligand gene symbol (if endogenous peptide)
+ligand_species			The name of the ligand species (if peptide)
+ligand_pubchem_sid		The ligand's PubChem Substance ID
+type				Type of interaction 
+action				Specific action of the ligand
+action_comment			Further details or qualifiers for the ligand action at the target
+endogenous			Boolean; true if the ligand is endogenous in the target organism under study  
+primary_target			Boolean; true if the target can be considered the primary target of the ligand
+concentration_range		The micromolar concentration range of ligand used in the study (primarily given when affinity data are not available)
+affinity_units			The negative logarithm to base 10 of the experimental parameter measured
+affinity_high			If there is a range of activity values, this would be the highest negative logarithm to base 10 value
+affinity_median			This is either the median or a single negative logarithm to base 10 affinity value
+affinity_low			If there is a range of activity values, this would be the lowest negative logarithm to base 10 value
+original_affinity_units		The experimental parameter measured in the study e.g. IC50
+original_affinity_low_nm	The lowest nM activity value recorded in the study
+original_affinity_median_nm	Either the median or a single nM activity value
+original_affinity_high_nm	The greatest nM activity value recorded in the study
+original_affinity_relation	A qualifier for the activity value, e.g. >, <, =
+assay_description		Further details captured about the assay
+receptor_site			A specific binding site on the target to which the ligand binds
+ligand_context 			If the ligand is context-dependent e.g. intracellular, this is indicated
+pubmed_id			PubMed ids for cited publications
+
+
+#######################
+GtP_to_HGNC_mapping.csv
+#######################
+
+hgnc_symbol			The HUGO Gene Nomenclature Committee (HGNC) gene symbol
+hgnc_id				The HUGO Gene Nomenclature Committee (HGNC) gene identifier
+iuphar_name			The GtP target name, usually the IUPHAR recommended name or a provisional name (for information on target nomenclature see the online help documentation)
+iuphar_id			The GtP target identifier
+gtp_url				The GtP target page URL
+
+
+#######################
+GtP_to_HGNC_mapping.csv
+#######################
+
+uniprot_id			The UniProtKB/SwissProt Accession for the protein sequence
+species				The common name of the species
+iuphar_name			The GtP target name, usually the IUPHAR recommended name or a provisional name (for information on target nomenclature see the online help documentation)
+iuphar_id			The GtP target identifier
+gtp_url				The GtP target page URL
+
