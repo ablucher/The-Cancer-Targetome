@@ -1,0 +1,299 @@
+3,3'-diindolylmethane
+3-Iodobenzylguanidine
+4-phenylbutyric acid
+6-O-palmitoylascorbic acid
+abiraterone acetate
+acemannan
+Aclarubicin
+ado-trastuzumab emtansine
+alatrofloxacin
+Alatrofloxacin mesylate
+Aldesleukin
+alemtuzumab
+alitretinoin
+allyl sulfide
+Altretamine
+Aminoglutethimide
+amonafide
+Amsacrine
+Amygdalin
+anastrozole
+arsenic trioxide
+ASPARAGINASE
+Azacitidine
+Azathioprine
+azathioprine sodium
+azelaic acid
+belinostat
+bendamustine
+bendamustine hydrochloride
+besifloxacin
+beta-thujaplicin
+bevacizumab
+bexarotene
+bicalutamide
+Bleomycin
+Bleomycin Sulfate
+blinatumomab
+bortezomib
+Busulfan
+cabergoline
+capecitabine
+carbomer homopolymer type b
+carbomer-934
+Carbomer-940
+Carboplatin
+Carmustine
+carvone
+ceritinib
+cetuximab
+Chlorambucil
+Chlorotrianisene
+chlorozotocin
+cholesteryl sulfate
+cinnamic aldehyde
+Cinoxacin
+Ciprofloxacin
+Ciprofloxacin Hydrochloride
+Cisplatin
+Cladribine
+clofarabine
+Curcumin
+Cyclophosphamide
+Cyclophosphamide Anhydrous
+Cyproterone Acetate
+Cytarabine
+dabrafenib
+Dacarbazine
+Dactinomycin
+dasatinib
+Daunorubicin
+Daunorubicin Hydrochloride
+decitabine
+denileukin diftitox
+Dexamethasone
+Dexrazoxane
+Dexrazoxane hydrochloride
+dienogest
+Dihematoporphyrin Ether
+docetaxel
+DOCETAXEL ANHYDROUS
+Doxorubicin
+Doxorubicin Hydrochloride
+doxorubicin liposome
+Edodekin Alfa
+Eflornithine
+Eflornithine Hydrochloride
+Enoxacin
+enrofloxacin
+epigallocatechin gallate
+Epirubicin
+Epirubicin Hydrochloride
+erlotinib
+Erlotinib Hydrochloride
+Estramustine
+Estramustine phosphate
+Estramustine Phosphate Sodium
+Ethiodized Oil
+Ethoglucid
+Etoposide
+etoposide phosphate
+everolimus
+exemestane
+Fleroxacin
+Floxuridine
+fludarabine
+Fludarabine phosphate
+flumequine
+Fluorouracil
+Flutamide
+formestane
+fosfestrol
+fulvestrant
+gallium nitrate
+gatifloxacin
+gefitinib
+gemcitabine
+Gemcitabine hydrochloride
+gemifloxacin
+gemifloxacin mesylate
+Gemtuzumab ozogamicin
+Genistein
+geranylgeranylacetone
+Goserelin
+Goserelin Acetate
+Grape Seed Extract
+grepafloxacin
+GREPAFLOXACIN HYDROCHLORIDE
+hydroxyurea
+hypericin
+Idarubicin
+Idarubicin Hydrochloride
+idelalisib
+Ifosfamide
+imatinib
+Imatinib mesylate
+imiquimod
+Interferon beta-1a
+Interferon-beta
+Interleukin-12
+Interleukin-4
+iodine-131-tositumomab
+irinotecan
+Irinotecan hydrochloride
+isobutyramide
+lanreotide
+lanreotide acetate
+lapatinib
+lapatinib ditosylate
+lenalidomide
+lenvatinib
+letrozole
+Leuprolide
+Leuprolide Acetate
+Levofloxacin
+levofloxacin anhydrous
+lomefloxacin
+lomefloxacin hydrochloride
+Lomustine
+lycopene
+Mechlorethamine
+Mechlorethamine hydrochloride
+Medrogestone
+medroxyprogesterone acetate
+Megestrol
+Megestrol Acetate
+Melphalan
+mequinol
+mercaptopurine
+Methotrexate
+Methotrexate Sodium
+Methylprednisolone Sodium Succinate
+Methyltestosterone
+miltefosine
+Mitobronitol
+Mitomycin
+Mitotane
+Mitoxantrone
+Mitoxantrone Hydrochloride
+molgramostim
+moxifloxacin
+Moxifloxacin hydrochloride
+musk ketone
+Mycophenolic Acid
+Nalidixic Acid
+nilutamide
+nintedanib
+nintedanib esylate
+nivolumab
+Norfloxacin
+obinutuzumab
+Octreotide
+Octreotide Acetate
+Ofloxacin
+Oil of garlic
+olaparib
+omacetaxine mepesuccinate
+Oprelvekin
+oxaliplatin
+Oxolinic Acid
+Paclitaxel
+paclitaxel protein-bound
+palbociclib
+panobinostat
+Pefloxacin
+Pefloxacin Mesylate
+pegaspargase
+pembrolizumab
+pemetrexed
+pemetrexed disodium
+Pentostatin
+pertuzumab
+phenylacetate
+phenylacetic acid
+phenylbutyrate
+Pipobroman
+Pirarubicin
+pirfenidone
+Plicamycin
+podofilox
+podophyllin
+pomalidomide
+ponatinib
+ponatinib hydrochloride
+Porfimer Sodium
+Prednimustine
+prednisolone
+Prednisone
+Procarbazine
+Procarbazine Hydrochloride
+proxigermanium
+Quinacrine
+Quinacrine Monohydrochloride
+raltitrexed
+ramucirumab
+ranibizumab
+razoxane
+resveratrol
+retinamide
+retinol acetate
+retinyl palmitate
+rituximab
+romidepsin
+satraplatin
+siltuximab
+Sirolimus
+Sodium Ascorbyl Phosphate
+sodium phenylacetate
+Sodium phenylbutyrate
+sorafenib
+sorafenib tosylate
+sparfloxacin
+Streptozocin
+Sulindac
+sunitinib
+sunitinib malate
+Suramin
+Tamoxifen
+Tamoxifen Citrate
+Tegafur
+temafloxacin
+TEMAFLOXACIN HYDROCHLORIDE
+temoporfin
+temozolomide
+Teniposide
+Testolactone
+Thalidomide
+Thioguanine
+Thioguanine Anhydrous
+Thiotepa
+thymalfasin
+tibolone
+Topotecan
+Topotecan Hydrochloride
+Toremifene
+Toremifene Citrate
+trabectedin
+trametinib
+trastuzumab
+treosulfan
+Tretinoin
+trilostane
+Trimetrexate
+Triptorelin
+triptorelin pamoate
+trofosfamide
+trovafloxacin
+Uracil Mustard
+Urethane
+ursolic acid
+valrubicin
+Vinblastine
+Vinblastine Sulfate
+Vincristine
+Vincristine Sulfate
+Vindesine
+Vindesine Sulfate
+vinorelbine
+Vinorelbine tartrate
+Vorinostat

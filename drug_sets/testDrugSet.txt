@@ -1,0 +1,16 @@
+Drug	Brand_Name	FDA_Approval	Date_Posted	Date_Updated
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Everolimus	Afinitor|Zortress	Yes	 April 21, 2009	 March 10, 2016
+Alectinib	Alecensa	Yes	 December 17, 2015	 March 3, 2016
+Imatinib Mesylate	Gleevec	Yes	 October 5, 2006	 September 17, 2014
+Everolimus	Afinitor|Zortress	Yes	 April 21, 2009	 March 10, 2016
+Raloxifene Hydrochloride	Evista|Keoxifene hydrochloride	Yes	 October 26, 2007	 July 11, 2013
+Melphalan Hydrochloride	Evomela|Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Exemestane	Aromasin	Yes	 October 5, 2006	 August 6, 2013
+Fluorouracil Injection	NA	FDA Approved	 April 13, 2007	 January 15, 2016
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Toremifene	Farestone|Fareston	Yes	 August 28, 2009	 October 16, 2014
+Panobinostat	Farydak	Yes	 March 26, 2015	 February 8, 2016
+Fulvestrant	Faslodex	Yes	 October 5, 2006	 July 27, 2015
+Ceritinib	Zykadia	Yes	 May 16, 2014	 December 3, 2015
+Crizotinib	Xalkori	Yes	 October 11, 2011	 March 24, 2016

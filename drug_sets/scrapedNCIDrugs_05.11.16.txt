@@ -1,0 +1,471 @@
+Drug	Brand_Name	FDA_Approval	Date_Posted	Date_Updated
+Abiraterone Acetate	Zytiga	Yes	 May 16, 2011	 October 23, 2014
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Paclitaxel Albumin-stabilized Nanoparticle Formulation	Abraxane	Yes	 October 5, 2006	 November 18, 2013
+ABVD	NA	NA	 September 18, 2009	 September 18, 2014
+ABVE	NA	NA	 November 19, 2010	 April 10, 2013
+ABVE-PC	NA	NA	 November 19, 2010	 April 10, 2013
+AC	NA	NA	 April 22, 2010	 May 29, 2012
+AC-T	NA	NA	 September 18, 2009	 May 29, 2012
+Brentuximab Vedotin	Adcetris	Yes	 September 12, 2011	 August 21, 2015
+ADE	NA	NA	 December 30, 2010	 May 29, 2012
+Ado-Trastuzumab Emtansine	Kadcyla	Yes	 March 13, 2013	 October 23, 2014
+Doxorubicin Hydrochloride	NA	FDA Approved	 August 10, 2007	 September 17, 2014
+Afatinib Dimaleate	Gilotrif	Yes	 July 25, 2013	 October 23, 2014
+Everolimus	Afinitor|Zortress	Yes	 April 21, 2009	 March 10, 2016
+Netupitant and Palonosetron Hydrochloride	Akynzeo	Yes	 May 27, 2015	 January 14, 2016
+Imiquimod	Aldara	Yes	 October 5, 2006	 September 17, 2014
+Aldesleukin	Proleukin	Yes	 October 30, 2008	 May 11, 2015
+Alectinib	Alecensa	Yes	 December 17, 2015	 March 3, 2016
+Alectinib	Alecensa	Yes	 December 17, 2015	 March 3, 2016
+Alemtuzumab	Campath	Yes	 November 30, 2007	 October 23, 2014
+Melphalan Hydrochloride	Evomela|Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Melphalan	Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Pemetrexed Disodium	ALIMTA	Yes	 October 5, 2006	 October 25, 2011
+Palonosetron Hydrochloride	Aloxi	Yes	 May 6, 2010	 August 24, 2011
+Chlorambucil	Ambochlorin|Amboclorin|Leukeran|Linfolizin	Yes	 November 29, 2010	 September 17, 2014
+Chlorambucil	Ambochlorin|Amboclorin|Leukeran|Linfolizin	Yes	 November 29, 2010	 September 17, 2014
+Aminolevulinic Acid	Levulan Kerastick|Levulan	Yes	 January 25, 2007	 May 16, 2011
+Anastrozole	Arimidex	Yes	 February 5, 2007	 March 24, 2016
+Aprepitant	Emend	Yes	 January 25, 2007	 May 27, 2015
+Pamidronate Disodium	Aredia	Yes	 August 14, 2013	 July 31, 2014
+Anastrozole	Arimidex	Yes	 February 5, 2007	 March 24, 2016
+Exemestane	Aromasin	Yes	 October 5, 2006	 August 6, 2013
+Nelarabine	Arranon	Yes	 October 5, 2006	 July 19, 2011
+Arsenic Trioxide	Trisenox	Yes	 January 25, 2007	 May 11, 2015
+Ofatumumab	Arzerra	Yes	 November 20, 2009	 January 21, 2016
+Asparaginase Erwinia chrysanthemi	Erwinaze	Yes	 December 16, 2011	 December 27, 2012
+Bevacizumab	Avastin	Yes	 October 5, 2006	 November 19, 2014
+Axitinib	Inlyta	Yes	 February 10, 2012	 October 23, 2014
+Azacitidine	Vidaza|Mylosar	Yes	 October 5, 2006	 September 17, 2014
+BEACOPP	NA	NA	 September 18, 2009	 July 31, 2014
+Carmustine	Becenum|BiCNU|Carmubris	Yes	 July 3, 2014	NA
+Belinostat	Beleodaq	Yes	 July 11, 2014	 September 26, 2014
+Belinostat	Beleodaq	Yes	 July 11, 2014	 September 26, 2014
+Bendamustine Hydrochloride	Treanda	Yes	 May 23, 2008	 September 17, 2014
+BEP	NA	NA	 January 3, 2011	 May 29, 2012
+Bevacizumab	Avastin	Yes	 October 5, 2006	 November 19, 2014
+Bexarotene	Targretin	Yes	 January 25, 2007	 April 25, 2011
+Tositumomab and Iodine I 131 Tositumomab	Bexxar	Yes	 February 28, 2008	 October 2, 2015
+Bicalutamide	Casodex	Yes	 February 10, 2014	NA
+Carmustine	Becenum|BiCNU|Carmubris	Yes	 July 3, 2014	NA
+Bleomycin	Blenoxane	Yes	 April 14, 2009	 July 10, 2013
+Blinatumomab	Blincyto	Yes	 December 22, 2014	 March 3, 2015
+Blinatumomab	Blincyto	Yes	 December 22, 2014	 March 3, 2015
+Bortezomib	VELCADE	Yes	 October 5, 2006	 September 17, 2014
+Bosutinib	Bosulif	Yes	 September 25, 2012	 February 22, 2013
+Bosutinib	Bosulif	Yes	 September 25, 2012	 February 22, 2013
+Brentuximab Vedotin	Adcetris	Yes	 September 12, 2011	 August 21, 2015
+Busulfan	Busulfex|Myleran	Yes	 February 21, 2014	NA
+Busulfan	Busulfex|Myleran	Yes	 February 21, 2014	NA
+Cabazitaxel	Jevtana	Yes	 July 22, 2010	 October 23, 2014
+Cabozantinib-S-Malate	Cabometyx|Cometriq	Yes	 December 19, 2012	 May 10, 2016
+CAF	NA	NA	 September 18, 2009	 May 29, 2012
+Alemtuzumab	Campath	Yes	 November 30, 2007	 October 23, 2014
+Irinotecan Hydrochloride	Camptosar	Yes	 April 20, 2007	 July 11, 2013
+Capecitabine	Xeloda	Yes	 October 5, 2006	 September 20, 2013
+CAPOX	NA	NA	 April 4, 2012	 May 29, 2012
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Carboplatin	Paraplat|Paraplatin	Yes	 October 1, 2007	 December 10, 2015
+CARBOPLATIN-TAXOL	NA	NA	 May 30, 2012	 September 18, 2014
+Carfilzomib	Kyprolis	Yes	 August 20, 2012	 July 27, 2015
+Carmustine	Becenum|BiCNU|Carmubris	Yes	 July 3, 2014	NA
+Carmustine	Becenum|BiCNU|Carmubris	Yes	 July 3, 2014	NA
+Carmustine Implant	Gliadel wafer|Gliadel	Yes	 July 3, 2014	 July 7, 2014
+Bicalutamide	Casodex	Yes	 February 10, 2014	NA
+Lomustine	CeeNU	Yes	 February 27, 2012	 November 30, 2012
+CEM	NA	NA	 February 12, 2016	 March 29, 2016
+Ceritinib	Zykadia	Yes	 May 16, 2014	 December 3, 2015
+Daunorubicin Hydrochloride	Cerubidine	Yes	 September 30, 2009	 May 12, 2015
+Recombinant Human Papillomavirus (HPV) Bivalent Vaccine	Cervarix	Yes	 May 7, 2010	 July 8, 2015
+Cetuximab	Erbitux	Yes	 October 5, 2006	 October 23, 2014
+Chlorambucil	Ambochlorin|Amboclorin|Leukeran|Linfolizin	Yes	 November 29, 2010	 September 17, 2014
+CHLORAMBUCIL-PREDNISONE	NA	NA	 January 4, 2011	 May 29, 2012
+CHOP	NA	NA	 September 18, 2009	 May 29, 2012
+Cisplatin	Platinol-AQ|Platinol	Yes	 March 2, 2007	 December 7, 2015
+Cyclophosphamide	Revimmune|Clafen|Cytoxan|Neosar	Yes	 November 6, 2007	 September 17, 2014
+Clofarabine	Clofarex|Clolar	Yes	 October 5, 2006	 July 16, 2012
+Clofarabine	Clofarex|Clolar	Yes	 October 5, 2006	 July 16, 2012
+Clofarabine	Clofarex|Clolar	Yes	 October 5, 2006	 July 16, 2012
+CMF	NA	NA	 September 18, 2009	 May 29, 2012
+Cobimetinib	Cotellic	Yes	 November 16, 2015	 December 30, 2015
+Cabozantinib-S-Malate	Cabometyx|Cometriq	Yes	 December 19, 2012	 May 10, 2016
+COPDAC	NA	NA	 September 11, 2015	NA
+COPP	NA	NA	 January 4, 2011	 May 29, 2012
+COPP-ABV	NA	NA	 June 21, 2013	NA
+Dactinomycin	Cosmegen	Yes	 March 15, 2012	 December 9, 2015
+Cobimetinib	Cotellic	Yes	 November 16, 2015	 December 30, 2015
+Crizotinib	Xalkori	Yes	 October 11, 2011	 March 24, 2016
+CVP	NA	NA	 July 8, 2011	 May 29, 2012
+Cyclophosphamide	Revimmune|Clafen|Cytoxan|Neosar	Yes	 November 6, 2007	 September 17, 2014
+Ifosfamide	Cyfos|Ifex|Ifosfamidum	Yes	 January 4, 2011	 July 10, 2013
+Ramucirumab	Cyramza	Yes	 May 8, 2014	 December 14, 2015
+Cytarabine	Cytosar-U|Tarabine PFS	Yes	 June 15, 2007	 November 25, 2015
+Cytarabine Liposome	DepoCyt	Yes	 June 15, 2007	 November 25, 2015
+Cytarabine	Cytosar-U|Tarabine PFS	Yes	 June 15, 2007	 November 25, 2015
+Cyclophosphamide	Revimmune|Clafen|Cytoxan|Neosar	Yes	 November 6, 2007	 September 17, 2014
+Dabrafenib	Tafinlar	Yes	 June 21, 2013	 December 3, 2015
+Dacarbazine	DTIC-Dome	Yes	 August 13, 2009	 January 8, 2015
+Decitabine	Dacogen	Yes	 October 5, 2006	 May 19, 2011
+Dactinomycin	Cosmegen	Yes	 March 15, 2012	 December 9, 2015
+Daratumumab	Darzalex	Yes	 November 25, 2015	 February 5, 2016
+Daratumumab	Darzalex	Yes	 November 25, 2015	 February 5, 2016
+Dasatinib	Sprycel	Yes	 October 5, 2006	 September 17, 2014
+Daunorubicin Hydrochloride	Cerubidine	Yes	 September 30, 2009	 May 12, 2015
+Decitabine	Dacogen	Yes	 October 5, 2006	 May 19, 2011
+Defibrotide Sodium	Defitelio	Yes	 April 6, 2016	 April 6, 2016
+Defibrotide Sodium	Defitelio	Yes	 April 6, 2016	 April 6, 2016
+Degarelix	NA	FDA Approved	 March 30, 2009	 January 27, 2014
+Denileukin Diftitox	Ontak	Yes	 May 5, 2010	 September 17, 2014
+Denosumab	Prolia|Xgeva	Yes	 November 30, 2010	 October 23, 2014
+Cytarabine Liposome	DepoCyt	Yes	 June 15, 2007	 November 25, 2015
+Dexamethasone	NA	FDA Approved	 August 12, 2015	NA
+Dexrazoxane Hydrochloride	Totect|Zinecard	Yes	 October 23, 2007	 September 17, 2014
+Dinutuximab	Unituxin	Yes	 March 26, 2015	 July 7, 2015
+Docetaxel	Taxotere injection concentrate|Taxotere	Yes	 October 5, 2006	 July 9, 2015
+Doxorubicin Hydrochloride Liposome	Evacet|DOXIL|Dox-SL|LipoDox	Yes	 August 10, 2007	 July 10, 2013
+Doxorubicin Hydrochloride	NA	FDA Approved	 August 10, 2007	 September 17, 2014
+Doxorubicin Hydrochloride Liposome	Evacet|DOXIL|Dox-SL|LipoDox	Yes	 August 10, 2007	 July 10, 2013
+Doxorubicin Hydrochloride Liposome	Evacet|DOXIL|Dox-SL|LipoDox	Yes	 August 10, 2007	 July 10, 2013
+Dacarbazine	DTIC-Dome	Yes	 August 13, 2009	 January 8, 2015
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Rasburicase	Elitek	Yes	 November 25, 2009	 July 27, 2012
+Epirubicin Hydrochloride	Ellence	Yes	 January 25, 2007	 September 17, 2014
+Elotuzumab	Empliciti	Yes	 December 8, 2015	 February 5, 2016
+Oxaliplatin	Eloxatin	Yes	 October 5, 2006	 August 24, 2012
+Eltrombopag Olamine	Promacta	Yes	 December 29, 2008	 August 25, 2015
+Aprepitant	Emend	Yes	 January 25, 2007	 May 27, 2015
+Elotuzumab	Empliciti	Yes	 December 8, 2015	 February 5, 2016
+Enzalutamide	Xtandi	Yes	 September 26, 2012	 October 23, 2014
+Epirubicin Hydrochloride	Ellence	Yes	 January 25, 2007	 September 17, 2014
+EPOCH	NA	NA	 September 18, 2009	 May 29, 2012
+Cetuximab	Erbitux	Yes	 October 5, 2006	 October 23, 2014
+Eribulin Mesylate	Halaven	Yes	 December 10, 2010	 February 1, 2016
+Vismodegib	Erivedge	Yes	 March 19, 2012	 October 23, 2014
+Erlotinib Hydrochloride	Tarceva	Yes	 October 5, 2006	 December 15, 2015
+Asparaginase Erwinia chrysanthemi	Erwinaze	Yes	 December 16, 2011	 December 27, 2012
+Etoposide Phosphate	Etopophos	Yes	 August 12, 2008	 September 17, 2014
+Etoposide	NA	FDA Approved	 August 12, 2008	 September 17, 2014
+Etoposide Phosphate	Etopophos	Yes	 August 12, 2008	 September 17, 2014
+Doxorubicin Hydrochloride Liposome	Evacet|DOXIL|Dox-SL|LipoDox	Yes	 August 10, 2007	 July 10, 2013
+Everolimus	Afinitor|Zortress	Yes	 April 21, 2009	 March 10, 2016
+Raloxifene Hydrochloride	Evista|Keoxifene hydrochloride	Yes	 October 26, 2007	 July 11, 2013
+Melphalan Hydrochloride	Evomela|Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Exemestane	Aromasin	Yes	 October 5, 2006	 August 6, 2013
+Fluorouracil Injection	NA	FDA Approved	 April 13, 2007	 January 15, 2016
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Toremifene	Farestone|Fareston	Yes	 August 28, 2009	 October 16, 2014
+Panobinostat	Farydak	Yes	 March 26, 2015	 February 8, 2016
+Fulvestrant	Faslodex	Yes	 October 5, 2006	 July 27, 2015
+FEC	NA	NA	 July 8, 2011	 May 29, 2012
+Letrozole	Femara	Yes	 October 5, 2006	 October 16, 2014
+Filgrastim	Zarxio|Neupogen	Yes	 June 29, 2009	 July 10, 2013
+Fludarabine Phosphate	NA	FDA Approved	 July 22, 2008	 June 23, 2011
+Fludarabine Phosphate	NA	FDA Approved	 July 22, 2008	 June 23, 2011
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Fluorouracil Injection	NA	FDA Approved	 April 13, 2007	 January 15, 2016
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Flutamide	NA	FDA Approved	 December 18, 2015	 December 18, 2015
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+FOLFIRI	NA	NA	 September 18, 2009	 January 23, 2013
+FOLFIRI-BEVACIZUMAB	NA	NA	 August 16, 2011	 February 13, 2013
+FOLFIRI-CETUXIMAB	NA	NA	 February 15, 2013	 December 15, 2015
+FOLFIRINOX	NA	NA	 November 28, 2011	 May 29, 2012
+FOLFOX	NA	NA	 September 18, 2009	 January 23, 2013
+Pralatrexate	FOLOTYN	Yes	 October 29, 2009	 September 13, 2011
+FU-LV	NA	NA	 September 6, 2011	 May 29, 2012
+Fulvestrant	Faslodex	Yes	 October 5, 2006	 July 27, 2015
+Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine	Gardasil	Yes	 May 7, 2010	 March 11, 2016
+Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine	Gardasil 9	Yes	 December 29, 2014	 July 27, 2015
+Obinutuzumab	Gazyva	Yes	 November 12, 2013	 March 4, 2016
+Gefitinib	Iressa	Yes	 October 5, 2006	 December 15, 2015
+Gemcitabine Hydrochloride	Gemzar	Yes	 October 5, 2006	 September 17, 2014
+GEMCITABINE-CISPLATIN	NA	NA	 September 18, 2009	 May 29, 2012
+GEMCITABINE-OXALIPLATIN	NA	NA	 September 24, 2013	 October 28, 2013
+Gemtuzumab Ozogamicin	Mylotarg	No	 January 25, 2007	 July 31, 2014
+Gemcitabine Hydrochloride	Gemzar	Yes	 October 5, 2006	 September 17, 2014
+Afatinib Dimaleate	Gilotrif	Yes	 July 25, 2013	 October 23, 2014
+Imatinib Mesylate	Gleevec	Yes	 October 5, 2006	 September 17, 2014
+Carmustine Implant	Gliadel wafer|Gliadel	Yes	 July 3, 2014	 July 7, 2014
+Carmustine Implant	Gliadel wafer|Gliadel	Yes	 July 3, 2014	 July 7, 2014
+Glucarpidase	Voraxaze	Yes	 February 18, 2012	 February 22, 2013
+Goserelin Acetate	Zoladex	Yes	 November 20, 2013	 September 17, 2014
+Eribulin Mesylate	Halaven	Yes	 December 10, 2010	 February 1, 2016
+Trastuzumab	Herceptin	Yes	 October 5, 2006	 September 21, 2015
+Recombinant Human Papillomavirus (HPV) Bivalent Vaccine	Cervarix	Yes	 May 7, 2010	 July 8, 2015
+Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine	Gardasil 9	Yes	 December 29, 2014	 July 27, 2015
+Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine	Gardasil	Yes	 May 7, 2010	 March 11, 2016
+Topotecan Hydrochloride	Hycamtin	Yes	 October 5, 2006	 April 16, 2013
+Hydroxyurea	Droxia|Hydrea	Yes	 May 3, 2016	 May 3, 2016
+Hydroxyurea	Droxia|Hydrea	Yes	 May 3, 2016	 May 3, 2016
+Hyper-CVAD	NA	NA	 March 6, 2014	 August 13, 2015
+Palbociclib	Ibrance	Yes	 February 10, 2015	 February 22, 2016
+Ibritumomab Tiuxetan	Zevalin	Yes	 February 26, 2008	 July 31, 2014
+Ibrutinib	Imbruvica	Yes	 December 16, 2013	 January 30, 2015
+ICE	NA	NA	 September 18, 2009	 May 29, 2012
+Ponatinib Hydrochloride	Iclusig	Yes	 December 26, 2012	 December 14, 2015
+Idarubicin Hydrochloride	Idamycin	Yes	 October 2, 2014	NA
+Idarubicin Hydrochloride	Idamycin	Yes	 October 2, 2014	NA
+Idelalisib	Zydelig	Yes	 July 30, 2014	 September 26, 2014
+Ifosfamide	Cyfos|Ifex|Ifosfamidum	Yes	 January 4, 2011	 July 10, 2013
+Ifosfamide	Cyfos|Ifex|Ifosfamidum	Yes	 January 4, 2011	 July 10, 2013
+Ifosfamide	Cyfos|Ifex|Ifosfamidum	Yes	 January 4, 2011	 July 10, 2013
+Aldesleukin	Proleukin	Yes	 October 30, 2008	 May 11, 2015
+Imatinib Mesylate	Gleevec	Yes	 October 5, 2006	 September 17, 2014
+Ibrutinib	Imbruvica	Yes	 December 16, 2013	 January 30, 2015
+Imiquimod	Aldara	Yes	 October 5, 2006	 September 17, 2014
+Talimogene Laherparepvec	Imlygic	Yes	 November 3, 2015	 March 3, 2016
+Axitinib	Inlyta	Yes	 February 10, 2012	 October 23, 2014
+Recombinant Interferon Alfa-2b	Intron A	Yes	 March 8, 2013	NA
+Aldesleukin	Proleukin	Yes	 October 30, 2008	 May 11, 2015
+Recombinant Interferon Alfa-2b	Intron A	Yes	 March 8, 2013	NA
+Tositumomab and Iodine I 131 Tositumomab	Bexxar	Yes	 February 28, 2008	 October 2, 2015
+Ipilimumab	Yervoy	Yes	 April 21, 2011	 December 15, 2015
+Gefitinib	Iressa	Yes	 October 5, 2006	 December 15, 2015
+Irinotecan Hydrochloride	Camptosar	Yes	 April 20, 2007	 July 11, 2013
+Irinotecan Hydrochloride Liposome	Onivyde	Yes	 October 27, 2015	 March 3, 2016
+Romidepsin	Istodax	Yes	 November 30, 2009	 September 18, 2014
+Ixabepilone	Ixempra	Yes	 November 15, 2007	 July 11, 2013
+Ixazomib Citrate	Ninlaro	Yes	 December 1, 2015	 March 3, 2016
+Ixabepilone	Ixempra	Yes	 November 15, 2007	 July 11, 2013
+Ruxolitinib Phosphate	Jakafi	Yes	 December 2, 2011	 December 4, 2014
+Cabazitaxel	Jevtana	Yes	 July 22, 2010	 October 23, 2014
+Ado-Trastuzumab Emtansine	Kadcyla	Yes	 March 13, 2013	 October 23, 2014
+Raloxifene Hydrochloride	Evista|Keoxifene hydrochloride	Yes	 October 26, 2007	 July 11, 2013
+Palifermin	Kepivance	Yes	 October 5, 2006	 July 27, 2012
+Pembrolizumab	Keytruda	Yes	 September 18, 2014	 May 4, 2016
+Carfilzomib	Kyprolis	Yes	 August 20, 2012	 July 27, 2015
+Lanreotide Acetate	Somatuline Depot	Yes	 December 29, 2014	 March 31, 2015
+Lapatinib Ditosylate	Tykerb	Yes	 March 16, 2007	 November 6, 2012
+Lenalidomide	Revlimid	Yes	 October 5, 2006	 January 19, 2016
+Lenvatinib Mesylate	Lenvima	Yes	 February 26, 2015	 May 6, 2015
+Lenvatinib Mesylate	Lenvima	Yes	 February 26, 2015	 May 6, 2015
+Letrozole	Femara	Yes	 October 5, 2006	 October 16, 2014
+Leucovorin Calcium	Wellcovorin	Yes	 August 21, 2008	 July 11, 2013
+Chlorambucil	Ambochlorin|Amboclorin|Leukeran|Linfolizin	Yes	 November 29, 2010	 September 17, 2014
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Aminolevulinic Acid	Levulan Kerastick|Levulan	Yes	 January 25, 2007	 May 16, 2011
+Aminolevulinic Acid	Levulan Kerastick|Levulan	Yes	 January 25, 2007	 May 16, 2011
+Doxorubicin Hydrochloride Liposome	Evacet|DOXIL|Dox-SL|LipoDox	Yes	 August 10, 2007	 July 10, 2013
+Lomustine	CeeNU	Yes	 February 27, 2012	 November 30, 2012
+Trifluridine and Tipiracil Hydrochloride	Lonsurf	Yes	 September 25, 2015	 January 14, 2016
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Olaparib	Lynparza	Yes	 December 31, 2014	 December 15, 2015
+Vincristine Sulfate Liposome	Marqibo	Yes	 August 27, 2012	 July 10, 2013
+Procarbazine Hydrochloride	Matulane	Yes	 August 28, 2010	 August 26, 2015
+Mechlorethamine Hydrochloride	Mustargen	Yes	 October 6, 2011	 September 25, 2014
+Megestrol Acetate	NA	FDA Approved	 April 4, 2013	 February 24, 2016
+Trametinib	Mekinist	Yes	 June 21, 2013	 December 14, 2015
+Melphalan	Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Melphalan Hydrochloride	Evomela|Alkeran	Yes	 March 28, 2016	 March 28, 2016
+Mercaptopurine	Purixan|Purinethol	Yes	 July 12, 2013	NA
+Mesna	Mesnex	Yes	 June 24, 2011	 July 27, 2012
+Mesna	Mesnex	Yes	 June 24, 2011	 July 27, 2012
+Temozolomide	Methazolastone|Temodar	Yes	 October 5, 2006	 November 30, 2012
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Mitomycin C	Mitozytrex|Mutamycin	Yes	 November 10, 2011	 September 18, 2014
+Mitoxantrone Hydrochloride	NA	FDA Approved	 September 9, 2014	NA
+Mitomycin C	Mitozytrex|Mutamycin	Yes	 November 10, 2011	 September 18, 2014
+MOPP	NA	NA	 September 18, 2009	 May 29, 2012
+Plerixafor	Mozobil	Yes	 February 25, 2009	 September 13, 2011
+Mechlorethamine Hydrochloride	Mustargen	Yes	 October 6, 2011	 September 25, 2014
+Mitomycin C	Mitozytrex|Mutamycin	Yes	 November 10, 2011	 September 18, 2014
+Busulfan	Busulfex|Myleran	Yes	 February 21, 2014	NA
+Azacitidine	Vidaza|Mylosar	Yes	 October 5, 2006	 September 17, 2014
+Gemtuzumab Ozogamicin	Mylotarg	No	 January 25, 2007	 July 31, 2014
+Paclitaxel Albumin-stabilized Nanoparticle Formulation	Abraxane	Yes	 October 5, 2006	 November 18, 2013
+Vinorelbine Tartrate	Navelbine	Yes	 June 2, 2011	 September 18, 2014
+Necitumumab	Portrazza	Yes	 December 7, 2015	 March 3, 2016
+Nelarabine	Arranon	Yes	 October 5, 2006	 July 19, 2011
+Cyclophosphamide	Revimmune|Clafen|Cytoxan|Neosar	Yes	 November 6, 2007	 September 17, 2014
+Netupitant and Palonosetron Hydrochloride	Akynzeo	Yes	 May 27, 2015	 January 14, 2016
+Filgrastim	Zarxio|Neupogen	Yes	 June 29, 2009	 July 10, 2013
+Sorafenib Tosylate	Nexavar	Yes	 October 5, 2006	 May 4, 2016
+Nilotinib	Tasigna	Yes	 February 1, 2008	 September 18, 2014
+Ixazomib Citrate	Ninlaro	Yes	 December 1, 2015	 March 3, 2016
+Nivolumab	Opdivo|Opdivo Injection	Yes	 January 7, 2015	 December 15, 2015
+Tamoxifen Citrate	Nolvadex	Yes	 October 5, 2006	 August 26, 2015
+Romiplostim	Nplate	Yes	 October 1, 2008	 September 26, 2011
+Obinutuzumab	Gazyva	Yes	 November 12, 2013	 March 4, 2016
+Sonidegib	Odomzo	Yes	 July 30, 2015	 October 15, 2015
+OEPA	NA	NA	 October 25, 2013	NA
+Ofatumumab	Arzerra	Yes	 November 20, 2009	 January 21, 2016
+OFF	NA	NA	 May 29, 2014	NA
+Olaparib	Lynparza	Yes	 December 31, 2014	 December 15, 2015
+Omacetaxine Mepesuccinate	Synribo	Yes	 November 19, 2012	 February 22, 2013
+Pegaspargase	Oncaspar	Yes	 October 5, 2006	 August 25, 2011
+Ondansetron Hydrochloride	Zofran	Yes	 July 28, 2015	NA
+Irinotecan Hydrochloride Liposome	Onivyde	Yes	 October 27, 2015	 March 3, 2016
+Denileukin Diftitox	Ontak	Yes	 May 5, 2010	 September 17, 2014
+Nivolumab	Opdivo|Opdivo Injection	Yes	 January 7, 2015	 December 15, 2015
+OPPA	NA	NA	 August 30, 2013	NA
+Osimertinib	Tagrisso	Yes	 November 23, 2015	 March 3, 2016
+Oxaliplatin	Eloxatin	Yes	 October 5, 2006	 August 24, 2012
+Paclitaxel	Onxal|Taxol	Yes	 October 5, 2006	 September 18, 2014
+Paclitaxel Albumin-stabilized Nanoparticle Formulation	Abraxane	Yes	 October 5, 2006	 November 18, 2013
+PAD	NA	NA	 June 17, 2014	 August 13, 2015
+Palbociclib	Ibrance	Yes	 February 10, 2015	 February 22, 2016
+Palifermin	Kepivance	Yes	 October 5, 2006	 July 27, 2012
+Palonosetron Hydrochloride	Aloxi	Yes	 May 6, 2010	 August 24, 2011
+Netupitant and Palonosetron Hydrochloride	Akynzeo	Yes	 May 27, 2015	 January 14, 2016
+Pamidronate Disodium	Aredia	Yes	 August 14, 2013	 July 31, 2014
+Panitumumab	Vectibix	Yes	 October 5, 2006	 October 23, 2014
+Panobinostat	Farydak	Yes	 March 26, 2015	 February 8, 2016
+Carboplatin	Paraplat|Paraplatin	Yes	 October 1, 2007	 December 10, 2015
+Carboplatin	Paraplat|Paraplatin	Yes	 October 1, 2007	 December 10, 2015
+Pazopanib Hydrochloride	Votrient	Yes	 November 25, 2009	 August 26, 2015
+PCV	NA	NA	 September 2, 2015	NA
+Pegaspargase	Oncaspar	Yes	 October 5, 2006	 August 25, 2011
+Peginterferon Alfa-2b	Sylatron|PEG-Intron	Yes	 May 9, 2013	NA
+Peginterferon Alfa-2b	Sylatron|PEG-Intron	Yes	 May 9, 2013	NA
+Pembrolizumab	Keytruda	Yes	 September 18, 2014	 May 4, 2016
+Pemetrexed Disodium	ALIMTA	Yes	 October 5, 2006	 October 25, 2011
+Pertuzumab	Perjeta	Yes	 July 13, 2012	 August 27, 2015
+Pertuzumab	Perjeta	Yes	 July 13, 2012	 August 27, 2015
+Cisplatin	Platinol-AQ|Platinol	Yes	 March 2, 2007	 December 7, 2015
+Cisplatin	Platinol-AQ|Platinol	Yes	 March 2, 2007	 December 7, 2015
+Plerixafor	Mozobil	Yes	 February 25, 2009	 September 13, 2011
+Pomalidomide	Pomalyst	Yes	 February 13, 2013	 January 19, 2016
+Pomalidomide	Pomalyst	Yes	 February 13, 2013	 January 19, 2016
+Ponatinib Hydrochloride	Iclusig	Yes	 December 26, 2012	 December 14, 2015
+Necitumumab	Portrazza	Yes	 December 7, 2015	 March 3, 2016
+Pralatrexate	FOLOTYN	Yes	 October 29, 2009	 September 13, 2011
+Prednisone	NA	FDA Approved	 August 25, 2010	 January 21, 2016
+Procarbazine Hydrochloride	Matulane	Yes	 August 28, 2010	 August 26, 2015
+Aldesleukin	Proleukin	Yes	 October 30, 2008	 May 11, 2015
+Denosumab	Prolia|Xgeva	Yes	 November 30, 2010	 October 23, 2014
+Eltrombopag Olamine	Promacta	Yes	 December 29, 2008	 August 25, 2015
+Sipuleucel-T	Provenge	Yes	 June 28, 2010	 July 31, 2014
+Mercaptopurine	Purixan|Purinethol	Yes	 July 12, 2013	NA
+Mercaptopurine	Purixan|Purinethol	Yes	 July 12, 2013	NA
+Radium 223 Dichloride	Xofigo	Yes	 June 12, 2013	 October 23, 2014
+Raloxifene Hydrochloride	Evista|Keoxifene hydrochloride	Yes	 October 26, 2007	 July 11, 2013
+Ramucirumab	Cyramza	Yes	 May 8, 2014	 December 14, 2015
+Rasburicase	Elitek	Yes	 November 25, 2009	 July 27, 2012
+R-CHOP	NA	NA	 September 18, 2009	 May 29, 2012
+R-CVP	NA	NA	 November 28, 2011	 May 29, 2012
+Recombinant Human Papillomavirus (HPV) Bivalent Vaccine	Cervarix	Yes	 May 7, 2010	 July 8, 2015
+Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine	Gardasil 9	Yes	 December 29, 2014	 July 27, 2015
+Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine	Gardasil	Yes	 May 7, 2010	 March 11, 2016
+Recombinant Interferon Alfa-2b	Intron A	Yes	 March 8, 2013	NA
+Regorafenib	Stivarga	Yes	 October 4, 2012	 August 27, 2015
+R-EPOCH	NA	NA	 March 5, 2015	NA
+Lenalidomide	Revlimid	Yes	 October 5, 2006	 January 19, 2016
+Methotrexate	Rheumatrex|Trexall|Abitrexate|Folex PFS|Folex|Methotrexate LPF|Mexate-AQ|Mexate	Yes	 May 21, 2008	 July 16, 2013
+Rituximab	Rituxan	Yes	 October 5, 2006	 October 23, 2014
+Rituximab	Rituxan	Yes	 October 5, 2006	 October 23, 2014
+Rolapitant Hydrochloride	Varubi	Yes	 September 11, 2015	 October 21, 2015
+Romidepsin	Istodax	Yes	 November 30, 2009	 September 18, 2014
+Romiplostim	Nplate	Yes	 October 1, 2008	 September 26, 2011
+Daunorubicin Hydrochloride	Cerubidine	Yes	 September 30, 2009	 May 12, 2015
+Ruxolitinib Phosphate	Jakafi	Yes	 December 2, 2011	 December 4, 2014
+Talc	Sterile Talc Powder|Sclerosol Intrapleural Aerosol|Steritalc	Yes	 October 5, 2006	 September 27, 2011
+Siltuximab	Sylvant	Yes	 May 2, 2014	 July 31, 2014
+Sipuleucel-T	Provenge	Yes	 June 28, 2010	 July 31, 2014
+Lanreotide Acetate	Somatuline Depot	Yes	 December 29, 2014	 March 31, 2015
+Sonidegib	Odomzo	Yes	 July 30, 2015	 October 15, 2015
+Sorafenib Tosylate	Nexavar	Yes	 October 5, 2006	 May 4, 2016
+Dasatinib	Sprycel	Yes	 October 5, 2006	 September 17, 2014
+STANFORD V	NA	NA	 September 18, 2009	 May 29, 2012
+Talc	Sterile Talc Powder|Sclerosol Intrapleural Aerosol|Steritalc	Yes	 October 5, 2006	 September 27, 2011
+Talc	Sterile Talc Powder|Sclerosol Intrapleural Aerosol|Steritalc	Yes	 October 5, 2006	 September 27, 2011
+Regorafenib	Stivarga	Yes	 October 4, 2012	 August 27, 2015
+Sunitinib Malate	Sutent	Yes	 October 5, 2006	 May 4, 2016
+Sunitinib Malate	Sutent	Yes	 October 5, 2006	 May 4, 2016
+Peginterferon Alfa-2b	Sylatron|PEG-Intron	Yes	 May 9, 2013	NA
+Siltuximab	Sylvant	Yes	 May 2, 2014	 July 31, 2014
+Thalidomide	Synovir|Thalomid	Yes	 October 5, 2006	 September 18, 2014
+Omacetaxine Mepesuccinate	Synribo	Yes	 November 19, 2012	 February 22, 2013
+Thioguanine	Tabloid	Yes	 September 2, 2015	NA
+TAC	NA	NA	 November 20, 2013	NA
+Dabrafenib	Tafinlar	Yes	 June 21, 2013	 December 3, 2015
+Osimertinib	Tagrisso	Yes	 November 23, 2015	 March 3, 2016
+Talc	Sterile Talc Powder|Sclerosol Intrapleural Aerosol|Steritalc	Yes	 October 5, 2006	 September 27, 2011
+Talimogene Laherparepvec	Imlygic	Yes	 November 3, 2015	 March 3, 2016
+Tamoxifen Citrate	Nolvadex	Yes	 October 5, 2006	 August 26, 2015
+Cytarabine	Cytosar-U|Tarabine PFS	Yes	 June 15, 2007	 November 25, 2015
+Erlotinib Hydrochloride	Tarceva	Yes	 October 5, 2006	 December 15, 2015
+Bexarotene	Targretin	Yes	 January 25, 2007	 April 25, 2011
+Nilotinib	Tasigna	Yes	 February 1, 2008	 September 18, 2014
+Paclitaxel	Onxal|Taxol	Yes	 October 5, 2006	 September 18, 2014
+Docetaxel	Taxotere injection concentrate|Taxotere	Yes	 October 5, 2006	 July 9, 2015
+Temozolomide	Methazolastone|Temodar	Yes	 October 5, 2006	 November 30, 2012
+Temozolomide	Methazolastone|Temodar	Yes	 October 5, 2006	 November 30, 2012
+Temsirolimus	Torisel	Yes	 June 15, 2007	 October 28, 2011
+Thalidomide	Synovir|Thalomid	Yes	 October 5, 2006	 September 18, 2014
+Thalidomide	Synovir|Thalomid	Yes	 October 5, 2006	 September 18, 2014
+Thioguanine	Tabloid	Yes	 September 2, 2015	NA
+Thiotepa	NA	FDA Approved	 November 13, 2014	NA
+Fluorouracil (Topical)	Carac|Tolak|Efudex|Fluoroplex	Yes	 January 15, 2016	 January 15, 2016
+Topotecan Hydrochloride	Hycamtin	Yes	 October 5, 2006	 April 16, 2013
+Toremifene	Farestone|Fareston	Yes	 August 28, 2009	 October 16, 2014
+Temsirolimus	Torisel	Yes	 June 15, 2007	 October 28, 2011
+Tositumomab and Iodine I 131 Tositumomab	Bexxar	Yes	 February 28, 2008	 October 2, 2015
+Dexrazoxane Hydrochloride	Totect|Zinecard	Yes	 October 23, 2007	 September 17, 2014
+TPF	NA	NA	 August 19, 2014	NA
+Trabectedin	Yondelis	Yes	 November 3, 2015	 December 30, 2015
+Trametinib	Mekinist	Yes	 June 21, 2013	 December 14, 2015
+Trastuzumab	Herceptin	Yes	 October 5, 2006	 September 21, 2015
+Bendamustine Hydrochloride	Treanda	Yes	 May 23, 2008	 September 17, 2014
+Trifluridine and Tipiracil Hydrochloride	Lonsurf	Yes	 September 25, 2015	 January 14, 2016
+Arsenic Trioxide	Trisenox	Yes	 January 25, 2007	 May 11, 2015
+Lapatinib Ditosylate	Tykerb	Yes	 March 16, 2007	 November 6, 2012
+Dinutuximab	Unituxin	Yes	 March 26, 2015	 July 7, 2015
+Uridine Triacetate	Vistogard	Yes	 January 7, 2016	 January 7, 2016
+VAC	NA	NA	 December 8, 2015	 December 8, 2015
+Vandetanib	Caprelsa	Yes	 April 29, 2011	 October 23, 2014
+VAMP	NA	NA	 December 22, 2011	 May 29, 2012
+Rolapitant Hydrochloride	Varubi	Yes	 September 11, 2015	 October 21, 2015
+Panitumumab	Vectibix	Yes	 October 5, 2006	 October 23, 2014
+VeIP	NA	NA	 December 23, 2011	 October 2, 2014
+Vinblastine Sulfate	Velban|Velsar	Yes	 February 3, 2011	 September 18, 2014
+Bortezomib	VELCADE	Yes	 October 5, 2006	 September 17, 2014
+Vinblastine Sulfate	Velban|Velsar	Yes	 February 3, 2011	 September 18, 2014
+Vemurafenib	Zelboraf	Yes	 September 9, 2011	 December 14, 2015
+Venetoclax	Venclexta	Yes	 April 13, 2016	 April 13, 2016
+Venetoclax	Venclexta	Yes	 April 13, 2016	 April 13, 2016
+Leuprolide Acetate	Lupron Depot-3 Month|Lupron Depot-4 Month|Lupron Depot-Ped|Lupron Depot|Lupron|Viadur	Yes	 May 1, 2008	 September 17, 2014
+Azacitidine	Vidaza|Mylosar	Yes	 October 5, 2006	 September 17, 2014
+Vinblastine Sulfate	Velban|Velsar	Yes	 February 3, 2011	 September 18, 2014
+Vincristine Sulfate	Oncovin|Vincasar PFS|Vincosid|Vincrex	Yes	 December 10, 2008	 October 2, 2015
+Vincristine Sulfate	Oncovin|Vincasar PFS|Vincosid|Vincrex	Yes	 December 10, 2008	 October 2, 2015
+Vincristine Sulfate Liposome	Marqibo	Yes	 August 27, 2012	 July 10, 2013
+Vinorelbine Tartrate	Navelbine	Yes	 June 2, 2011	 September 18, 2014
+VIP	NA	NA	 October 2, 2014	NA
+Vismodegib	Erivedge	Yes	 March 19, 2012	 October 23, 2014
+Uridine Triacetate	Vistogard	Yes	 January 7, 2016	 January 7, 2016
+Glucarpidase	Voraxaze	Yes	 February 18, 2012	 February 22, 2013
+Vorinostat	Zolinza	Yes	 October 10, 2006	 November 4, 2011
+Pazopanib Hydrochloride	Votrient	Yes	 November 25, 2009	 August 26, 2015
+Leucovorin Calcium	Wellcovorin	Yes	 August 21, 2008	 July 11, 2013
+Crizotinib	Xalkori	Yes	 October 11, 2011	 March 24, 2016
+Capecitabine	Xeloda	Yes	 October 5, 2006	 September 20, 2013
+XELIRI	NA	NA	 December 8, 2014	NA
+XELOX	NA	NA	 January 6, 2012	 July 31, 2014
+Denosumab	Prolia|Xgeva	Yes	 November 30, 2010	 October 23, 2014
+Radium 223 Dichloride	Xofigo	Yes	 June 12, 2013	 October 23, 2014
+Enzalutamide	Xtandi	Yes	 September 26, 2012	 October 23, 2014
+Ipilimumab	Yervoy	Yes	 April 21, 2011	 December 15, 2015
+Trabectedin	Yondelis	Yes	 November 3, 2015	 December 30, 2015
+Ziv-Aflibercept	Zaltrap	Yes	 August 15, 2012	 February 1, 2013
+Filgrastim	Zarxio|Neupogen	Yes	 June 29, 2009	 July 10, 2013
+Vemurafenib	Zelboraf	Yes	 September 9, 2011	 December 14, 2015
+Ibritumomab Tiuxetan	Zevalin	Yes	 February 26, 2008	 July 31, 2014
+Dexrazoxane Hydrochloride	Totect|Zinecard	Yes	 October 23, 2007	 September 17, 2014
+Ziv-Aflibercept	Zaltrap	Yes	 August 15, 2012	 February 1, 2013
+Ondansetron Hydrochloride	Zofran	Yes	 July 28, 2015	NA
+Goserelin Acetate	Zoladex	Yes	 November 20, 2013	 September 17, 2014
+Zoledronic Acid	Zometa	Yes	 February 16, 2007	 September 18, 2014
+Vorinostat	Zolinza	Yes	 October 10, 2006	 November 4, 2011
+Zoledronic Acid	Zometa	Yes	 February 16, 2007	 September 18, 2014
+Idelalisib	Zydelig	Yes	 July 30, 2014	 September 26, 2014
+Ceritinib	Zykadia	Yes	 May 16, 2014	 December 3, 2015
+Abiraterone Acetate	Zytiga	Yes	 May 16, 2011	 October 23, 2014
