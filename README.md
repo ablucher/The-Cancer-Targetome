@@ -24,7 +24,7 @@ Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choo
 There are several options for accessing the Cancer Targetome data. Users interested in the data collection, aggregation, and assignment of evidence levels should see the Java source code, while users interested in the final aggregated drug-target interactions can find access data either as a mysql database dump or text file. 
 
 #### Drug-Target Interactions Text File
-The text file of all drug-target interactions and supporting evidence for 141 antineoplastic drugs can be found [here](https://github.com/ablucher/The-Cancer-Targetome/tree/master/results_070717). It includes assigned evidence levels (outlined below) for each piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
+The text file of all drug-target interactions and supporting evidence for 141 antineoplastic drugs can be found [here](https://github.com/ablucher/The-Cancer-Targetome/blob/master/results_070617/Targetome_FullEvidence_070617.txt). It includes assigned evidence levels (outlined below) for each piece of evidence supporting a drug-target interaction.  This file was used for all analysis 
 and figures generated in the manuscript under preparation indicated above.
 
 #### MySQL Database Dump
