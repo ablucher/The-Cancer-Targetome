@@ -28,7 +28,7 @@ The text file of all drug-target interactions and supporting evidence for 141 an
 and figures generated in the manuscript under preparation indicated above.
 
 #### MySQL Database Dump
-The full drug-target interaction database can be downloaded as a mysql database dump. The database contains all drug-target interaction and bioactivity data with parent database, reference and experimental binding evidence lineage. 
+The full drug-target interaction database can be downloaded as a [mysql database dump](https://github.com/ablucher/The-Cancer-Targetome/tree/master/database). The database contains all drug-target interaction and bioactivity data with parent database, reference and experimental binding evidence lineage. 
 #### Source Code in Java
 The source code for collection and aggregation of the drug-target interaction and bioactivity data is in Java. 
 
