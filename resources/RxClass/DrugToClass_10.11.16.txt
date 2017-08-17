@@ -1,0 +1,178 @@
+Drug	ATC_ClassID	ATC_ClassName	EPC_ClassID	EPC_ClassName	MOA_ClassID	MOA_ClassName
+Goserelin Acetate	L02AE	Gonadotropin releasing hormone analogues	null	null	null	null
+Venetoclax	null	null	null	null	null	null
+Abiraterone Acetate	L02BX	Other hormone antagonists and related agents	N0000182633	Cytochrome P450 17A1 Inhibitor	N0000187062	Cytochrome P450 2C8 Inhibitors
+Idelalisib	L01XX	Other antineoplastic agents	N0000175605	Kinase Inhibitor	N0000190114	Cytochrome P450 3A Inhibitors
+Carfilzomib	L01XX	Other antineoplastic agents	N0000175604	Proteasome Inhibitor	N0000175075	Proteasome Inhibitors
+Pamidronate Disodium	null	null	N0000175579	Bisphosphonate	null	null
+Idarubicin Hydrochloride	L01DB	Anthracyclines and related substances	N0000175414	Anthracycline Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Temsirolimus	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Axitinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000020000	Receptor Tyrosine Kinase Inhibitors
+Crizotinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000191265	Organic Cation Transporter 1 Inhibitors
+Ondansetron Hydrochloride	A04AA	Serotonin (5HT3) antagonists	N0000175818	Serotonin-3 Receptor Antagonist	N0000175817	Serotonin 3 Receptor Antagonists
+Carmustine	L01AD	Nitrosoureas	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Ziv-Aflibercept	S01LA	Antineovascularisation agents	null	null	null	null
+Talc	null	null	null	null	null	null
+Megestrol Acetate	L02AB	Progestogens	N0000175602	Progestin	null	null
+Melphalan	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Ixazomib Citrate	L01XX	Other antineoplastic agents	N0000175604	Proteasome Inhibitor	N0000175075	Proteasome Inhibitors
+Docetaxel	L01CD	Taxanes	N0000175592	Microtubule Inhibitor	null	null
+Trametinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Aminolevulinic Acid	L01XD	Sensitizers used in photodynamic/radiation therapy	N0000175846	Porphyrin Precursor	null	null
+Ifosfamide	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Palifermin	V03AF	Detoxifying agents for antineoplastic treatment	N0000175671	Mucocutaneous Epithelial Cell Growth Factor	null	null
+Ipilimumab	L01XC	Monoclonal antibodies	N0000182635	CTLA-4-directed Blocking Antibody	N0000182634	CTLA-4-directed Antibody Interactions
+Blinatumomab	L01XC	Monoclonal antibodies	N0000191421	Bispecific CD19-directed CD3-directed T Cell Engager	N0000191422	CD19-directed Antibody Interactions
+Bevacizumab	L01XC	Monoclonal antibodies	N0000178292	Vascular Endothelial Growth Factor-directed Antibody	N0000178291	Vascular Endothelial Growth Factor-directed Antibody Interactions
+Bexarotene	L01XX	Other antineoplastic agents	N0000175607	Retinoid	null	null
+Flutamide	L02BB	Anti-androgens	N0000175560	Androgen Receptor Inhibitor	N0000000243	Androgen Receptor Antagonists
+Pazopanib Hydrochloride	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000187062	Cytochrome P450 2C8 Inhibitors
+Gemcitabine Hydrochloride	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Oxaliplatin	L01XA	Platinum compounds	N0000175413	Platinum-based Drug	null	null
+Lanreotide Acetate	H01CB	Somatostatin and analogues	N0000175904	Somatostatin Analog	N0000000194	Somatostatin Receptor Agonists
+Romidepsin	L01XX	Other antineoplastic agents	N0000175588	Histone Deacetylase Inhibitor	N0000175071	Histone Deacetylase Inhibitors
+Dexrazoxane Hydrochloride	V03AF	Detoxifying agents for antineoplastic treatment	N0000180854	Cytoprotective Agent	null	null
+Epirubicin Hydrochloride	L01DB	Anthracyclines and related substances	N0000175414	Anthracycline Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Raloxifene Hydrochloride	G03XC	Selective estrogen receptor modulators	N0000175826	Estrogen Agonist/Antagonist	N0000000168	Selective Estrogen Receptor Modulators
+Ibrutinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Exemestane	L02BG	Aromatase inhibitors	N0000175563	Aromatase Inhibitor	N0000175080	Aromatase Inhibitors
+Pegaspargase	L01XX	Other antineoplastic agents	N0000175669	Asparagine-specific Enzyme	null	null
+Etoposide	L01CB	Podophyllotoxin derivatives	N0000175609	Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Mesna	V03AF	Detoxifying agents for antineoplastic treatment	null	null	null	null
+Lomustine	L01AD	Nitrosoureas	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Pomalidomide	L04AX	Other immunosuppressants	N0000184014	Thalidomide Analog	null	null
+Trabectedin	L01CX	Other plant alkaloids and natural products	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Cytarabine	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Pembrolizumab	L01XC	Monoclonal antibodies	N0000191260	Programmed Death Receptor-1 Blocking Antibody	N0000191259	Programmed Death Receptor-1-directed Antibody Interactions
+Sorafenib Tosylate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Plerixafor	L03AX	Other immunostimulants	N0000178326	Hematopoietic Stem Cell Mobilizer	null	null
+Recombinant Human Papillomavirus (HPV) Bivalent Vaccine	null	null	null	null	null	null
+Panitumumab	L01XC	Monoclonal antibodies	N0000175664	Epidermal Growth Factor Receptor Antagonist	N0000020010	HER1 Antagonists
+Dinutuximab	L01XC	Monoclonal antibodies	null	null	null	null
+Carboplatin	L01XA	Platinum compounds	N0000175413	Platinum-based Drug	null	null
+Dexamethasone	S03BA	Corticosteroids	N0000175576	Corticosteroid	N0000175450	Corticosteroid Hormone Receptor Agonists
+Imatinib Mesylate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Denosumab	M05BX	Other drugs affecting bone structure and mineralization	N0000187055	RANK Ligand Inhibitor	N0000187054	RANK Ligand Blocking Activity
+Omacetaxine Mepesuccinate	L01XX	Other antineoplastic agents	null	null	null	null
+Obinutuzumab	L01XC	Monoclonal antibodies	N0000175657	CD20-directed Cytolytic Antibody	N0000175078	CD20-directed Antibody Interactions
+Chlorambucil	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Prednisone	H02AB	Glucocorticoids	N0000175576	Corticosteroid	N0000175450	Corticosteroid Hormone Receptor Agonists
+Ibritumomab Tiuxetan	null	null	N0000175658	CD20-directed Radiotherapeutic Antibody	N0000175078	CD20-directed Antibody Interactions
+Cetuximab	L01XC	Monoclonal antibodies	N0000175664	Epidermal Growth Factor Receptor Antagonist	N0000020010	HER1 Antagonists
+Siltuximab	L04AC	Interleukin inhibitors	N0000191006	Interleukin-6 Antagonist	N0000191004	Interleukin-6 Antagonists
+Decitabine	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Sipuleucel-T	L03AX	Other immunostimulants	N0000184997	Autologous Cellular Immunotherapy	null	null
+Aldesleukin	L03AC	Interleukins	N0000175667	Lymphocyte Growth Factor	null	null
+Cabazitaxel	L01CD	Taxanes	N0000175592	Microtubule Inhibitor	null	null
+Rolapitant Hydrochloride	null	null	N0000175786	Substance P/Neurokinin-1 Receptor Antagonist	N0000190113	Breast Cancer Resistance Protein Inhibitors
+Degarelix	L02BX	Other hormone antagonists and related agents	null	null	null	null
+Panobinostat	L01XX	Other antineoplastic agents	N0000175588	Histone Deacetylase Inhibitor	N0000182137	Cytochrome P450 2D6 Inhibitors
+Arsenic Trioxide	L01XX	Other antineoplastic agents	null	null	null	null
+Osimertinib	null	null	N0000175605	Kinase Inhibitor	N0000191266	Cytochrome P450 1A2 Inducers
+Nivolumab	L01XC	Monoclonal antibodies	N0000191260	Programmed Death Receptor-1 Blocking Antibody	N0000191259	Programmed Death Receptor-1-directed Antibody Interactions
+Leuprolide Acetate	L02AE	Gonadotropin releasing hormone analogues	N0000175655	Gonadotropin Releasing Hormone Receptor Agonist	N0000175654	Gonadotropin Releasing Hormone Receptor Agonists
+Eribulin Mesylate	L01XX	Other antineoplastic agents	N0000175592	Microtubule Inhibitor	null	null
+Lenalidomide	L04AX	Other immunosuppressants	N0000184014	Thalidomide Analog	null	null
+Mitoxantrone Hydrochloride	L01DB	Anthracyclines and related substances	N0000175609	Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Hydroxyurea	L01XX	Other antineoplastic agents	N0000180853	Antimetabolite	null	null
+Ceritinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000190114	Cytochrome P450 3A Inhibitors
+Toremifene	L02BA	Anti-estrogens	N0000175826	Estrogen Agonist/Antagonist	N0000000168	Selective Estrogen Receptor Modulators
+Capecitabine	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Topotecan Hydrochloride	L01XX	Other antineoplastic agents	N0000175609	Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Vorinostat	L01XX	Other antineoplastic agents	N0000175588	Histone Deacetylase Inhibitor	N0000175071	Histone Deacetylase Inhibitors
+Belinostat	L01XX	Other antineoplastic agents	N0000175588	Histone Deacetylase Inhibitor	N0000175071	Histone Deacetylase Inhibitors
+Elotuzumab	null	null	N0000192338	SLAMF7-directed Immunostimulatory Antibody	N0000192337	SLAMF7-directed Antibody Interactions
+Tamoxifen Citrate	L02BA	Anti-estrogens	N0000175826	Estrogen Agonist/Antagonist	N0000000168	Selective Estrogen Receptor Modulators
+Rasburicase	V03AF	Detoxifying agents for antineoplastic treatment	N0000175670	Uric Acid-specific Enzyme	null	null
+Lenvatinib Mesylate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000020000	Receptor Tyrosine Kinase Inhibitors
+Romiplostim	B02BX	Other systemic hemostatics	N0000175973	Thrombopoietin Receptor Agonist	N0000175968	Thrombopoietin Receptor Agonists
+Filgrastim	L03AA	Colony stimulating factors	N0000175666	Leukocyte Growth Factor	null	null
+Talimogene Laherparepvec	null	null	null	null	null	null
+Radium 223 Dichloride	null	null	null	null	null	null
+Thiotepa	L01AC	Ethylene imines	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Glucarpidase	V03AF	Detoxifying agents for antineoplastic treatment	N0000184013	Carboxypeptidase	null	null
+Peginterferon Alfa-2b	L03AB	Interferons	N0000175521	Interferon alpha	null	null
+Fluorouracil	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Afatinib Dimaleate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Recombinant Interferon Alfa-2b	null	null	null	null	null	null
+Busulfan	L01AB	Alkyl sulfonates	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Procarbazine Hydrochloride	L01XB	Methylhydrazines	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Dasatinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Letrozole	L02BG	Aromatase inhibitors	N0000175563	Aromatase Inhibitor	N0000175080	Aromatase Inhibitors
+Imiquimod	D06BB	Antivirals	null	null	N0000000157	Interferon Inducers
+Palbociclib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000190114	Cytochrome P450 3A Inhibitors
+Leucovorin Calcium	V03AF	Detoxifying agents for antineoplastic treatment	N0000178369	Folate Analog	null	null
+Uridine Triacetate	null	null	null	null	null	null
+Vinblastine Sulfate	L01CA	Vinca alkaloids and analogues	N0000175612	Vinca Alkaloid	null	null
+Denileukin Diftitox	L01XX	Other antineoplastic agents	null	null	null	null
+Irinotecan Hydrochloride	L01XX	Other antineoplastic agents	N0000175609	Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Gemtuzumab Ozogamicin	null	null	N0000175571	CD33-directed Cytotoxin	null	null
+Azacitidine	L01BC	Pyrimidine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Dactinomycin	L01DA	Actinomycines	N0000180850	Actinomycin	N0000000233	Nucleic Acid Synthesis Inhibitors
+Erlotinib Hydrochloride	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Olaparib	L01XX	Other antineoplastic agents	N0000191623	Poly(ADP-Ribose) Polymerase Inhibitor	N0000191622	Poly(ADP-Ribose) Polymerase Inhibitors
+Nilotinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Cabozantinib-S-Malate	null	null	null	null	null	null
+Necitumumab	L01XC	Monoclonal antibodies	N0000175664	Epidermal Growth Factor Receptor Antagonist	N0000020010	HER1 Antagonists
+Paclitaxel	L01CD	Taxanes	N0000175592	Microtubule Inhibitor	null	null
+Daratumumab	null	null	N0000192336	CD38-directed Cytolytic Antibody	N0000192335	CD38-directed Antibody Interactions
+Enzalutamide	L02BB	Anti-androgens	N0000175560	Androgen Receptor Inhibitor	N0000185607	Cytochrome P450 2C19 Inducers
+Recombinant Human Papillomavirus (HPV) Nonavalent Vaccine	null	null	null	null	null	null
+Clofarabine	L01BB	Purine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Defibrotide Sodium	B01AX	Other antithrombotic agents	null	null	null	null
+Fludarabine Phosphate	L01BB	Purine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Trastuzumab	L01XC	Monoclonal antibodies	N0000175661	HER2 Receptor Antagonist	N0000020008	HER2/Neu/cerbB2 Antagonists
+Ado-Trastuzumab Emtansine	L01XC	Monoclonal antibodies	null	null	null	null
+Vemurafenib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000185503	P-Glycoprotein Inhibitors
+Vismodegib	L01XX	Other antineoplastic agents	N0000184149	Hedgehog Pathway Inhibitor	N0000184148	Smoothened Receptor Antagonists
+Everolimus	L04AA	Selective immunosuppressants	N0000175605	Kinase Inhibitor	N0000185503	P-Glycoprotein Inhibitors
+Bortezomib	L01XX	Other antineoplastic agents	N0000175604	Proteasome Inhibitor	N0000175075	Proteasome Inhibitors
+Thalidomide	L04AX	Other immunosuppressants	null	null	null	null
+Temozolomide	L01AX	Other alkylating agents	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Pertuzumab	L01XC	Monoclonal antibodies	N0000175661	HER2 Receptor Antagonist	N0000020008	HER2/Neu/cerbB2 Antagonists
+Brentuximab Vedotin	L01XC	Monoclonal antibodies	N0000182967	CD30-directed Immunoconjugate	N0000182966	CD30-directed Antibody Interactions
+Dacarbazine	L01AX	Other alkylating agents	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Ofatumumab	L01XC	Monoclonal antibodies	N0000175657	CD20-directed Cytolytic Antibody	N0000175078	CD20-directed Antibody Interactions
+Pemetrexed Disodium	L01BA	Folic acid analogues	N0000175584	Folate Analog Metabolic Inhibitor	N0000000111	Folic Acid Metabolism Inhibitors
+Dabrafenib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000190113	Breast Cancer Resistance Protein Inhibitors
+Eltrombopag Olamine	B02BX	Other systemic hemostatics	N0000175973	Thrombopoietin Receptor Agonist	N0000191278	UGT1A9 Inhibitors
+Fulvestrant	L02BA	Anti-estrogens	N0000175582	Estrogen Receptor Antagonist	N0000000168	Selective Estrogen Receptor Modulators
+Recombinant Human Papillomavirus (HPV) Quadrivalent Vaccine	null	null	null	null	null	null
+Rituximab	L01XC	Monoclonal antibodies	N0000175657	CD20-directed Cytolytic Antibody	N0000175078	CD20-directed Antibody Interactions
+Thioguanine	L01BB	Purine analogues	N0000180853	Antimetabolite	null	null
+Regorafenib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000185504	Cytochrome P450 2C9 Inhibitors
+Anastrozole	L02BG	Aromatase inhibitors	N0000175563	Aromatase Inhibitor	N0000175080	Aromatase Inhibitors
+Bicalutamide	L02BB	Anti-androgens	N0000175560	Androgen Receptor Inhibitor	N0000000243	Androgen Receptor Antagonists
+Melphalan Hydrochloride	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Gefitinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Asparaginase Erwinia chrysanthemi	null	null	null	null	null	null
+Aprepitant	A04AD	Other antiemetics	N0000175786	Substance P/Neurokinin-1 Receptor Antagonist	N0000185507	Cytochrome P450 2C9 Inducers
+Bendamustine Hydrochloride	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Pralatrexate	L01BA	Folic acid analogues	N0000175584	Folate Analog Metabolic Inhibitor	null	null
+Sunitinib Malate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Alemtuzumab	L04AA	Selective immunosuppressants	N0000175659	CD52-directed Cytolytic Antibody	N0000175079	CD52-directed Antibody Interactions
+Cyclophosphamide	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Sonidegib	L01XX	Other antineoplastic agents	N0000184149	Hedgehog Pathway Inhibitor	N0000184148	Smoothened Receptor Antagonists
+Ruxolitinib Phosphate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Ponatinib Hydrochloride	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Lapatinib Ditosylate	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000175076	Protein Kinase Inhibitors
+Nelarabine	L01BB	Purine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Vinorelbine Tartrate	L01CA	Vinca alkaloids and analogues	N0000175612	Vinca Alkaloid	null	null
+Methotrexate	L04AX	Other immunosuppressants	N0000175584	Folate Analog Metabolic Inhibitor	N0000000111	Folic Acid Metabolism Inhibitors
+Bleomycin	L01DC	Other cytotoxic antibiotics	N0000180854	Cytoprotective Agent	null	null
+Cisplatin	L01XA	Platinum compounds	N0000175413	Platinum-based Drug	null	null
+Mitomycin C	L01DC	Other cytotoxic antibiotics	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity
+Zoledronic Acid	M05BA	Bisphosphonates	N0000175579	Bisphosphonate	null	null
+Doxorubicin Hydrochloride	L01DB	Anthracyclines and related substances	N0000175414	Anthracycline Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Alectinib	null	null	N0000175605	Kinase Inhibitor	N0000175082	Kinase Inhibitors
+Bosutinib	L01XE	Protein kinase inhibitors	N0000175605	Kinase Inhibitor	N0000185503	P-Glycoprotein Inhibitors
+Daunorubicin Hydrochloride	L01DB	Anthracyclines and related substances	N0000175414	Anthracycline Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Mercaptopurine	L01BB	Purine analogues	N0000175595	Nucleoside Metabolic Inhibitor	N0000000233	Nucleic Acid Synthesis Inhibitors
+Ixabepilone	L01DC	Other cytotoxic antibiotics	N0000175592	Microtubule Inhibitor	null	null
+Cobimetinib	null	null	N0000175605	Kinase Inhibitor	N0000175082	Kinase Inhibitors
+Etoposide Phosphate	L01CB	Podophyllotoxin derivatives	N0000175609	Topoisomerase Inhibitor	N0000000176	Topoisomerase Inhibitors
+Vincristine Sulfate	L01CA	Vinca alkaloids and analogues	N0000175612	Vinca Alkaloid	null	null
+Ramucirumab	L01XC	Monoclonal antibodies	N0000191009	Vascular Endothelial Growth Factor Receptor 2 Antagonist	N0000020032	VEGFR2 Inhibitors
+Palonosetron Hydrochloride	A04AA	Serotonin (5HT3) antagonists	N0000175818	Serotonin-3 Receptor Antagonist	N0000175817	Serotonin 3 Receptor Antagonists
+Paclitaxel Albumin-stabilized Nanoparticle Formulation	null	null	null	null	null	null
+Mechlorethamine Hydrochloride	L01AA	Nitrogen mustard analogues	N0000175558	Alkylating Drug	N0000000236	Alkylating Activity

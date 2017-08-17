@@ -1,0 +1,7 @@
+Drug	ATC_ClassID	ATC_ClassName
+Alectinib	L01XE	Protein kinase inhibitors
+Cobimetinib	L01XE	Protein kinase inhibitors
+Daratumumab	L01XC	Monoclonal antibodies
+Elotuzumab	L01XC	Monoclonal antibodies
+Osimertinib	L01XE	Protein kinase inhibitors
+Talimogene Laherparepvec	L01XX	Other antineoplastic agents
