@@ -15,7 +15,7 @@ publicly available resources: DrugBank, Therapeutic Targets Database, IUPHAR Gui
 Pharmacology, and BindingDB. 
 
 ### Data Availability and Use
-Contingent upon receiving permission and/or clarification from [Therapeutic Targets Database](http://bidd.nus.edu.sg/group/cjttd/), this work is made available to you under the [Creative Commons Attribution Non-Commercial Share Alike 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/legalcode).  For commercial use, please contact us. 
+Contingent upon receiving permission and/or clarification from [Therapeutic Targets Database](http://bidd.nus.edu.sg/group/cjttd/), the contents of the Cancer Targetome are made available to you under the [Creative Commons Attribution Non-Commercial Share Alike 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commercial use, please contact us. The Cancer Targetome database is made available under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1.0/). Source code is made available under the [GNU General Public License 3.0](https://opensource.org/licenses/GPL-3.0). 
 
 ### Citations
 Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
