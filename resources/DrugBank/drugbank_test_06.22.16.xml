@@ -1,0 +1,3132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drugbank xmlns="http://www.drugbank.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.drugbank.ca http://www.drugbank.ca/docs/drugbank.xsd" version="5.0" exported-on="2016-06-21">
+<drug type="biotech" created="2005-06-13" updated="2016-04-14">
+  <drugbank-id primary="true">DB00001</drugbank-id>
+  <drugbank-id>BTD00024</drugbank-id>
+  <drugbank-id>BIOD00024</drugbank-id>
+  <name>Lepirudin</name>
+  <description>Lepirudin is identical to natural hirudin except for substitution of leucine for isoleucine at the N-terminal end of the molecule and the absence of a sulfate group on the tyrosine at position 63. It is produced via yeast cells. Bayer ceased the production of lepirudin (Refludan) effective May 31, 2012.</description>
+  <cas-number>138068-37-8</cas-number>
+  <unii>Y43GF64R34</unii>
+  <state>liquid</state>
+  <groups>
+    <group>approved</group>
+  </groups>
+  <general-references>
+    <articles>
+      <article>
+        <pubmed-id>16244762</pubmed-id>
+        <citation>Smythe MA, Stephens JL, Koerber JM, Mattson JC: A comparison of lepirudin and argatroban outcomes. Clin Appl Thromb Hemost. 2005 Oct;11(4):371-4.</citation>
+      </article>
+      <article>
+        <pubmed-id>16690967</pubmed-id>
+        <citation>Tardy B, Lecompte T, Boelhen F, Tardy-Poncet B, Elalamy I, Morange P, Gruel Y, Wolf M, Francois D, Racadot E, Camarasa P, Blouch MT, Nguyen F, Doubine S, Dutrillaux F, Alhenc-Gelas M, Martin-Toutain I, Bauters A, Ffrench P, de Maistre E, Grunebaum L, Mouton C, Huisse MG, Gouault-Heilmann M, Lucke V: Predictive factors for thrombosis and major bleeding in an observational study in 181 patients with heparin-induced thrombocytopenia treated with lepirudin. Blood. 2006 Sep 1;108(5):1492-6. Epub 2006 May 11.</citation>
+      </article>
+      <article>
+        <pubmed-id>16241940</pubmed-id>
+        <citation>Lubenow N, Eichler P, Lietz T, Greinacher A: Lepirudin in patients with heparin-induced thrombocytopenia - results of the third prospective study (HAT-3) and a combined analysis of HAT-1, HAT-2, and HAT-3. J Thromb Haemost. 2005 Nov;3(11):2428-36.</citation>
+      </article>
+    </articles>
+    <textbooks/>
+    <links>
+      <link>
+        <title>Google books</title>
+        <url>http://books.google.com/books?id=iadLoXoQkWEC&amp;pg=PA440</url>
+      </link>
+    </links>
+  </general-references>
+  <synthesis-reference/>
+  <indication>For the treatment of heparin-induced thrombocytopenia</indication>
+  <pharmacodynamics>Lepirudin is used to break up clots and to reduce thrombocytopenia. It binds to thrombin and prevents thrombus or clot formation. It is a highly potent, selective, and essentially irreversible inhibitor of thrombin and clot-bond thrombin. Lepirudin requires no cofactor for its anticoagulant action. Lepirudin is a recombinant form of hirudin, an endogenous anticoagulant found in medicinal leeches.</pharmacodynamics>
+  <mechanism-of-action>Lepirudin forms a stable non-covalent complex with alpha-thrombin, thereby abolishing its ability to cleave fibrinogen and initiate the clotting cascade. The inhibition of thrombin prevents the blood clotting cascade. </mechanism-of-action>
+  <toxicity>In case of overdose (eg, suggested by excessively high aPTT values) the risk of bleeding is increased.</toxicity>
+  <metabolism>Lepirudin is thought to be metabolized by release of amino acids via catabolic hydrolysis of the parent drug. However, con-clusive data are not available. About 48% of the administration dose is excreted in the urine which consists of unchanged drug (35%) and other fragments of the parent drug.</metabolism>
+  <absorption>Bioavailability is 100% following injection.</absorption>
+  <half-life>Approximately 1.3 hours</half-life>
+  <protein-binding/>
+  <route-of-elimination>Lepirudin is thought to be metabolized by release of amino acids via catabolic hydrolysis of the parent drug. About 48% of the administration dose is excreted in the urine which consists of unchanged drug (35%) and other fragments of the parent drug.</route-of-elimination>
+  <volume-of-distribution>* 12.2 L [Healthy young subjects (n = 18, age 18-60 years)]&#13;
+* 18.7 L [Healthy elderly subjects (n = 10, age 65-80 years)]&#13;
+* 18 L [Renally impaired patients (n = 16, creatinine clearance below 80 mL/min)]&#13;
+* 32.1 L [HIT patients (n = 73)]</volume-of-distribution>
+  <clearance>* 164 ml/min [Healthy 18-60 yrs]&#13;
+* 139 ml/min [Healthy 65-80 yrs]&#13;
+* 61 ml/min [renal impaired]&#13;
+* 114 ml/min [HIT (Heparin-induced thrombocytopenia)]</clearance>
+  <classification>
+    <description/>
+    <direct-parent>Peptides</direct-parent>
+    <kingdom>Organic Compounds</kingdom>
+    <superclass>Organic Acids</superclass>
+    <class>Carboxylic Acids and Derivatives</class>
+    <subclass>Amino Acids, Peptides, and Analogues</subclass>
+  </classification>
+  <salts/>
+  <synonyms>
+    <synonym language="" coder="">Hirudin variant-1</synonym>
+    <synonym language="" coder="">Lepirudin recombinant</synonym>
+  </synonyms>
+  <products>
+    <product>
+      <name>Refludan</name>
+      <labeller>Bayer Inc</labeller>
+      <ndc-id/>
+      <ndc-product-code/>
+      <dpd-id>02240996</dpd-id>
+      <started-marketing-on>2000-01-31</started-marketing-on>
+      <ended-marketing-on>2013-07-26</ended-marketing-on>
+      <dosage-form>powder for solution</dosage-form>
+      <strength>50 mg</strength>
+      <route>intravenous</route>
+      <fda-application-number/>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>Canada</country>
+      <source>DPD</source>
+    </product>
+  </products>
+  <international-brands/>
+  <mixtures>
+    <mixture>
+      <name>Refludan</name>
+      <ingredients>Lepirudin</ingredients>
+    </mixture>
+  </mixtures>
+  <packagers>
+    <packager>
+      <name>Bayer Healthcare</name>
+      <url>http://www.bayerhealthcare.com</url>
+    </packager>
+    <packager>
+      <name>Berlex Labs</name>
+      <url>http://www.berlex.com</url>
+    </packager>
+  </packagers>
+  <manufacturers>
+    <manufacturer generic="false" url="">Bayer healthcare pharmaceuticals inc</manufacturer>
+  </manufacturers>
+  <prices>
+    <price>
+      <description>Refludan 50 mg vial</description>
+      <cost currency="USD">273.19</cost>
+      <unit>vial</unit>
+    </price>
+  </prices>
+  <categories>
+    <category>
+      <category>Antithrombins</category>
+      <mesh-id>D000991</mesh-id>
+    </category>
+    <category>
+      <category>Fibrinolytic Agents</category>
+      <mesh-id>D005343</mesh-id>
+    </category>
+    <category>
+      <category>Direct Thrombin Inhibitors</category>
+      <mesh-id>D000991</mesh-id>
+    </category>
+    <category>
+      <category>Antithrombotic Agents</category>
+      <mesh-id>D005343</mesh-id>
+    </category>
+    <category>
+      <category>Blood and Blood Forming Organs</category>
+      <mesh-id/>
+    </category>
+  </categories>
+  <affected-organisms>
+    <affected-organism>Humans and other mammals</affected-organism>
+  </affected-organisms>
+  <dosages>
+    <dosage>
+      <form>Powder for solution</form>
+      <route>intravenous</route>
+      <strength>50 mg</strength>
+    </dosage>
+  </dosages>
+  <atc-codes>
+    <atc-code code="B01AE02">
+      <level code="B01AE">Direct thrombin inhibitors</level>
+      <level code="B01A">ANTITHROMBOTIC AGENTS</level>
+      <level code="B01">ANTITHROMBOTIC AGENTS</level>
+      <level code="B">BLOOD AND BLOOD FORMING ORGANS</level>
+    </atc-code>
+  </atc-codes>
+  <ahfs-codes>
+    <ahfs-code>20:12.04.12</ahfs-code>
+  </ahfs-codes>
+  <pdb-entries>
+    <pdb-entry>4HIR</pdb-entry>
+  </pdb-entries>
+  <fda-label>https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB00001.pdf?1265924858</fda-label>
+  <msds>https://s3-us-west-2.amazonaws.com/drugbank/msds/DB00001.pdf?1368416245</msds>
+  <patents>
+    <patent>
+      <number>1339104</number>
+      <country>Canada</country>
+      <approved>1997-07-29</approved>
+      <expires>2014-07-29</expires>
+      <pediatric-extension>false</pediatric-extension>
+    </patent>
+    <patent>
+      <number>5180668</number>
+      <country>United States</country>
+      <approved>1993-01-19</approved>
+      <expires>2010-01-19</expires>
+      <pediatric-extension>false</pediatric-extension>
+    </patent>
+  </patents>
+  <food-interactions/>
+  <drug-interactions/>
+  <sequences>
+    <sequence format="FASTA">&gt;DB00001 sequence
+LVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIP
+EEYLQ</sequence>
+  </sequences>
+  <experimental-properties>
+    <property>
+      <kind>Melting Point</kind>
+      <value>65 °C</value>
+      <source>Otto, A. &amp; Seckler, R. Eur. J. Biochem. 202:67-73 (1991)</source>
+    </property>
+    <property>
+      <kind>Hydrophobicity</kind>
+      <value>-0.777</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Isoelectric Point</kind>
+      <value>4.04</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Molecular Weight</kind>
+      <value>6963.425</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Molecular Formula</kind>
+      <value>C287H440N80O110S6</value>
+      <source/>
+    </property>
+  </experimental-properties>
+  <external-identifiers>
+    <external-identifier>
+      <resource>Drugs Product Database (DPD)</resource>
+      <identifier>11916</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>KEGG Drug</resource>
+      <identifier>D06880</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>PharmGKB</resource>
+      <identifier>PA450195</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>UniProtKB</resource>
+      <identifier>P01050</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Therapeutic Targets Database</resource>
+      <identifier>DAP000541</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Wikipedia</resource>
+      <identifier>Lepirudin</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>ChEMBL</resource>
+      <identifier>CHEMBL1201666</identifier>
+    </external-identifier>
+  </external-identifiers>
+  <external-links>
+    <external-link>
+      <resource>RxList</resource>
+      <url>http://www.rxlist.com/cgi/generic/lepirudin.htm</url>
+    </external-link>
+    <external-link>
+      <resource>Drugs.com</resource>
+      <url>http://www.drugs.com/cdi/lepirudin.html</url>
+    </external-link>
+  </external-links>
+  <pathways>
+    <pathway>
+      <smpdb-id>SMP00278</smpdb-id>
+      <name>Lepirudin Action Pathway</name>
+      <category>drug_action</category>
+      <drugs>
+        <drug>
+          <drugbank-id>DB00001</drugbank-id>
+          <name>Lepirudin</name>
+        </drug>
+        <drug>
+          <drugbank-id>DB01022</drugbank-id>
+          <name>Phylloquinone</name>
+        </drug>
+        <drug>
+          <drugbank-id>DB01373</drugbank-id>
+          <name>Calcium</name>
+        </drug>
+      </drugs>
+      <enzymes>
+        <uniprot-id>P00734</uniprot-id>
+        <uniprot-id>P00748</uniprot-id>
+        <uniprot-id>P02452</uniprot-id>
+        <uniprot-id>P03952</uniprot-id>
+        <uniprot-id>P03951</uniprot-id>
+        <uniprot-id>P00740</uniprot-id>
+        <uniprot-id>P00451</uniprot-id>
+        <uniprot-id>P12259</uniprot-id>
+        <uniprot-id>P00742</uniprot-id>
+        <uniprot-id>P02671</uniprot-id>
+        <uniprot-id>P02675</uniprot-id>
+        <uniprot-id>P02679</uniprot-id>
+        <uniprot-id>P00488</uniprot-id>
+        <uniprot-id>P05160</uniprot-id>
+        <uniprot-id>P00747</uniprot-id>
+        <uniprot-id>P00750</uniprot-id>
+        <uniprot-id>P08709</uniprot-id>
+        <uniprot-id>P13726</uniprot-id>
+        <uniprot-id>Q9BQB6</uniprot-id>
+        <uniprot-id>P38435</uniprot-id>
+      </enzymes>
+    </pathway>
+  </pathways>
+  <reactions/>
+  <snp-effects/>
+  <snp-adverse-drug-reactions/>
+  <targets>
+    <target>
+      <id>BE0000048</id>
+      <name>Prothrombin</name>
+      <organism>Human</organism>
+      <actions>
+        <action>inhibitor</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>10505536</pubmed-id>
+            <citation>Turpie AG: Anticoagulants in acute coronary syndromes. Am J Cardiol. 1999 Sep 2;84(5A):2M-6M.</citation>
+          </article>
+          <article>
+            <pubmed-id>10912644</pubmed-id>
+            <citation>Warkentin TE: Venous thromboembolism in heparin-induced thrombocytopenia. Curr Opin Pulm Med. 2000 Jul;6(4):343-51.</citation>
+          </article>
+          <article>
+            <pubmed-id>11055889</pubmed-id>
+            <citation>Eriksson BI: New therapeutic options in deep vein thrombosis prophylaxis. Semin Hematol. 2000 Jul;37(3 Suppl 5):7-9.</citation>
+          </article>
+          <article>
+            <pubmed-id>11467439</pubmed-id>
+            <citation>Fabrizio MC: Use of ecarin clotting time (ECT) with lepirudin therapy in heparin-induced thrombocytopenia and cardiopulmonary bypass. J Extra Corpor Technol. 2001 May;33(2):117-25.</citation>
+          </article>
+          <article>
+            <pubmed-id>11807012</pubmed-id>
+            <citation>Szaba FM, Smiley ST: Roles for thrombin and fibrin(ogen) in cytokine/chemokine production and macrophage adhesion in vivo. Blood. 2002 Feb 1;99(3):1053-9.</citation>
+          </article>
+          <article>
+            <pubmed-id>11752352</pubmed-id>
+            <citation>Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P00734" source="Swiss-Prot">
+    <name>Prothrombin</name>
+    <general-function>Thrombospondin receptor activity</general-function>
+    <specific-function>Thrombin, which cleaves bonds after Arg and Lys, converts fibrinogen to fibrin and activates factors V, VII, VIII, XIII, and, in complex with thrombomodulin, protein C. Functions in blood homeostasis, inflammation and wound healing.</specific-function>
+    <gene-name>F2</gene-name>
+    <locus>11p11-q12</locus>
+    <cellular-location>Secreted</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-24</signal-regions>
+    <theoretical-pi>5.7</theoretical-pi>
+    <molecular-weight>70036.295</molecular-weight>
+    <chromosome-location>11</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3535</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>F2</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M17262</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>339641</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>2362</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P00734</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>THRB_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>3.4.21.5</synonym>
+      <synonym>Coagulation factor II</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0016004|Prothrombin
+MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLEREC
+VEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHV
+NITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQE
+CSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASA
+QAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETG
+DGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYI
+DGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTEN
+DLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHP
+VCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDST
+RIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKY
+GFYTHVFRLKKWIQKVIDQFGE</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016005|Prothrombin (F2)
+ATGGCGCACGTCCGAGGCTTGCAGCTGCCTGGCTGCCTGGCCCTGGCTGCCCTGTGTAGC
+CTTGTGCACAGCCAGCATGTGTTCCTGGCTCCTCAGCAAGCACGGTCGCTGCTCCAGCGG
+GTCCGGCGAGCCAACACCTTCTTGGAGGAGGTGCGCAAGGGCAACCTGGAGCGAGAGTGC
+GTGGAGGAGACGTGCAGCTACGAGGAGGCCTTCGAGGCTCTGGAGTCCTCCACGGCTACG
+GATGTGTTCTGGGCCAAGTACACAGCTTGTGAGACAGCGAGGACGCCTCGAGATAAGCTT
+GCTGCATGTCTGGAAGGTAACTGTGCTGAGGGTCTGGGTACGAACTACCGAGGGCATGTG
+AACATCACCCGGTCAGGCATTGAGTGCCAGCTATGGAGGAGTCGCTACCCACATAAGCCT
+GAAATCAACTCCACTACCCATCCTGGGGCCGACCTACAGGAGAATTTCTGCCGCAACCCC
+GACAGCAGCACCACGGGACCCTGGTGCTACACTACAGACCCCACCGTGAGGAGGCAGGAA
+TGCAGCATCCCTGTCTGTGGCCAGGATCAAGTCACTGTAGCGATGACTCCACGCTCCGAA
+GGCTCCAGTGTGAATCTGTCACCTCCATTGGAGCAGTGTGTCCCTGATCGGGGGCAGCAG
+TACCAGGGGCGCCTGGCGGTGACCACACATGGGCTCCCCTGCCTGGCCTGGGCCAGCGCA
+CAGGCCAAGGCCCTGAGCAAGCACCAGGACTTCAACTCAGCTGTGCAGCTGGTGGAGAAC
+TTCTGCCGCAACCCAGACGGGGATGAGGAGGGCGTGTGGTGCTATGTGGCCGGGAAGCCT
+GGCGACTTTGGGTACTGCGACCTCAACTATTGTGAGGAGGCCGTGGAGGAGGAGACAGGA
+GATGGGCTGGATGAGGACTCAGACAGGGCCATCGAAGGGCGTACCGCCACCAGTGAGTAC
+CAGACTTTCTTCAATCCGAGGACCTTTGGCTCGGGAGAGGCAGACTGTGGGCTGCGACCT
+CTGTTCGAGAAGAAGTCGCTGGAGGACAAAACCGAAAGAGAGCTCCTGGAATCCTACATC
+GACGGGCGCATTGTGGAGGGCTCGGATGCAGAGATCGGCATGTCACCTTGGCAGGTGATG
+CTTTTCCGGAAGAGTCCCCAGGAGCTGCTGTGTGGGGCCAGCCTCATCAGTGACCGCTGG
+GTCCTCACCGCCGCCCACTGCCTCCTGTACCCGCCCTGGGACAAGAACTTCACCGAGAAT
+GACCTTCTGGTGCGCATTGGCAAGCACTCCCGCACCAGGTACGAGCGAAACATTGAAAAG
+ATATCCATGTTGGAAAAGATCTACATCCACCCCAGGTACAACTGGCGGGAGAACCTGGAC
+CGGGACATTGCCCTGATGAAGCTGAAGAAGCCTGTTGCCTTCAGTGACTACATTCACCCT
+GTGTGTCTGCCCGACAGGGAGACGGCAGCCAGCTTGCTCCAGGCTGGATACAAGGGGCGG
+GTGACAGGCTGGGGCAACCTGAAGGAGACGTGGACAGCCAACGTTGGTAAGGGGCAGCCC
+AGTGTCCTGCAGGTGGTGAACCTGCCCATTGTGGAGCGGCCGGTCTGCAAGGACTCCACC
+CGGATCCGCATCACTGACAACATGTTCTGTGCTGGTTACAAGCCTGATGAAGGGAAACGA
+GGGGATGCCTGTGAAGGTGACAGTGGGGGACCCTTTGTCATGAAGAGCCCCTTTAACAAC
+CGCTGGTATCAAATGGGCATCGTCTCATGGGGTGAAGGCTGTGACCGGGATGGGAAATAT
+GGCTTCTACACACATGTGTTCCGCCTGAAGAAGTGGATACAGAAGGTCATTGATCAGTTT
+GGAGAGTAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00594</identifier>
+        <name>Gla</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00051</identifier>
+        <name>Kringle</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00089</identifier>
+        <name>Trypsin</name>
+      </pfam>
+      <pfam>
+        <identifier>PF09396</identifier>
+        <name>Thrombin_light</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endoplasmic reticulum lumen</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular space</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>blood microparticle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular matrix</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>Golgi lumen</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>calcium ion binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serine-type endopeptidase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>growth factor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>receptor binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>thrombospondin receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of blood coagulation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to wounding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>acute-phase response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell growth</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>blood coagulation, intrinsic pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>proteolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of protein phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell surface receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of collagen biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cytosolic calcium ion homeostasis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of phosphatidylinositol 3-kinase signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to mechanical stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>fibrinolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of phospholipase C-activating G-protein coupled receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>leukocyte migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>multicellular organismal development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of reactive oxygen species metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular protein metabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of astrocyte differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>peptidyl-glutamic acid carboxylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of release of sequestered calcium ion into cytosol</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>post-translational protein modification</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of fibrinolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of blood coagulation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of platelet activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of cell shape</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of gene expression</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of proteolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>blood coagulation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>platelet activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to inactivity</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+  </targets>
+  <enzymes/>
+  <carriers/>
+  <transporters/>
+</drug>
+<drug type="biotech" created="2005-06-13" updated="2016-03-19">
+  <drugbank-id primary="true">DB00002</drugbank-id>
+  <drugbank-id>BTD00071</drugbank-id>
+  <drugbank-id>BIOD00071</drugbank-id>
+  <name>Cetuximab</name>
+  <description>Cetuximab is an epidermal growth factor receptor binding FAB. Cetuximab is composed of the Fv (variable; antigen-binding) regions of the 225 murine EGFr monoclonal antibody specific for the N-terminal portion of human EGFr with human IgG1 heavy and kappa light chain constant (framework) regions. Cetuximab is marketed under the brand Erbitux® by Eli Lilly and Company. In the United States, a regimen of cetuximab costs approximately $30,790 for an eight-week course.</description>
+  <cas-number>205923-56-4</cas-number>
+  <unii>PQX0D8J21J</unii>
+  <state>liquid</state>
+  <groups>
+    <group>approved</group>
+  </groups>
+  <general-references>
+    <articles>
+      <article>
+        <pubmed-id>10480573</pubmed-id>
+        <citation>Hosokawa N, Yamamoto S, Uehara Y, Hori M, Tsuchiya KS: Effect of thiazinotrienomycin B, an ansamycin antibiotic, on the function of epidermal growth factor receptor in human stomach tumor cells. J Antibiot (Tokyo). 1999 May;52(5):485-90.</citation>
+      </article>
+      <article>
+        <pubmed-id>10601294</pubmed-id>
+        <citation>Wakita H, Takigawa M: Activation of epidermal growth factor receptor promotes late terminal differentiation of cell-matrix interaction-disrupted keratinocytes. J Biol Chem. 1999 Dec 24;274(52):37285-91.</citation>
+      </article>
+      <article>
+        <pubmed-id>10628369</pubmed-id>
+        <citation>Suwa T, Ueda M, Jinno H, Ozawa S, Kitagawa Y, Ando N, Kitajima M: Epidermal growth factor receptor-dependent cytotoxic effect of anti-EGFR antibody-ribonuclease conjugate on human cancer cells. Anticancer Res. 1999 Sep-Oct;19(5B):4161-5.</citation>
+      </article>
+      <article>
+        <pubmed-id>11408594</pubmed-id>
+        <citation>Burke P, Schooler K, Wiley HS: Regulation of epidermal growth factor receptor signaling by endocytosis and intracellular trafficking. Mol Biol Cell. 2001 Jun;12(6):1897-910.</citation>
+      </article>
+      <article>
+        <pubmed-id>11431346</pubmed-id>
+        <citation>Viloria-Petit A, Crombet T, Jothy S, Hicklin D, Bohlen P, Schlaeppi JM, Rak J, Kerbel RS: Acquired resistance to the antitumor effect of epidermal growth factor receptor-blocking antibodies in vivo: a role for altered tumor angiogenesis. Cancer Res. 2001 Jul 1;61(13):5090-101.</citation>
+      </article>
+      <article>
+        <pubmed-id>11752352</pubmed-id>
+        <citation>Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.</citation>
+      </article>
+      <article>
+        <pubmed-id>15269308</pubmed-id>
+        <citation>Schrag D: The price tag on progress--chemotherapy for colorectal cancer. N Engl J Med. 2004 Jul 22;351(4):317-9.</citation>
+      </article>
+      <article>
+        <pubmed-id>16336752</pubmed-id>
+        <citation>Snyder LC, Astsaturov I, Weiner LM: Overview of monoclonal antibodies and small molecules targeting the epidermal growth factor receptor pathway in colorectal cancer. Clin Colorectal Cancer. 2005 Nov;5 Suppl 2:S71-80.</citation>
+      </article>
+    </articles>
+    <textbooks/>
+    <links/>
+  </general-references>
+  <synthesis-reference/>
+  <indication>Cetuximab, used in combination with irinotecan, is indicated for the treatment of EGFR-expressing, metastatic colorectal carcinoma in patients who are refractory to irinotecan-based chemotherapy. Cetuximab administered as a single agent is indicated for the treatment of EGFR-expressing, metastatic colorectal carcinoma in patients who are intolerant to irinotecan-based chemotherapy.</indication>
+  <pharmacodynamics>Used in the treatment of colorectal cancer, cetuximab binds specifically to the epidermal growth factor receptor (EGFr, HER1, c-ErbB-1) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor–alpha. Binding of cetuximab to the EGFr blocks phosphorylation and activation of receptor-associated kinases, resulting in inhibition of cell growth, induction of apoptosis, decreased matrix metalloproteinase secretion and reduced vascular endothelial growth factor production.</pharmacodynamics>
+  <mechanism-of-action>Cetuximab binds to the epidermal growth factor receptor (EGFr) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and TGF alpha, thereby reducing their effects on cell growth and metastatic spread.</mechanism-of-action>
+  <toxicity>Pulmonary Toxicity&#13;
+&#13;
+Interstitial lung disease (ILD) was reported in 3 of 633 (&lt;0.5%) patients with advanced colorectal cancer receiving cetuximab. Interstitial pneumonitis with non-cardiogenic pulmonary edema resulting in death was reported in one case. Two patients had pre-existing fibrotic lung disease and experienced an acute exacerbation of their disease while receiving cetuximab in combination with irinotecan. In the clinical investigational program, an additional case of interstitial pneumonitis was reported in a patient with head and neck cancer treated with cetuximab and cisplatin. The onset of symptoms occurred between the fourth and eleventh doses of treatment in all reported cases.</toxicity>
+  <metabolism/>
+  <absorption/>
+  <half-life>The mean half-life for Cetuximab is 114 hours (range 75-188 hours).</half-life>
+  <protein-binding/>
+  <route-of-elimination/>
+  <volume-of-distribution>appeared to be independent of dose and approximated the vascular space of 2-3 L/m2.</volume-of-distribution>
+  <clearance>Female patients had 25% lower intrinsic clearance than male patients.</clearance>
+  <classification>
+    <description/>
+    <direct-parent>Peptides</direct-parent>
+    <kingdom>Organic Compounds</kingdom>
+    <superclass>Organic Acids</superclass>
+    <class>Carboxylic Acids and Derivatives</class>
+    <subclass>Amino Acids, Peptides, and Analogues</subclass>
+  </classification>
+  <salts/>
+  <synonyms>
+    <synonym language="German" coder="INN">Cetuximab</synonym>
+    <synonym language="French" coder="INN">Cétuximab</synonym>
+    <synonym language="Spanish" coder="INN">Cetuximab</synonym>
+    <synonym language="Latin" coder="INN">Cetuximabum</synonym>
+    <synonym language="" coder="WHO">Immunoglobulin G 1 (human-mouse monoclonal C 225 gamma 1 - chain anti-human epidermal growt factor receptor), disulfide wit human-mouse monoclonal C 225 kappa - chain, dimer</synonym>
+  </synonyms>
+  <products>
+    <product>
+      <name>Erbitux</name>
+      <labeller>ImClone LLC</labeller>
+      <ndc-id/>
+      <ndc-product-code/>
+      <dpd-id>02271249</dpd-id>
+      <started-marketing-on>2008-10-28</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>solution</dosage-form>
+      <strength>2 mg</strength>
+      <route>intravenous</route>
+      <fda-application-number/>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>Canada</country>
+      <source>DPD</source>
+    </product>
+    <product>
+      <name>Erbitux</name>
+      <labeller>Im Clone Llc</labeller>
+      <ndc-id/>
+      <ndc-product-code>66733-948</ndc-product-code>
+      <dpd-id/>
+      <started-marketing-on>2004-02-12</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>solution</dosage-form>
+      <strength>2 mg/mL</strength>
+      <route>intravenous</route>
+      <fda-application-number>BLA125084</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+    <product>
+      <name>Erbitux</name>
+      <labeller>Im Clone Llc</labeller>
+      <ndc-id/>
+      <ndc-product-code>66733-958</ndc-product-code>
+      <dpd-id/>
+      <started-marketing-on>2007-10-02</started-marketing-on>
+      <ended-marketing-on/>
+      <dosage-form>solution</dosage-form>
+      <strength>2 mg/mL</strength>
+      <route>intravenous</route>
+      <fda-application-number>BLA125084</fda-application-number>
+      <generic>false</generic>
+      <over-the-counter>false</over-the-counter>
+      <approved>true</approved>
+      <country>US</country>
+      <source>FDA NDC</source>
+    </product>
+  </products>
+  <international-brands/>
+  <mixtures>
+    <mixture>
+      <name>Erbitux</name>
+      <ingredients>Cetuximab</ingredients>
+    </mixture>
+    <mixture>
+      <name>Erbitux</name>
+      <ingredients>Cetuximab</ingredients>
+    </mixture>
+    <mixture>
+      <name>Erbitux</name>
+      <ingredients>Cetuximab</ingredients>
+    </mixture>
+  </mixtures>
+  <packagers>
+    <packager>
+      <name>Cardinal Health</name>
+      <url>http://www.cardinal.com</url>
+    </packager>
+    <packager>
+      <name>Catalent Pharma Solutions</name>
+      <url>http://www.catalent.com</url>
+    </packager>
+    <packager>
+      <name>ImClone Systems Inc.</name>
+      <url>http://www.imclone.com</url>
+    </packager>
+    <packager>
+      <name>Oso Biopharmaceuticals Manufacturing LLC</name>
+      <url/>
+    </packager>
+  </packagers>
+  <manufacturers/>
+  <prices/>
+  <categories>
+    <category>
+      <category>Antineoplastic Agents</category>
+      <mesh-id>D000970</mesh-id>
+    </category>
+    <category>
+      <category>Monoclonal antibodies</category>
+      <mesh-id/>
+    </category>
+    <category>
+      <category>Antineoplastic and Immunomodulating Agents</category>
+      <mesh-id/>
+    </category>
+  </categories>
+  <affected-organisms>
+    <affected-organism>Humans and other mammals</affected-organism>
+  </affected-organisms>
+  <dosages>
+    <dosage>
+      <form>Solution</form>
+      <route>intravenous</route>
+      <strength>2 mg/mL</strength>
+    </dosage>
+    <dosage>
+      <form>Solution</form>
+      <route>intravenous</route>
+      <strength>2 mg</strength>
+    </dosage>
+  </dosages>
+  <atc-codes>
+    <atc-code code="L01XC06">
+      <level code="L01XC">Monoclonal antibodies</level>
+      <level code="L01X">OTHER ANTINEOPLASTIC AGENTS</level>
+      <level code="L01">ANTINEOPLASTIC AGENTS</level>
+      <level code="L">ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS</level>
+    </atc-code>
+  </atc-codes>
+  <ahfs-codes/>
+  <pdb-entries>
+    <pdb-entry>1IGT</pdb-entry>
+  </pdb-entries>
+  <fda-label>https://s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB00002.pdf?1265922813</fda-label>
+  <msds>https://s3-us-west-2.amazonaws.com/drugbank/msds/DB00002.pdf?1458412933</msds>
+  <patents>
+    <patent>
+      <number>1340417</number>
+      <country>Canada</country>
+      <approved>1999-03-02</approved>
+      <expires>2016-03-02</expires>
+      <pediatric-extension>false</pediatric-extension>
+    </patent>
+  </patents>
+  <food-interactions/>
+  <drug-interactions/>
+  <sequences>
+    <sequence format="FASTA">&gt;Cetuximab heavy chain
+QVQLKQSGPGLVQPSQSLSITCTVSGFSLTNYGVHWVRQSPGKGLEWLGVIWSGGNTDYN
+TPFTSRLSINKDNSKSQVFFKMNSLQSNDTAIYYCARALTYYDYEFAYWGQGTLVTVSAA
+STKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSG
+LYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGP
+SVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNS
+TYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDEL
+TKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQ
+QGNVFSCSVMHEALHNHYTQKSLSLSPGK</sequence>
+    <sequence format="FASTA">&gt;Cetuximab light chain
+DILLTQSPVILSVSPGERVSFSCRASQSIGTNIHWYQQRTNGSPRLLIKYASESISGIPS
+RFSGSGSGTDFTLSINSVESEDIADYYCQQNNNWPTTFGAGTKLELKRTVAAPSVFIFPP
+SDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLT
+LSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC</sequence>
+  </sequences>
+  <experimental-properties>
+    <property>
+      <kind>Melting Point</kind>
+      <value>61 °C (FAB fragment), 71 °C (whole mAb)</value>
+      <source>Vermeer, A.W.P. &amp; Norde, W., Biophys. J. 78:394-404 (2000)</source>
+    </property>
+    <property>
+      <kind>Hydrophobicity</kind>
+      <value>-0.413</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Isoelectric Point</kind>
+      <value>8.48</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Molecular Weight</kind>
+      <value>145781.6</value>
+      <source/>
+    </property>
+    <property>
+      <kind>Molecular Formula</kind>
+      <value>C6484H10042N1732O2023S36</value>
+      <source/>
+    </property>
+  </experimental-properties>
+  <external-identifiers>
+    <external-identifier>
+      <resource>Drugs Product Database (DPD)</resource>
+      <identifier>13175</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>KEGG Drug</resource>
+      <identifier>D03455</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>GenBank</resource>
+      <identifier>J00228</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>PharmGKB</resource>
+      <identifier>PA10040</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Therapeutic Targets Database</resource>
+      <identifier>DNC000788</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Wikipedia</resource>
+      <identifier>Cetuximab</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>ChEMBL</resource>
+      <identifier>CHEMBL1201577</identifier>
+    </external-identifier>
+  </external-identifiers>
+  <external-links>
+    <external-link>
+      <resource>RxList</resource>
+      <url>http://www.rxlist.com/cgi/generic3/erbitux.htm</url>
+    </external-link>
+    <external-link>
+      <resource>Drugs.com</resource>
+      <url>http://www.drugs.com/cdi/cetuximab.html</url>
+    </external-link>
+  </external-links>
+  <pathways>
+    <pathway>
+      <smpdb-id>SMP00474</smpdb-id>
+      <name>Cetuximab Action Pathway</name>
+      <category>drug_action</category>
+      <drugs>
+        <drug>
+          <drugbank-id>DB00002</drugbank-id>
+          <name>Cetuximab</name>
+        </drug>
+      </drugs>
+      <enzymes>
+        <uniprot-id>P00533</uniprot-id>
+      </enzymes>
+    </pathway>
+  </pathways>
+  <reactions/>
+  <snp-effects>
+    <effect>
+      <protein-name>Low affinity immunoglobulin gamma Fc region receptor II-a</protein-name>
+      <gene-symbol>FCGR2A</gene-symbol>
+      <uniprot-id>P12318</uniprot-id>
+      <rs-id>rs1801274</rs-id>
+      <allele/>
+      <defining-change>H allelle</defining-change>
+      <description>Increased progression free survival</description>
+      <pubmed-id>17704420</pubmed-id>
+    </effect>
+    <effect>
+      <protein-name>Low affinity immunoglobulin gamma Fc region receptor III-A</protein-name>
+      <gene-symbol>FCGR3A</gene-symbol>
+      <uniprot-id>P08637</uniprot-id>
+      <rs-id>rs396991</rs-id>
+      <allele/>
+      <defining-change>A &gt; C</defining-change>
+      <description>Better response to drug therapy (longer progression free survival) with the F allele</description>
+      <pubmed-id>17704420</pubmed-id>
+    </effect>
+  </snp-effects>
+  <snp-adverse-drug-reactions/>
+  <targets>
+    <target position="1">
+      <id>BE0000767</id>
+      <name>Epidermal growth factor receptor</name>
+      <organism>Human</organism>
+      <actions>
+        <action>antagonist</action>
+      </actions>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>10480573</pubmed-id>
+            <citation>Hosokawa N, Yamamoto S, Uehara Y, Hori M, Tsuchiya KS: Effect of thiazinotrienomycin B, an ansamycin antibiotic, on the function of epidermal growth factor receptor in human stomach tumor cells. J Antibiot (Tokyo). 1999 May;52(5):485-90.</citation>
+          </article>
+          <article>
+            <pubmed-id>10601294</pubmed-id>
+            <citation>Wakita H, Takigawa M: Activation of epidermal growth factor receptor promotes late terminal differentiation of cell-matrix interaction-disrupted keratinocytes. J Biol Chem. 1999 Dec 24;274(52):37285-91.</citation>
+          </article>
+          <article>
+            <pubmed-id>10628369</pubmed-id>
+            <citation>Suwa T, Ueda M, Jinno H, Ozawa S, Kitagawa Y, Ando N, Kitajima M: Epidermal growth factor receptor-dependent cytotoxic effect of anti-EGFR antibody-ribonuclease conjugate on human cancer cells. Anticancer Res. 1999 Sep-Oct;19(5B):4161-5.</citation>
+          </article>
+          <article>
+            <pubmed-id>11408594</pubmed-id>
+            <citation>Burke P, Schooler K, Wiley HS: Regulation of epidermal growth factor receptor signaling by endocytosis and intracellular trafficking. Mol Biol Cell. 2001 Jun;12(6):1897-910.</citation>
+          </article>
+          <article>
+            <pubmed-id>11431346</pubmed-id>
+            <citation>Viloria-Petit A, Crombet T, Jothy S, Hicklin D, Bohlen P, Schlaeppi JM, Rak J, Kerbel RS: Acquired resistance to the antitumor effect of epidermal growth factor receptor-blocking antibodies in vivo: a role for altered tumor angiogenesis. Cancer Res. 2001 Jul 1;61(13):5090-101.</citation>
+          </article>
+          <article>
+            <pubmed-id>11752352</pubmed-id>
+            <citation>Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>yes</known-action>
+      <polypeptide id="P00533" source="Swiss-Prot">
+    <name>Epidermal growth factor receptor</name>
+    <general-function>Ubiquitin protein ligase binding</general-function>
+    <specific-function>Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses. Known ligands include EGF, TGFA/TGF-alpha, amphiregulin, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF. Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules. May also activate the NF-kappa-B signaling cascade. Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling. Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin.Isoform 2 may act as an antagonist of EGF action.</specific-function>
+    <gene-name>EGFR</gene-name>
+    <locus>7p12</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>646-668</transmembrane-regions>
+    <signal-regions>1-24</signal-regions>
+    <theoretical-pi>6.67</theoretical-pi>
+    <molecular-weight>134276.185</molecular-weight>
+    <chromosome-location>7</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3236</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>EGFR</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X00588</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>757924</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>1797</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P00533</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>EGFR_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>2.7.10.1</synonym>
+      <synonym>ERBB</synonym>
+      <synonym>ERBB1</synonym>
+      <synonym>HER1</synonym>
+      <synonym>Proto-oncogene c-ErbB-1</synonym>
+      <synonym>Receptor tyrosine-protein kinase erbB-1</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0001530|Epidermal growth factor receptor
+MRPSGTAGAALLALLAALCPASRALEEKKVCQGTSNKLTQLGTFEDHFLSLQRMFNNCEV
+VLGNLEITYVQRNYDLSFLKTIQEVAGYVLIALNTVERIPLENLQIIRGNMYYENSYALA
+VLSNYDANKTGLKELPMRNLQEILHGAVRFSNNPALCNVESIQWRDIVSSDFLSNMSMDF
+QNHLGSCQKCDPSCPNGSCWGAGEENCQKLTKIICAQQCSGRCRGKSPSDCCHNQCAAGC
+TGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCVKKCPRNYV
+VTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRKVCNGIGIGEFKDSLSINATNIKHFK
+NCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAF
+ENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKL
+FGTSGQKTKIISNRGENSCKATGQVCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCN
+LLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVM
+GENNTLVWKYADAGHVCHLCHPNCTYGCTGPGLEGCPTNGPKIPSIATGMVGALLLLLVV
+ALGIGLFMRRRHIVRKRTLRRLLQERELVEPLTPSGEAPNQALLRILKETEFKKIKVLGS
+GAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGI
+CLTSTVQLITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAA
+RNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSY
+GVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPK
+FRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMDDVVDADEYLIPQ
+QGFFSSPSTSRTPLLSSLSATSNNSTVACIDRNGLQSCPIKEDSFLQRYSSDPTGALTED
+SIDDTFLPVPEYINQSVPKRPAGSVQNPVYHNQPLNPAPSRDPHYQDPHSTAVGNPEYLN
+TVQPTCVNSTFDSPAHWAQKGSHQISLDNPDYQQDFFPKEAKPNGIFKGSTAENAEYLRV
+APQSSEFIGA</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0019007|Epidermal growth factor receptor (EGFR)
+ATGCGACCCTCCGGGACGGCCGGGGCAGCGCTCCTGGCGCTGCTGGCTGCGCTCTGCCCG
+GCGAGTCGGGCTCTGGAGGAAAAGAAAGTTTGCCAAGGCACGAGTAACAAGCTCACGCAG
+TTGGGCACTTTTGAAGATCATTTTCTCAGCCTCCAGAGGATGTTCAATAACTGTGAGGTG
+GTCCTTGGGAATTTGGAAATTACCTATGTGCAGAGGAATTATGATCTTTCCTTCTTAAAG
+ACCATCCAGGAGGTGGCTGGTTATGTCCTCATTGCCCTCAACACAGTGGAGCGAATTCCT
+TTGGAAAACCTGCAGATCATCAGAGGAAATATGTACTACGAAAATTCCTATGCCTTAGCA
+GTCTTATCTAACTATGATGCAAATAAAACCGGACTGAAGGAGCTGCCCATGAGAAATTTA
+CAGGAAATCCTGCATGGCGCCGTGCGGTTCAGCAACAACCCTGCCCTGTGCAACGTGGAG
+AGCATCCAGTGGCGGGACATAGTCAGCAGTGACTTTCTCAGCAACATGTCGATGGACTTC
+CAGAACCACCTGGGCAGCTGCCAAAAGTGTGATCCAAGCTGTCCCAATGGGAGCTGCTGG
+GGTGCAGGAGAGGAGAACTGCCAGAAACTGACCAAAATCATCTGTGCCCAGCAGTGCTCC
+GGGCGCTGCCGTGGCAAGTCCCCCAGTGACTGCTGCCACAACCAGTGTGCTGCAGGCTGC
+ACAGGCCCCCGGGAGAGCGACTGCCTGGTCTGCCGCAAATTCCGAGACGAAGCCACGTGC
+AAGGACACCTGCCCCCCACTCATGCTCTACAACCCCACCACGTACCAGATGGATGTGAAC
+CCCGAGGGCAAATACAGCTTTGGTGCCACCTGCGTGAAGAAGTGTCCCCGTAATTATGTG
+GTGACAGATCACGGCTCGTGCGTCCGAGCCTGTGGGGCCGACAGCTATGAGATGGAGGAA
+GACGGCGTCCGCAAGTGTAAGAAGTGCGAAGGGCCTTGCCGCAAAGTGTGTAACGGAATA
+GGTATTGGTGAATTTAAAGACTCACTCTCCATAAATGCTACGAATATTAAACACTTCAAA
+AACTGCACCTCCATCAGTGGCGATCTCCACATCCTGCCGGTGGCATTTAGGGGTGACTCC
+TTCACACATACTCCTCCTCTGGATCCACAGGAACTGGATATTCTGAAAACCGTAAAGGAA
+ATCACAGGGTTTTTGCTGATTCAGGCTTGGCCTGAAAACAGGACGGACCTCCATGCCTTT
+GAGAACCTAGAAATCATACGCGGCAGGACCAAGCAACATGGTCAGTTTTCTCTTGCAGTC
+GTCAGCCTGAACATAACATCCTTGGGATTACGCTCCCTCAAGGAGATAAGTGATGGAGAT
+GTGATAATTTCAGGAAACAAAAATTTGTGCTATGCAAATACAATAAACTGGAAAAAACTG
+TTTGGGACCTCCGGTCAGAAAACCAAAATTATAAGCAACAGAGGTGAAAACAGCTGCAAG
+GCCACAGGCCAGGTCTGCCATGCCTTGTGCTCCCCCGAGGGCTGCTGGGGCCCGGAGCCC
+AGGGACTGCGTCTCTTGCCGGAATGTCAGCCGAGGCAGGGAATGCGTGGACAAGTGCAAC
+CTTCTGGAGGGTGAGCCAAGGGAGTTTGTGGAGAACTCTGAGTGCATACAGTGCCACCCA
+GAGTGCCTGCCTCAGGCCATGAACATCACCTGCACAGGACGGGGACCAGACAACTGTATC
+CAGTGTGCCCACTACATTGACGGCCCCCACTGCGTCAAGACCTGCCCGGCAGGAGTCATG
+GGAGAAAACAACACCCTGGTCTGGAAGTACGCAGACGCCGGCCATGTGTGCCACCTGTGC
+CATCCAAACTGCACCTACGGATGCACTGGGCCAGGTCTTGAAGGCTGTCCAACGAATGGG
+CCTAAGATCCCGTCCATCGCCACTGGGATGGTGGGGGCCCTCCTCTTGCTGCTGGTGGTG
+GCCCTGGGGATCGGCCTCTTCATGCGAAGGCGCCACATCGTTCGGAAGCGCACGCTGCGG
+AGGCTGCTGCAGGAGAGGGAGCTTGTGGAGCCTCTTACACCCAGTGGAGAAGCTCCCAAC
+CAAGCTCTCTTGAGGATCTTGAAGGAAACTGAATTCAAAAAGATCAAAGTGCTGGGCTCC
+GGTGCGTTCGGCACGGTGTATAAGGGACTCTGGATCCCAGAAGGTGAGAAAGTTAAAATT
+CCCGTCGCTATCAAGGAATTAAGAGAAGCAACATCTCCGAAAGCCAACAAGGAAATCCTC
+GATGAAGCCTACGTGATGGCCAGCGTGGACAACCCCCACGTGTGCCGCCTGCTGGGCATC
+TGCCTCACCTCCACCGTGCAGCTCATCACGCAGCTCATGCCCTTCGGCTGCCTCCTGGAC
+TATGTCCGGGAACACAAAGACAATATTGGCTCCCAGTACCTGCTCAACTGGTGTGTGCAG
+ATCGCAAAGGGCATGAACTACTTGGAGGACCGTCGCTTGGTGCACCGCGACCTGGCAGCC
+AGGAACGTACTGGTGAAAACACCGCAGCATGTCAAGATCACAGATTTTGGGCTGGCCAAA
+CTGCTGGGTGCGGAAGAGAAAGAATACCATGCAGAAGGAGGCAAAGTGCCTATCAAGTGG
+ATGGCATTGGAATCAATTTTACACAGAATCTATACCCACCAGAGTGATGTCTGGAGCTAC
+GGGGTGACCGTTTGGGAGTTGATGACCTTTGGATCCAAGCCATATGACGGAATCCCTGCC
+AGCGAGATCTCCTCCATCCTGGAGAAAGGAGAACGCCTCCCTCAGCCACCCATATGTACC
+ATCGATGTCTACATGATCATGGTCAAGTGCTGGATGATAGACGCAGATAGTCGCCCAAAG
+TTCCGTGAGTTGATCATCGAATTCTCCAAAATGGCCCGAGACCCCCAGCGCTACCTTGTC
+ATTCAGGGGGATGAAAGAATGCATTTGCCAAGTCCTACAGACTCCAACTTCTACCGTGCC
+CTGATGGATGAAGAAGACATGGACGACGTGGTGGATGCCGACGAGTACCTCATCCCACAG
+CAGGGCTTCTTCAGCAGCCCCTCCACGTCACGGACTCCCCTCCTGAGCTCTCTGAGTGCA
+ACCAGCAACAATTCCACCGTGGCTTGCATTGATAGAAATGGGCTGCAAAGCTGTCCCATC
+AAGGAAGACAGCTTCTTGCAGCGATACAGCTCAGACCCCACAGGCGCCTTGACTGAGGAC
+AGCATAGACGACACCTTCCTCCCAGTGCCTGAATACATAAACCAGTCCGTTCCCAAAAGG
+CCCGCTGGCTCTGTGCAGAATCCTGTCTATCACAATCAGCCTCTGAACCCCGCGCCCAGC
+AGAGACCCACACTACCAGGACCCCCACAGCACTGCAGTGGGCAACCCCGAGTATCTCAAC
+ACTGTCCAGCCCACCTGTGTCAACAGCACATTCGACAGCCCTGCCCACTGGGCCCAGAAA
+GGCAGCCACCAAATTAGCCTGGACAACCCTGACTACCAGCAGGACTTCTTTCCCAAGGAA
+GCCAAGCCAAATGGCATCTTTAAGGGCTCCACAGCTGAAAATGCAGAATACCTAAGGGTC
+GCGCCACAAAGCAGTGAATTTATTGGAGCATGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF07714</identifier>
+        <name>Pkinase_Tyr</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00757</identifier>
+        <name>Furin-like</name>
+      </pfam>
+      <pfam>
+        <identifier>PF01030</identifier>
+        <name>Recep_L_domain</name>
+      </pfam>
+      <pfam>
+        <identifier>PF14843</identifier>
+        <name>GF_recep_IV</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>endosome membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cell surface</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>membrane raft</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>nucleus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>multivesicular body, internal vesicle lumen</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endocytic vesicle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>receptor complex</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>Shc-EGFR complex</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>nuclear membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular space</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>focal adhesion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>early endosome membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>perinuclear region of cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>Golgi membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>endoplasmic reticulum membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>basolateral plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>actin filament binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>transmembrane signaling receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>ATP binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>enzyme binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>protein heterodimerization activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>transmembrane receptor protein tyrosine kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>protein phosphatase binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>receptor signaling protein tyrosine kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>identical protein binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>double-stranded DNA binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>epidermal growth factor-activated receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>ubiquitin protein ligase binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>chromatin binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>protein tyrosine kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>MAP kinase kinase kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of epithelial cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>epidermal growth factor receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>fibroblast growth factor receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell surface receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of peptidyl-tyrosine phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of nitric oxide biosynthetic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>insulin receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of catenin import into nucleus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to stress</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>embryonic placenta development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>peptidyl-tyrosine phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>MAPK cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>salivary gland morphogenesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>ossification</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>single organismal cell-cell adhesion</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of protein phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of apoptotic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein insertion into membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Fc-epsilon receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cerebral cortex cell migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>neurotrophin TRK receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>digestive tract morphogenesis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of protein kinase B signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of transcription from RNA polymerase II promoter</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of nitric-oxide synthase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to amino acid stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of DNA repair</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Ras protein signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>learning or memory</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of DNA replication</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to epidermal growth factor stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of fibroblast proliferation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>vascular endothelial growth factor receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cell migration</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of phosphorylation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phosphatidylinositol-mediated signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of phospholipase A2 activity by calcium-mediated signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cellular response to estradiol stimulus</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of phospholipase C activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G1/S transition of mitotic cell cycle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>hair follicle development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of ERK1 and ERK2 cascade</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>morphogenesis of an epithelial fold</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of protein catabolic process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>axon guidance</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of MAP kinase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>activation of MAPKK activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of epidermal growth factor receptor signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>response to UV-A</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>small GTPase mediated signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>protein autophosphorylation</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="2">
+      <id>BE0000901</id>
+      <name>Low affinity immunoglobulin gamma Fc region receptor III-B</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>16336752</pubmed-id>
+            <citation>Snyder LC, Astsaturov I, Weiner LM: Overview of monoclonal antibodies and small molecules targeting the epidermal growth factor receptor pathway in colorectal cancer. Clin Colorectal Cancer. 2005 Nov;5 Suppl 2:S71-80.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="O75015" source="Swiss-Prot">
+    <name>Low affinity immunoglobulin gamma Fc region receptor III-B</name>
+    <general-function/>
+    <specific-function>Receptor for the Fc region of immunoglobulins gamma. Low affinity receptor. Binds complexed or aggregated IgG and also monomeric IgG. Contrary to III-A, is not capable to mediate antibody-dependent cytotoxicity and phagocytosis. May serve as a trap for immune complexes in the peripheral circulation which does not activate neutrophils.</specific-function>
+    <gene-name>FCGR3B</gene-name>
+    <locus>1q23</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-16</signal-regions>
+    <theoretical-pi>6.71</theoretical-pi>
+    <molecular-weight>26215.64</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3620</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR3B</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X16863</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>31322</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>O75015</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCG3B_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>CD16B</synonym>
+      <synonym>Fc-gamma RIII</synonym>
+      <synonym>Fc-gamma RIII-beta</synonym>
+      <synonym>Fc-gamma RIIIb</synonym>
+      <synonym>FCG3</synonym>
+      <synonym>FCGR3</synonym>
+      <synonym>FcR-10</synonym>
+      <synonym>FcRIII</synonym>
+      <synonym>FcRIIIb</synonym>
+      <synonym>IGFR3</synonym>
+      <synonym>IgG Fc receptor III-1</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0010635|Low affinity immunoglobulin gamma Fc region receptor III-B
+MWQLLLPTALLLLVSAGMRTEDLPKAVVFLEPQWYSVLEKDSVTLKCQGAYSPEDNSTQW
+FHNESLISSQASSYFIDAATVNDSGEYRCQTNLSTLSDPVQLEVHIGWLLLQAPRWVFKE
+EDPIHLRCHSWKNTALHKVTYLQNGKDRKYFHHNSDFHIPKATLKDSGSYFCRGLVGSKN
+VSSETVNITITQGLAVSTISSFSPPGYQVSFCLVMVLLFAVDTGLYFSVKTNI</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0010636|Low affinity immunoglobulin gamma Fc region receptor III-B (FCGR3B)
+ATGTGGCAGCTGCTCCTCCCAACTGCTCTGCTACTTCTAGTTTCAGCTGGCATGCGGACT
+GAAGATCTCCCAAAGGCTGTGGTGTTCCTGGAGCCTCAATGGTACAGCGTGCTTGAGAAG
+GACAGTGTGACTCTGAAGTGCCAGGGAGCCTACTCCCCTGAGGACAATTCCACACAGTGG
+TTTCACAATGAGAACCTCATCTCAAGCCAGGCCTCGAGCTACTTCATTGACGCTGCCACA
+GTCAACGACAGTGGAGAGTACAGGTGCCAGACAAACCTCTCCACCCTCAGTGACCCGGTG
+CAGCTAGAAGTCCATATCGGCTGGCTGTTGCTCCAGGCCCCTCGGTGGGTGTTCAAGGAG
+GAAGACCCTATTCACCTGAGGTGTCACAGCTGGAAGAACACTGCTCTGCATAAGGTCACA
+TATTTACAGAATGGCAAAGACAGGAAGTATTTTCATCATAATTCTGACTTCCACATTCCA
+AAAGCCACACTCAAAGATAGCGGCTCCTACTTCTGCAGGGGGCTTGTTGGGAGTAAAAAT
+GTGTCTTCAGAGACTGTGAACATCACCATCACTCAAGGTTTGGCAGTGTCAACCATCTCA
+TCATTCTCTCCACCTGGGTACCAAGTCTCTTTCTGCTTGGTGATGGTACTCCTTTTTGCA
+GTGGACACAGGACTATATTTCTCTGTGAAGACAAACATTTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>anchored component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>positive regulation of defense response to virus by host</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>xenophagy</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>mitophagy in response to mitochondrial depolarization</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="3">
+      <id>BE0002093</id>
+      <name>Complement C1r subcomponent</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P00736" source="Swiss-Prot">
+    <name>Complement C1r subcomponent</name>
+    <general-function>Serine-type peptidase activity</general-function>
+    <specific-function>C1r B chain is a serine protease that combines with C1q and C1s to form C1, the first component of the classical pathway of the complement system.</specific-function>
+    <gene-name>C1R</gene-name>
+    <locus>12p13</locus>
+    <cellular-location>Cytoplasmic</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-17</signal-regions>
+    <theoretical-pi>6.24</theoretical-pi>
+    <molecular-weight>80118.04</molecular-weight>
+    <chromosome-location>12</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:1246</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>C1R</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X04701</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>29539</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>2334</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P00736</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>C1R_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>3.4.21.41</synonym>
+      <synonym>Complement component 1 subcomponent r</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0011518|Complement C1r subcomponent
+MWLLYLLVPALFCRAGGSIPIPQKLFGEVTSPLFPKPYPNNFETTTVITVPTGYRVKLVF
+QQFDLEPSEGCFYDYVKISADKKSLGRFCGQLGSPLGNPPGKKEFMSQGNKMLLTFHTDF
+SNEENGTIMFYKGFLAYYQAVDLDECASRSKSGEEDPQPQCQHLCHNYVGGYFCSCRPGY
+ELQEDTHSCQAECSSELYTEASGYISSLEYPRSYPPDLRCNYSIRVERGLTLHLKFLEPF
+DIDDHQQVHCPYDQLQIYANGKNIGEFCGKQRPPDLDTSSNAVDLLFFTDESGDSRGWKL
+RYTTEIIKCPQPKTLDEFTIIQNLQPQYQFRDYFIATCKQGYQLIEGNQVLHSFTAVCQD
+DGTWHRAMPRCKIKDCGQPRNLPNGDFRYTTTMGVNTYKARIQYYCHEPYYKMQTRAGSR
+ESEQGVYTCTAQGIWKNEQKGEKIPRCLPVCGKPVNPVEQRQRIIGGQKAKMGNFPWQVF
+TNIHGRGGGALLGDRWILTAAHTLYPKEHEAQSNASLDVFLGHTNVEELMKLGNHPIRRV
+SVHPDYRQDESYNFEGDIALLELENSVTLGPNLLPICLPDNDTFYDLGLMGYVSGFGVME
+EKIAHDLRFVRLPVANPQACENWLRGKNRMDVFSQNMFCAGHPSLKQDACQGDSGGVFAV
+RDPNTDRWVATGIVSWGIGCSRGYGFYTKVLNYVDWIKKEMEEED</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0011519|Complement C1r subcomponent (C1R)
+ATGTGGCTCTTGTACCTCCTGGTGCCGGCCCTGTTCTGCAGGGCAGGAGGCTCCATTCCC
+ATCCCTCAGAAGTTATTTGGGGAGGTGACTTCCCCTCTGTTCCCCAAGCCTTACCCCAAC
+AACTTTGAAACAACCACTGTGATCACAGTCCCCACGGGATACAGGGTGAAGCTCGTCTTC
+CAGCAGTTTGACCTGGAGCCTTCTGAAGGCTGCTTCTATGATTATGTCAAGATCTCTGCT
+GATAAGAAAAGCCTGGGGAGGTTCTGTGGGCAACTGGGTTCTCCACTGGGCAACCCCCCG
+GGAAAGAAGGAATTTATGTCCCAAGGGAACAAGATGCTGCTGACCTTCCACACAGACTTC
+TCCAACGAGGAGAATGGGACCATCATGTTCTACAAGGGCTTCCTGGCCTACTACCAAGCT
+GTGGACCTTGATGAATGTGCTTCCCGGAGCAAATTAGGGGAGGAGGATCCCCAGCCCCAG
+TGCCAGCACCTGTGTCACAACTACGTTGGAGGCTACTTCTGTTCCTGCCGTCCAGGCTAT
+GAGCTTCAGGAAGACAGGCATTCCTGCCAGGCTGAGTGCAGCAGCGAGCTGTACACGGAG
+GCATCAGGCTACATCTCCAGCCTGGAGTACCCTCGGTCCTACCCCCCTGACCTGCGCTGC
+AACTACAGCATCCGGGTGGAGCGGGGCCTCACCCTGCACCTCAAGTTCCTGGAGCCTTTT
+GATATTGATGACCACCAGCAAGTACACTGCCCCTATGACCAGCTACAGATCTATGCCAAC
+GGGAAGAACATTGGCGAGTTCTGTGGGAAGCAAAGGCCCCCCGACCTCGACACCAGCAGC
+AATGCTGTGGATCTGCTGTTCTTCACAGATGAGTCGGGGGACAGCCGGGGCTGGAAGCTG
+CGCTACACCACCGAGATCATCAAGTGCCCCCAGCCCAAGACCCTAGACGAGTTCACCATC
+ATCCAGAACCTGCAGCCTCAGTACCAGTTCCGTGACTACTTCATTGCTACCTGCAAGCAA
+GGCTACCAGCTCATAGAGGGGAACCAGGTGCTGCATTCCTTCACAGCTGTCTGCCAGGAT
+GATGGCACGTGGCATCGTGCCATGCCCAGATGCAAGATCAAGGACTGTGGGCAGCCCCGA
+AACCTGCCTAATGGTGACTTCCGTTACACCACCACAATGGGAGTGAACACCTACAAGGCC
+CGTATCCAGTACTACTGCCATGAGCCATATTACAAGATGCAGACCAGAGCTGGCAGCAGG
+GAGTCTGAGCAAGGGGTGTACACCTGCACAGCACAGGGCATTTGGAAGAATGAACAGAAG
+GGAGAGAAGATTCCTCGGTGCTTGCCAGTGTGTGGGAAGCCCGTGAACCCCGTGGAACAG
+AGGCAGCGCATCATCGGAGGGCAAAAAGCCAAGATGGGCAACTTCCCCTGGCAGGTGTTC
+ACCAACATCCACGGGCGCGGGGGCGGGGCCCTGCTGGGCGACCGCTGGATCCTCACAGCT
+GCCCACACCCTGTATCCCAAGGAACACGAAGCGCAAAGCAACGCCTCTTTGGATGTGTTC
+CTGGGCCACACAAATGTGGAAGAGCTCATGAAGCTAGGAAATCACCCCATCCGCAGGGTC
+AGCGTCCACCCGGACTACCGTCAGGATGAGTCCTACAATTTTGAGGGGGACATCGCCCTG
+CTGGAGCTGGAAAATAGTGTCACCCTGGGTCCCAACCTCCTCCCCATCTGCCTCCCTGAC
+AACGATACCTTCTACGACCTGGGCTTGATGGGCTATGTCAGTGGCTTCGGGGTCATGGAG
+GAGAAGATTGCTCATGACCTCAGGTTTGTCCGTCTGCCCGTAGCTAATCCACAGGCCTGT
+GAGAACTGGCTCCGGGGAAAGAATAGGATGGATGTGTTCTCTCAAAACATGTTCTGTGCT
+GGACACCCATCTCTAAAGCAGGACGCCTGCCAGGGGGATAGTGGGGGCGTTTTTGCAGTA
+AGGGACCCGAACACTGATCGCTGGGTGGCCACGGGCATCGTGTCCTGGGGCATCGGGTGC
+AGCAGGGGCTATGGCTTCTACACCAAAGTGCTCAACTACGTGGACTGGATCAAGAAAGAG
+ATGGAGGAGGAGGACTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00089</identifier>
+        <name>Trypsin</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00084</identifier>
+        <name>Sushi</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00431</identifier>
+        <name>CUB</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>blood microparticle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serine-type endopeptidase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serine-type peptidase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>calcium ion binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>proteolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation, classical pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="4">
+      <id>BE0002094</id>
+      <name>Complement C1q subcomponent subunit A</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P02745" source="Swiss-Prot">
+    <name>Complement C1q subcomponent subunit A</name>
+    <general-function/>
+    <specific-function>C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes.</specific-function>
+    <gene-name>C1QA</gene-name>
+    <locus>1p36.12</locus>
+    <cellular-location>Secreted</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-22</signal-regions>
+    <theoretical-pi>9.45</theoretical-pi>
+    <molecular-weight>26016.47</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:1241</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>C1QA</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>AF135157</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>4894854</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P02745</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>C1QA_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>Complement C1q subcomponent subunit A precursor</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0016678|Complement C1q subcomponent subunit A
+MEGPRGWLVLCVLAISLASMVTEDLCRAPDGKKGEAGRPGRRGRPGLKGEQGEPGAPGIR
+TGIQGLKGDQGEPGPSGNPGKVGYPGPSGPLGARGIPGIKGTKGSPGNIKDQPRPAFSAI
+RRNPPMGGNVVIFDTVITNQEEPYQNHSGRFVCTVPGYYYFTFQVLSQWEICLSIVSSSR
+GQVRRSLGFCDTTNKGLFQVVSGGMVLQLQQGDQVWVEKDPKKGHIYQGSEADSVFSGFL
+IFPSA</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016679|Complement C1q subcomponent subunit A (C1QA)
+ATGGAGGGTCCCCGGGGATGGCTGGTGCTCTGTGTGCTGGCCATATCGCTGGCCTCTATG
+GTGACCGAGGACTTGTGCCGAGCACCAGACGGGAAGAAAGGGGAGGCAGGAAGACCTGGC
+AGACGGGGGCGGCCAGGCCTCAAGGGGGAGCAAGGGGAGCCGGGGGCCCCTGGCATCCGG
+ACAGGCATCCAAGGCCTTAAAGGAGACCAGGGGGAACCTGGGCCCTCTGGAAACCCCGGC
+AAGGTGGGCTACCCAGGGCCCAGCGGCCCCCTCGGAGCCCGTGGCATCCCGGGAATTAAA
+GGCACCAAGGGCAGCCCAGGAAACATCAAGGACCAGCCGAGGCCAGCCTTCTCCGCCATT
+CGGCGGAACCCCCCAATGGGGGGCAACGTGGTCATCTTCGACACGGTCATCACCAACCAG
+GAAGAACCGTACCAGAACCACTCCGGCCGATTCGTCTGCACTGTACCCGGCTACTACTAC
+TTCACCTTCCAGGTGCTGTCCCAGTGGGAAATCTGCCTGTCCATCGTCTCCTCCTCAAGG
+GGCCAGGTCCGACGCTCCCTGGGCTTCTGTGACACCACCAACAAGGGGCTCTTCCAGGTG
+GTGTCAGGGGGCATGGTGCTTCAGCTGCAGCAGGGTGACCAGGTCTGGGTTGAAAAAGAC
+CCCAAAAAGGGTCACATTTACCAGGGCTCTGAGGCCGACAGCGTCTTCAGCGGCTTCCTC
+ATCTTCCCATCTGCCTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF01391</identifier>
+        <name>Collagen</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00386</identifier>
+        <name>C1q</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>collagen trimer</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>complement component C1 complex</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cell-cell signaling</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation, classical pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="5">
+      <id>BE0002095</id>
+      <name>Complement C1q subcomponent subunit B</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P02746" source="Swiss-Prot">
+    <name>Complement C1q subcomponent subunit B</name>
+    <general-function/>
+    <specific-function>C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes.</specific-function>
+    <gene-name>C1QB</gene-name>
+    <locus>1p36.12</locus>
+    <cellular-location>Secreted</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-27</signal-regions>
+    <theoretical-pi>8.87</theoretical-pi>
+    <molecular-weight>26721.62</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:1242</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>C1QB</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X03084</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>573114</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P02746</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>C1QB_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>Complement C1q subcomponent subunit B precursor</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0016676|Complement C1q subcomponent subunit B
+MMMKIPWGSIPVLMLLLLLGLIDISQAQLSCTGPPAIPGIPGIPGTPGPDGQPGTPGIKG
+EKGLPGLAGDHGEFGEKGDPGIPGNPGKVGPKGPMGPKGGPGAPGAPGPKGESGDYKATQ
+KIAFSATRTINVPLRRDQTIRFDHVITNMNNNYEPRSGKFTCKVPGLYYFTYHASSRGNL
+CVNLMRGRERAQKVVTFCDYAYNTFQVTTGGMVLKLEQGENVFLQATDKNSLLGMEGANS
+IFSGFLLFPDMEA</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016677|Complement C1q subcomponent subunit B (C1QB)
+ATGATGATGAAGATCCCATGGGGCAGCATCCCAGTACTGATGTTGCTCCTGCTCCTGGGC
+CTAATCGATATCTCCCAGGCCCAGCTCAGCTGCACCGGGCCCCCAGCCATCCCTGGCATC
+CCGGGTATCCCTGGGACACCTGGCCCCGATGGCCAACCTGGGACCCCAGGGATAAAAGGA
+GAGAAAGGGCTTCCAGGGCTGGCTGGAGACCATGGTGAGTTCGGAGAGAAGGGAGACCCA
+GGGATTCCTGGGAATCCAGGAAAAGTCGGCCCCAAGGGCCCCATGGGCCCTAAAGGTGGC
+CCAGGGGCCCCTGGAGCCCCAGGCCCCAAAGGTGAATCGGGAGACTACAAGGCCACCCAG
+AAAATCGCCTTCTCTGCCACAAGAACCATCAACGTCCCCCTGCGCCGGGACCAGACCATC
+CGCTTCGACCACGTGATCACCAACATGAACAACAATTATGAGCCCCGCAGTGGCAAGTTC
+ACCTGCAAGGTGCCCGGTCTCTACTACTTCACCTACCACGCCAGCTCTCGAGGGAACCTG
+TGCGTGAACCTCATGCGTGGCCGGGAGCGTGCACAGAAGGTGGTCACCTTCTGTGACTAT
+GCCTACAACACCTTCCAGGTCACCACCGGTGGCATGGTCCTCAAGCTGGAGCAGGGGGAG
+AACGTCTTCCTGCAGGCCACCGACAAGAACTCACTACTGGGCATGGAGGGTGCCAACAGC
+ATCTTTTCCGGGTTCCTGCTCTTTCCAGATATGGAGGCCTGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF01391</identifier>
+        <name>Collagen</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00386</identifier>
+        <name>C1q</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>blood microparticle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>collagen trimer</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>complement component C1 complex</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>inner ear development</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation, classical pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="6">
+      <id>BE0002096</id>
+      <name>Complement C1q subcomponent subunit C</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P02747" source="Swiss-Prot">
+    <name>Complement C1q subcomponent subunit C</name>
+    <general-function/>
+    <specific-function>C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes.</specific-function>
+    <gene-name>C1QC</gene-name>
+    <locus>1p36.11</locus>
+    <cellular-location>Secreted</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-28</signal-regions>
+    <theoretical-pi>8.58</theoretical-pi>
+    <molecular-weight>25773.56</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:1245</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>C1QC</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>AF087892</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>33150626</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P02747</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>C1QC_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>C1QG</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0011520|Complement C1q subcomponent subunit C
+MDVGPSSLPHLGLKLLLLLLLLPLRGQANTGCYGIPGMPGLPGAPGKDGYDGLPGPKGEP
+GIPAIPGIRGPKGQKGEPGLPGHPGKNGPMGPPGMPGVPGPMGIPGEPGEEGRYKQKFQS
+VFTVTRQTHQPPAPNSLIRFNAVLTNPQGDYDTSTGKFTCKVPGLYYFVYHASHTANLCV
+LLYRSGVKVVTFCGHTSKTNQVNSGGVLLRLQVGEEVWLAVNDYYDMVGIQGSDSVFSGF
+LLFPD</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0011521|Complement C1q subcomponent subunit C (C1QC)
+ATGGACGTGGGGCCCAGCTCCCTGCCCCACCTTGGGCTGAAGCTGCTGCTGCTCCTGCTG
+CTGCTGCCCCTCAGGGGCCAAGCCAACACAGGCTGCTACGGGATCCCAGGGATGCCCGGC
+CTGCCCGGGGCACCAGGGAAGGATGGGTACGACGGACTGCCGGGGCCCAAGGGGGAGCCA
+GGAATCCCAGCCATTCCCGGGATCCGAGGACCCAAAGGGCAGAAGGGAGAACCCGGCTTA
+CCCGGCCATCCTGGGAAAAATGGCCCCATGGGACCCCCTGGGATGCCAGGGGTGCCCGGC
+CCCATGGGCATCCCTGGAGAGCCAGGTGAGGAGGGCAGATACAAGCAGAAATTCCAGTCA
+GTGTTCACGGTCACTCGGCAGACCCACCAGCCCCCTGCACCCAACAGCCTGATCAGATTC
+AACGCGGTCCTCACCAACCCGCAGGGAGATTATGACACGAGCACTGGCAAGTTCACCTGC
+AAAGTCCCCGGCCTCTACTACTTTGTCTACCACGCGTCGCATACAGCCAACCTGTGCGTG
+CTGCTGTACCGCAGCGGCGTCAAAGTGGTCACCTTCTGTGGCCACACGTCCAAAACCAAT
+CAGGTCAACTCGGGCGGTGTGCTGCTGAGGTTGCAGGTGGGCGAGGAGGTGTGGCTGGCT
+GTCAATGACTACTACGACATGGTGGGCATCCAGGGCTCTGACAGCGTCTTCTCCGGCTTC
+CTGCTCTTCCCCGACTAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF01391</identifier>
+        <name>Collagen</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00386</identifier>
+        <name>C1q</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular space</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>blood microparticle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>collagen trimer</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation, classical pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of granulocyte differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>negative regulation of macrophage differentiation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="7">
+      <id>BE0002097</id>
+      <name>Low affinity immunoglobulin gamma Fc region receptor III-A</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+          <article>
+            <pubmed-id>17704420</pubmed-id>
+            <citation>Zhang W, Gordon M, Schultheis AM, Yang DY, Nagashima F, Azuma M, Chang HM, Borucka E, Lurje G, Sherrod AE, Iqbal S, Groshen S, Lenz HJ: FCGR2A and FCGR3A polymorphisms associated with clinical outcome of epidermal growth factor receptor expressing metastatic colorectal cancer patients treated with single-agent cetuximab. J Clin Oncol. 2007 Aug 20;25(24):3712-8.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P08637" source="Swiss-Prot">
+    <name>Low affinity immunoglobulin gamma Fc region receptor III-A</name>
+    <general-function/>
+    <specific-function>Receptor for the Fc region of IgG. Binds complexed or aggregated IgG and also monomeric IgG. Mediates antibody-dependent cellular cytotoxicity (ADCC) and other antibody-dependent responses, such as phagocytosis.</specific-function>
+    <gene-name>FCGR3A</gene-name>
+    <locus>1q23</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>209-229</transmembrane-regions>
+    <signal-regions>1-16</signal-regions>
+    <theoretical-pi>8.21</theoretical-pi>
+    <molecular-weight>29088.895</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3619</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR3A</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X52645</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>31324</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P08637</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCG3A_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>CD16A</synonym>
+      <synonym>CD16a antigen</synonym>
+      <synonym>Fc-gamma RIII</synonym>
+      <synonym>Fc-gamma RIII-alpha</synonym>
+      <synonym>Fc-gamma RIIIa</synonym>
+      <synonym>FCG3</synonym>
+      <synonym>FCGR3</synonym>
+      <synonym>FcR-10</synonym>
+      <synonym>FcRIII</synonym>
+      <synonym>FcRIIIa</synonym>
+      <synonym>IGFR3</synonym>
+      <synonym>IgG Fc receptor III-2</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0004112|Low affinity immunoglobulin gamma Fc region receptor III-A
+MWQLLLPTALLLLVSAGMRTEDLPKAVVFLEPQWYRVLEKDSVTLKCQGAYSPEDNSTQW
+FHNESLISSQASSYFIDAATVDDSGEYRCQTNLSTLSDPVQLEVHIGWLLLQAPRWVFKE
+EDPIHLRCHSWKNTALHKVTYLQNGKGRKYFHHNSDFYIPKATLKDSGSYFCRGLFGSKN
+VSSETVNITITQGLAVSTISSFFPPGYQVSFCLVMVLLFAVDTGLYFSVKTNIRSSTRDW
+KDHKFKWRKDPQDK</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0011522|Low affinity immunoglobulin gamma Fc region receptor III-A (FCGR3A)
+ATGGGTGGAGGGGCTGGGGAAAGGCTGTTTACTTCCTCCTGTCTAGTCGGTTTGGTCCCT
+TTAGGGCTCCGGATATCTTTGGTGACTTGTCCACTCCAGTGTGGCATCATGTGGCAGCTG
+CTCCTCCCAACTGCTCTGCTACTTCTAGTTTCAGCTGGCATGCGGACTGAAGATCTCCCA
+AAGGCTGTGGTGTTCCTGGAGCCTCAATGGTACAGGGTGCTCGAGAAGGACAGTGTGACT
+CTGAAGTGCCAGGGAGCCTACTCCCCTGAGGACAATTCCACACAGTGGTTTCACAATGAG
+AGCCTCATCTCAAGCCAGGCCTCGAGCTACTTCATTGACGCTGCCACAGTCGACGACAGT
+GGAGAGTACAGGTGCCAGACAAACCTCTCCACCCTCAGTGACCCGGTGCAGCTAGAAGTC
+CATATCGGCTGGCTGTTGCTCCAGGCCCCTCGGTGGGTGTTCAAGGAGGAAGACCCTATT
+CACCTGAGGTGTCACAGCTGGAAGAACACTGCTCTGCATAAGGTCACATATTTACAGAAT
+GGCAAAGGCAGGAAGTATTTTCATCATAATTCTGACTTCTACATTCCAAAAGCCACACTC
+AAAGACAGCGGCTCCTACTTCTGCAGGGGGCTTTTTGGGAGTAAAAATGTGTCTTCAGAG
+ACTGTGAACATCACCATCACTCAAGGTTTGGCAGTGTCAACCATCTCATCATTCTTTCCA
+CCTGGGTACCAAGTCTCTTTCTGCTTGGTGATGGTACTCCTTTTTGCAGTGGACACAGGA
+CTATATTTCTCTGTGAAGACAAACATTCGAAGCTCAACAAGAGACTGGAAGGACCATAAA
+TTTAAATGGAGAAAGGACCCTCAAGACAAATGA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>external side of plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Fc-gamma receptor signaling pathway involved in phagocytosis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="8">
+      <id>BE0001529</id>
+      <name>Complement C1s subcomponent</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P09871" source="Swiss-Prot">
+    <name>Complement C1s subcomponent</name>
+    <general-function>Serine-type endopeptidase activity</general-function>
+    <specific-function>C1s B chain is a serine protease that combines with C1q and C1r to form C1, the first component of the classical pathway of the complement system. C1r activates C1s so that it can, in turn, activate C2 and C4.</specific-function>
+    <gene-name>C1S</gene-name>
+    <locus>12p13</locus>
+    <cellular-location>Cytoplasmic</cellular-location>
+    <transmembrane-regions/>
+    <signal-regions>1-15</signal-regions>
+    <theoretical-pi>4.59</theoretical-pi>
+    <molecular-weight>76683.905</molecular-weight>
+    <chromosome-location>12</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:1247</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>C1S</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X06596</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>763110</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Guide to Pharmacology</resource>
+        <identifier>2335</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P09871</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>C1S_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>3.4.21.42</synonym>
+      <synonym>C1 esterase</synonym>
+      <synonym>Complement component 1 subcomponent s</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0011082|Complement C1s subcomponent
+MWCIVLFSLLAWVYAEPTMYGEILSPNYPQAYPSEVEKSWDIEVPEGYGIHLYFTHLDIE
+LSENCAYDSVQIISGDTEEGRLCGQRSSNNPHSPIVEEFQVPYNKLQVIFKSDFSNEERF
+TGFAAYYVATDINECTDFVDVPCSHFCNNFIGGYFCSCPPEYFLHDDMKNCGVNCSGDVF
+TALIGEIASPNYPKPYPENSRCEYQIRLEKGFQVVVTLRREDFDVEAADSAGNCLDSLVF
+VAGDRQFGPYCGHGFPGPLNIETKSNALDIIFQTDLTGQKKGWKLRYHGDPMPCPKEDTP
+NSVWEPAKAKYVFRDVVQITCLDGFEVVEGRVGATSFYSTCQSNGKWSNSKLKCQPVDCG
+IPESIENGKVEDPESTLFGSVIRYTCEEPYYYMENGGGGEYHCAGNGSWVNEVLGPELPK
+CVPVCGVPREPFEEKQRIIGGSDADIKNFPWQVFFDNPWAGGALINEYWVLTAAHVVEGN
+REPTMYVGSTSVQTSRLAKSKMLTPEHVFIHPGWKLLEVPEGRTNFDNDIALVRLKDPVK
+MGPTVSPICLPGTSSDYNLMDGDLGLISGWGRTEKRDRAVRLKAARLPVAPLRKCKEVKV
+EKPTADAEAYVFTPNMICAGGEKGMDSCKGDSGGAFAVQDPNDKTKFYAAGLVSWGPQCG
+TYGLYTRVKNYVDWIMKTMQENSTPRED</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0011083|Complement C1s subcomponent (C1S)
+ATGTGGTGCATTGTCCTGTTTTCACTTTTGGCATGGGTTTATGCTGAGCCTACCATGTAT
+GGGGAGATCCTGTCCCCTAACTATCCTCAGGCATATCCCAGTGAGGTAGAGAAATCTTGG
+GACATAGAAGTTCCTGAAGGGTATGGGATTCACCTCTACTTCACCCATCTGGACATTGAG
+CTGTCAGAGAACTGTGCGTATGACTCAGTGCAGATAATCTCAGGAGACACTGAAGAAGGG
+AGGCTCTGTGGACAGAGGAGCAGTAACAATCCCCACTCTCCAATTGTGGAAGAGTTCCAA
+GTCCCATACAACAAACTCCAGGTGATCTTTAAGTCAGACTTTTCCAATGAAGAGCGTTTT
+ACGGGGTTTGCTGCATACTATGTTGCCACAGACATAAATGAATGCACAGATTTTGTAGAT
+GTCCCTTGTAGCCACTTCTGCAACAATTTCATTGGTGGTTACTTCTGCTCCTGCCCCCCG
+GAATATTTCCTCCATGATGACATGAAGAATTGCGGAGTTAATTGCAGTGGGGATGTATTC
+ACTGCACTGATTGGGGAGATTGCAAGTCCCAATTATCCCAAACCATATCCAGAGAACTCA
+AGGTGTGAATACCAGATCCGGTTGGAGAAAGGGTTCCAAGTGGTGGTGACCTTGCGGAGA
+GAAGATTTTGATGTGGAAGCAGCTGACTCAGCGGGAAACTGCCTTGACAGTTTAGTTTTT
+GTTGCAGGAGATCGGCAATTTGGTCCTTACTGTGGTCATGGATTCCCTGGGCCTCTAAAT
+ATTGAAACCAAGAGTAATGCTCTTGATATCATCTTCCAAACTGATCTAACAGGGCAAAAA
+AAGGGCTGGAAACTTCGCTATCATGGAGATCCAATGCCCTGCCCTAAGGAAGACACTCCC
+AATTCTGTTTGGGAGCCTGCGAAGGCAAAATATGTCTTTAGAGATGTGGTGCAGATAACC
+TGTCTGGATGGGTTTGAAGTTGTGGAGGGACGTGTTGGTGCAACATCTTTCTATTCGACT
+TGTCAAAGCAATGGAAAGTGGAGTAATTCCAAACTGAAATGTCAACCTGTGGACTGTGGC
+ATTCCTGAATCCATTGAGAATGGTAAAGTTGAAGACCCAGAGAGCACTTTGTTTGGTTCT
+GTCATCCGCTACACTTGTGAGGAGCCATATTACTACATGGAAAATGGAGGAGGTGGGGAG
+TATCACTGTGCTGGTAACGGGAGCTGGGTGAATGAGGTGCTGGGCCCGGAGCTGCCGAAA
+TGTGTTCCAGTCTGTGGAGTCCCCAGAGAACCCTTTGAAGAAAAACAGAGGATAATTGGA
+GGATCCGATGCAGATATTAAAAACTTCCCCTGGCAAGTCTTCTTTGACAACCCATGGGCT
+GGTGGAGCGCTCATTAATGAGTACTGGGTGCTGACGGCTGCTCATGTTGTGGAGGGAAAC
+AGGGAGCCAACAATGTATGTTGGGTCCACCTCAGTGCAGACCTCACGGCTGGCAAAATCC
+AAGATGCTCACTCCTGAGCATGTGTTTATTCATCCGGGATGGAAGCTGCTGGAAGTCCCA
+GAAGGACGAACCAATTTTGATAATGACATTGCACTGGTGCGGCTGAAAGACCCAGTGAAA
+ATGGGACCCACCGTCTCTCCCATCTGCCTACCAGGCACCTCTTCCGACTACAACCTCATG
+GATGGGGACCTGGGACTGATCTCAGGCTGGGGCCGAACAGAGAAGAGAGATCGTGCTGTT
+CGCCTCAAGGCGGCAAGGTTACCTGTAGCTCCTTTAAGAAAATGCAAAGAAGTGAAAGTG
+GAGAAACCCACAGCAGATGCAGAGGCCTATGTTTTCACTCCTAACATGATCTGTGCTGGA
+GGAGAGAAGGGCATGGATAGCTGTAAAGGGGACAGTGGTGGGGCCTTTGCTGTACAGGAT
+CCCAATGACAAGACCAAATTCTACGCAGCTGGCCTGGTGTCCTGGGGGCCCCAGTGTGGG
+ACCTATGGGCTCTACACACGGGTAAAGAACTATGTTGACTGGATAATGAAGACTATGCAG
+GAAAATAGCACCCCCCGTGAGGACTAA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00089</identifier>
+        <name>Trypsin</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00084</identifier>
+        <name>Sushi</name>
+      </pfam>
+      <pfam>
+        <identifier>PF00431</identifier>
+        <name>CUB</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular region</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>blood microparticle</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>serine-type endopeptidase activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>identical protein binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>calcium ion binding</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>proteolysis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>complement activation, classical pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="9">
+      <id>BE0000710</id>
+      <name>High affinity immunoglobulin gamma Fc receptor I</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>7547242</pubmed-id>
+            <citation>Negri DR, Tosi E, Valota O, Ferrini S, Cambiaggi A, Sforzini S, Silvani A, Ruffini PA, Colnaghi MI, Canevari S: In vitro and in vivo stability and anti-tumour efficacy of an anti-EGFR/anti-CD3 F(ab')2 bispecific monoclonal antibody. Br J Cancer. 1995 Oct;72(4):928-33.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P12314" source="Swiss-Prot">
+    <name>High affinity immunoglobulin gamma Fc receptor I</name>
+    <general-function>Receptor signaling protein activity</general-function>
+    <specific-function>High affinity receptor for the Fc region of immunoglobulins gamma. Functions in both innate and adaptive immune responses.</specific-function>
+    <gene-name>FCGR1A</gene-name>
+    <locus>1q21.2-q21.3</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>293-313</transmembrane-regions>
+    <signal-regions>1-15</signal-regions>
+    <theoretical-pi>8.08</theoretical-pi>
+    <molecular-weight>42631.525</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3613</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR1A</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X14356</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>31332</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P12314</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCGR1_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>Fc-gamma RI</synonym>
+      <synonym>Fc-gamma RIA</synonym>
+      <synonym>FCG1</synonym>
+      <synonym>FcgammaRIa</synonym>
+      <synonym>FCGR1</synonym>
+      <synonym>FcRI</synonym>
+      <synonym>IGFR1</synonym>
+      <synonym>IgG Fc receptor I</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0001416|High affinity immunoglobulin gamma Fc receptor I
+MWFLTTLLLWVPVDGQVDTTKAVITLQPPWVSVFQEETVTLHCEVLHLPGSSSTQWFLNG
+TATQTSTPSYRITSASVNDSGEYRCQRGLSGRSDPIQLEIHRGWLLLQVSSRVFTEGEPL
+ALRCHAWKDKLVYNVLYYRNGKAFKFFHWNSNLTILKTNISHNGTYHCSGMGKHRYTSAG
+ISVTVKELFPAPVLNASVTSPLLEGNLVTLSCETKLLLQRPGLQLYFSFYMGSKTLRGRN
+TSSEYQILTARREDSGLYWCEAATEDGNVLKRSPELELQVLGLQLPTPVWFHVLFYLAVG
+IMFLVNTVLWVTIRKELKRKKKWDLEISLDSGHEKKVISSLQEDRHLEEELKCQEQKEEQ
+LQEGVHRKEPQGAT</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0016183|High affinity immunoglobulin gamma Fc receptor I (FCGR1A)
+ATGTGGTTCTTGACAACTCTGCTCCTTTGGGTTCCAGTTGATGGGCAAGTGGACACCACA
+AAGGCAGTGATCACTTTGCAGCCTCCATGGGTCAGCGTGTTCCAAGAGGAAACCGTAACC
+TTGCACTGTGAGGTGCTCCATCTGCCTGGGAGCAGCTCTACACAGTGGTTTCTCAATGGC
+ACAGCCACTCAGACCTCGACCCCCAGCTACAGAATCACCTCTGCCAGTGTCAATGACAGT
+GGTGAATACAGGTGCCAGAGAGGTCTCTCAGGGCGAAGTGACCCCATACAGCTGGAAATC
+CACAGAGGCTGGCTACTACTGCAGGTCTCCAGCAGAGTCTTCACGGAAGGAGAACCTCTG
+GCCTTGAGGTGTCATGCGTGGAAGGATAAGCTGGTGTACAATGTGCTTTACTATCGAAAT
+GGCAAAGCCTTTAAGTTTTTCCACTGGAATTCTAACCTCACCATTCTGAAAACCAACATA
+AGTCACAATGGCACCTACCATTGCTCAGGCATGGGAAAGCATCGCTACACATCAGCAGGA
+ATATCTGTCACTGTGAAAGAGCTATTTCCAGCTCCAGTGCTGAATGCATCTGTGACATCC
+CCACTCCTGGAGGGGAATCTGGTCACCCTGAGCTGTGAAACAAAGTTGCTCTTGCAGAGG
+CCTGGTTTGCAGCTTTACTTCTCCTTCTACATGGGCAGCAAGACCCTGCGAGGCAGGAAC
+ACATCCTCTGAATACCAAATACTAACTGCTAGAAGAGAAGACTCTGGGTTATACTGGTGC
+GAGGCTGCCACAGAGGATGGAAATGTCCTTAAGCGCAGCCCTGAGTTGGAGCTTCAAGTG
+CTTGGCCTCCAGTTACCAACTCCTGTCTGGTTTCATGTCCTTTTCTATCTGGCAGTGGGA
+ATAATGTTTTTAGTGAACACTGTTCTCTGGGTGACAATACGTAAAGAACTGAAAAGAAAG
+AAAAAGTGGGATTTAGAAATCTCTTTGGATTCTGGTCATGAGAAGAAGGTAATTTCCAGC
+CTTCAAGAAGACAGACATTTAGAAGAAGAGCTGAAATGTCAGGAACAAAAAGAAGAACAG
+CTGCAGGAAGGGGTGCACCGGAAGGAGCCCCAGGGGGCCACGTAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF00047</identifier>
+        <name>ig</name>
+      </pfam>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>early endosome membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>clathrin-coated endocytic vesicle membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>receptor signaling protein activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>antigen processing and presentation of peptide antigen via MHC class I</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>interferon-gamma-mediated signaling pathway</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Fc-gamma receptor signaling pathway involved in phagocytosis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>antigen processing and presentation of exogenous peptide antigen via MHC class I</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>phagocytosis, engulfment</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>intracellular signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>signal transduction</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>cytokine-mediated signaling pathway</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="10">
+      <id>BE0002098</id>
+      <name>Low affinity immunoglobulin gamma Fc region receptor II-a</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+          <article>
+            <pubmed-id>17704420</pubmed-id>
+            <citation>Zhang W, Gordon M, Schultheis AM, Yang DY, Nagashima F, Azuma M, Chang HM, Borucka E, Lurje G, Sherrod AE, Iqbal S, Groshen S, Lenz HJ: FCGR2A and FCGR3A polymorphisms associated with clinical outcome of epidermal growth factor receptor expressing metastatic colorectal cancer patients treated with single-agent cetuximab. J Clin Oncol. 2007 Aug 20;25(24):3712-8.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P12318" source="Swiss-Prot">
+    <name>Low affinity immunoglobulin gamma Fc region receptor II-a</name>
+    <general-function/>
+    <specific-function>Binds to the Fc region of immunoglobulins gamma. Low affinity receptor. By binding to IgG it initiates cellular responses against pathogens and soluble antigens. Promotes phagocytosis of opsonized antigens.</specific-function>
+    <gene-name>FCGR2A</gene-name>
+    <locus>1q23</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>218-240</transmembrane-regions>
+    <signal-regions>1-33</signal-regions>
+    <theoretical-pi>6.78</theoretical-pi>
+    <molecular-weight>35000.42</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3616</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR2A</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>M31932</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>182474</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P12318</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCG2A_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>CD32</synonym>
+      <synonym>CDw32</synonym>
+      <synonym>Fc-gamma RII-a</synonym>
+      <synonym>Fc-gamma-RIIa</synonym>
+      <synonym>FCG2</synonym>
+      <synonym>FCGR2A1</synonym>
+      <synonym>FcRII-a</synonym>
+      <synonym>IGFR2</synonym>
+      <synonym>IgG Fc receptor II-a</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0037156|Low affinity immunoglobulin gamma Fc region receptor II-a
+MTMETQMSQNVCPRNLWLLQPLTVLLLLASADSQAAAPPKAVLKLEPPWINVLQEDSVTL
+TCQGARSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSLSDPVHLTVL
+SEWLVLQTPHLEFQEGETIMLRCHSWKDKPLVKVTFFQNGKSQKFSHLDPTFSIPQANHS
+HSGDYHCTGNIGYTLFSSKPVTITVQVPSMGSSSPMGIIVAVVIATAVAAIVAAVVALIY
+CRKKRISANSTDPVKAAQFEPPGRQMIAIRKRQLEETNNDYETADGGYMTLNPRAPTDDD
+KNIYLTLPPNDHVNSNN</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0019233|Low affinity immunoglobulin gamma Fc region receptor II-a (FCGR2A)
+ATGACTATGGAGACCCAAATGTCTCAGAATGTATGTCCCAGAAACCTGTGGCTGCTTCAA
+CCATTGACAGTTTTGCTGCTGCTGGCTTCTGCAGACAGTCAAGCTGCAGCTCCCCCAAAG
+GCTGTGCTGAAACTTGAGCCCCCGTGGATCAACGTGCTCCAGGAGGACTCTGTGACTCTG
+ACATGCCAGGGGGCTCGCAGCCCTGAGAGCGACTCCATTCAGTGGTTCCACAATGGGAAT
+CTCATTCCCACCCACACGCAGCCCAGCTACAGGTTCAAGGCCAACAACAATGACAGCGGG
+GAGTACACGTGCCAGACTGGCCAGACCAGCCTCAGCGACCCTGTGCATCTGACTGTGCTT
+TCCGAATGGCTGGTGCTCCAGACCCCTCACCTGGAGTTCCAGGAGGGAGAAACCATCATG
+CTGAGGTGCCACAGCTGGAAGGACAAGCCTCTGGTCAAGGTCACATTCTTCCAGAATGGA
+AAATCCCAGAAATTCTCCCATTTGGATCCCACCTTCTCCATCCCACAAGCAAACCACAGT
+CACAGTGGTGATTACCACTGCACAGGAAACATAGGCTACACGCTGTTCTCATCCAAGCCT
+GTGACCATCACTGTCCAAGTGCCCAGCATGGGCAGCTCTTCACCAATGGGGATCATTGTG
+GCTGTGGTCATTGCGACTGCTGTAGCAGCCATTGTTGCTGCTGTAGTGGCCTTGATCTAC
+TGCAGGAAAAAGCGGATTTCAGCCAATTCCACTGATCCTGTGAAGGCTGCCCAATTTGAG
+CCACCTGGACGTCAAATGATTGCCATCAGAAAGAGACAACTTGAAGAAACCAACAATGAC
+TATGAAACAGCTGACGGCGGCTACATGACTCTGAACCCCAGGGCACCTACTGACGATGAT
+AAAAACATCTACCTGACTCTTCCTCCCAACGACCATGTCAACAGTAATAACTAA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>extracellular exosome</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>Fc-gamma receptor signaling pathway involved in phagocytosis</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>innate immune response</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="11">
+      <id>BE0002099</id>
+      <name>Low affinity immunoglobulin gamma Fc region receptor II-b</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P31994" source="Swiss-Prot">
+    <name>Low affinity immunoglobulin gamma Fc region receptor II-b</name>
+    <general-function/>
+    <specific-function>Receptor for the Fc region of complexed or aggregated immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B-cells. Binding to this receptor results in down-modulation of previous state of cell activation triggered via antigen receptors on B-cells (BCR), T-cells (TCR) or via another Fc receptor. Isoform IIB1 fails to mediate endocytosis or phagocytosis. Isoform IIB2 does not trigger phagocytosis.</specific-function>
+    <gene-name>FCGR2B</gene-name>
+    <locus>1q23</locus>
+    <cellular-location>Cell membrane</cellular-location>
+    <transmembrane-regions>218-240</transmembrane-regions>
+    <signal-regions>1-42</signal-regions>
+    <theoretical-pi>6.12</theoretical-pi>
+    <molecular-weight>34043.355</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:3618</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR2B</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>U87560</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>4099445</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P31994</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCG2B_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>CD32</synonym>
+      <synonym>CDw32</synonym>
+      <synonym>Fc-gamma RII-b</synonym>
+      <synonym>Fc-gamma-RIIb</synonym>
+      <synonym>FCG2</synonym>
+      <synonym>FcRII-b</synonym>
+      <synonym>IGFR2</synonym>
+      <synonym>IgG Fc receptor II-b</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0004116|Low affinity immunoglobulin gamma Fc region receptor II-b
+MGILSFLPVLATESDWADCKSPQPWGHMLLWTAVLFLAPVAGTPAAPPKAVLKLEPQWIN
+VLQEDSVTLTCRGTHSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSL
+SDPVHLTVLSEWLVLQTPHLEFQEGETIVLRCHSWKDKPLVKVTFFQNGKSKKFSRSDPN
+FSIPQANHSHSGDYHCTGNIGYTLYSSKPVTITVQAPSSSPMGIIVAVVTGIAVAAIVAA
+VVALIYCRKKRISALPGYPECREMGETLPEKPANPTNPDEADKVGAENTITYSLLMHPDA
+LEEPDDQNRI</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0019237|Low affinity immunoglobulin gamma Fc region receptor II-b (FCGR2B)
+ATGGGAATCCTGTCATTCTTACCTGTCCTTGCCACTGAGAGTGACTGGGCTGACTGCAAG
+TCCCCCCAGCCTTGGGGTCATATGCTTCTGTGGACAGCTGTGCTATTCCTGGCTCCTGTT
+GCTGGGACACCTGCTCCCCCAAAGGCTGTGCTGAAACTCGAGCCCCAGTGGATCAACGTG
+CTCCAGGAGGACTCTGTGACTCTGACATGCCGGGGGACTCACAGCCCTGAGAGCGACTCC
+ATTCAGTGGTTCCACAATGGGAATCTCATTCCCACCCACACGCAGCCCAGCTACAGGTTC
+AAGGCCAACAACAATGACAGCGGGGAGTACACGTGCCAGACTGGCCAGACCAGCCTCAGC
+GACCCTGTGCATCTGACTGTGCTTTCTGAGTGGCTGGTGCTCCAGACCCCTCACCTGGAG
+TTCCAGGAGGGAGAAACCATCGTGCTGAGGTGCCACAGCTGGAAGGACAAGCCTCTGGTC
+AAGGTCACATTCTTCCAGAATGGAAAATCCAAGAAATTTTCCCGTTCGGATCCCAACTTC
+TCCATCCCACAAGCAAACCACAGTCACAGTGGTGATTACCACTGCACAGGAAACATAGGC
+TACACGCTGTACTCATCCAAGCCTGTGACCATCACTGTCCAAGCTCCCAGCTCTTCACCG
+ATGGGGATCATTGTGGCTGTGGTCACTGGGATTGCTGTAGCGGCCATTGTTGCTGCTGTA
+GTGGCCTTGATCTACTGCAGGAAAAAGCGGATTTCAGCCAATCCCACTAATCCTGATGAG
+GCTGACAAAGTTGGGGCTGAGAACACAATCACCTATTCACTTCTCATGCACCCGGATGCT
+CTGGAAGAGCCTGATGACCAGAACCGTATTTAG</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>regulation of immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>viral process</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>signal transduction</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+    <target position="12">
+      <id>BE0002100</id>
+      <name>Low affinity immunoglobulin gamma Fc region receptor II-c</name>
+      <organism>Human</organism>
+      <actions/>
+      <references>
+        <articles>
+          <article>
+            <pubmed-id>17139284</pubmed-id>
+            <citation>Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.</citation>
+          </article>
+          <article>
+            <pubmed-id>17016423</pubmed-id>
+            <citation>Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.</citation>
+          </article>
+        </articles>
+        <textbooks/>
+        <links/>
+      </references>
+      <known-action>unknown</known-action>
+      <polypeptide id="P31995" source="Swiss-Prot">
+    <name>Low affinity immunoglobulin gamma Fc region receptor II-c</name>
+    <general-function>Transmembrane signaling receptor activity</general-function>
+    <specific-function>Receptor for the Fc region of complexed immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B-cells.</specific-function>
+    <gene-name>FCGR2C</gene-name>
+    <locus>1q23.3</locus>
+    <cellular-location>Cytoplasm</cellular-location>
+    <transmembrane-regions>224-246</transmembrane-regions>
+    <signal-regions>1-42</signal-regions>
+    <theoretical-pi>6.9</theoretical-pi>
+    <molecular-weight>35577.96</molecular-weight>
+    <chromosome-location>1</chromosome-location>
+    <organism ncbi-taxonomy-id="9606">Human</organism>
+    <external-identifiers>
+      <external-identifier>
+        <resource>HUGO Gene Nomenclature Committee (HGNC)</resource>
+        <identifier>HGNC:15626</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenAtlas</resource>
+        <identifier>FCGR2C</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Gene Database</resource>
+        <identifier>X17652</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>GenBank Protein Database</resource>
+        <identifier>32074</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P31995</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProt Accession</resource>
+        <identifier>FCG2C_HUMAN</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <synonyms>
+      <synonym>CD32</synonym>
+      <synonym>CDw32</synonym>
+      <synonym>Fc-gamma RII-c</synonym>
+      <synonym>Fc-gamma-RIIc</synonym>
+      <synonym>FCG2</synonym>
+      <synonym>FcRII-c</synonym>
+      <synonym>IGFR2</synonym>
+      <synonym>IgG Fc receptor II-c</synonym>
+    </synonyms>
+    <amino-acid-sequence format="FASTA">&gt;lcl|BSEQ0004118|Low affinity immunoglobulin gamma Fc region receptor II-c
+MGILSFLPVLATESDWADCKSPQPWGHMLLWTAVLFLAPVAGTPAAPPKAVLKLEPQWIN
+VLQEDSVTLTCRGTHSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSL
+SDPVHLTVLSEWLVLQTPHLEFQEGETIVLRCHSWKDKPLVKVTFFQNGKSKKFSRSDPN
+FSIPQANHSHSGDYHCTGNIGYTLYSSKPVTITVQAPSSSPMGIIVAVVTGIAVAAIVAA
+VVALIYCRKKRISANSTDPVKAAQFEPPGRQMIAIRKRQPEETNNDYETADGGYMTLNPR
+APTDDDKNIYLTLPPNDHVNSNN</amino-acid-sequence>
+    <gene-sequence format="FASTA">&gt;lcl|BSEQ0011523|Low affinity immunoglobulin gamma Fc region receptor II-c (FCGR2C)
+ATGGGAATCCTGTCATTCTTACCTGTCCTTGCCACTGAGAGTGACTGGGCTGACTGCAAG
+TCCCCCCAGCCTTGGGGTCATATGCTTCTGTGGACAGCTGTGCTATTCCTGGCTCCTGTT
+GCTGGGACACCTGCAGCTCCCCCAAAGGCTGTGCTGAAACTCGAGCCCCAGTGGATCAAC
+GTGCTCCAAGAGGACTCTGTGACTCTGACATGCCGGGGGACTCACAGCCCTGAGAGCGAC
+TCCATTCCGTGGTTCCACAATGGGAATCTCATTCCCACCCACACGCAGCCCAGCTACAGG
+TTCAAGGCCAACAACAATGACAGCGGGGAGTACACGTGCCAGACTGGCCAGACCAGCCTC
+AGCGACCCTGTGCATCTGACTGTGCTTTCTGAGTGGCTGGTGCTCCAGACCCCTCACCTG
+GAGTTCCAGGAGGGAGAAACCATCGTGCTGAGGTGCCACAGCTGGAAGGACAAGCCTCTG
+GTCAAGGTCACATTCTTCCAGAATGGAAAATCCAAGAAATTTTCCCGTTCGGATCCCAAC
+TTCTCCATCCCACAAGCAAACCACAGTCACAGTGGTGATTACCACTGCACAGGAAACATA
+GGCTACACGCTGTACTCATCCAAGCCTGTGACCATCACTGTCCAAGCTCCCAGCTCTTCA
+CCGATGGGGATCATTGTGGCTGTGGTCACTGGGATTGCTGTAGCGGCCATTGTTGCTGCT
+GTAGTGGCCTTGATCTACTGCAGGAAAAAGCGGATTTCAGCCAATTCCACTGATCCTGTG
+AAGGCTGCCCAATTTGAGCCACCTGGACGTCAAATGATTGCCATCAGAAAGAGACAACCT
+GAAGAAACCAACAATGACTATGAAACAGCTGACGGCGGCTACATGACTCTGAACCCCAGG
+GCACCTACTGACGATGATAAAAACATCTACCTGACTCTTCCTCCCAACGACCATGTCAAC
+AGTAATAACTAA</gene-sequence>
+    <pfams>
+      <pfam>
+        <identifier>PF13895</identifier>
+        <name>Ig_2</name>
+      </pfam>
+    </pfams>
+    <go-classifiers>
+      <go-classifier>
+        <category>component</category>
+        <description>plasma membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>integral component of membrane</description>
+      </go-classifier>
+      <go-classifier>
+        <category>component</category>
+        <description>cytoplasm</description>
+      </go-classifier>
+      <go-classifier>
+        <category>function</category>
+        <description>transmembrane signaling receptor activity</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>immune response</description>
+      </go-classifier>
+      <go-classifier>
+        <category>process</category>
+        <description>signal transduction</description>
+      </go-classifier>
+    </go-classifiers>
+  </polypeptide>
+    </target>
+  </targets>
+  <enzymes/>
+  <carriers/>
+  <transporters/>
+</drug>
+
+</drugbank>
