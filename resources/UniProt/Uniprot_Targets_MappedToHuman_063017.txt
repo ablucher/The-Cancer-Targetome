@@ -1,0 +1,52 @@
+Previous_TargetName	UniprotID	New_TargetName
+T-cell surface glycoprotein CD4	P01730	CD4
+Secretory phospholipase A2, group V (sPLA2-V)	P39877	PLA2G5
+IKK epsilon/TBK1	Q9UHD2	TBK1
+Serine/threonine-protein kinase receptor R3	P37023	ACVRL1
+Voltage-gated sodium channel subunit Nav1.5	Q14524	SCN5A
+Stromelysin-1	P08254	MMP3
+SRC	P09769	FGR
+3-hydroxy-3-methylglutaryl-coenzyme A reductase (HMG-CoA)	P04035	HMGCR
+CAMK2D	Q13557	CAMK2D
+Somatostatin receptor	P30872	SSTR1
+Casein kinase I isoform delta (CK1 Delta)	P48730	CSNK1D
+PIM-1 Kinase (PIM1)	P11309	PIM1
+Somatostatin receptor	P31391	SSTR4
+Dihydrofolate reductase	Q9HBH1	PDF
+Multidrug resistance-associated protein 2 (MRP2)	Q92887	ABCC2
+Interleukin-1 receptor-associated kinase 1 (IRAK1)	P51617	IRAK1
+C-C chemokine receptor type 2	P41597	CCR2
+Macrophage-stimulating protein receptor (RON/MST1R)	Q04912	MST1R
+P-glycoprotein 1 (Pgp/MDR1)	P08183	ABCB1
+CD3	P09693	CD3G
+Dopamine D1 receptor	P21728	DRD1
+MLK1	P80192	MAP3K9
+Neurotrophic tyrosine kinase receptor type 2	Q16620	NTRK2
+72 kDa type IV collagenase	P08253	MMP2
+CDC2-like kinase 3 (CLK3)	P49761	CLK3
+TRAF2 and NCK-interacting protein kinase (TNIK)	Q9UKE5	TNIK
+UDP-glucuronosyltransferase 1-4	P22310	UGT1A4
+AXL receptor tyrosine kinase	P30530	AXL
+Macrophage colony-stimulating factor 1	P09603	CSF1
+Fatty acid synthase (FAS)	P49327	FASN
+Estrogen receptor	Q13262	7 ER
+Adenosine deaminase	P00813	ADA
+PIGF	Q07326	PIGF
+Folate receptor beta	P14207	FOLR2
+Apoptosis Signal-regulating Kinase 1 (ASK1)	Q99683	MAP3K5
+Casein kinase I delta/epsilon	P49674	CSNK1E
+Solute carrier organic anion transporter family member 1B3 (OATP1B3)	Q9NPD5	SLCO1B3
+Solute carrier organic anion transporter family member 1B1 (OATP1B1)	Q9Y6L6	SLCO1B1
+Cyclin-dependent kinase 3 (CDK3)	Q00526	CDK3
+Cytochrome P450 2B6	P20813	CYP2B6
+Serotonin (5-HT) receptor	P47898	HTR5A
+Arylacetamide deacetylase	P22760	AADAC
+NT-3 growth factor receptor	Q16288	NTRK3
+Equilibrative nucleoside transporter 2	Q14542	SLC29A2
+Maternal embryonic leucine zipper kinase (MELK)	Q14680	MELK
+Serine/threonine-protein kinase Nek1	Q96PY6	NEK1
+Bile salt export pump (BSEP)	O95342	ABCB11
+Ephrin type-A receptor 3 (EPHA3)	P29320	EPHA3
+ROS1	P08922	ROS1
+Cathepsin A (CTSA)	P10619	CTSA
+Epoxide hydratase	P34913	EPHX2
