@@ -1,0 +1,172 @@
+Drug	Approval_Date	ATC_ClassID	ATC_ClassName	ATC_ClassStatus	EPC_ClassID	EPC_ClassName
+Vemurafenib	2011-08-17	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Dexrazoxane Hydrochloride	1995-05-26	V03AF	Detoxifying agents for antineoplastic treatment	Approved	N0000180854	Cytoprotective Agent
+Elotuzumab	2015-11-30	L01XC	Monoclonal antibodies	Pending	N0000192338	SLAMF7-directed Immunostimulatory Antibody
+Ixabepilone	2007-10-16	L01DC	Other cytotoxic antibiotics	Approved	N0000175592	Microtubule Inhibitor
+Cisplatin	1978-12-19	L01XA	Platinum compounds	Approved	N0000175413	Platinum-based Drug
+Lapatinib Ditosylate	2007-03-13	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Carfilzomib	2012-07-20	L01XX	Other antineoplastic agents	Approved	N0000175604	Proteasome Inhibitor
+Brentuximab Vedotin	2011-08-19	L01XC	Monoclonal antibodies	Approved	N0000182967	CD30-directed Immunoconjugate
+Vismodegib	2012-01-30	L01XX	Other antineoplastic agents	Approved	N0000184149	Hedgehog Pathway Inhibitor
+Talimogene Laherparepvec	null	L01XX	Other antineoplastic agents	Pending	null	null
+Daratumumab	2015-11-16	L01XC	Monoclonal antibodies	Pending	N0000192336	CD38-directed Cytolytic Antibody
+Temsirolimus	2007-05-30	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Ponatinib Hydrochloride	2012-12-14	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Leucovorin Calcium	1952-06-20	V03AF	Detoxifying agents for antineoplastic treatment	Approved	N0000178369	Folate Analog
+Pegaspargase	1994-02-01	L01XX	Other antineoplastic agents	Approved	N0000175669	Asparagine-specific Enzyme
+Trastuzumab	1998-09-25	L01XC	Monoclonal antibodies	Approved	N0000175661	HER2 Receptor Antagonist
+Idelalisib	2014-07-23	L01XX	Other antineoplastic agents	Approved	N0000175605	Kinase Inhibitor
+Plerixafor	2008-12-15	L03AX	Other immunostimulants	Approved	N0000178326	Hematopoietic Stem Cell Mobilizer
+Methotrexate	1959-08-10	L04AX	Other immunosuppressants	Approved	N0000175584	Folate Analog Metabolic Inhibitor
+Raloxifene Hydrochloride	1997-12-09	G03XC	Selective estrogen receptor modulators	Approved	N0000175826	Estrogen Agonist/Antagonist
+Cabazitaxel	2010-06-17	L01CD	Taxanes	Approved	N0000175592	Microtubule Inhibitor
+Recombinant Interferon Alfa-2b	1986-06-04	null	null	null	null	null
+Nilotinib	2007-10-29	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Erlotinib Hydrochloride	2004-11-18	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Etoposide	1983-11-10	L01CB	Podophyllotoxin derivatives	Approved	N0000175609	Topoisomerase Inhibitor
+Bendamustine Hydrochloride	2008-03-20	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Ondansetron Hydrochloride	1991-01-04	A04AA	Serotonin (5HT3) antagonists	Approved	N0000175818	Serotonin-3 Receptor Antagonist
+Cobimetinib	2015-11-10	L01XE	Protein kinase inhibitors	Pending	N0000175605	Kinase Inhibitor
+Chlorambucil	1957-03-18	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Epirubicin Hydrochloride	1999-09-15	L01DB	Anthracyclines and related substances	Approved	N0000175414	Anthracycline Topoisomerase Inhibitor
+Vinblastine Sulfate	1965-11-05	L01CA	Vinca alkaloids and analogues	Approved	N0000175612	Vinca Alkaloid
+Cetuximab	2004-02-12	L01XC	Monoclonal antibodies	Approved	N0000175664	Epidermal Growth Factor Receptor Antagonist
+Obinutuzumab	2013-11-01	L01XC	Monoclonal antibodies	Approved	N0000175657	CD20-directed Cytolytic Antibody
+Imiquimod	1997-02-27	D06BB	Antivirals	Approved	null	null
+Melphalan Hydrochloride	1964-01-17	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Pemetrexed Disodium	2004-02-04	L01BA	Folic acid analogues	Approved	N0000175584	Folate Analog Metabolic Inhibitor
+Leuprolide Acetate	1985-04-09	L02AE	Gonadotropin releasing hormone analogues	Approved	N0000175655	Gonadotropin Releasing Hormone Receptor Agonist
+Ramucirumab	2014-04-21	L01XC	Monoclonal antibodies	Approved	N0000191009	Vascular Endothelial Growth Factor Receptor 2 Antagonist
+Denosumab	2010-06-01	M05BX	Other drugs affecting bone structure and mineralization	Approved	N0000187055	RANK Ligand Inhibitor
+Uridine Triacetate	2015-09-04	null	null	null	null	null
+Vandetanib	2011-04-06	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Ifosfamide	1988-12-30	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Zoledronic Acid	2001-08-20	M05BA	Bisphosphonates	Approved	N0000175579	Bisphosphonate
+Denileukin Diftitox	1999-02-05	L01XX	Other antineoplastic agents	Approved	null	null
+Omacetaxine Mepesuccinate	2012-10-26	L01XX	Other antineoplastic agents	Approved	null	null
+Ibritumomab Tiuxetan	2002-02-19	null	null	null	N0000175658	CD20-directed Radiotherapeutic Antibody
+Bevacizumab	2004-02-26	L01XC	Monoclonal antibodies	Approved	N0000178292	Vascular Endothelial Growth Factor-directed Antibody
+Flutamide	1989-01-27	L02BB	Anti-androgens	Approved	N0000175560	Androgen Receptor Inhibitor
+Doxorubicin Hydrochloride	1974-08-07	L01DB	Anthracyclines and related substances	Approved	N0000175414	Anthracycline Topoisomerase Inhibitor
+Mechlorethamine Hydrochloride	1949-03-15	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Fluorouracil	1962-04-25	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Siltuximab	2014-04-23	L04AC	Interleukin inhibitors	Approved	N0000191006	Interleukin-6 Antagonist
+Rasburicase	2002-07-12	V03AF	Detoxifying agents for antineoplastic treatment	Approved	N0000175670	Uric Acid-specific Enzyme
+Alectinib	2015-12-11	L01XE	Protein kinase inhibitors	Pending	N0000175605	Kinase Inhibitor
+Bicalutamide	1995-10-04	L02BB	Anti-androgens	Approved	N0000175560	Androgen Receptor Inhibitor
+Thiotepa	1959-03-09	L01AC	Ethylene imines	Approved	N0000175558	Alkylating Drug
+Ceritinib	2014-04-29	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Pembrolizumab	2014-09-04	L01XC	Monoclonal antibodies	Approved	N0000191260	Programmed Death Receptor-1 Blocking Antibody
+Dactinomycin	1964-12-10	L01DA	Actinomycines	Approved	N0000180850	Actinomycin
+Romiplostim	2008-08-22	B02BX	Other systemic hemostatics	Approved	N0000175973	Thrombopoietin Receptor Agonist
+Oxaliplatin	2002-08-09	L01XA	Platinum compounds	Approved	N0000175413	Platinum-based Drug
+Daunorubicin Hydrochloride	1979-12-19	L01DB	Anthracyclines and related substances	Approved	N0000175414	Anthracycline Topoisomerase Inhibitor
+Crizotinib	2011-08-26	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Enzalutamide	2012-08-31	L02BB	Anti-androgens	Approved	N0000175560	Androgen Receptor Inhibitor
+Mitoxantrone Hydrochloride	1987-12-23	L01DB	Anthracyclines and related substances	Approved	N0000175609	Topoisomerase Inhibitor
+Trabectedin	2015-10-23	L01CX	Other plant alkaloids and natural products	Approved	N0000175558	Alkylating Drug
+Gemcitabine Hydrochloride	1996-05-15	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Ipilimumab	2011-03-25	L01XC	Monoclonal antibodies	Approved	N0000182635	CTLA-4-directed Blocking Antibody
+Degarelix	2008-12-24	L02BX	Other hormone antagonists and related agents	Approved	null	null
+Venetoclax	2016-04-11	null	null	null	null	null
+Toremifene	null	L02BA	Anti-estrogens	Approved	N0000175826	Estrogen Agonist/Antagonist
+Trametinib	2013-05-29	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Tamoxifen Citrate	1977-12-30	L02BA	Anti-estrogens	Approved	N0000175826	Estrogen Agonist/Antagonist
+Capecitabine	1998-04-30	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Nelarabine	2005-10-28	L01BB	Purine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Exemestane	1999-10-21	L02BG	Aromatase inhibitors	Approved	N0000175563	Aromatase Inhibitor
+Fulvestrant	2002-04-25	L02BA	Anti-estrogens	Approved	N0000175582	Estrogen Receptor Antagonist
+Docetaxel	1996-05-14	L01CD	Taxanes	Approved	N0000175592	Microtubule Inhibitor
+Bosutinib	2012-09-04	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Mitomycin C	1981-08-24	L01DC	Other cytotoxic antibiotics	Approved	N0000175558	Alkylating Drug
+Dabrafenib	2013-05-29	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Aldesleukin	1992-05-05	L03AC	Interleukins	Approved	N0000175667	Lymphocyte Growth Factor
+Defibrotide Sodium	2016-03-30	B01AX	Other antithrombotic agents	Approved	null	null
+Anastrozole	1995-12-27	L02BG	Aromatase inhibitors	Approved	N0000175563	Aromatase Inhibitor
+Alemtuzumab	2001-05-07	L04AA	Selective immunosuppressants	Approved	N0000175659	CD52-directed Cytolytic Antibody
+Carboplatin	1989-03-03	L01XA	Platinum compounds	Approved	N0000175413	Platinum-based Drug
+Olaparib	2014-12-19	L01XX	Other antineoplastic agents	Approved	N0000191623	Poly(ADP-Ribose) Polymerase Inhibitor
+Lenvatinib Mesylate	2015-02-13	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Arsenic Trioxide	2000-09-25	L01XX	Other antineoplastic agents	Approved	null	null
+Abiraterone Acetate	2011-04-28	L02BX	Other hormone antagonists and related agents	Approved	N0000182633	Cytochrome P450 17A1 Inhibitor
+Imatinib Mesylate	2001-05-10	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Palonosetron Hydrochloride	2003-07-25	A04AA	Serotonin (5HT3) antagonists	Approved	N0000175818	Serotonin-3 Receptor Antagonist
+Goserelin Acetate	1989-12-29	L02AE	Gonadotropin releasing hormone analogues	Approved	null	null
+Afatinib Dimaleate	2013-07-12	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Pralatrexate	2009-09-24	L01BA	Folic acid analogues	Approved	N0000175584	Folate Analog Metabolic Inhibitor
+Rolapitant Hydrochloride	2015-09-01	null	null	null	N0000175786	Substance P/Neurokinin-1 Receptor Antagonist
+Ixazomib Citrate	2015-11-20	L01XX	Other antineoplastic agents	Approved	N0000175604	Proteasome Inhibitor
+Mercaptopurine	1953-09-11	L01BB	Purine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Thalidomide	1998-07-16	L04AX	Other immunosuppressants	Approved	null	null
+Ofatumumab	2009-10-26	L01XC	Monoclonal antibodies	Approved	N0000175657	CD20-directed Cytolytic Antibody
+Lomustine	1976-08-04	L01AD	Nitrosoureas	Approved	N0000175558	Alkylating Drug
+Palifermin	2004-12-15	V03AF	Detoxifying agents for antineoplastic treatment	Approved	N0000175671	Mucocutaneous Epithelial Cell Growth Factor
+Vorinostat	2006-10-06	L01XX	Other antineoplastic agents	Approved	N0000175588	Histone Deacetylase Inhibitor
+Clofarabine	2004-12-28	L01BB	Purine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Osimertinib	2015-11-13	L01XE	Protein kinase inhibitors	Pending	N0000175605	Kinase Inhibitor
+Ibrutinib	2013-11-13	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Mesna	1988-12-30	V03AF	Detoxifying agents for antineoplastic treatment	Approved	null	null
+Peginterferon Alfa-2b	2001-01-19	L03AB	Interferons	Approved	N0000175521	Interferon alpha
+Glucarpidase	2012-01-17	V03AF	Detoxifying agents for antineoplastic treatment	Approved	N0000184013	Carboxypeptidase
+Axitinib	2012-01-27	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Bexarotene	1999-12-29	L01XX	Other antineoplastic agents	Approved	N0000175607	Retinoid
+Idarubicin Hydrochloride	1990-09-27	L01DB	Anthracyclines and related substances	Approved	N0000175414	Anthracycline Topoisomerase Inhibitor
+Ziv-Aflibercept	2011-11-18	S01LA	Antineovascularisation agents	Approved	null	null
+Ruxolitinib Phosphate	2011-11-16	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Irinotecan Hydrochloride	1996-06-14	L01XX	Other antineoplastic agents	Approved	N0000175609	Topoisomerase Inhibitor
+Topotecan Hydrochloride	1996-05-28	L01XX	Other antineoplastic agents	Approved	N0000175609	Topoisomerase Inhibitor
+Busulfan	1954-06-26	L01AB	Alkyl sulfonates	Approved	N0000175558	Alkylating Drug
+Lenalidomide	2005-12-27	L04AX	Other immunosuppressants	Approved	N0000184014	Thalidomide Analog
+Pamidronate Disodium	1991-10-31	null	null	null	N0000175579	Bisphosphonate
+Nivolumab	2014-12-22	L01XC	Monoclonal antibodies	Approved	N0000191260	Programmed Death Receptor-1 Blocking Antibody
+Bortezomib	2003-05-13	L01XX	Other antineoplastic agents	Approved	N0000175604	Proteasome Inhibitor
+Dexamethasone	1958-10-30	S03BA	Corticosteroids	Approved	N0000175576	Corticosteroid
+Aminolevulinic Acid	null	L01XD	Sensitizers used in photodynamic/radiation therapy	Approved	N0000175846	Porphyrin Precursor
+Dinutuximab	2015-03-10	L01XC	Monoclonal antibodies	Approved	null	null
+Eltrombopag Olamine	2008-11-20	B02BX	Other systemic hemostatics	Approved	N0000175973	Thrombopoietin Receptor Agonist
+Bleomycin	null	L01DC	Other cytotoxic antibiotics	Approved	N0000180854	Cytoprotective Agent
+Prednisone	1955-02-21	H02AB	Glucocorticoids	Approved	N0000175576	Corticosteroid
+Aprepitant	2003-03-27	A04AD	Other antiemetics	Approved	N0000175786	Substance P/Neurokinin-1 Receptor Antagonist
+Asparaginase Erwinia chrysanthemi	1994-02-01	null	null	null	null	null
+Necitumumab	2015-11-24	L01XC	Monoclonal antibodies	Approved	N0000175664	Epidermal Growth Factor Receptor Antagonist
+Romidepsin	2009-11-05	L01XX	Other antineoplastic agents	Approved	N0000175588	Histone Deacetylase Inhibitor
+Hydroxyurea	1967-12-07	L01XX	Other antineoplastic agents	Approved	N0000180853	Antimetabolite
+Cabozantinib-S-Malate	null	null	null	null	null	null
+Azacitidine	2004-05-19	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Lanreotide Acetate	2007-08-30	H01CB	Somatostatin and analogues	Approved	N0000175904	Somatostatin Analog
+Ado-Trastuzumab Emtansine	2013-02-22	L01XC	Monoclonal antibodies	Approved	null	null
+Dasatinib	2006-06-28	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Gemtuzumab Ozogamicin	2000-05-17	null	null	null	N0000175571	CD33-directed Cytotoxin
+Sonidegib	2015-07-24	L01XX	Other antineoplastic agents	Approved	N0000184149	Hedgehog Pathway Inhibitor
+Paclitaxel	1992-12-29	L01CD	Taxanes	Approved	N0000175592	Microtubule Inhibitor
+Palbociclib	2015-02-03	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Blinatumomab	2014-12-03	L01XC	Monoclonal antibodies	Approved	N0000191421	Bispecific CD19-directed CD3-directed T Cell Engager
+Carmustine	1977-03-07	L01AD	Nitrosoureas	Approved	N0000175558	Alkylating Drug
+Cytarabine	1969-06-17	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Pomalidomide	2013-02-08	L04AX	Other immunosuppressants	Approved	N0000184014	Thalidomide Analog
+Gefitinib	2003-05-05	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Temozolomide	1999-08-11	L01AX	Other alkylating agents	Approved	N0000175558	Alkylating Drug
+Regorafenib	2012-09-27	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Eribulin Mesylate	2010-11-15	L01XX	Other antineoplastic agents	Approved	N0000175592	Microtubule Inhibitor
+Letrozole	1997-07-25	L02BG	Aromatase inhibitors	Approved	N0000175563	Aromatase Inhibitor
+Dacarbazine	1975-05-27	L01AX	Other alkylating agents	Approved	N0000175558	Alkylating Drug
+Pazopanib Hydrochloride	2009-10-19	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Belinostat	2014-07-03	L01XX	Other antineoplastic agents	Approved	N0000175588	Histone Deacetylase Inhibitor
+Decitabine	2006-05-02	L01BC	Pyrimidine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Megestrol Acetate	1971-08-18	L02AB	Progestogens	Approved	N0000175602	Progestin
+Procarbazine Hydrochloride	1969-07-22	L01XB	Methylhydrazines	Approved	N0000175558	Alkylating Drug
+Sorafenib Tosylate	2005-12-20	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Sipuleucel-T	null	L03AX	Other immunostimulants	Approved	N0000184997	Autologous Cellular Immunotherapy
+Rituximab	1997-11-26	L01XC	Monoclonal antibodies	Approved	N0000175657	CD20-directed Cytolytic Antibody
+Vinorelbine Tartrate	1994-12-23	L01CA	Vinca alkaloids and analogues	Approved	N0000175612	Vinca Alkaloid
+Panobinostat	2015-02-23	L01XX	Other antineoplastic agents	Approved	N0000175588	Histone Deacetylase Inhibitor
+Filgrastim	1991-02-20	L03AA	Colony stimulating factors	Approved	N0000175666	Leukocyte Growth Factor
+Pertuzumab	2012-06-08	L01XC	Monoclonal antibodies	Approved	N0000175661	HER2 Receptor Antagonist
+Fludarabine Phosphate	1991-04-18	L01BB	Purine analogues	Approved	N0000175595	Nucleoside Metabolic Inhibitor
+Vincristine Sulfate	1963-07-10	L01CA	Vinca alkaloids and analogues	Approved	N0000175612	Vinca Alkaloid
+Sunitinib Malate	2006-01-26	L01XE	Protein kinase inhibitors	Approved	N0000175605	Kinase Inhibitor
+Cyclophosphamide	1959-11-16	L01AA	Nitrogen mustard analogues	Approved	N0000175558	Alkylating Drug
+Panitumumab	2006-09-27	L01XC	Monoclonal antibodies	Approved	N0000175664	Epidermal Growth Factor Receptor Antagonist
+Everolimus	2009-03-30	L04AA	Selective immunosuppressants	Approved	N0000175605	Kinase Inhibitor
+Thioguanine	1966-01-18	L01BB	Purine analogues	Approved	N0000180853	Antimetabolite
+Radium 223 Dichloride	2013-05-15	null	null	null	null	null

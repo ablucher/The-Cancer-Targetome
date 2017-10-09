@@ -1,0 +1,141 @@
+Abiraterone Acetate
+Ado-Trastuzumab Emtansine
+Afatinib Dimaleate
+Aldesleukin
+Alectinib
+Alemtuzumab
+Aminolevulinic Acid
+Anastrozole
+Arsenic Trioxide
+Axitinib
+Azacitidine
+Belinostat
+Bendamustine Hydrochloride
+Bevacizumab
+Bexarotene
+Bicalutamide
+Bleomycin
+Blinatumomab
+Bortezomib
+Bosutinib
+Brentuximab Vedotin
+Busulfan
+Cabazitaxel
+Capecitabine
+Carboplatin
+Carfilzomib
+Carmustine
+Ceritinib
+Cetuximab
+Chlorambucil
+Cisplatin
+Clofarabine
+Cobimetinib
+Crizotinib
+Cyclophosphamide
+Cytarabine
+Dabrafenib
+Dacarbazine
+Dactinomycin
+Daratumumab
+Dasatinib
+Daunorubicin Hydrochloride
+Decitabine
+Degarelix
+Denileukin Diftitox
+Dinutuximab
+Docetaxel
+Doxorubicin Hydrochloride
+Elotuzumab
+Enzalutamide
+Epirubicin Hydrochloride
+Eribulin Mesylate
+Erlotinib Hydrochloride
+Etoposide
+Everolimus
+Exemestane
+Filgrastim
+Fludarabine Phosphate
+Fluorouracil
+Flutamide
+Fulvestrant
+Gefitinib
+Gemcitabine Hydrochloride
+Goserelin Acetate
+Hydroxyurea
+Ibrutinib
+Idarubicin Hydrochloride
+Idelalisib
+Ifosfamide
+Imatinib Mesylate
+Ipilimumab
+Irinotecan Hydrochloride
+Ixabepilone
+Ixazomib Citrate
+Lapatinib Ditosylate
+Lenalidomide
+Lenvatinib Mesylate
+Letrozole
+Leuprolide Acetate
+Lomustine
+Mechlorethamine Hydrochloride
+Megestrol Acetate
+Melphalan Hydrochloride
+Mercaptopurine
+Methotrexate
+Mitomycin C
+Mitoxantrone Hydrochloride
+Necitumumab
+Nelarabine
+Nilotinib
+Nivolumab
+Obinutuzumab
+Ofatumumab
+Olaparib
+Omacetaxine Mepesuccinate
+Osimertinib
+Oxaliplatin
+Paclitaxel
+Palbociclib
+Panitumumab
+Panobinostat
+Pazopanib Hydrochloride
+Pegaspargase
+Peginterferon Alfa-2b
+Pembrolizumab
+Pemetrexed Disodium
+Pertuzumab
+Plerixafor
+Pomalidomide
+Ponatinib Hydrochloride
+Pralatrexate
+Procarbazine Hydrochloride
+Ramucirumab
+Regorafenib
+Rituximab
+Romidepsin
+Ruxolitinib Phosphate
+Siltuximab
+Sipuleucel-T
+Sonidegib
+Sorafenib Tosylate
+Sunitinib Malate
+Talimogene Laherparepvec
+Tamoxifen Citrate
+Temozolomide
+Temsirolimus
+Thalidomide
+Thioguanine
+Thiotepa
+Topotecan Hydrochloride
+Toremifene
+Trabectedin
+Trametinib
+Trastuzumab
+Vandetanib
+Vemurafenib
+Vinblastine Sulfate
+Vincristine Sulfate
+Vinorelbine Tartrate
+Vismodegib
+Vorinostat
