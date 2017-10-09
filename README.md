@@ -18,7 +18,7 @@ Pharmacology [4], and BindingDB [5].
 Contingent upon receiving permission and/or clarification from [Therapeutic Targets Database](http://bidd.nus.edu.sg/group/cjttd/), the contents of the Cancer Targetome are made available to you under the [Creative Commons Attribution Non-Commercial Share Alike 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commercial use, please contact us. The Cancer Targetome database is made available under the [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1.0/). Source code is made available under the [GNU General Public License 3.0](https://opensource.org/licenses/GPL-3.0). 
 
 ### Citations
-Evidence-Based Precision Oncology with the Cancer Targetome. Blucher, A.S., Choonoo, G., Kulesz-Martin, M., Wu, G., McWeeney, S.K. (Manuscript in preparation)
+Blucher, A. S., Choonoo, G., Kulesz-Martin, M., Wu, G. & McWeeney, S. K. Evidence-Based Precision Oncology with the Cancer Targetome. Trends Pharmacol. Sci. (2017). doi:10.1016/j.tips.2017.08.006
 
 ### Accessing the Data 
 There are several options for accessing the Cancer Targetome data. Users interested in the data collection, aggregation, and assignment of evidence levels should see the Java source code, while users interested in the final aggregated drug-target interactions can find access data either as a mysql database dump or text file. 
