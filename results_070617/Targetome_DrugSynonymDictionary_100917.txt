@@ -1,0 +1,2170 @@
+Drug	Synonym	
+Thalidomide	(-)-Thalidomide	
+Thalidomide	(+)-Thalidomide	
+Thalidomide	N-Phthaloylglutamimide	
+Thalidomide	Kevadon	
+Thalidomide	2, 6-Dioxo-3-phthalimidopiperidine	
+Thalidomide	thalidomide	
+Thalidomide	N-(2,6-Dioxo-3-piperidyl)phthalimide	
+Thalidomide	N-Phthalylglutamic Acid Imide	
+Thalidomide	Synovir	
+Thalidomide	Contergan	
+Thalidomide	3-Phthalimidoglutarimide	
+Thalidomide	Thalidomide	
+Thalidomide	Phthalimide, N-(2, 6-dioxo-3-piperidyl)-, (-)-	
+Thalidomide	Phthalimide, N-(2, 6-dioxo-3-piperidyl)-, (+)-	
+Thalidomide	Sedoval K-17	
+Thalidomide	Pantosediv	
+Thalidomide	2,6-Dioxo-3-phthalimidopiperidine	
+Thalidomide	Softenon	
+Thalidomide	Alpha-Phthalimidoglutarimide	
+Thalidomide	Distaval	
+Thalidomide	N-Phthalylglutamic acid imide	
+Thalidomide	Sedalis	
+Thalidomide	THALIDOMIDE	
+Thalidomide	Thalomid	
+Thalidomide	2-(2,6-Dioxo-3-piperidinyl)-1H-isoindole-1,3(2H)-dione	
+Thalidomide	Neurosedyn	
+Thalidomide	Talimol	
+Thalidomide	.alpha.-Phthalimidoglutarimide	
+Obinutuzumab	Obinutuzumab	
+Obinutuzumab	Anti-CD20_Monoclonal_Antibody_R7159	
+Obinutuzumab	Afutuzumab	
+Obinutuzumab	RO 5072759	
+Obinutuzumab	Anti-CD20 Monoclonal Antibody R7159	
+Obinutuzumab	huMAB(CD20)	
+Obinutuzumab	R7159	
+Obinutuzumab	GA-101	
+Obinutuzumab	GA101	
+Obinutuzumab	OBINUTUZUMAB	
+Dactinomycin	Actinomycin D	
+Dactinomycin	Lyovac cosmegen	
+Dactinomycin	dactinomycin	
+Dactinomycin	2-bis[Cyclo(N-methyl-L-valyl-sarcosyl-L-prolyl-D-valyl-L-threonyl)]-1,9 dimethyl-4,6 3H-phenoxazinone-3	
+Dactinomycin	Dactinomycin	
+Dactinomycin	Lyovac Cosmegen	
+Dactinomycin	ACTINOMYCIN D	
+Dactinomycin	Actinomycin-[thr-val-pro-sar-meval]	
+Dactinomycin	DACT	
+Dactinomycin	Dactinomycine	
+Dactinomycin	Actinomycin C1	
+Dactinomycin	Meractinomycin	
+Dactinomycin	Actinomycin X 1	
+Dactinomycin	Actinomycin IV	
+Dactinomycin	Actinomycin I1	
+Dactinomycin	Actinomycin A IV	
+Dactinomycin	Cosmegen	
+Dactinomycin	DACTINOMYCIN	
+Vorinostat	SAHA	
+Vorinostat	N-Hydroxy-N'-phenyloctanediamide	
+Vorinostat	Suberanilohydroxamic Acid	
+Vorinostat	vorinostat	
+Vorinostat	L-001079038	
+Vorinostat	Vorinostat	
+Vorinostat	suberoylanilide hydroxamic acid	
+Vorinostat	MSK-390	
+Vorinostat	Suberoylanilide Hydroxamic Acid	
+Vorinostat	Zolinza	
+Vorinostat	VORINOSTAT	
+Vorinostat	Suberoylanilide_Hydroxamic_Acid	
+Exemestane	exemestane	
+Exemestane	EXEMESTANE	
+Exemestane	6-Methyleneandrosta-1,4-diene-3,17-dione	
+Exemestane	FCE-24304	
+Exemestane	Exemestane	
+Exemestane	Aromasin	
+Decitabine	DECITABINE	
+Decitabine	Deoxyazacytidine	
+Decitabine	2'-Deoxy-5-azacytidine	
+Decitabine	4-Amino-1-(2-deoxy-beta-D-erythro-pentofuranosyl)-1,3,5-triazin-2(1H)-one	
+Decitabine	Decitabine	
+Decitabine	5-Aza-2'deoxycytidine	
+Decitabine	Dezocitidine	
+Decitabine	5-Azadeoxycytidine	
+Decitabine	5-Aza-2'-deoxycytidine	
+Decitabine	Dacogen	
+Decitabine	decitabine	
+Decitabine	Decitabine for Injection	
+Decitabine	5-Aza-2-deoxycytidine	
+Idarubicin Hydrochloride	Idarubicin hydrochloride	
+Idarubicin Hydrochloride	IDARUBICIN	
+Idarubicin Hydrochloride	4-DMDR	
+Idarubicin Hydrochloride	idarubicin	
+Idarubicin Hydrochloride	(7S-cis)-9-Acetyl-7-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,9,11-trihydroxy-5,12-naphthacenedione	
+Idarubicin Hydrochloride	4-Demethoxydaunomycin	
+Idarubicin Hydrochloride	SC-33428	
+Idarubicin Hydrochloride	Idarubicin Hydrochloride	
+Idarubicin Hydrochloride	Idarubicin HCl	
+Idarubicin Hydrochloride	Idarubicin_Hydrochloride	
+Idarubicin Hydrochloride	IMI-30	
+Idarubicin Hydrochloride	Idamycin	
+Idarubicin Hydrochloride	Zavedos	
+Idarubicin Hydrochloride	(1S,3S)-3-Acetyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-6,11-dioxo-1-naphthacenyl-3-amino-2,3,6-trideoxy-alpha-L-hexopyranoside	
+Idarubicin Hydrochloride	4-Demethoxydaunorubicin	
+Idarubicin Hydrochloride	Idarubicin	
+Idarubicin Hydrochloride	4-demethoxydaunorubicin	
+Idarubicin Hydrochloride	IDARUBICIN HYDROCHLORIDE	
+Bleomycin	bleomycin	
+Bleomycin	BLM	
+Bleomycin	Bleomycin	
+Bleomycin	BLEOMYCIN	
+Bleomycin	BLEO	
+Bleomycin	Bleo	
+Idelalisib	Zydelig	
+Idelalisib	PI3K-delta_Inhibitor_CAL-101	
+Idelalisib	CAL-101	
+Idelalisib	Phosphoinositide-3 Kinase Delta Inhibitor CAL-101	
+Idelalisib	Idelalisib	
+Idelalisib	5-Fluoro-3-phenyl-2-((S)-1-(9H-purin-6-ylamino)-propyl)-3H- quinazolin-4-one	
+Idelalisib	GS-1101	
+Bendamustine Hydrochloride	5-(Bis(2-chloroethyl)amino)-1-methyl-2-benzimidazolebutyric Acid	
+Bendamustine Hydrochloride	BENDAMUSTINE	
+Bendamustine Hydrochloride	BENDAMUSTINE HYDROCHLORIDE	
+Bendamustine Hydrochloride	Treanda	
+Bendamustine Hydrochloride	Bendamustine_Hydrochloride	
+Bendamustine Hydrochloride	Levact	
+Bendamustine Hydrochloride	bendamustine hydrochloride	
+Bendamustine Hydrochloride	Cytostasan Hydrochloride	
+Bendamustine Hydrochloride	SDX-105	
+Bendamustine Hydrochloride	2-Benzimidazolinebutryric acid, 1-methyl-5-bis(2-chloroethyl)amino-, hydrochloride	
+Bendamustine Hydrochloride	Bendamustine	
+Bendamustine Hydrochloride	Bendamustine Hydrochloride	
+Bendamustine Hydrochloride	SyB L-0501	
+Bendamustine Hydrochloride	Bendamustin Hydrochloride	
+Bendamustine Hydrochloride	Ribomustin	
+Bendamustine Hydrochloride	bendamustine	
+Bosutinib	4-Anilino-3-quinolinecarbonitrile	
+Bosutinib	BOSUTINIB	
+Bosutinib	4-[(2,4-dichloro-5-methoxyphenyl)amino]-6-methoxy-7-[3-(4-methylpiperazin-1-yl)propoxy]quinoline-3-carbonitrile	
+Bosutinib	SKI 606	
+Bosutinib	Bosulif	
+Bosutinib	SKI-606	
+Bosutinib	4-Anilinobenzo(g)quinoline-3-carbonitrile	
+Bosutinib	Bosutinib	
+Bicalutamide	ICI 176334	
+Bicalutamide	(+/-)-N-[4-Cyano-3-(trifluoromethyl)phenyl]-3-[(4-fluorophenyl)sulfonyl]-2-hydroxy-2-methylpropanamide	
+Bicalutamide	ICI 176,334	
+Bicalutamide	Bicalutamide	
+Bicalutamide	4'-Cyano-alpha,alpha,alpha-trifuloro-3-[(p-fluorophenyl)sulfonyl]-2-methyl-m-lactotoluidide	
+Bicalutamide	4-Cyano-3-trifluoromethyl-N-(3-p-fluorophenylsulfonyl-2-hydroxy-2-methylpropionyl)aniline	
+Bicalutamide	Casodex	
+Bicalutamide	N-[4-Cyano-3-(trifluoromethyl)phenyl]3-3[(4-fluorophenyl)sulfonyl]-2-hydroxy-2-methyl-propanamide	
+Bicalutamide	BICALUTAMIDE	
+Bicalutamide	Cosudex	
+Bicalutamide	bicalutamide	
+Mitoxantrone Hydrochloride	1,3-Dihydroxy-5,8-bis[[2-[(2-hydroxyethyl)amino]ethyl]amino]-9, 10-anthracenedione Dihydrochloride	
+Mitoxantrone Hydrochloride	Mitozantrone Hydrochloride	
+Mitoxantrone Hydrochloride	mitoxantrone	
+Mitoxantrone Hydrochloride	Mitroxone	
+Mitoxantrone Hydrochloride	MITOXANTRONE	
+Mitoxantrone Hydrochloride	Neotalem	
+Mitoxantrone Hydrochloride	MITOXANTRONE HYDROCHLORIDE	
+Mitoxantrone Hydrochloride	Novantrone	
+Mitoxantrone Hydrochloride	Mitoxantroni Hydrochloridum	
+Mitoxantrone Hydrochloride	1,3-Dihydroxy-5,8-bis[[2-[(2-hydroxyethyl)amino]ethyl]amino]-9, 10-anthracenedione	
+Mitoxantrone Hydrochloride	DHAQ	
+Mitoxantrone Hydrochloride	Mitozantrone	
+Mitoxantrone Hydrochloride	Mitoxantrone_Base	
+Mitoxantrone Hydrochloride	1,4-Dihydroxy-5,8-bis[[2-[(2-hydroxyethyl)amino]ethyl]amino]-9, 10-anthroquinone Dihydrochloride	
+Mitoxantrone Hydrochloride	Dihydroxyanthracenedione	
+Mitoxantrone Hydrochloride	Mitoxantrone Hydrochloride	
+Mitoxantrone Hydrochloride	DHAD	
+Mitoxantrone Hydrochloride	Onkotrone	
+Mitoxantrone Hydrochloride	Dihydroxyanthracenedione Dihydrochloride	
+Mitoxantrone Hydrochloride	Pralifan	
+Mitoxantrone Hydrochloride	Mitoxantrone	
+Mitoxantrone Hydrochloride	Mitoxantrone Dihydrochloride	
+Mitoxantrone Hydrochloride	CL 232315	
+Mitoxantrone Hydrochloride	1,4-Dihydroxy-5,8-bis[[2-[(2-hydroxyethyl)amino]ethyl]amino]-9, 10-anthroquinone	
+Fulvestrant	ICI 182,780	
+Fulvestrant	ICI 182780	
+Fulvestrant	FULVESTRANT	
+Fulvestrant	Faslodex(ICI 182,780)	
+Fulvestrant	ZD9238	
+Fulvestrant	fulvestrant	
+Fulvestrant	7a-[9-[(4,4,5,5,5,-Pentafluoropentyl)sulphinyl]nonyl]-estra-1,3,5(10)-triene-3,17b-diol	
+Fulvestrant	Faslodex	
+Fulvestrant	Fulvestrant	
+Thioguanine	2-Amino-6-purinethiol	
+Thioguanine	2-Mercapto-6-aminopurine	
+Thioguanine	Tioguanine	
+Thioguanine	Thioguanine	
+Thioguanine	BW 5071	
+Thioguanine	2-Aminopurine-6(1H)-thione	
+Thioguanine	2-Amino-6-mercaptopurine	
+Thioguanine	6-Amino-2-mercaptopurine	
+Thioguanine	6-Thioguanine	
+Thioguanine	6 Mercaptoguanine	
+Thioguanine	6-Mercaptoguanine	
+Thioguanine	2-Amino 6MP	
+Thioguanine	6-Mercapto-2-aminopurine	
+Thioguanine	2-Aminopurin-6-thiol	
+Thioguanine	X 27	
+Thioguanine	Wellcome U3B	
+Thioguanine	6-TG	
+Thioguanine	WR-1141	
+Thioguanine	thioguanine	
+Thioguanine	2-Aminopurine-6-thiol	
+Thioguanine	THIOGUANINE	
+Thioguanine	Tabloid	
+Thioguanine	2-Amino-1,7-dihydro-6H-purine-6-thione	
+Thioguanine	6H-Purine-6-thione, 2-amino-1,7-dihydro- (9CI)	
+Thioguanine	Lanvis	
+Thioguanine	6 Thioguanine	
+Thioguanine	Tioguanin	
+Abiraterone Acetate	CB 7598	
+Abiraterone Acetate	17-(3-Pyridyl)-5,16-androstadien-3beta-acetate	
+Abiraterone Acetate	Abiraterone_Acetate	
+Abiraterone Acetate	Abiraterone	
+Abiraterone Acetate	Androsta-5,16-dien-3-ol, 17-(3-pyridinyl)-, acetate (ester), (3beta)-	
+Abiraterone Acetate	ABIRATERONE ACETATE	
+Abiraterone Acetate	abiraterone acetate	
+Abiraterone Acetate	CB7630	
+Abiraterone Acetate	Zytiga	
+Abiraterone Acetate	17-(3-Pyridyl)androsta-5,16-dien-3beta-ol	
+Abiraterone Acetate	Abiraterone Acetate	
+Abiraterone Acetate	ABIRATERONE	
+Omacetaxine Mepesuccinate	Omacetaxine Mepesuccinate	
+Omacetaxine Mepesuccinate	Ceflatonin	
+Omacetaxine Mepesuccinate	Cephalotaxine, 4-methyl 2-hydroxy-2-(4-hydroxy-4-methylpentyl)butanedioate (ester), [3(R)]- (9CI)	
+Omacetaxine Mepesuccinate	Homoharringtonine	
+Omacetaxine Mepesuccinate	HHT	
+Omacetaxine Mepesuccinate	Cephalotaxine, 4-Methyl 2-hydroxy-2-(4-hydroxy-4-methylpentyl)butanedioate (Ester), [3(R)]- (9CI)	
+Omacetaxine Mepesuccinate	CGX-635	
+Omacetaxine Mepesuccinate	homoharringtonine	
+Omacetaxine Mepesuccinate	OMACETAXINE MEPESUCCINATE	
+Omacetaxine Mepesuccinate	Cephalotaxine, 4-Methyl 2-hydroxy-2-(4-hydroxy-4-methylpentyl)butanedioate (Ester)	
+Belinostat	Beleodaq	
+Belinostat	PXD 101	
+Belinostat	belinostat	
+Belinostat	Belinostat	
+Belinostat	PXD101	
+Belinostat	BELINOSTAT	
+Temozolomide	M & B 39831	
+Temozolomide	temozolomide	
+Temozolomide	M and B 39831	
+Temozolomide	Imidazo[5,1-d]-1,2,3,5-tetrazine-8-carboxamide, 3, 4-dihydro-3-methyl-4-oxo-	
+Temozolomide	Temodal	
+Temozolomide	8-carbamoyl-3-methylimidazo[5,1-d]-1,2,3,5-tetrazin-4(3H)-one	
+Temozolomide	RP-46161	
+Temozolomide	imidazo[5,1-d]-1,2,3,5-tetrazine-8-carboxamide, 3, 4-dihydro-3-methyl-4-oxo-	
+Temozolomide	TEMOZOLOMIDE	
+Temozolomide	Temomedac	
+Temozolomide	SCH 52365	
+Temozolomide	CCRG-81045	
+Temozolomide	Methazolastone	
+Temozolomide	Temcad	
+Temozolomide	Temodar	
+Temozolomide	Temozolomide	
+Temozolomide	3,4-dihydro-3-methyl-4-oxoimidazo[5,1-d]-1,2,3,5-tetrazine-8-carboxamide	
+Cetuximab	CETUXIMAB	
+Cetuximab	IMC-C225	
+Cetuximab	Chimeric Anti-EGFR Monoclonal Antibody	
+Cetuximab	cetuximab	
+Cetuximab	Chimeric Monoclonal Antibody C225	
+Cetuximab	Cetuximab	
+Cetuximab	Chimeric MoAb C225	
+Cetuximab	Erbitux	
+Nilotinib	Nilotinib	
+Nilotinib	Tasigna	
+Nilotinib	nilotinib	
+Nilotinib	AMN107	
+Nilotinib	4-Methyl-3-((4-(3-pyridinyl)-2-pyrimidinyl)amino)-N-(5-(4-methyl-1H-imidazol-1-yl)-3-(trifluoromethyl)phenyl)benzamide	
+Nilotinib	AMN 107	
+Nilotinib	NILOTINIB	
+Panobinostat	Panobinostat	
+Panobinostat	Farydak	
+Panobinostat	LBH589	
+Panobinostat	(2E)-N-hydroxy-3-(4-(((2-(2-methyl-1h-indol-3-yl)ethyl)amino)methyl)phenyl)prop-2-enamide	
+Panobinostat	PANOBINOSTAT	
+Panobinostat	Faridak	
+Panobinostat	panobinostat	
+Denileukin Diftitox	Interleukin-2 Fusion Protein	
+Denileukin Diftitox	Denileukin_Diftitox	
+Denileukin Diftitox	DENILEUKIN DIFTITOX	
+Denileukin Diftitox	DAB389 Interleukin-2	
+Denileukin Diftitox	DAB(389)IL-2	
+Denileukin Diftitox	DAB389 Interleukin-2 Immunotoxin	
+Denileukin Diftitox	denileukin diftitox	
+Denileukin Diftitox	Denileukin Diftitox	
+Denileukin Diftitox	DAB389IL2	
+Denileukin Diftitox	Ontak	
+Denileukin Diftitox	DAB389IL-2	
+Denileukin Diftitox	Interleukin-2 Fusion Toxin	
+Denileukin Diftitox	LY335348	
+Denileukin Diftitox	DAB(389)-Interleukin-2	
+Panitumumab	ABX-EGF, Clone E7.6.3	
+Panitumumab	PANITUMUMAB	
+Panitumumab	Monoclonal_Antibody_ABX-EGF	
+Panitumumab	Panitumumab	
+Panitumumab	Vectibix	
+Panitumumab	MoAb ABX-EGF	
+Panitumumab	ABX-EGF	
+Panitumumab	ABX-EGF Monoclonal Antibody	
+Panitumumab	Monoclonal Antibody ABX-EGF	
+Panitumumab	panitumumab	
+Gemcitabine Hydrochloride	Difluorodeoxycytidine	
+Gemcitabine Hydrochloride	GEMCITABINE HYDROCHLORIDE	
+Gemcitabine Hydrochloride	LY-188011	
+Gemcitabine Hydrochloride	dFdCyd	
+Gemcitabine Hydrochloride	Gemcitabine	
+Gemcitabine Hydrochloride	Gemcitabine Hydrochloride	
+Gemcitabine Hydrochloride	2'Deoxy-2',2'-Difluorocytidine, Hydrochloride	
+Gemcitabine Hydrochloride	Difluorodeoxycytidine Hydrochloride	
+Gemcitabine Hydrochloride	GEMCITABINE	
+Gemcitabine Hydrochloride	dFdC	
+Gemcitabine Hydrochloride	gemcitabine hydrochloride	
+Gemcitabine Hydrochloride	Gemcitabine_Base	
+Gemcitabine Hydrochloride	1-(2-Oxo-4-amino-1,2-dihydropyrimidin-1-yl)-2-deoxy-2,2-difluororibose	
+Gemcitabine Hydrochloride	1-(2-Oxo-4-amino-1,2-dihydropyrimidin-1-yl)-2-deoxy-2,2-difluororibose, hydrochloride	
+Gemcitabine Hydrochloride	Gemzar	
+Gemcitabine Hydrochloride	gemcitabine	
+Gemcitabine Hydrochloride	2'Deoxy-2',2'-Difluorocytidine	
+Carboplatin	platinum, diammine(1,1-cyclobutanedicarboxylato(2-))-, (SP-4-2)	
+Carboplatin	Paraplat	
+Carboplatin	CARBOPLATIN	
+Carboplatin	Novoplatinum	
+Carboplatin	Ribocarbo	
+Carboplatin	cis-diammine(cyclobutanedicarboxylato)platinum II	
+Carboplatin	JM-8	
+Carboplatin	1,1-cyclobutanedicarboxylic acid platinum complex	
+Carboplatin	Nealorin	
+Carboplatin	(SP-4-2)-diammine[1,1-cyclobutanedicarboxylato(2--)-O,O']platinum	
+Carboplatin	cis-diammine(1,1-cyclobutanedicarboxylato) platinum(II)	
+Carboplatin	Carboplatin Hexal	
+Carboplatin	Carbosol	
+Carboplatin	Ercar	
+Carboplatin	Cis-Diammine(cyclobutane-1,1-dicarboxylato)platinum	
+Carboplatin	Blastocarb	
+Carboplatin	CBDCA	
+Carboplatin	Paraplatin	
+Carboplatin	carboplatin	
+Carboplatin	Carboplatin	
+Carboplatin	Paraplatine	
+Carboplatin	Paraplatin AQ	
+Carboplatin	Carboplatino	
+Carboplatin	Carbosin	
+Carboplatin	Displata	
+Carboplatin	Carboplat	
+Carboplatin	Carbotec	
+Carboplatin	Platinwas	
+Mercaptopurine	Leupurin	
+Mercaptopurine	NCI-C04886	
+Mercaptopurine	3H-Purine-6-thiol	
+Mercaptopurine	6-MP	
+Mercaptopurine	6H-Purine-6-thione, 1,7-dihydro- (9CI)	
+Mercaptopurine	Mercaptopurinum	
+Mercaptopurine	Purine-6-thiol, Monohydrate	
+Mercaptopurine	Purine-6-thiol, monohydrate	
+Mercaptopurine	WR-2785	
+Mercaptopurine	Mercaptina	
+Mercaptopurine	Puri-Nethol	
+Mercaptopurine	Purinethol	
+Mercaptopurine	1,7-Dihydro-6H-purine-6-thione Monohydrate	
+Mercaptopurine	Bw 57-323H	
+Mercaptopurine	Mern	
+Mercaptopurine	6-Mercaptopurine	
+Mercaptopurine	Mercaleukin	
+Mercaptopurine	6 MP	
+Mercaptopurine	Mercaleukim	
+Mercaptopurine	Purine, 6-mercapto-	
+Mercaptopurine	Mercapurin	
+Mercaptopurine	1,7-Dihydro-6H-purine-6-thione	
+Mercaptopurine	6-Purinethiol	
+Mercaptopurine	Mercapto-6-purine	
+Mercaptopurine	Mercaptopurine	
+Mercaptopurine	U-4748	
+Mercaptopurine	6-Thiopurine	
+Mercaptopurine	Azathiopurine	
+Mercaptopurine	Leukerin	
+Mercaptopurine	Purinethiol	
+Mercaptopurine	7-Mercapto-1,3,4,6-tetrazaindene	
+Mercaptopurine	6-Thioxopurine	
+Mercaptopurine	Flocofil	
+Mercaptopurine	Purine-6-thiol Monohydrate	
+Mercaptopurine	MERCAPTOPURINE	
+Mercaptopurine	Purimethol	
+Mercaptopurine	Ismipur	
+Mercaptopurine	mercaptopurine	
+Mercaptopurine	Purine-6-thiol (8CI)	
+Mercaptopurine	Alti-Mercaptopurine	
+Mercaptopurine	6 Thiohypoxanthine	
+Mercaptopurine	BW 57-323H	
+Mercaptopurine	6-Mercaptopurine Monohydrate	
+Mercaptopurine	6 Thiopurine	
+Afatinib Dimaleate	BIBW 2992	
+Afatinib Dimaleate	Afatinib_Dimaleate	
+Afatinib Dimaleate	Afatinib Dimaleate	
+Afatinib Dimaleate	BIBW 2992MA2	
+Afatinib Dimaleate	(2E)-N-(4-((3-Chloro-4-fluorophenyl)amino)-7-(((3S)-tetrahydrofuran-3-yl)oxy)quinazolin- 6-yl)-4-(dimethylamino)but-2-enamide bis(hydrogen (2Z)-but-2-enedioate)	
+Afatinib Dimaleate	AFATINIB DIMALEATE	
+Afatinib Dimaleate	Afatinib	
+Afatinib Dimaleate	AFATINIB	
+Afatinib Dimaleate	BIBW2992 MA2	
+Afatinib Dimaleate	(2e)-N-(4-(3-Chloro-4-Fluoroanilino)-7-(((3s)-Oxolan-3-yl)Oxy)Quinoxazolin-6-yl)-4-(Dimethylamino)But-2-Enamide	
+Afatinib Dimaleate	BIBW_2992	
+Afatinib Dimaleate	2-Butenamide, N-[4-[(3-chloro-4-fluorophenyl)amino]7-[[(3S)-tetrahydro-3-furanyl]oxy]-6-quinazolinyl]-4-(dimethylamino)-,(2E)-, (2Z)-2-Butenedioate (1:2)	
+Afatinib Dimaleate	Gilotrif	
+Lapatinib Ditosylate	LAPATINIB	
+Lapatinib Ditosylate	GW572016	
+Lapatinib Ditosylate	lapatinib ditosylate	
+Lapatinib Ditosylate	lapatinib	
+Lapatinib Ditosylate	LAPATINIB DITOSYLATE	
+Lapatinib Ditosylate	GW 2016	
+Lapatinib Ditosylate	GW2016	
+Lapatinib Ditosylate	Lapatinib	
+Lapatinib Ditosylate	GSK572016	
+Lapatinib Ditosylate	Lapatinib_Ditosylate	
+Lapatinib Ditosylate	Lapatinib Ditosylate	
+Lapatinib Ditosylate	Tykerb	
+Filgrastim	r-metHuG-CSF	
+Filgrastim	Neupogen	
+Filgrastim	FILGRASTIM	
+Filgrastim	Filgrastim XM02	
+Filgrastim	Recombinant Methionyl Human Granulocyte Colony Stimulating Factor	
+Filgrastim	Tevagrastim	
+Filgrastim	filgrastim	
+Filgrastim	rG-CSF	
+Filgrastim	G-CSF	
+Filgrastim	Tbo-filgrastim	
+Filgrastim	Filgrastim	
+Irinotecan Hydrochloride	Camptothecin 11	
+Irinotecan Hydrochloride	IRINOTECAN HYDROCHLORIDE	
+Irinotecan Hydrochloride	Irinomedac	
+Irinotecan Hydrochloride	Campto	
+Irinotecan Hydrochloride	7-ethyl-10-[4-(1-piperidino)-1-piperidino]carbonyloxycamptothecin	
+Irinotecan Hydrochloride	irinotecan	
+Irinotecan Hydrochloride	CPT-11	
+Irinotecan Hydrochloride	Irinotecan_Base	
+Irinotecan Hydrochloride	Irinotecan Hydrochloride	
+Irinotecan Hydrochloride	Irinotecan	
+Irinotecan Hydrochloride	[1,4'-bipiperidine]-1'-carboxylic acid (S)-4,11-diethyl-3,4,12,14-tetrahydro-4-hydroxy-3,14-dioxo-1H-pyrano[3',4':6,7]indolizino[1,2-b]quinolin-9-yl ester	
+Irinotecan Hydrochloride	(+)-7-ethyl-10-hydroxycamptothecine 10-[1,4'-bipiperidine]-1'-carboxylate	
+Irinotecan Hydrochloride	(+)-(4S)-4,11-diethyl-4-hydroxy-9-[(4-piperidino-piperidino)carbonyloxy]-1H-pyrano[3',4':6,7]indolizino[1,2-b]quinol-3,14,(4H,12H)-dione	
+Irinotecan Hydrochloride	Camptothecin-11	
+Irinotecan Hydrochloride	IRINOTECAN	
+Irinotecan Hydrochloride	CPT 11	
+Irinotecan Hydrochloride	U-101440E	
+Irinotecan Hydrochloride	irinotecan hydrochloride	
+Irinotecan Hydrochloride	Camptosar	
+Anastrozole	Arimidex	
+Anastrozole	Anastrozole	
+Anastrozole	Alpha,alpha,alpha', alpha'-tetramethyl-5-(1H-1,2,4-triazol-1-ylmethyl)-1,3-benzenediacetonitrile	
+Anastrozole	ZD-1033	
+Anastrozole	2,2'-[5-(1H-1,2,4-Triazol-1-ylmethyl)-1,3-phenylene]di(2-methylpropionitrile)	
+Anastrozole	ICI D1033	
+Anastrozole	anastrozole	
+Anastrozole	ICI-D1033	
+Anastrozole	ANASTROZOLE	
+Etoposide	VP-16-213	
+Etoposide	Vepesid	
+Etoposide	Etoposide Phosphate	
+Etoposide	ETOPOSIDE PHOSPHATE	
+Etoposide	etoposide phosphate	
+Etoposide	Etopophos	
+Etoposide	Etoposide	
+Etoposide	Demethyl Epipodophyllotoxin Ethylidine Glucoside	
+Etoposide	9-[(4,6-O-Ethylidene-beta-D-glucopyranosyl]oxy)-5,8,8a,9-tetrahydro-5-(4-hydroxy-3,5-dimethoxyphenyl)furo[3',4':6,7]naphtho[2,3-d]-1,3-dioxol-6(5aH)-one	
+Etoposide	EPEG	
+Etoposide	4'-Demethylepipodophyllotoxin 9-[4,6-O-ethylidene-beta-D-glucopyranoside]	
+Etoposide	ETOPOSIDE	
+Etoposide	Lastet	
+Etoposide	VP-16	
+Etoposide	Toposar	
+Etoposide	etoposide	
+Etoposide	VP 16-213	
+Etoposide	Etoposide_Phosphate	
+Chlorambucil	Chlorbutin	
+Chlorambucil	Linfolysin	
+Chlorambucil	CHL	
+Chlorambucil	4-[Bis(2-chloroethyl)amino]benzenebutanoic acid	
+Chlorambucil	Chlorambucilum	
+Chlorambucil	.gamma.-[p-bis(2-chloroethyl)aminophenyl]butyric acid	
+Chlorambucil	Chlorobutine	
+Chlorambucil	chlorbutinum	
+Chlorambucil	Butyric acid, 4-(p-bis(2-chloroethyl)aminophenyl)-	
+Chlorambucil	p-(N, N-di-2-chloroethyl)aminophenyl butyric acid	
+Chlorambucil	Ecloril	
+Chlorambucil	benzenebutanoic acid, 4-[bis(2-chloroethyl)amino]- (9CI)	
+Chlorambucil	Chloraminophene	
+Chlorambucil	Linfolizin	
+Chlorambucil	Butyric acid, 4-(p-[bis(2-chloroethyl)amino]phenyl)-	
+Chlorambucil	CB-1348	
+Chlorambucil	N,N-Di-2-chloroethyl-.gamma.-p-aminophenylbutyric acid	
+Chlorambucil	butyric acid, 4-(p-bis(2-chloroethyl)aminophenyl)	
+Chlorambucil	Lympholysin	
+Chlorambucil	Phenylbutyric acid nitrogen mustard	
+Chlorambucil	WR-139013	
+Chlorambucil	Chloraminophen	
+Chlorambucil	p-N, N-di-(beta-chloroethyl)aminophenyl butyric acid	
+Chlorambucil	4-[p-[Bis(2-chloroethyl)amino]phenyl]butyric acid	
+Chlorambucil	gamma-(p-bis(2-chloroethyl)aminophenyl)butyric acid	
+Chlorambucil	Leukersan	
+Chlorambucil	gamma-[p-di(2-chloroethyl)aminophenyl]butyric acid	
+Chlorambucil	.gamma.-(p-bis(2-chloroethyl)aminophenyl)butyric acid	
+Chlorambucil	N,N-di-2-chloroethyl-gamma-p-aminophenylbutyric acid	
+Chlorambucil	.gamma.-[p-Di(2-chloroethyl)aminophenyl]butyric acid	
+Chlorambucil	chlorambucil	
+Chlorambucil	Chlorobutin	
+Chlorambucil	Aminochlorambucil	
+Chlorambucil	Elcoril	
+Chlorambucil	p-N, N-Di-(.beta.-chloroethyl)aminophenyl butyric acid	
+Chlorambucil	Chlorambucil	
+Chlorambucil	Leukoran	
+Chlorambucil	CHLORAMBUCIL	
+Chlorambucil	Leukeran	
+Chlorambucil	4-[p-[bis(2-chloroethyl)amino]phenyl]butyric acid	
+Chlorambucil	phenylbutyric acid nitrogen mustard	
+Chlorambucil	Ambochlorin	
+Chlorambucil	Benzenebutanoic acid, 4-[bis(2-chloroethyl)amino]- (9CI)	
+Chlorambucil	p-(N, N-Di-2-chloroethyl)aminophenyl butyric acid	
+Chlorambucil	aminochlorambucil	
+Chlorambucil	Amboclorin	
+Chlorambucil	Alti-chlorambucil	
+Chlorambucil	Chlorbutine	
+Chlorambucil	4-[bis(2-chloroethyl)amino]benzenebutanoic acid	
+Chlorambucil	CB 1348	
+Chlorambucil	chloroambucil	
+Chlorambucil	Chloroambucil	
+Epirubicin Hydrochloride	Epidoxorubicin	
+Epirubicin Hydrochloride	3-Glycoloyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-methoxy-6,11-dioxo-1-naphthacenyl-3-amino-2,3,6-trideoxy-alpha-L-arabino-hexopyranoside	
+Epirubicin Hydrochloride	Pidorubicin	
+Epirubicin Hydrochloride	(8S-cis)-10-((3-Amino-2,3,6-trideoxy-beta-L-arabino-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione Hydrochloride	
+Epirubicin Hydrochloride	epirubicin hydrochloride	
+Epirubicin Hydrochloride	Pharmorubicin PFS	
+Epirubicin Hydrochloride	epirubicin	
+Epirubicin Hydrochloride	Ellence	
+Epirubicin Hydrochloride	Epi DX	
+Epirubicin Hydrochloride	4'-epi DX	
+Epirubicin Hydrochloride	Epirubicin Hydrochloride	
+Epirubicin Hydrochloride	4'-Epidoxorubicin	
+Epirubicin Hydrochloride	EPIRUBICIN	
+Epirubicin Hydrochloride	4'-Epiadriamycin	
+Epirubicin Hydrochloride	3-Glycoloyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-methoxy-6,11-dioxo-1-naphthacenyl-3-amino-2,3,6-trideoxy-alpha-L-arabino-hexopyranoside Hydrochloride	
+Epirubicin Hydrochloride	Epirubicin	
+Epirubicin Hydrochloride	(8S-cis)-10-((3-Amino-2,3,6-trideoxy-beta-L-arabino-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione	
+Epirubicin Hydrochloride	Epirubicin_Base	
+Epirubicin Hydrochloride	IMI-28	
+Epirubicin Hydrochloride	EPIRUBICIN HYDROCHLORIDE	
+Pembrolizumab	Immunoglobulin G4, Anti-(Human Programmed Cell Death 1); Humanized Mouse Monoclonal (228-L-proline(H10-S>P))gamma 4 Heavy Chain (134-218')-disulfide with Humanized Mouse Monoclonal Kappa Light Chain Dimer (226-226'':229-229'')-bisdisulfide	
+Pembrolizumab	Pembrolizumab	
+Pembrolizumab	MK-3475	
+Pembrolizumab	PEMBROLIZUMAB	
+Pembrolizumab	Keytruda	
+Pembrolizumab	Lambrolizumab	
+Pembrolizumab	SCH 900475	
+Pralatrexate	10-Propargyl-10-Deazaaminopterin	
+Pralatrexate	_10-Propargyl-10-Deazaaminopterin	
+Pralatrexate	PDX	
+Pralatrexate	10-propargyl-10-deazaaminopterin	
+Pralatrexate	Folotyn	
+Pralatrexate	N-(4-{1-[(2,4-Diaminopteridin-6-yl)methyl]but-3-yn-1-yl}benzoyl)-L-glutamic Acid	
+Pralatrexate	FOLOTYN	
+Pralatrexate	pralatrexate	
+Pralatrexate	PRALATREXATE	
+Pralatrexate	Pralatrexate	
+Pralatrexate	(2S)-2-[[4-[(1RS)-1-[(2, 4-Diaminopteridin-6-yl)methyl]but-3-ynyl]benzoyl]amino]pentanedioic Acid	
+Hydroxyurea	Onco-Carbide	
+Hydroxyurea	SQ-1089	
+Hydroxyurea	Syrea	
+Hydroxyurea	Hydroxycarbamide	
+Hydroxyurea	HYDROXYUREA	
+Hydroxyurea	Hydroxyurea	
+Hydroxyurea	Droxia	
+Hydroxyurea	Oxeron	
+Hydroxyurea	Hydrea	
+Hydroxyurea	Oncocarbide	
+Hydroxyurea	hydroxyurea	
+Hydroxyurea	SQ 1089	
+Hydroxyurea	Onco-carbide	
+Hydroxyurea	WR 83799	
+Hydroxyurea	Litalir	
+Elotuzumab	PDL063	
+Elotuzumab	HuLuc-63	
+Elotuzumab	ELOTUZUMAB	
+Elotuzumab	BMS-901608	
+Elotuzumab	HuLuc63	
+Elotuzumab	PDL-063	
+Elotuzumab	Anti-CS1_Monoclonal_Antibody_HuLuc63	
+Elotuzumab	Empliciti	
+Elotuzumab	Elotuzumab	
+Crizotinib	Crizotinib	
+Crizotinib	MET Tyrosine Kinase Inhibitor PF-02341066	
+Crizotinib	Xalkori	
+Crizotinib	2-Pyridinamine, 3-((1R)-1-(2,6-Dichloro-3-Fluorophenyl)Ethoxy)-5-(1-(4-Piperidinyl)-1H-Pyrazol-4-yl)-	
+Crizotinib	PF-02341066	
+Crizotinib	MET_Tyrosine_Kinase_Inhibitor_PF-02341066	
+Crizotinib	CRIZOTINIB	
+Crizotinib	PF-2341066	
+Crizotinib	MET tyrosine kinase inhibitor PF-02341066	
+Crizotinib	(R)-3-(1-(2,6-Dichloro-3-Fluorophenyl)Ethoxy)-5-(1-(Piperidin-4-Yl)-1h-Pyrazol-4-Yl)Pyridin-2-Amine	
+Letrozole	letrozole	
+Letrozole	CGS 20267	
+Letrozole	Femara	
+Letrozole	LETROZOLE	
+Letrozole	4,4'-(1H-1,2,4triazol-1-ylmethylene)dibenzonitrile	
+Letrozole	Letrozole	
+Cobimetinib	Cotellic	
+Cobimetinib	Cobimetinib	
+Cobimetinib	XL518	
+Cobimetinib	COBIMETINIB	
+Cobimetinib	GDC-0973	
+Cobimetinib	MEK_Inhibitor_XL518	
+Cobimetinib	MEK Inhibitor GDC-0973	
+Temsirolimus	CCI-779 Rapamycin Analog	
+Temsirolimus	temsirolimus	
+Temsirolimus	42-(3-Hydroxy-2-(hydroxymethyl)-2-methylpropanoate)rapamycin	
+Temsirolimus	CCI-779	
+Temsirolimus	TEMSIROLIMUS	
+Temsirolimus	Torisel	
+Temsirolimus	Rapamycin Analog CCI-779	
+Temsirolimus	Temsirolimus	
+Temsirolimus	Rapamycin Analog	
+Temsirolimus	Cell Cycle Inhibitor 779	
+Lomustine	1-Nitrosourea, 1-(2-chloroethyl)-3-cyclohexyl-	
+Lomustine	LOMUSTINE	
+Lomustine	Belustin	
+Lomustine	Citostal	
+Lomustine	Lomustinum	
+Lomustine	lomustine	
+Lomustine	Lucostin	
+Lomustine	Lomeblastin	
+Lomustine	WR-139017	
+Lomustine	Lucostine	
+Lomustine	CeeNU	
+Lomustine	Chloroethylcyclo- hexylnitrosourea	
+Lomustine	1-(2-chloroethyl)-3-cyclohexyl-1-nitrosourea	
+Lomustine	Prava	
+Lomustine	1-(2-Chloroethyl)-3-cyclohexyl-1-nitrosourea	
+Lomustine	Lomustine	
+Lomustine	CCNU	
+Lomustine	Chloroethylcyclohexylnitrosourea	
+Lomustine	Cecenu	
+Lomustine	N-(2-chloroethyl)-N'-cyclohexyl-N-nitrosourea	
+Lomustine	RB-1509	
+Lomustine	Belustine	
+Lomustine	N-(2-Chloroethyl)-N'-cyclohexyl-N-nitrosourea	
+Pegaspargase	PEGLA	
+Pegaspargase	PEG-L-Asparaginase (Enzon - Kyowa Hakko)	
+Pegaspargase	pegaspargase	
+Pegaspargase	PEGASPARGASE	
+Pegaspargase	(Monomethoxypolyethylene Glycol Succinimidyl)74-L-Asparaginase	
+Pegaspargase	L-Asparaginase with Polyethylene Glycol	
+Pegaspargase	Oncaspar	
+Pegaspargase	Polyethylene Glycol L-Asparaginase	
+Pegaspargase	PEG-asparaginase	
+Pegaspargase	PEG-L-Asparaginase	
+Pegaspargase	Polyethylene Glycol-L-Asparaginase	
+Pegaspargase	Pegaspargase	
+Pegaspargase	PEG-Asparaginase	
+Romidepsin	depsipeptide	
+Romidepsin	ROMIDEPSIN	
+Romidepsin	L-Valine, N- (3-hydroxy-7-mercapto-1-oxo-4-heptenyl)valyl- cysteinyl-2, 3-didehydro-2-aminobutanoyl-,xi-lactone, cyclic (1-2)-disulfide	
+Romidepsin	Romidepsin	
+Romidepsin	Istodax	
+Romidepsin	FK228	
+Romidepsin	N-[(3S,4E)-3-Hydroxy-7-mercapto-1-oxo-4-heptenyl]-D-valyl-D-cysteinyl-(2Z)-2-amino-2-butenoyl-L-valine, (4->1) Lactone, Cyclic	
+Romidepsin	Depsipeptide	
+Romidepsin	romidepsin	
+Romidepsin	Antibiotic FR 901228	
+Romidepsin	FR901228	
+Romidepsin	L-Valine, N-(3-Hydroxy-7-Mercapto-1-Oxo-4-Heptenyl)-D-Valyl-D-Cysteinyl-(Z)-2,3 -Didehydro-2-Aminobutanoyl-, xi-Lactone, Cyclic (1-2)-Disulfide, (S-(E))-	
+Romidepsin	N-[(3S,4E)-3-Hydroxy-7-mercapto-1-oxo-4-heptenyl]-D-valyl-D-cysteinyl-(2Z)-2-amino-2-butenoyl-L-valine, (4-1) Lactone, Cyclic	
+Vinblastine Sulfate	Vinblastine	
+Vinblastine Sulfate	29060 LE	
+Vinblastine Sulfate	VINBLASTINE SULFATE	
+Vinblastine Sulfate	Velsar	
+Vinblastine Sulfate	vinblastine sulfate	
+Vinblastine Sulfate	VINBLASTINE	
+Vinblastine Sulfate	VINCALEUKOBLASTINE	
+Vinblastine Sulfate	Velbe	
+Vinblastine Sulfate	VLB	
+Vinblastine Sulfate	Vincaleucoblastine	
+Vinblastine Sulfate	Vinblastine_Sulfate	
+Vinblastine Sulfate	Velban	
+Vinblastine Sulfate	Vinblastine Sulfate	
+Vinblastine Sulfate	vinblastine	
+Vinblastine Sulfate	29060-LE	
+Vinblastine Sulfate	Exal	
+Melphalan Hydrochloride	4-[bis(2-chloroethyl)amino]-L-phenylalanine	
+Melphalan Hydrochloride	L-sarcolysin	
+Melphalan Hydrochloride	melphalan	
+Melphalan Hydrochloride	MELPHALAN HYDROCHLORIDE	
+Melphalan Hydrochloride	Alkeran	
+Melphalan Hydrochloride	p-di(chloroethyl)amino-L-phenylalanine	
+Melphalan Hydrochloride	L-Sarcolysin	
+Melphalan Hydrochloride	Melphalanum	
+Melphalan Hydrochloride	Sarcoclorin	
+Melphalan Hydrochloride	Sarkolysin	
+Melphalan Hydrochloride	Phenylalanine Nitrogen Mustard	
+Melphalan Hydrochloride	L-Phenylalanine mustard	
+Melphalan Hydrochloride	Melphalan	
+Melphalan Hydrochloride	3-(p-(bis(2-chloroethyl)amino)phenyl)-L-Alanine, Hydrochloride	
+Melphalan Hydrochloride	Phenylalanine nitrogen mustard	
+Melphalan Hydrochloride	WR-19813	
+Melphalan Hydrochloride	Alanine Nitrogen Mustard	
+Melphalan Hydrochloride	Melphalan Hydrochloride	
+Melphalan Hydrochloride	L-Sarcolysine	
+Melphalan Hydrochloride	L-Sarcolysin Phenylalanine mustard	
+Melphalan Hydrochloride	Alkerana	
+Melphalan Hydrochloride	Evomela	
+Melphalan Hydrochloride	Melphalan_Hydrochloride	
+Melphalan Hydrochloride	Phenylalanine Mustard	
+Melphalan Hydrochloride	L-Phenylalanine Mustard	
+Melphalan Hydrochloride	CB-3025	
+Melphalan Hydrochloride	MELPHALAN	
+Melphalan Hydrochloride	L-PAM	
+Ixazomib Citrate	IXAZOMIB	
+Ixazomib Citrate	MLN9708	
+Ixazomib Citrate	MLN2238	
+Ixazomib Citrate	MLN-9708	
+Ixazomib Citrate	Ninlaro	
+Ixazomib Citrate	{(1R)-1-[(2,5-dichlorobenzamido)acetamido]-3-methylbutyl}boronic Acid	
+Ixazomib Citrate	1,3,2-dioxaborinane-4-acetic acid, 4-carboxy-2-((1r)-1-((2-((2,5-dichlorobenzoyl)amino)acetyl)amino)-3-methylbutyl)-6-oxo-	
+Ixazomib Citrate	Proteasome_Inhibitor_MLN9708	
+Ixazomib Citrate	MLN-2238	
+Ixazomib Citrate	Ixazomib Citrate	
+Ixazomib Citrate	Ixazomib	
+Mechlorethamine Hydrochloride	Mechlorethamine	
+Mechlorethamine Hydrochloride	Mustargen Hydrochloride	
+Mechlorethamine Hydrochloride	Mustargen hydrochloride	
+Mechlorethamine Hydrochloride	Chloromethine Hydrochloride	
+Mechlorethamine Hydrochloride	Chloromethine HCl	
+Mechlorethamine Hydrochloride	Chlorethazine	
+Mechlorethamine Hydrochloride	chlorethazine	
+Mechlorethamine Hydrochloride	Mustargen HCl	
+Mechlorethamine Hydrochloride	mustine	
+Mechlorethamine Hydrochloride	Nitrogen Mustard	
+Mechlorethamine Hydrochloride	Methylbis(beta-chloroethyl)amine	
+Mechlorethamine Hydrochloride	Cloramin	
+Mechlorethamine Hydrochloride	Nitrogen_Mustard	
+Mechlorethamine Hydrochloride	Methylchlorethamine Hydrochloride	
+Mechlorethamine Hydrochloride	mechlorethamine hydrochloride	
+Mechlorethamine Hydrochloride	ethanamine,2-chloro-N-(2-chloroethyl)-N-methyl	
+Mechlorethamine Hydrochloride	N-Lost	
+Mechlorethamine Hydrochloride	Onco-Cloramin	
+Mechlorethamine Hydrochloride	MECHLORETHAMINE	
+Mechlorethamine Hydrochloride	Methylbis(beta-chloroethyl)amine Hydrochloride	
+Mechlorethamine Hydrochloride	Mustargen	
+Mechlorethamine Hydrochloride	mechlorethamine HCl	
+Mechlorethamine Hydrochloride	WR-147650	
+Mechlorethamine Hydrochloride	Chlormethine	
+Mechlorethamine Hydrochloride	ethanamine,2-chloro-N-(2-chloroethyl)-N-methyl Hydrochloride	
+Mechlorethamine Hydrochloride	Mustine hydrochloride	
+Mechlorethamine Hydrochloride	Mustine	
+Mechlorethamine Hydrochloride	Chlorethazine Hydrochloride	
+Mechlorethamine Hydrochloride	Mustine Hydrochloride	
+Mechlorethamine Hydrochloride	methylchlorethamine	
+Mechlorethamine Hydrochloride	Erasol	
+Mechlorethamine Hydrochloride	Bis(2-chloroethyl)methylamine	
+Mechlorethamine Hydrochloride	Caryolysine	
+Mechlorethamine Hydrochloride	HN 2 Hydrochloride	
+Mechlorethamine Hydrochloride	MECHLORETHAMINE HYDROCHLORIDE	
+Mechlorethamine Hydrochloride	Bis(2-chloroethyl)methylamine Hydrochloride	
+Mechlorethamine Hydrochloride	Chlormethine hydrochloride	
+Mechlorethamine Hydrochloride	chloromethine	
+Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	
+Mechlorethamine Hydrochloride	Mechlorethamine hydrochloride	
+Mechlorethamine Hydrochloride	Chlormethine Hydrochloride	
+Mechlorethamine Hydrochloride	HN 2	
+Mechlorethamine Hydrochloride	Mustard	
+Mechlorethamine Hydrochloride	chlorethamine hydrochloride	
+Mechlorethamine Hydrochloride	Chlorethamine HCl	
+Bortezomib	PS341	
+Bortezomib	LDP 341	
+Bortezomib	Bortezomib	
+Bortezomib	[(1R)-3-Methyl-1-[[(2S)-1-oxo-3-phenyl-2-[(pyrazinylcarbonyl)amino]propyl]amino]butyl]boronic Acid	
+Bortezomib	velcade	
+Bortezomib	MLN341	
+Bortezomib	BORTEZOMIB	
+Bortezomib	PS-341	
+Bortezomib	bortezomib	
+Bortezomib	Velcade	
+Brentuximab Vedotin	cAC10-vcMMAE	
+Brentuximab Vedotin	Anti-CD30 Antibody-Drug Conjugate SGN-35	
+Brentuximab Vedotin	Anti-CD30 Monoclonal Antibody-MMAE SGN-35	
+Brentuximab Vedotin	BRENTUXIMAB VEDOTIN	
+Brentuximab Vedotin	Brentuximab Vedotin	
+Brentuximab Vedotin	SGN-35	
+Brentuximab Vedotin	Adcetris	
+Brentuximab Vedotin	ADC SGN-35	
+Brentuximab Vedotin	Anti-CD30 Monoclonal Antibody-Monomethylauristatin E SGN-35	
+Dasatinib	Dasatinib	
+Dasatinib	dasatinib	
+Dasatinib	Sprycel	
+Dasatinib	BMS-354825	
+Dasatinib	DASATINIB	
+Vismodegib	GDC-0449	
+Vismodegib	2-chloro-N-[4-chloro-3-(pyridin-2-yl)phenyl]-4-(methylsulfonyl)benzamide	
+Vismodegib	VISMODEGIB	
+Vismodegib	Erivedge	
+Vismodegib	Hedgehog Antagonist GDC-0449	
+Vismodegib	Vismodegib	
+Vismodegib	Hedgehog_Antagonist_GDC-0449	
+Vincristine Sulfate	Vincasar	
+Vincristine Sulfate	vincristine	
+Vincristine Sulfate	VCR	
+Vincristine Sulfate	Leurocristine, sulfate	
+Vincristine Sulfate	Vincosid	
+Vincristine Sulfate	Leurocristine	
+Vincristine Sulfate	Vincrystine	
+Vincristine Sulfate	Leurocristine Sulfate	
+Vincristine Sulfate	Vincristine	
+Vincristine Sulfate	LEUROCRISTINE	
+Vincristine Sulfate	Vincristine_Sulfate	
+Vincristine Sulfate	Vincristine, sulfate	
+Vincristine Sulfate	Leurocristine sulfate	
+Vincristine Sulfate	Kyocristine	
+Vincristine Sulfate	vincristine sulfate	
+Vincristine Sulfate	VINCRISTINE SULFATE	
+Vincristine Sulfate	VINCRISTINE	
+Vincristine Sulfate	Oncovin	
+Vincristine Sulfate	22-Oxovincaleukoblastine	
+Vincristine Sulfate	Vincristine Sulfate	
+Vincristine Sulfate	Vincrex	
+Alemtuzumab	ALEMTUZUMAB	
+Alemtuzumab	Anti-CD52 Monoclonal Antibody	
+Alemtuzumab	MabCampath	
+Alemtuzumab	alemtuzumab	
+Alemtuzumab	Campath-1H	
+Alemtuzumab	Alemtuzumab	
+Alemtuzumab	LDP-03	
+Alemtuzumab	Monoclonal Antibody Campath-1H	
+Alemtuzumab	Campath	
+Ramucirumab	RAMUCIRUMAB	
+Ramucirumab	anti-VEGFR-2 fully human monoclonal antibody IMC-1121B	
+Ramucirumab	Anti-VEGFR-2_Fully_Human_Monoclonal_Antibody_IMC-1121B	
+Ramucirumab	LY3009806	
+Ramucirumab	ramucirumab	
+Ramucirumab	IMC-1121B	
+Ramucirumab	Monoclonal Antibody HGS-ETR2	
+Ramucirumab	Ramucirumab	
+Ramucirumab	Anti-VEGFR-2 Fully Human Monoclonal Antibody IMC-1121B	
+Ramucirumab	Cyramza	
+Cisplatin	Cisplatyl	
+Cisplatin	Cis-platinum	
+Cisplatin	Cisplatina	
+Cisplatin	Platosin	
+Cisplatin	Plastistil	
+Cisplatin	Platiblastin	
+Cisplatin	Platinol	
+Cisplatin	Cis-diammine-dichloroplatinum	
+Cisplatin	Cis-diamminedichloro Platinum (II)	
+Cisplatin	Citoplatino	
+Cisplatin	Placis	
+Cisplatin	Cismaplat	
+Cisplatin	Platiblastin-S	
+Cisplatin	Platinum, Diaminedichloro-, cis- (8CI)	
+Cisplatin	Platistin	
+Cisplatin	Neoplatin	
+Cisplatin	Platinol-AQ VHA Plus	
+Cisplatin	DDP	
+Cisplatin	Peyrone's Salt	
+Cisplatin	Platinum Diamminodichloride	
+Cisplatin	CISPLATIN	
+Cisplatin	Platinum	
+Cisplatin	Lederplatin	
+Cisplatin	Briplatin	
+Cisplatin	Platinol- AQ	
+Cisplatin	Abiplatin	
+Cisplatin	cisplatin	
+Cisplatin	Platamine	
+Cisplatin	(SP-4-2)-Diamminedichloroplatinum	
+Cisplatin	Metaplatin	
+Cisplatin	Blastolem	
+Cisplatin	Cysplatyna	
+Cisplatin	Platinoxan	
+Cisplatin	Cis-platinum II Diamine Dichloride	
+Cisplatin	Cisplatin	
+Cisplatin	Cisplatinum	
+Cisplatin	Cis-diamminedichloridoplatinum	
+Cisplatin	CDDP	
+Cisplatin	Citosin	
+Cisplatin	Cis-platinum II	
+Cisplatin	Cis-platinous Diamine Dichloride	
+Cisplatin	Platinol-AQ	
+Cisplatin	Peyrone's Chloride	
+Cisplatin	Cis-dichloroammine Platinum (II)	
+Cisplatin	Platiran	
+Cisplatin	Cis-diamminedichloroplatinum	
+Cisplatin	Platinex	
+Docetaxel	[2aR-[2a alphaa,4beta,4a beta,6beta,9alpha,(alphaR*,betaS*),-11alpha,12alpha,12a alpha,12b alpha]]-beta-[[(1,1-dimethylethoxy)carbonyl]-amino]-alpha-hydroxybenzemepropanoic Acid 12b-(Acetyloxy)-12(benzyloxy)-2a,3,4,4a,5,6,8,10,11,12,12a,12b-dodecahydeo-4,-6,11-trihydroxy-4a,8,13,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca[3,4]benz[1,2-b]oxet-9-yl Ester	
+Docetaxel	Taxotere Injection Concentrate	
+Docetaxel	docetaxel	
+Docetaxel	Docetaxel	
+Docetaxel	N-Debenzoyl-N-(tert-butoxycarbonyl)-10-deacetyltaxol	
+Docetaxel	DOCETAXEL	
+Docetaxel	Docecad	
+Docetaxel	RP56976	
+Docetaxel	Taxotere	
+Enzalutamide	ASP9785	
+Enzalutamide	MDV3100	
+Enzalutamide	Xtandi	
+Enzalutamide	Selective_Androgen_Receptor_Modulator_MDV3100	
+Enzalutamide	Benzamide, 4-(3-(4-cyano-3-(trifluoromethyl)phenyl)-5,5-dimethyl-4-oxo-2-thioxo-1-imidazolidinyl)-2-fluoro-N-methyl-	
+Enzalutamide	Enzalutamide	
+Enzalutamide	ENZALUTAMIDE	
+Topotecan Hydrochloride	TOPOTECAN HYDROCHLORIDE	
+Topotecan Hydrochloride	Topotecan hydrochloride	
+Topotecan Hydrochloride	Topotecan Hydrochloride	
+Topotecan Hydrochloride	Topotecan HCl	
+Topotecan Hydrochloride	Hycamptamine	
+Topotecan Hydrochloride	Topotecan	
+Topotecan Hydrochloride	(S)-10-[(dimethylamino)methyl]-4-ethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7] indolizino[1,2-b] quinoline-3,14-(4H,12H)-dione Monohydrochloride	
+Topotecan Hydrochloride	Topotecan Lactone	
+Topotecan Hydrochloride	topotecan hydrochloride	
+Topotecan Hydrochloride	9-[(dimethylamino)methyl]-10-hydroxy-(20S)-camptothecin	
+Topotecan Hydrochloride	topotecan hydrochloride (oral)	
+Topotecan Hydrochloride	TOPOTECAN	
+Topotecan Hydrochloride	SKF S-104864-A	
+Topotecan Hydrochloride	Hycamtin	
+Topotecan Hydrochloride	(s)-10-[(dimethylamino)methyl]-4-ethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2-b]-quinoline-3,14(4H,12H)-dione	
+Topotecan Hydrochloride	Topotecan_Hydrochloride	
+Topotecan Hydrochloride	topotecan	
+Ixabepilone	ixabepilone	
+Ixabepilone	Epothilone-B BMS 247550	
+Ixabepilone	BMS 247550	
+Ixabepilone	IXABEPILONE	
+Ixabepilone	Ixempra	
+Ixabepilone	BMS-247550	
+Ixabepilone	Epothilone	
+Ixabepilone	Azaepothilone B	
+Ixabepilone	Ixabepilone	
+Ixabepilone	BMS247550	
+Ixabepilone	(1S,3S,7S,10R,11S,12S,16R)-7,11-Dihydroxy-8,8,10,12,16-pentamethyl-3-[(1E)-1-methyl-2-(2-methyl-4-thiazolyl)ethenyl]-17-oxa-4-azabicyclo[14.1.0]heptadecane-5,9-dione	
+Oxaliplatin	Dacplat	
+Oxaliplatin	Diaminocyclohexane Oxalatoplatinum	
+Oxaliplatin	oxalato (trans-l-1,2-diaminocyclohexane)platinum(II)	
+Oxaliplatin	RP-54780	
+Oxaliplatin	trans-l diaminocyclohexane oxalatoplatinum	
+Oxaliplatin	Oxalatoplatinum	
+Oxaliplatin	SR-96669	
+Oxaliplatin	[SP-4-2-(1R-trans)]-(1,2,cyclohexanediamine-N,N')[ethanedioato(2--)-O,O']platinum	
+Oxaliplatin	Eloxatine	
+Oxaliplatin	OXALIPLATIN	
+Oxaliplatin	Eloxatin	
+Oxaliplatin	Oxaliplatin	
+Oxaliplatin	oxaliplatin	
+Oxaliplatin	[(1R,-2R)-1,2-cyclohexanediamine-N,N'][oxalato (2--)-O,O']platinum	
+Oxaliplatin	Oxalatoplatin	
+Oxaliplatin	Aiheng	
+Oxaliplatin	Dacotin	
+Oxaliplatin	Ai Heng	
+Oxaliplatin	1-OHP	
+Oxaliplatin	JM-83	
+Oxaliplatin	trans-l DACH oxalatoplatinum	
+Oxaliplatin	ELOXATIN	
+Oxaliplatin	DACPLAT	
+Oxaliplatin	RP 54780	
+Oxaliplatin	oxalato (1R,2R-cyclohexanediamine)platinum(II)	
+Palbociclib	PD-332991	
+Palbociclib	6-Acetyl-8-cyclopentyl-5-methyl-2-((5-(piperazin-1-yl)pyridin-2-yl)amino)-8h-pyrido(2,3-d)pyrimidin-7-one	
+Palbociclib	PALBOCICLIB	
+Palbociclib	Palbociclib	
+Palbociclib	PD-0332991	
+Palbociclib	Ibrance	
+Carfilzomib	CARFILZOMIB	
+Carfilzomib	Kyprolis	
+Carfilzomib	Carfilzomib	
+Carfilzomib	PR-171	
+Carfilzomib	(2S)-N-((1S)-1-Benzyl-2-(((1S)-3-methyl-1-(((2R)-2-methyloxiran-2-yl)carbonyl)butyl)amino)-2-oxoethyl)-4-methyl-2-(((2S)-2-((morpholin-4-ylacetyl)amino)-4-phenylbutanoyl)amino)pentanamide	
+Toremifene	TOREMIFENE	
+Toremifene	Farestone	
+Toremifene	toremifene	
+Toremifene	Toremifene	
+Toremifene	(Z)-4-Chloro-1,2-diphenyl-1[4-[2-(N,N-dimethylamino)ethoxy]phenyl]-1-butene	
+Toremifene	(Z)-2-[4-(4-Chloro-1,2-diphenyl-1-butenyl)phenoxy]-N,N-dimethylethanamine	
+Dabrafenib	DABRAFENIB	
+Dabrafenib	GSK-2118436A	
+Dabrafenib	BRAF_Inhibitor_GSK2118436	
+Dabrafenib	BRAF Inhibitor GSK2118436	
+Dabrafenib	Tafinlar	
+Dabrafenib	Dabrafenib	
+Dabrafenib	GSK2118436	
+Dabrafenib	Benzenesulfonamide, N-(3-(5-(2-amino-4-pyrimidinyl)-2-(1,1-dimethylethyl)-4-thiazolyl)-2-fluorophenyl)-2,6-difluoro-	
+Nivolumab	NIVO	
+Nivolumab	Nivolumab	
+Nivolumab	ONO-4538	
+Nivolumab	Opdivo	
+Nivolumab	Anti-PD-1_Human_Monoclonal_Antibody_MDX-1106	
+Nivolumab	BMS-936558	
+Nivolumab	NIVOLUMAB	
+Nivolumab	MDX-1106	
+Azacitidine	Vidaza	
+Azacitidine	Azacytidine	
+Azacitidine	5-AC	
+Azacitidine	5 AZC	
+Azacitidine	AZACITIDINE	
+Azacitidine	Ladakamycin	
+Azacitidine	5-Aza-cytidine	
+Azacitidine	5-AZC	
+Azacitidine	4-Amino-1-beta-D-ribofuranosyl-1,3,5-triazin-2(1H)-one	
+Azacitidine	Azacitidine	
+Azacitidine	Azacytidine, 5-	
+Azacitidine	Mylosar	
+Azacitidine	U-18496	
+Azacitidine	azacitidine	
+Azacitidine	5-Azacytidine	
+Pomalidomide	4-Amino-2-(2,6-dioxo-3-piperidyl)isoindoline-1,3-dione	
+Pomalidomide	CC-4047	
+Pomalidomide	Imnovid	
+Pomalidomide	Pomalidomide	
+Pomalidomide	4-Aminothalidomide	
+Pomalidomide	Actimid	
+Pomalidomide	Pomalyst	
+Pomalidomide	POMALIDOMIDE	
+Pomalidomide	pomalidomide	
+Pomalidomide	3-Amino-N-(2,6-dioxo-3-piperidyl)phthalimide	
+Sonidegib	LDE-225	
+Sonidegib	(1,1'-Biphenyl)-3-carboxamide, N-(6-((2R,6S)-2,6-dimethyl-4-morpholinyl)-3-pyridinyl)-2- methyl-4'-(trifluoromethoxy)-, rel-	
+Sonidegib	Smoothened Antagonist LDE225	
+Sonidegib	Sonidegib	
+Sonidegib	Erismodegib	
+Sonidegib	Oral_Smoothened_Antagonist_LDE225	
+Sonidegib	LDE225	
+Sonidegib	ERISMODEGIB	
+Sonidegib	Odomzo	
+Daratumumab	DARATUMUMAB	
+Daratumumab	Anti-CD38_Monoclonal_Antibody	
+Daratumumab	Daratumumab	
+Daratumumab	HuMax-CD38	
+Daratumumab	Darzalex	
+Daratumumab	Anti-CD38 Monoclonal Antibody	
+Daratumumab	JNJ-54767414	
+Degarelix	FE200486	
+Degarelix	degarelix	
+Degarelix	DEGARELIX	
+Degarelix	Firmagon	
+Degarelix	Degarelix	
+Degarelix	N-acetyl-3-(naphtalen-2-yl)-D-alanyl-4-chloro-D-phenylalanyl-3-(pyridin-3-yl)-D-alanyl-L-seryl-4-((((4S)-2,6-dioxohexahydropyrimidin-4-yl)carbonyl)amino)-L-phenylalanyl-4-(carbamoylamino)-D-phenylalanyl-L-leucyl-N6-(1-methylethyl)-L-lysyl-L-prolyl-D-alaninamide	
+Vinorelbine Tartrate	Dihydroxydeoxynorvinkaleukoblastine	
+Vinorelbine Tartrate	Biovelbin	
+Vinorelbine Tartrate	VINORELBINE	
+Vinorelbine Tartrate	VINORELBINE TARTRATE	
+Vinorelbine Tartrate	Navelbine	
+Vinorelbine Tartrate	Navelbine ditartrate	
+Vinorelbine Tartrate	vinorelbine	
+Vinorelbine Tartrate	Vinorelbine Ditartrate	
+Vinorelbine Tartrate	Vinorelbine Tartrate	
+Vinorelbine Tartrate	vinorelbine tartrate	
+Vinorelbine Tartrate	KW-2307	
+Vinorelbine Tartrate	5'-Nor-Anhydrovinblastine	
+Vinorelbine Tartrate	3',4'-Didehydro-4'-deoxy-C'-norvincaleukoblastine	
+Vinorelbine Tartrate	Vinorelbine_Ditartrate	
+Vinorelbine Tartrate	NVB	
+Vinorelbine Tartrate	nor-5'-Anhydrovinblastine	
+Vinorelbine Tartrate	Vinorelbine	
+Vinorelbine Tartrate	Eunades	
+Vinorelbine Tartrate	Navelbine Ditartrate	
+Eribulin Mesylate	Halichondrin B Analog	
+Eribulin Mesylate	Eribulin	
+Eribulin Mesylate	B1939 Mesylate	
+Eribulin Mesylate	E7389	
+Eribulin Mesylate	Halaven	
+Eribulin Mesylate	eribulin mesylate	
+Eribulin Mesylate	ERIBULIN	
+Eribulin Mesylate	ER-086526	
+Eribulin Mesylate	Eribulin Mesylate	
+Eribulin Mesylate	2-(3-Amino-2-hydroxypropyl)hexacosahydro-3-methoxy-26-methyl-20,27-bis(methylene)11,15-18,21-24,28-triepoxy-7,9-ethano-12,15-methano-9H,15H-furo(3,2-i)furo(2',3'-5,6)pyrano(4,3-b)(1,4)dioxacyclopentacosin-5-(4H)-one	
+Eribulin Mesylate	ERIBULIN MESYLATE	
+Rituximab	Rituximab Biosimilar RTXM83	
+Rituximab	RTXM83	
+Rituximab	Chimeric Anti-CD20 Antibody	
+Rituximab	Monoclonal Antibody IDEC-C2B8	
+Rituximab	Rituximab	
+Rituximab	Rituxan	
+Rituximab	IDEC-C2B8 Monoclonal Antibody	
+Rituximab	C2B8 Monoclonal Antibody	
+Rituximab	MabThera	
+Rituximab	PF-05280586	
+Rituximab	Rituximab Biosimilar PF-05280586	
+Rituximab	Rituximab Biosimilar BI 695500	
+Rituximab	IDEC-C2B8	
+Rituximab	RITUXIMAB	
+Rituximab	IDEC-102	
+Rituximab	rituximab	
+Rituximab	BI 695500	
+Ifosfamide	Ifosfamidum	
+Ifosfamide	Tronoxal	
+Ifosfamide	Asta Z-4942	
+Ifosfamide	Iso-Endoxan	
+Ifosfamide	MJF 9325	
+Ifosfamide	Holoxane	
+Ifosfamide	IFO-Cell	
+Ifosfamide	Asta Z 4942	
+Ifosfamide	Ifex	
+Ifosfamide	ifosfamide	
+Ifosfamide	IFO	
+Ifosfamide	3-(2-chloroethyl)-2-[(2-chloroethyl)amino]tetrahydro-2H-1,3,2-oxazaphosphorin-2-oxide	
+Ifosfamide	IFX	
+Ifosfamide	Iphosphamide	
+Ifosfamide	Cyfos	
+Ifosfamide	Iphosphamid	
+Ifosfamide	Ifolem	
+Ifosfamide	Ifosfamide	
+Ifosfamide	Seromida	
+Ifosfamide	Z 4942	
+Ifosfamide	Holoxan	
+Ifosfamide	Ifomide	
+Ifosfamide	IFOSFAMIDE	
+Ifosfamide	MJF-9325	
+Ifosfamide	Ifomida	
+Ifosfamide	N,3-bis(2-chloroethyl)tetrahydro-2H-1,3,2-oxazaphosphorin-2-amine 2-oxide	
+Ifosfamide	Ifoxan	
+Ifosfamide	Z-4942	
+Ifosfamide	Isophosphamide	
+Ifosfamide	2-oxo-N,3-bis-(2-chloroethyl) tetrahydro-2H-1,3,2-oxazaphosphorin- 2-amine	
+Ifosfamide	Mitoxana	
+Ifosfamide	Isoendoxan	
+Ifosfamide	Naxamide	
+Plerixafor	plerixafor	
+Plerixafor	Plerixafor	
+Plerixafor	1,1'-[1,4-Phenylenebis(methylene)]-bis-1,4,8,11-tetraazacyclotetradecane	
+Plerixafor	AMD 3100	
+Plerixafor	AMD3100	
+Plerixafor	SDZ SID 791	
+Plerixafor	Mozobil	
+Plerixafor	JM-3100	
+Plerixafor	PLERIXAFOR	
+Busulfan	1,4-Di(methylsulfonyloxy)butane	
+Busulfan	Glyzophrol	
+Busulfan	Misulban	
+Busulfan	Myelosan	
+Busulfan	Mitosan	
+Busulfan	Misulfan	
+Busulfan	busulfan	
+Busulfan	GT-41	
+Busulfan	Sulfabutin	
+Busulfan	Busulphan	
+Busulfan	1,4-Butanediol Dimethylsulfonate	
+Busulfan	Busulfan	
+Busulfan	CB-2041	
+Busulfan	Tetramethylene bis[methanesulfonate]	
+Busulfan	GT 41	
+Busulfan	BUS	
+Busulfan	Myleran	
+Busulfan	1,4-Bitanediol Dimethanesulfonate Esters	
+Busulfan	Busulfex	
+Busulfan	Methanesulfonic acid, tetramethylene ester	
+Busulfan	CB 2041	
+Busulfan	Tetramethylene Bis(methanesulfonate)	
+Busulfan	1,4-Di(methanesulfonyloxy)butane	
+Busulfan	Joacamine	
+Busulfan	Myeleukon	
+Busulfan	BUSULFAN	
+Busulfan	Myeloleukon	
+Busulfan	Mylecytan	
+Busulfan	Bussulfam	
+Busulfan	Methanesulfonic Acid Tetramethylene Ester	
+Busulfan	Busulfanum	
+Busulfan	1, 4-Bis[methanesulfonoxy]butane	
+Busulfan	1,4-Bis(methanesulfonoxy)butane	
+Busulfan	Mielucin	
+Busulfan	WR-19508	
+Lenalidomide	CC5013	
+Lenalidomide	CDC 501	
+Lenalidomide	CC-5013	
+Lenalidomide	Lenalidomide	
+Lenalidomide	3-(4-Amino-1-oxo-1,3-dihydro-2H-isoindol-2-yl)piperidine-2,6-dione	
+Lenalidomide	LENALIDOMIDE	
+Lenalidomide	lenalidomide	
+Lenalidomide	Revlimid	
+Pazopanib Hydrochloride	GW786034B	
+Pazopanib Hydrochloride	PAZOPANIB	
+Pazopanib Hydrochloride	GW786034	
+Pazopanib Hydrochloride	Pazopanib Hydrochloride	
+Pazopanib Hydrochloride	PAZOPANIB HYDROCHLORIDE	
+Pazopanib Hydrochloride	Votrient	
+Pazopanib Hydrochloride	pazopanib hydrochloride	
+Pazopanib Hydrochloride	Pazopanib_Base	
+Pazopanib Hydrochloride	5-((4-((2,3-Dimethyl-2h-Indazol-6-Yl)Methylamino)Pyrimidin-2-yl)Amino)-2-Methylbenzenesulfonamide Monohydrochloride	
+Pazopanib Hydrochloride	Pazopanib	
+Pazopanib Hydrochloride	Benzenesulfonamide, 5-((4-((2,3-dimethyl-2H-indazol-6-yl)methylamino)-2-pyrimidinyl)amino)-2-methyl-	
+Ofatumumab	Arzerra	
+Ofatumumab	HuMax-CD20	
+Ofatumumab	OFATUMUMAB	
+Ofatumumab	ofatumumab	
+Ofatumumab	HuMax-CD20, 2F2	
+Ofatumumab	Ofatumumab	
+Ofatumumab	GSK1841157	
+Megestrol Acetate	6-Dehydro-6-methyl-17.alpha.-acetoxyprogesterone	
+Megestrol Acetate	Megestil	
+Megestrol Acetate	BDH-1298	
+Megestrol Acetate	6-Dehydro-6-methyl-17 alpha-acetoxyprogesterone	
+Megestrol Acetate	Megestrol	
+Megestrol Acetate	6-Methyl-6-dehydro-17.alpha.-acetoxyprogesterone	
+Megestrol Acetate	Pallace	
+Megestrol Acetate	Megace	
+Megestrol Acetate	megestrol	
+Megestrol Acetate	6-Methyl-delta-4,6-pregnadien-17 alpha-ol-3,20-dione Acetate	
+Megestrol Acetate	Maygace	
+Megestrol Acetate	17-Hydroxy-6-methylpregna-4,6-diene-3,20-dione acetate	
+Megestrol Acetate	MEGESTROL	
+Megestrol Acetate	SC-10363	
+Megestrol Acetate	17-Hydroxy-6-methylpregna-4,6-diene-3,20-dione Acetate	
+Megestrol Acetate	17.alpha.-Acetoxy-6-methylpregna-4,6-diene-3,20-dione	
+Megestrol Acetate	Pregna-4,6-diene-3,20-dione, 17-hydroxy-6-methyl-	
+Megestrol Acetate	MEG	
+Megestrol Acetate	Ovaban	
+Megestrol Acetate	Niagestin	
+Megestrol Acetate	17 Alpha-acetoxy-6-methylpregna-4,6-diene-3,20-dione	
+Megestrol Acetate	Megestat	
+Megestrol Acetate	(9beta,10alpha)-17-(Acetyloxy)-6-methylpregna-4,6-diene-3,20-dione	
+Megestrol Acetate	Megestrol_Acetate	
+Megestrol Acetate	BDH 1298	
+Megestrol Acetate	MEGESTROL ACETATE	
+Megestrol Acetate	Compound 5071	
+Megestrol Acetate	Megestrol Acetate	
+Capecitabine	CAPECITABINE	
+Capecitabine	Xeloda	
+Capecitabine	capecitabine	
+Capecitabine	Capecitabine	
+Capecitabine	5'-Deoxy-5-fluoro-N-[(pentyloxy)carbonyl]-cytidine	
+Capecitabine	Ro 09-1978/000	
+Leuprolide Acetate	Enantone	
+Leuprolide Acetate	leuprolide acetate	
+Leuprolide Acetate	Leuplin	
+Leuprolide Acetate	Lucrin Depot	
+Leuprolide Acetate	A-43818	
+Leuprolide Acetate	Trenantone	
+Leuprolide Acetate	Lupron Depot	
+Leuprolide Acetate	Lupron Depot-3 Month	
+Leuprolide Acetate	Leuprolide_Base	
+Leuprolide Acetate	Abbott-43818	
+Leuprolide Acetate	6-D-Leucine-9-(N-ethyl-L-prolinamide)-10-deglycinamide Luteinizing Hormone-Releasing Factor (Pig) Monoacetate	
+Leuprolide Acetate	Enanton	
+Leuprolide Acetate	Prostap	
+Leuprolide Acetate	TAP-144	
+Leuprolide Acetate	Ginecrin	
+Leuprolide Acetate	6-D-Leucine-9-(N-ethyl-L-prolinamide)-1-9-luteinizing Hormone-releasing Factor (Pig)	
+Leuprolide Acetate	Leuprolide Acetate	
+Leuprolide Acetate	Eligard	
+Leuprolide Acetate	Lupron	
+Leuprolide Acetate	Enantone-Gyn	
+Leuprolide Acetate	Procren	
+Leuprolide Acetate	Leuprorelin	
+Leuprolide Acetate	Procrin	
+Leuprolide Acetate	Viadur	
+Leuprolide Acetate	Leuprolide	
+Leuprolide Acetate	6-D-Leucine-9-(N-ethyl-L-prolinamide)-1-9-luteinizing Hormone-releasing Factor (Pig) Monoacetate	
+Leuprolide Acetate	LEUPROLIDE ACETATE	
+Leuprolide Acetate	Carcinil	
+Leuprolide Acetate	LEUPROLIDE	
+Leuprolide Acetate	Lupron Depot-Ped	
+Leuprolide Acetate	Lucrin	
+Leuprolide Acetate	Abbott 43818	
+Leuprolide Acetate	Leuprorelin Acetate	
+Leuprolide Acetate	Lupron Depot-4 Month	
+Leuprolide Acetate	Uno-Enantone	
+Leuprolide Acetate	LEUP	
+Leuprolide Acetate	leuprolide	
+Leuprolide Acetate	6-D-Leucine-9-(N-ethyl-L-prolinamide)-10-deglycinamide Luteinizing Hormone-Releasing Factor (Pig)	
+Leuprolide Acetate	Depo-Eligard	
+Goserelin Acetate	GOSERELIN ACETATE	
+Goserelin Acetate	goserelin	
+Goserelin Acetate	Zoladex	
+Goserelin Acetate	GOSERELIN	
+Goserelin Acetate	ICI-118630	
+Goserelin Acetate	Goserelin Acetate	
+Goserelin Acetate	Goserelin	
+Goserelin Acetate	6-[O-(1,1-Dimethylethyl)-D-serine]-10-deglycinamide Luteinizing Hormone-Releasing Factor (Pig) 2-(aminocarbonyl)hydrazide	
+Goserelin Acetate	D-Ser(bu(t))(6)azgly(10)-LHRH Acetate	
+Goserelin Acetate	Goserelin_Acetate	
+Goserelin Acetate	ZDX	
+Ruxolitinib Phosphate	RUXOLITINIB PHOSPHATE	
+Ruxolitinib Phosphate	INCB18424	
+Ruxolitinib Phosphate	INCB-18424	
+Ruxolitinib Phosphate	RUXOLITINIB	
+Ruxolitinib Phosphate	INCB-18424 Phosphate	
+Ruxolitinib Phosphate	Ruxolitinib_Phosphate	
+Ruxolitinib Phosphate	Ruxolitinib	
+Ruxolitinib Phosphate	1H-Pyrazole-1-propanenitrile, beta-cyclopentyl-4-(7H-pyrrolo(2,3-d)pyrimidin-4-yl)-,(betaR)-, phosphate (1:1)	
+Ruxolitinib Phosphate	Oral JAK Inhibitor INCB18424	
+Ruxolitinib Phosphate	Oral_JAK_Inhibitor_INCB18424	
+Ruxolitinib Phosphate	(3R)-3-cyclopentyl-3-(4-(7h-pyrrolo(2,3-d)pyrimidin-4-yl)pyrazol-1-yl)propanenitrile	
+Ruxolitinib Phosphate	Ruxolitinib Phosphate	
+Ruxolitinib Phosphate	(3R)-3-cyclopentyl-3-(4-(7h-pyrrolo(2,3-d)pyrimidin-4-yl)pyrazol-1-yl)propanenitrile Phosphate (1:1)	
+Carmustine	Bis-Chloronitrosourea	
+Carmustine	Carmustine	
+Carmustine	N,N'-Bis(2-chloroethyl)-N-nitrosourea	
+Carmustine	SK 27702	
+Carmustine	Carmustinum	
+Carmustine	Nitrumon	
+Carmustine	Carmustin	
+Carmustine	WR-139021	
+Carmustine	1,3-Bis(2-chloroethyl)-1-nitrosourea	
+Carmustine	Nitrourean	
+Carmustine	Bis(chloroethyl) Nitrosourea	
+Carmustine	carmustine	
+Carmustine	BiCNU	
+Carmustine	Becenun	
+Carmustine	Gliadel	
+Carmustine	1,3-Bis(beta-chloroethyl)-1-nitrosourea	
+Carmustine	Becenum	
+Carmustine	Carmubris	
+Carmustine	SRI 1720	
+Carmustine	BCNU	
+Carmustine	CARMUSTINE	
+Carmustine	N,N'-bis(2-chloroethyl)-N-nitrosourea	
+Carmustine	FDA 0345	
+Clofarabine	CLOFARABINE	
+Clofarabine	Clofarex	
+Clofarabine	clofarabine	
+Clofarabine	2-Chloro-9-(2-deoxy-2-fluoroarabinofuranosyl)adenine	
+Clofarabine	Clofarabine	
+Clofarabine	Clolar	
+Clofarabine	2-Chloro-9-(2-deoxy-2-fluoro-beta-D-arabinofuranosyl)-9H-purin-6-amine	
+Daunorubicin Hydrochloride	Daunorubicin hydrochloride	
+Daunorubicin Hydrochloride	L-lyxo-Hexopyranoside, 3beta-acetyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-metldioxo-1a-naphthacenyl 3-amino-2,3,6-trideoxy-,alpha-	
+Daunorubicin Hydrochloride	daunomycin hydrochloride	
+Daunorubicin Hydrochloride	Rubomycin C	
+Daunorubicin Hydrochloride	(8S-cis)-8-Acetyl-10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-5,12-naphthacenedione	
+Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	
+Daunorubicin Hydrochloride	RP-13057	
+Daunorubicin Hydrochloride	DNR	
+Daunorubicin Hydrochloride	L-lyxo-Hexopyranoside, 3beta-acetyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-metldioxo-1a-naphthacenyl 3-amino-2,3,6-trideoxy-,alpha-,hydrochloride	
+Daunorubicin Hydrochloride	daunorubicin hydrochloride	
+Daunorubicin Hydrochloride	DAUNORUBICIN	
+Daunorubicin Hydrochloride	Daunorubicin	
+Daunorubicin Hydrochloride	Rubilem	
+Daunorubicin Hydrochloride	5,12-Naphthacenedione, 8-acetyl-10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-, hydrochloride, (8S-cis)-(9CI)	
+Daunorubicin Hydrochloride	Daunorubicini Hydrochloridum	
+Daunorubicin Hydrochloride	Cloridrato de Daunorubicina	
+Daunorubicin Hydrochloride	Daunomycin, hydrochloride	
+Daunorubicin Hydrochloride	Daunoblastina	
+Daunorubicin Hydrochloride	Cerubidine	
+Daunorubicin Hydrochloride	Rubidomycin Hydrochloride	
+Daunorubicin Hydrochloride	DAUNOMYCIN	
+Daunorubicin Hydrochloride	Daunoblastine	
+Daunorubicin Hydrochloride	5,12-Naphthacenedione, 8-acetyl-10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-, (8S-cis)-	
+Daunorubicin Hydrochloride	CERUBIDINE	
+Daunorubicin Hydrochloride	Daunoblastin	
+Daunorubicin Hydrochloride	Daunorubicin.HCl	
+Daunorubicin Hydrochloride	Daunomycin	
+Daunorubicin Hydrochloride	Daunomycin hydrochloride	
+Daunorubicin Hydrochloride	5,12-Naphthacenedione, 8-acetyl-10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-, (8S-cis)-, hydrochloride	
+Daunorubicin Hydrochloride	Daunomycin Hydrochloride	
+Daunorubicin Hydrochloride	daunorubicin	
+Daunorubicin Hydrochloride	DAUNORUBICIN HYDROCHLORIDE	
+Daunorubicin Hydrochloride	FI-6339	
+Daunorubicin Hydrochloride	daunomycin	
+Daunorubicin Hydrochloride	Rubidomycin	
+Daunorubicin Hydrochloride	Ondena	
+Daunorubicin Hydrochloride	Leukaemomycin C	
+Daunorubicin Hydrochloride	RUBOMYCIN C	
+Daunorubicin Hydrochloride	Daunorrubicina	
+Daunorubicin Hydrochloride	Cerubidin	
+Cyclophosphamide	2-[bis(2-chloroethyl)amino]tetrahydro-2H-1,3,2-oxazaphosphorine 2-oxide monohydrate	
+Cyclophosphamide	bis(2-chloroethyl)phosphamide cyclic propanolamide ester monohydrate	
+Cyclophosphamide	Cytophosphane	
+Cyclophosphamide	N,N-bis(2-chloroethyl)-N',O-propylenephosphoric acid ester diamide monohydrate	
+Cyclophosphamide	Bis(2-chloroethyl)phosphoramide cyclic propanolamide ester monohydrate	
+Cyclophosphamide	CYCLOPHOSPHAMIDE	
+Cyclophosphamide	Ciclofosfamida	
+Cyclophosphamide	CTX	
+Cyclophosphamide	Genuxal	
+Cyclophosphamide	Cycloblastine	
+Cyclophosphamide	Revimmune	
+Cyclophosphamide	Cyclophosphan	
+Cyclophosphamide	Cyclophospham	
+Cyclophosphamide	N,N-bis(2-chloroethyl)tetrahydro-2H-1,3,2-oxazaphosphorin-2-amine 2-oxide monohydrate	
+Cyclophosphamide	1-bis(2-chloroethyl)-amino-1-oxo-2-aza-5-oxaphosphoridin monohydrate	
+Cyclophosphamide	Mitoxan	
+Cyclophosphamide	Syklofosfamid	
+Cyclophosphamide	2H-1,3,2-Oxazaphosphorine, 2-[bis(2-chloroethyl)amino]tetrahydro-, 2-oxide, monohydrate	
+Cyclophosphamide	Fosfaseron	
+Cyclophosphamide	Carloxan	
+Cyclophosphamide	Cyclophosphamidum	
+Cyclophosphamide	cyclophosphamide	
+Cyclophosphamide	Cytophosphan	
+Cyclophosphamide	Claphene	
+Cyclophosphamide	(-)-Cyclophosphamide	
+Cyclophosphamide	N,N-bis(2-chloroethyl)-N'-(3-hydroxypropyl)phosphorodiamidic acid intramolecular ester monohydrate	
+Cyclophosphamide	Cyclophosphanum	
+Cyclophosphamide	Clafen	
+Cyclophosphamide	Cyclophosphane	
+Cyclophosphamide	Cyclophosphamid monohydrate	
+Cyclophosphamide	Cytoxan	
+Cyclophosphamide	N,N-bis(beta-chloroethyl)-N',O-trimethylenephosphoric acid ester diamide monohydrate	
+Cyclophosphamide	Cyclostin	
+Cyclophosphamide	Ledoxina	
+Cyclophosphamide	CP monohydrate	
+Cyclophosphamide	Cicloxal	
+Cyclophosphamide	Neosar	
+Cyclophosphamide	Cyclophosphamide	
+Cyclophosphamide	Genoxal	
+Cyclophosphamide	N,N-bis(beta-chloroethyl)-N',O-propylenephosphoric acid ester diamide monohydrate	
+Cyclophosphamide	Cycloblastin	
+Cyclophosphamide	Cyclostine	
+Cyclophosphamide	WR- 138719	
+Cyclophosphamide	Ciclofosfamide	
+Cyclophosphamide	2-[bis(b-chloroethyl)amino]-1-oxa-3-aza-2-phosphacyclohexane-2-oxide monohydrate	
+Cyclophosphamide	N,N-bis(b-chloroethyl)-N',O-trimethylenephosphoric acid ester diamide monohydrate	
+Cyclophosphamide	CYCLO-cell	
+Cyclophosphamide	2-[di(chloroethyl)amino]-1-oxa-3-aza-2-phosphacyclohexane 2-oxide monohydrate	
+Talimogene Laherparepvec	Talimogene Laherparepvec	
+Talimogene Laherparepvec	OncoVEX GM-CSF	
+Talimogene Laherparepvec	Imlygic	
+Talimogene Laherparepvec	ICP34.5-, ICP47-deleted Herpes Simplex Virus 1 (HSV-1) Incorporating the Human GM-CSF Gene	
+Talimogene Laherparepvec	GM-CSF-Encoding_Oncolytic_Herpes_Simplex_Virus_Vaccine	
+Talimogene Laherparepvec	JS1 34.5-hGMCSF 47- pA-	
+Talimogene Laherparepvec	T-VEC	
+Talimogene Laherparepvec	TALIMOGENE LAHERPAREPVEC	
+Peginterferon Alfa-2b	PEG Intron	
+Peginterferon Alfa-2b	Polyethylene Glycol IFN-A2b	
+Peginterferon Alfa-2b	PEG Interferon Alpha-2b	
+Peginterferon Alfa-2b	PEGINTERFERON ALFA-2B	
+Peginterferon Alfa-2b	PEG-IFN Alfa-2b	
+Peginterferon Alfa-2b	PEG-Interferon_Alfa-2B	
+Peginterferon Alfa-2b	Sylatron	
+Peginterferon Alfa-2b	Pegylated Interferon Alpha-2b	
+Peginterferon Alfa-2b	PEG-Interferon Alfa-2b	
+Peginterferon Alfa-2b	Peginterferon Alfa-2b	
+Peginterferon Alfa-2b	Polyethylene Glycol Interferon Alfa-2b	
+Peginterferon Alfa-2b	PEG-Intron	
+Peginterferon Alfa-2b	SCH 54031	
+Peginterferon Alfa-2b	PEG-interferon alfa-2b	
+Peginterferon Alfa-2b	PEG-IFN-a 2b	
+Sipuleucel-T	sipuleucel-T	
+Sipuleucel-T	APC8015_Vaccine	
+Sipuleucel-T	APC8015	
+Sipuleucel-T	PA2024 (PAP/GM-CSF)-Loaded Dendritic Cell Vaccine	
+Sipuleucel-T	APC8015 Vaccine	
+Sipuleucel-T	Sipuleucel-T	
+Sipuleucel-T	Provenge	
+Sipuleucel-T	SIPULEUCEL-T	
+Tamoxifen Citrate	Estroxyn	
+Tamoxifen Citrate	Genox	
+Tamoxifen Citrate	TAM	
+Tamoxifen Citrate	(Z)-2-[4-(1,2-Diphenyl-1-butenyl)phenoxy]-N,N-dimethylethanamine 2-Hydroxy-1,2,3-propanetricarboxylate	
+Tamoxifen Citrate	Tamifen	
+Tamoxifen Citrate	Tamofen	
+Tamoxifen Citrate	TAMOXIFEN	
+Tamoxifen Citrate	TAMOXIFEN CITRATE	
+Tamoxifen Citrate	Tamoxasta	
+Tamoxifen Citrate	Clonoxifen	
+Tamoxifen Citrate	Oestrifen	
+Tamoxifen Citrate	Kessar	
+Tamoxifen Citrate	Gen-Tamoxifen	
+Tamoxifen Citrate	tamoxifen citrate	
+Tamoxifen Citrate	Ledertam	
+Tamoxifen Citrate	Nourytam	
+Tamoxifen Citrate	Tamoxifen Citrate	
+Tamoxifen Citrate	Tamoxifen_Base	
+Tamoxifen Citrate	Apo-Tamox	
+Tamoxifen Citrate	Ebefen	
+Tamoxifen Citrate	Noxitem	
+Tamoxifen Citrate	Fentamox	
+Tamoxifen Citrate	ICI 46,474	
+Tamoxifen Citrate	Nolvadex-D	
+Tamoxifen Citrate	1-p-beta-dimethylamino-ethoxyphenyl-trans-1,2-diphenylbut-1-ene	
+Tamoxifen Citrate	Dignotamoxi	
+Tamoxifen Citrate	Emblon	
+Tamoxifen Citrate	Tamizam	
+Tamoxifen Citrate	tamoxifen	
+Tamoxifen Citrate	Jenoxifen	
+Tamoxifen Citrate	Tamaxin	
+Tamoxifen Citrate	Nolvadex	
+Tamoxifen Citrate	Lesporene	
+Tamoxifen Citrate	Novo-Tamoxifen	
+Tamoxifen Citrate	(Z)-2-[4-(1,2-diphenyl-1-butenyl)phenoxy]-N,N-dimethylethanamine citrate	
+Tamoxifen Citrate	ICI-46474	
+Tamoxifen Citrate	Soltamox	
+Tamoxifen Citrate	Tamoxifen citrate	
+Tamoxifen Citrate	Tamoxifeni Citras	
+Tamoxifen Citrate	PMS-Tamoxifen	
+Tamoxifen Citrate	Tamoxifen	
+Tamoxifen Citrate	1-p-beta-dimethylamino-ethoxyphenyl-trans-1,2-diphenylbut-1-ene Citrate	
+Tamoxifen Citrate	Nolgen	
+Tamoxifen Citrate	Novofen	
+Tamoxifen Citrate	Tamax	
+Tamoxifen Citrate	Noltam	
+Tamoxifen Citrate	Oncotam	
+Tamoxifen Citrate	Zemide	
+Sunitinib Malate	Sutent	
+Sunitinib Malate	sunitinib	
+Sunitinib Malate	Sunitinib	
+Sunitinib Malate	Sunitinib Malate	
+Sunitinib Malate	SUNITINIB	
+Sunitinib Malate	SUNITINIB MALATE	
+Sunitinib Malate	1H-Pyrrole-3-carboxamide, N-(2-(diethylamino)ethyl)-5-((Z)-(5-fluoro-1,2-dihydro-2-oxo-3H-indol-3-ylidene)methyl)-2,4-dimethyl-	
+Sunitinib Malate	sunitinib malate	
+Sunitinib Malate	SU011248	
+Sunitinib Malate	SU11248	
+Sunitinib Malate	Butanedioic acid, hydroxy-, (2S)-, compd. with N-(2-(diethylamino)ethyl)-5-((Z)-(5-fluoro-1,2-dihydro-2-oxo-3H-indol-3-ylidene)methyl)-2,4-dimethyl-1H-pyrrole-3-carboxamide (1:1)	
+Olaparib	OLAPARIB	
+Olaparib	olaparib	
+Olaparib	PARP_Inhibitor_AZD2281	
+Olaparib	Olaparib	
+Olaparib	AZD2281	
+Olaparib	KU-0059436	
+Olaparib	PARP Inhibitor AZD2281	
+Olaparib	Lynparza	
+Olaparib	PARP inhibitor AZD2281	
+Arsenic Trioxide	Arsenous Acid Anhydride	
+Arsenic Trioxide	Trisenox	
+Arsenic Trioxide	White Arsenic	
+Arsenic Trioxide	Arsenic Trioxide	
+Arsenic Trioxide	Arsenous Acid	
+Arsenic Trioxide	Arsenic	
+Arsenic Trioxide	arsenic trioxide	
+Arsenic Trioxide	Arsenic (III) Oxide	
+Arsenic Trioxide	arsenic	
+Arsenic Trioxide	Dietary_Arsenic	
+Arsenic Trioxide	Arsenous Oxide	
+Arsenic Trioxide	ARSENIC TRIOXIDE	
+Arsenic Trioxide	ARSENIC	
+Arsenic Trioxide	As	
+Arsenic Trioxide	Arsenic Sesquioxide	
+Arsenic Trioxide	Dietary Arsenic	
+Arsenic Trioxide	Arsenic_Trioxide	
+Bexarotene	bexarotene	
+Bexarotene	Bexarotene	
+Bexarotene	Targretin	
+Bexarotene	4-[1-(5,6,7,8-Tetrahydro-3,5,5,8,8-pentamethyl-2-naphthalenyl)ethenyl]benzoic Acid	
+Bexarotene	BEXAROTENE	
+Bexarotene	LGD1069	
+Bexarotene	3-methyl TTNEB	
+Gefitinib	GEFITINIB	
+Gefitinib	Iressa	
+Gefitinib	N-(3-chloro-4-fluorophenyl)-7-methoxy-6-[3-(4-morpholin) propoxy]-4-quinazolinamine	
+Gefitinib	ZD 1839	
+Gefitinib	gefitinib	
+Gefitinib	Gefitinib	
+Gefitinib	4-(3'-Chloro-4'-fluoroanilino)-7-methoxy-6-(3-morpholinopropoxy)quinazoline	
+Gefitinib	ZD1839	
+Cabazitaxel	Jevtana	
+Cabazitaxel	1-hydroxy-7beta,10beta-dimethoxy-9-oxo-5beta,20-epoxytax-11-ene-2alpha,4,13alpha-triyl 4-acetate 2-benzoate 13-[(2R,3S)-3-{[(tertbutoxy)carbonyl]amino}-2-hydroxy-3-phenylpropanoate]	
+Cabazitaxel	taxoid XRP6258	
+Cabazitaxel	CABAZITAXEL	
+Cabazitaxel	XRP6258	
+Cabazitaxel	Taxoid XRP6258	
+Cabazitaxel	cabazitaxel	
+Cabazitaxel	XRP-6258	
+Cabazitaxel	RPR-116258A	
+Cabazitaxel	Cabazitaxel	
+Everolimus	RAD 001	
+Everolimus	everolimus	
+Everolimus	EVEROLIMUS	
+Everolimus	(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-Dihydroxy-12-((1R)-2-((1S,3R,4R)-4-(2-hydroxyethoxy)-3-methoxycyclohexyl)-1-methylethyl)-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo(30.3.1.04,9)hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentaone	
+Everolimus	42-O-(2-Hydroxy)ethyl Rapamycin	
+Everolimus	Certican	
+Everolimus	Afinitor	
+Everolimus	RAD001	
+Everolimus	Everolimus	
+Fludarabine Phosphate	Fludarabine-5'-Monophosphate	
+Fludarabine Phosphate	Fludarabine Phosphate	
+Fludarabine Phosphate	9H-Purin-6-amine, 2-fluoro-9-(5-O-phosphono-.beta.-D-arabinofuranosyl)-	
+Fludarabine Phosphate	Fludara	
+Fludarabine Phosphate	9-Beta-D-arabinofuranosyl-2-fluoro-9H-purin-6-amine	
+Fludarabine Phosphate	Oforta	
+Fludarabine Phosphate	Beneflur	
+Fludarabine Phosphate	Fluradosa	
+Fludarabine Phosphate	9-Beta-D-arabinofuranosyl-2-fluoroadenine	
+Fludarabine Phosphate	FLUDARABINE	
+Fludarabine Phosphate	SH T 586	
+Fludarabine Phosphate	Fludarabine_Phosphate	
+Fludarabine Phosphate	Fludarabine	
+Fludarabine Phosphate	2-F-ara-AMP	
+Fludarabine Phosphate	9H-purin-6-amine, 2-fluoro-9-(5-O-phosphono-beta-D-arabinofuranosyl)	
+Fludarabine Phosphate	fludarabine phosphate	
+Fludarabine Phosphate	fludarabine	
+Fludarabine Phosphate	FLUDARABINE PHOSPHATE	
+Fludarabine Phosphate	2-Fluoro-9-beta-arabinofuranosyladenine	
+Fludarabine Phosphate	2-Fluorovidarabine	
+Flutamide	Flutaplex	
+Flutamide	Prostica	
+Flutamide	flutamide	
+Flutamide	Cytomid	
+Flutamide	FLUT	
+Flutamide	Apimid	
+Flutamide	Propanamide, 2-Methyl-N-(4-nitro-3-(trifluoromethyl)phenyl)-	
+Flutamide	Drogenil	
+Flutamide	FLUTAMIDE	
+Flutamide	Flucinom	
+Flutamide	Eulexine	
+Flutamide	Tecnoflut	
+Flutamide	Flutamex	
+Flutamide	Cebatrol	
+Flutamide	Flutabene	
+Flutamide	Niftolide	
+Flutamide	Euflex	
+Flutamide	Flucinome	
+Flutamide	Profamid	
+Flutamide	Fugerel	
+Flutamide	Sch 13521	
+Flutamide	Tafenil	
+Flutamide	Chimax	
+Flutamide	2-Methyl-N-[4-nitro-3-(trifluoromethyl)phenyl]propanamide	
+Flutamide	Testotard	
+Flutamide	Eulexin	
+Flutamide	Grisetin	
+Flutamide	Alpha,alpha,alpha-trifluoro-2-methy-4'-nitro-m-propionotoluidide	
+Flutamide	Prostacur	
+Flutamide	Prostadirex	
+Flutamide	Flutan	
+Flutamide	SCH 13521	
+Flutamide	Fluta-Gry	
+Flutamide	Flutamide	
+Flutamide	4'-Nitro-3'-trifluoromethylisobutyranilide	
+Flutamide	Prostogenat	
+Flutamide	Flugerel	
+Flutamide	Oncosal	
+Flutamide	Flutamin	
+Flutamide	Fluken	
+Flutamide	Flulem	
+Flutamide	Flutacan	
+Alectinib	Alectinib	
+Alectinib	AF802	
+Alectinib	5H-benzo(b)carbazole-3-carbonitrile, 9-Ethyl-6,11-dihydro-6,6-dimethyl-8-(4-(4-morpholinyl)-1-piperidinyl)-11-oxo-	
+Alectinib	ALK_Inhibitor_CH5424802	
+Alectinib	ALECTINIB	
+Alectinib	AF-802	
+Alectinib	Alecensa	
+Alectinib	CH5424802	
+Alectinib	RG7853	
+Alectinib	RO5424802	
+Aldesleukin	r-serHuIL-2	
+Aldesleukin	recombinant human interleukin-2	
+Aldesleukin	Aldesleukin	
+Aldesleukin	Recombinant Human IL-2	
+Aldesleukin	aldesleukin	
+Aldesleukin	Recombinant Human Interleukin-2	
+Aldesleukin	125-L-Serine-2-133-interleukin 2	
+Aldesleukin	ALDESLEUKIN	
+Aldesleukin	Proleukin	
+Lenvatinib Mesylate	E7080	
+Lenvatinib Mesylate	Lenvatinib Mesylate	
+Lenvatinib Mesylate	LENVATINIB	
+Lenvatinib Mesylate	ER-203492-00	
+Lenvatinib Mesylate	4-[3-Chloro-4-(N'-cyclopropylureido)phenoxy]7-methoxyquinoline-6-carboxamide Mesylate	
+Lenvatinib Mesylate	Multi-Kinase Inhibitor E7080	
+Lenvatinib Mesylate	6-Quinolinecarboxamide, 4-[3-chloro-4-[[(cyclopropylamino)carbonyl]amino]phenoxy]- 7-methoxy-, methanesulfonate (1:1)	
+Lenvatinib Mesylate	LENVATINIB MESYLATE	
+Lenvatinib Mesylate	Lenvatinib	
+Lenvatinib Mesylate	6-Quinolinecarboxamide, 4-[3-chloro-4-[[(cyclopropylamino)carbonyl]amino]phenoxy]- 7-methoxy-	
+Cytarabine	.beta.-Cytosine arabinoside	
+Cytarabine	cytarabine	
+Cytarabine	1.beta.-D-Arabinofuranosylcytosine	
+Cytarabine	2(1H)-Pyrimidinone, 4-Amino-1-beta-D-arabinofuranosyl-	
+Cytarabine	Beta-cytosine Arabinoside	
+Cytarabine	Erpalfa	
+Cytarabine	2(1H)-Pyrimidinone, 4-amino-1.beta.-D-arabinofuranosyl-	
+Cytarabine	CHX-3311	
+Cytarabine	Udicil	
+Cytarabine	Cytarabine	
+Cytarabine	Aracytidine	
+Cytarabine	Aracytin	
+Cytarabine	1-Beta-D-arabinofuranosylcytosine	
+Cytarabine	Arabinofuranosylcytosine	
+Cytarabine	U 19920	
+Cytarabine	U-19920	
+Cytarabine	Cytosine-.beta.-arabinoside	
+Cytarabine	Cytosine_Arabinoside	
+Cytarabine	ARA-cell	
+Cytarabine	Cytosar	
+Cytarabine	Aracytine	
+Cytarabine	Cytarabinum	
+Cytarabine	Cytarbel	
+Cytarabine	1-.beta.-D-Arabinofuranosyl-4-amino-2(1H)pyrimidinone	
+Cytarabine	Cytosine-beta-arabinoside	
+Cytarabine	Alexan	
+Cytarabine	CYTARABINE	
+Cytarabine	Arabine	
+Cytarabine	Cytosar-U	
+Cytarabine	Ara-C	
+Cytarabine	WR-28453	
+Cytarabine	Starasid	
+Cytarabine	1-Beta-D-arabinofuranosyl-4-amino-2(1H)pyrimidinone	
+Cytarabine	1-.beta.-D-Arabinofuranosylcytosine	
+Cytarabine	Cytosine Arabinoside	
+Cytarabine	Arabinosylcytosine	
+Cytarabine	Beta-Cytosine Arabinoside	
+Cytarabine	4-Amino-1-beta-D-arabinofuranosyl-2(1H)-pyrimidinone	
+Cytarabine	Tarabine PFS	
+Vandetanib	Vandetanib	
+Vandetanib	ZD-6474	
+Vandetanib	vandetanib	
+Vandetanib	Zactima	
+Vandetanib	AZD6474	
+Vandetanib	Caprelsa	
+Vandetanib	VANDETANIB	
+Vandetanib	ZD6474	
+Trabectedin	Ecteinascidin 743	
+Trabectedin	Ecteinascidin	
+Trabectedin	Spiro(6,16-(epithiopropanoxymethano)-7,13-imino-12H-1,3-dioxolo(7,8)isoquino(3,2,-b)(3)benzazocine-20,1'(2'H)-isoquinolin)-19-one, 3',4',6,6a,7,13,14,16-Octahydro-5-(acetyloxy)-6',8,14-trihydroxy-7',9-dimethoxy-4,10,23-trimethyl-, (6R-(6-alpha,6a-beta,7-beta,13-beta,14-beta,16-alpha,20R*))-	
+Trabectedin	trabectedin	
+Trabectedin	TRABECTEDIN	
+Trabectedin	ET-743	
+Trabectedin	Ecteinascidin_743	
+Trabectedin	Trabectedin	
+Trabectedin	ecteinascidin 743	
+Trabectedin	Yondelis	
+Paclitaxel	paclitaxel	
+Paclitaxel	5Beta,20-epoxy-1,2alpha,4,7beta,10beta,13alpha-hexahydroxytax-11-en-9-one, 4,10-Diacetate 2-Benzoate 13-Ester with (2R,3S)-N-Benzoyl-3-phenylisoserine	
+Paclitaxel	Taxol Konzentrat	
+Paclitaxel	Taxol	
+Paclitaxel	Paclitaxel	
+Paclitaxel	[2aR-[2a Alpha,4beta,4a beta,6beta,9alpha(alphaR*,betaS*),-11alpha,12alpha,12a alpha,12b alpha]]-beta-(benzoylamino)-alpha-hydroxybenzene-propanoic acid 6,12b-bis(acetyloxy)-12-(benzoyloxy)-1a,33,4,-41,5,6,9,10,11,12,12a,12b-dodecahydro-4,11-dihydroxy-41,8,-12,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca[3,4]benz[1,2-b]oxet-9-yl Ester	
+Paclitaxel	Anzatax	
+Paclitaxel	Bristaxol	
+Paclitaxel	Praxel	
+Paclitaxel	Asotax	
+Paclitaxel	PACLITAXEL	
+Trastuzumab	Anti-erbB2 Monoclonal Antibody	
+Trastuzumab	Anti-p185-HER2	
+Trastuzumab	Trastuzumab Biosimilar ABP 980	
+Trastuzumab	Trastuzumab Biosimilar PF-05280014	
+Trastuzumab	Anti-ERB-2	
+Trastuzumab	Herceptin	
+Trastuzumab	PF-05280014	
+Trastuzumab	MoAb HER2	
+Trastuzumab	c-erb-2 Monoclonal Antibody	
+Trastuzumab	Anti-c-erbB2 Monoclonal Antibody	
+Trastuzumab	Anti-erbB-2	
+Trastuzumab	TRASTUZUMAB	
+Trastuzumab	Anti-HER2/c-erbB2 Monoclonal Antibody	
+Trastuzumab	RO0452317	
+Trastuzumab	ABP 980	
+Trastuzumab	Monoclonal Antibody HER2	
+Trastuzumab	Monoclonal Antibody c-erb-2	
+Trastuzumab	Immunoglobulin G 1 (Human-Mouse Monoclonal RhuMab HER2gamma1-Chain Antihuman p185(Sup c-erbB2) Receptor), Disulfide with Human-Mouse Monoclonal RhuMab HER2 Light Chain, Dimer	
+Trastuzumab	rhuMAb HER2	
+Trastuzumab	trastuzumab	
+Trastuzumab	HER2 Monoclonal Antibody	
+Trastuzumab	Anti-c-ERB-2	
+Trastuzumab	Herceptin Biosimilar PF-05280014	
+Trastuzumab	Herceptin Trastuzumab Biosimilar PF-05280014	
+Trastuzumab	Trastuzumab	
+Necitumumab	Immunoglobulin G1, Anti-(Human Epidermal Growth Factor Receptor (Receptor Tyrosine-Protein Kinase ErbB-1, EC 2.7.10.1)); Human Monoclonal IMC-11F8 Gamma1 Heavy Chain (224-214')-Disulfide with Human Monoclonal IMC-11F8 Kappa Light Chain, Dimer (230- 230'':233-233'')-Bisdisulfide	
+Necitumumab	Necitumumab	
+Necitumumab	Portrazza	
+Necitumumab	Anti-Epidermal Growth Factor Receptor Monoclonal Antibody IMC-11F8	
+Necitumumab	IMC-11F8	
+Necitumumab	NECITUMUMAB	
+Regorafenib	Regorafenib	
+Regorafenib	Stivarga	
+Regorafenib	Multitargeted_Receptor_Tyrosine_Kinase_Inhibitor_BAY_73-4506	
+Regorafenib	REGORAFENIB	
+Regorafenib	BAY 73-4506	
+Regorafenib	4-(4-(((4-chloro-3-(trifluoromethyl)phenyl)carbamoyl)amino)-3-fluorophenoxy)-N-methylpyridine-2-carboxamide	
+Ipilimumab	BMS-734016	
+Ipilimumab	MDX-010	
+Ipilimumab	Ipilimumab	
+Ipilimumab	ipilimumab	
+Ipilimumab	Anti-Cytotoxic T-Lymphocyte-Associated Antigen-4 Monoclonal Antibody	
+Ipilimumab	MDX-CTLA4	
+Ipilimumab	Anti-Cytotoxic_T-Lymphocyte-Associated_Antigen-4_Monoclonal_Antibody	
+Ipilimumab	IPILIMUMAB	
+Ipilimumab	Yervoy	
+Mitomycin C	Mito-Medac	
+Mitomycin C	Mutamycine	
+Mitomycin C	NCI-C04706	
+Mitomycin C	Mitomycin-C	
+Mitomycin C	Mitomycin Antineoplastic Antibiotic	
+Mitomycin C	MITOMYCIN	
+Mitomycin C	Mito-C	
+Mitomycin C	Mitomycin_Antibiotic	
+Mitomycin C	mitomycin	
+Mitomycin C	Mutamycin	
+Mitomycin C	Mitomycin C	
+Mitomycin C	MITO-C	
+Mitomycin C	Mitomycin	
+Mitomycin C	Mitomycin-X	
+Mitomycin C	Ametycine	
+Mitomycin C	(1aS,8S,8aR,8bS)-6-Amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methylazirino[2',3':3,4]pyrrolo[1,2-a]indole-4,7-dione	
+Mitomycin C	Mitomycine C	
+Mitomycin C	Mitocin	
+Mitomycin C	MITO	
+Mitomycin C	Mitozytrex	
+Mitomycin C	MITOMYCIN C	
+Mitomycin C	Mitocin-C	
+Mitomycin C	Mitosol	
+Mitomycin C	[1aS-(1a alpha,8beta,8a alpha,8b alpha)]-6-amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methylazirino[2',3':3,4]pyrrolo[1,2-a]indole-4,7-dione	
+Mitomycin C	Mitomycin_C	
+Mitomycin C	Mitolem	
+Imatinib Mesylate	Imatinib	
+Imatinib Mesylate	STI571	
+Imatinib Mesylate	CGP57148B	
+Imatinib Mesylate	STI 571	
+Imatinib Mesylate	4-[(4-Methyl-1-piperazinyl)methyl]-N-[4-methyl-3-[[4-(3-pyridinyl)-2-pyrimidinyl]amino]phenyl]benzamide	
+Imatinib Mesylate	Gleevec	
+Imatinib Mesylate	imatinib mesylate	
+Imatinib Mesylate	Imatinib Mesylate	
+Imatinib Mesylate	4-[(4-Methyl-1-piperazinyl)methyl]-N-[4-methyl-3-[[4-(3-pyridinyl)-2-pyrimidinyl]amino]phenyl]benzamide Monomethanesulfonate	
+Imatinib Mesylate	CGP 57148	
+Imatinib Mesylate	IMATINIB	
+Imatinib Mesylate	Glivec	
+Imatinib Mesylate	STI-571	
+Imatinib Mesylate	IMATINIB MESYLATE	
+Imatinib Mesylate	Imatinib_Base	
+Aminolevulinic Acid	5-Aminolaevulinic Acid	
+Aminolevulinic Acid	5-Aminolevulinic Acid	
+Aminolevulinic Acid	AMINOLEVULINIC ACID	
+Aminolevulinic Acid	d-Amino-Levulinic Acid	
+Aminolevulinic Acid	5-Amino-4-oxopentanoic Acid	
+Aminolevulinic Acid	Delta-Aminolevulinic Acid	
+Aminolevulinic Acid	aminolevulinic acid	
+Aminolevulinic Acid	Aminolevulinic_Acid	
+Aminolevulinic Acid	Delta Aminolevulinic Acid	
+Aminolevulinic Acid	Aminolevulinic Acid	
+Aminolevulinic Acid	5-ALA	
+Aminolevulinic Acid	Amino-Levulinic Acid	
+Blinatumomab	MEDI-538	
+Blinatumomab	Anti-CD19/Anti-CD3 Recombinant Bispecific Monoclonal Antibody MT103	
+Blinatumomab	MT-103	
+Blinatumomab	Anti-CD19 x Anti-CD3 Bispecific Monoclonal Antibody	
+Blinatumomab	Blinatumomab	
+Blinatumomab	Blincyto	
+Blinatumomab	BLINATUMOMAB	
+Blinatumomab	Anti-CD19_Anti-CD3_Bispecific_Monoclonal_Antibody	
+Trametinib	Mekinist	
+Trametinib	TRAMETINIB	
+Trametinib	JTP-74057	
+Trametinib	MEK Inhibitor GSK1120212	
+Trametinib	N-(3-{3-cyclopropyl-5-[(2-fluoro-4-iodophenyl)amino]-6,8-dimethyl-2,4,7-trioxo-3,4,6,7-tetrahydropyrido[4,3-d]pyrimidin-1(2H)-yl}phenyl)acetamide	
+Trametinib	MEK_Inhibitor_GSK1120212	
+Trametinib	GSK1120212	
+Trametinib	Trametinib	
+Vemurafenib	Vemurafenib	
+Vemurafenib	BRAF(V600E) Kinase Inhibitor RO5185426	
+Vemurafenib	RO 5185426	
+Vemurafenib	PLX4032	
+Vemurafenib	PLX-4032	
+Vemurafenib	1-propanesulfonamide, n-(3-((5-(4-chlorophenyl)-1h-pyrrolo(2,3-b)pyridin-3-yl)carbonyl)-2,4-difluorophenyl)-	
+Vemurafenib	RG 7204	
+Vemurafenib	Zelboraf	
+Vemurafenib	BRAF (V600E) kinase inhibitor RO5185426	
+Vemurafenib	RG7204	
+Vemurafenib	VEMURAFENIB	
+Nelarabine	Nelarabine	
+Nelarabine	506U78	
+Nelarabine	2-Amino-9-beta-D-arabinofuranosyl-6-methoxy-9H-purine	
+Nelarabine	Compound 506U78	
+Nelarabine	NELARABINE	
+Nelarabine	GW506U78	
+Nelarabine	2-Amino-6-methoxypurine arabinoside	
+Nelarabine	Arranon	
+Nelarabine	nelarabine	
+Nelarabine	2-Amino, 6-Methoxypurine Arabinoside	
+Procarbazine Hydrochloride	Natulan	
+Procarbazine Hydrochloride	Procarbazine	
+Procarbazine Hydrochloride	N-(1-methylethyl)-4-[(2-methylhydrazino)methyl]benzamide	
+Procarbazine Hydrochloride	Ro 4-6467/1	
+Procarbazine Hydrochloride	PCZ	
+Procarbazine Hydrochloride	p-(N'-methylhydrazinomethyl)-N-isopropylbenzamide hydrochloride	
+Procarbazine Hydrochloride	Ibenzmethyzine hydrochloride	
+Procarbazine Hydrochloride	N-(1-methylethyl)-4-[(2-methylhydrazino)methyl]benzamide Hydrochloride	
+Procarbazine Hydrochloride	NCI-C01810	
+Procarbazine Hydrochloride	Benzamide, N-(1-methylethyl)-4-[(2-methylhydrazino) methyl]-, monohydrochloride (9CI)	
+Procarbazine Hydrochloride	PROCARBAZINE	
+Procarbazine Hydrochloride	N-isopropyl-alpha-(2-methylhydrazino)-p-toluamide Hydrochloride	
+Procarbazine Hydrochloride	PROCARBAZINE HYDROCHLORIDE	
+Procarbazine Hydrochloride	procarbazine hydrochloride	
+Procarbazine Hydrochloride	N-4-isopropylcarbamoylbenzyl-N'-methylhydrazine	
+Procarbazine Hydrochloride	Natunalar	
+Procarbazine Hydrochloride	p-Toluamide, N-isopropyl-.alpha.-(2-methylhydrazino)-, monohydrochloride (8CI)	
+Procarbazine Hydrochloride	MIH hydrochloride	
+Procarbazine Hydrochloride	Procarbazine Hydrochloride	
+Procarbazine Hydrochloride	p-(N'-methylhydrazinomethyl)-N-isopropylbenzamide	
+Procarbazine Hydrochloride	Procarbazine_Base	
+Procarbazine Hydrochloride	N-Methylhydrazine	
+Procarbazine Hydrochloride	Matulane	
+Procarbazine Hydrochloride	PCB	
+Procarbazine Hydrochloride	procarbazine	
+Procarbazine Hydrochloride	Benzethyzin	
+Procarbazine Hydrochloride	PCB hydrochloride	
+Procarbazine Hydrochloride	PCB Hydrochloride	
+Procarbazine Hydrochloride	p-toluamide, N-isopropyl-alpha-(2-methylhydrazino)-, monohydrochloride (8CI)	
+Procarbazine Hydrochloride	Natulanar	
+Procarbazine Hydrochloride	Ibenzmethyzin	
+Procarbazine Hydrochloride	Ro 4 6467/1	
+Procarbazine Hydrochloride	N-isopropyl-alpha-(2-methylhydrazino)-p-toluamide	
+Procarbazine Hydrochloride	N-4-isopropylcarbamoylbenzyl-N'-methylhydrazine Hydrochloride	
+Procarbazine Hydrochloride	Procarbazin	
+Procarbazine Hydrochloride	benzamide, N-(1-methylethyl)-4-[(2-methylhydrazino) methyl]-, monohydrochloride (9CI)	
+Ceritinib	LDK378	
+Ceritinib	2,4-Pyrimidinediamine, 5-chloro-N4-(2-((1-methylethyl)sulfonyl)phenyl)-N2-(5-methyl-2-(1-methylethoxy)-4-(4-piperidinyl)phenyl)-	
+Ceritinib	LDK 378	
+Ceritinib	Zykadia	
+Ceritinib	Ceritinib	
+Pemetrexed Disodium	N-[4-[2-(2-Amino-4,7-dihydro-4-oxo-1H-pyrrolo[2,3-d]pyrimidin-5-yl)ethyl]benzoyl]-L-glutamic Acid Disodium Salt	
+Pemetrexed Disodium	Pemetrexed Disodium	
+Pemetrexed Disodium	Alimta	
+Pemetrexed Disodium	Multitargeted Antifolate	
+Pemetrexed Disodium	pemetrexed disodium	
+Pemetrexed Disodium	PEMETREXED	
+Pemetrexed Disodium	PEMETREXED DISODIUM	
+Pemetrexed Disodium	MTA	
+Pemetrexed Disodium	Pemetrexed_Base	
+Pemetrexed Disodium	Pemetrexed	
+Pemetrexed Disodium	LY231514	
+Pemetrexed Disodium	L-Glutamic Acid, N-(4-(2-(2-Amino-4,7-dihydro-4-oxo-1H-pyrrolo(2,3-d)pyrimidin-5-yl)ethyl)benzoyl)	
+Fluorouracil	Ro 2-9757	
+Fluorouracil	Fluoro Uracil	
+Fluorouracil	5-Fluorouracil	
+Fluorouracil	AccuSite	
+Fluorouracil	Fluracil	
+Fluorouracil	Ro-2-9757	
+Fluorouracil	2,4-Dioxo-5-fluoropyrimidine	
+Fluorouracil	Fluroblastin	
+Fluorouracil	5-Fluracil	
+Fluorouracil	Carac	
+Fluorouracil	fluorouracil	
+Fluorouracil	FLUOROURACIL	
+Fluorouracil	Ribofluor	
+Fluorouracil	Fluouracil	
+Fluorouracil	5-Fluoro-2,4(1H,3H)-pyrimidinedione	
+Fluorouracil	5-fluorouracil	
+Fluorouracil	5-Fluoro-2,4(1H, 3H)-pyrimidinedione	
+Fluorouracil	Adrucil	
+Fluorouracil	Flurablastin	
+Fluorouracil	Fluril	
+Fluorouracil	Fluracedyl	
+Fluorouracil	Fluorouracil	
+Fluorouracil	5-FU	
+Fluorouracil	5-Fu	
+Methotrexate	4-Amino-10-methylfolic Acid	
+Methotrexate	Metex	
+Methotrexate	Lumexon	
+Methotrexate	methotrexate	
+Methotrexate	Methotrexate Methylaminopterin	
+Methotrexate	Brimexate	
+Methotrexate	Medsatrexate	
+Methotrexate	MTX	
+Methotrexate	Trexeron	
+Methotrexate	amethopterin	
+Methotrexate	Folex	
+Methotrexate	Tremetex	
+Methotrexate	4-Amino-4-deoxy-10-methylpteroyl-L-glutamic Acid	
+Methotrexate	Methotrexate	
+Methotrexate	WR-19039	
+Methotrexate	Methoblastin	
+Methotrexate	Methotrexate LPF	
+Methotrexate	Emtexate	
+Methotrexate	Maxtrex	
+Methotrexate	Mexate-AQ	
+Methotrexate	Novatrex	
+Methotrexate	Emthexate	
+Methotrexate	Lantarel	
+Methotrexate	METHOTREXATE	
+Methotrexate	N-[4-[[(2,4-Diamino-6-pteridinyl)methyl]methylamino]benzoyl]-L-glutamic Acid	
+Methotrexate	Methotrexatum	
+Methotrexate	Alpha-Methopterin	
+Methotrexate	Folex PFS	
+Methotrexate	Amethopterin	
+Methotrexate	Fauldexato	
+Methotrexate	Abitrexate	
+Methotrexate	CL-14377	
+Methotrexate	Emthexat	
+Methotrexate	Metotrexato	
+Methotrexate	Metrotex	
+Methotrexate	Texate	
+Methotrexate	CL 14377	
+Methotrexate	Ledertrexate	
+Methotrexate	Trixilem	
+Methotrexate	Farmitrexat	
+Methotrexate	Rheumatrex	
+Methotrexate	Mexate	
+Erlotinib Hydrochloride	Erlotinib Hydrochloride	
+Erlotinib Hydrochloride	ERLOTINIB HYDROCHLORIDE	
+Erlotinib Hydrochloride	OSI-774	
+Erlotinib Hydrochloride	Tarceva	
+Erlotinib Hydrochloride	erlotinib hydrochloride	
+Erlotinib Hydrochloride	Erlotinib	
+Erlotinib Hydrochloride	CP-358,774	
+Erlotinib Hydrochloride	erlotinib	
+Erlotinib Hydrochloride	N-(3-Ethynylphenyl)-6,7-bis(2-methoxyethoxy)-4-quinazolinamine Monohydrochloride	
+Erlotinib Hydrochloride	Erlotinib_Base	
+Erlotinib Hydrochloride	Cp-358,774	
+Erlotinib Hydrochloride	ERLOTINIB	
+Axitinib	AG-013736	
+Axitinib	AXITINIB	
+Axitinib	AG013736	
+Axitinib	N-methyl-2-((3-((1E)-2-(pyridin-2-yl)ethenyl)-1H-indazol-6-yl)sulfanyl)benzamide	
+Axitinib	Axitinib	
+Axitinib	Inlyta	
+Axitinib	axitinib	
+Osimertinib	OSIMERTINIB	
+Osimertinib	Tagrisso	
+Osimertinib	EGFR_Inhibitor_AZD9291	
+Osimertinib	AZD-9291	
+Osimertinib	Osimertinib	
+Osimertinib	Mereletinib	
+Osimertinib	2-Propenamide, N-(2-((2-(dimethylamino)ethyl)methylamino)-4-methoxy-5-((4-(1-methyl-1H-indol-3-yl)-2-pyrimidinyl)amino)phenyl)-	
+Osimertinib	AZD9291	
+Bevacizumab	Immunoglobulin G1 (Human-Mouse Monoclonal rhuMab-VEGF Gamma-Chain Anti-Human Vascular Endothelial Growth Factor), Disulfide With Human-Mouse Monoclonal rhuMab-VEGF Light Chain, Dimer	
+Bevacizumab	Anti-VEGF rhuMAb	
+Bevacizumab	Bevacizumab Biosimilar BI 695502	
+Bevacizumab	rhuMab-VEGF	
+Bevacizumab	BEVACIZUMAB	
+Bevacizumab	Anti-VEGF Humanized Monoclonal Antibody	
+Bevacizumab	bevacizumab	
+Bevacizumab	Anti-VEGF	
+Bevacizumab	Bevacizumab Biosimilar BEVZ92	
+Bevacizumab	Recombinant Humanized Anti-VEGF Monoclonal Antibody	
+Bevacizumab	Bevacizumab	
+Bevacizumab	Avastin	
+Dacarbazine	5-(dimethyltriazeno)imidazole-4-carboxamide	
+Dacarbazine	Fauldetic	
+Dacarbazine	DTIC	
+Dacarbazine	Dacarbazine	
+Dacarbazine	WR-139007	
+Dacarbazine	Dimethyl (triazeno) imidazolecarboxamide	
+Dacarbazine	Dacarbazina	
+Dacarbazine	Dacarbazine - DTIC	
+Dacarbazine	Asercit	
+Dacarbazine	dimethyl-triazeno-imidazole carboxamide	
+Dacarbazine	Dimethyl Triazeno Imidazol Carboxamide	
+Dacarbazine	Biocarbazine	
+Dacarbazine	DIC	
+Dacarbazine	dacarbazine	
+Dacarbazine	DTIC-Dome	
+Dacarbazine	Deticene	
+Dacarbazine	1H-imidazole-4-carboxamide, 5-(3,3-dimethyl-1-triazenyl)-	
+Dacarbazine	Imidazole carboxamide	
+Dacarbazine	5-(Dimethyltriazeno)imidazole-4-carboxamide	
+Dacarbazine	Dakarbazin	
+Dacarbazine	4-(Dimethyltriazeno)imidazole-5-carboxamide	
+Dacarbazine	5-(3-3-dimethyl-1-triazenyl)-1H-imidazole-4-carboxamide	
+Dacarbazine	5(or 4)-(dimethyltriazeno)imidazole-4(or 5)-carboxamide	
+Dacarbazine	Imidazole Carboxamide	
+Dacarbazine	DACARBAZINE	
+Dacarbazine	Detimedac	
+Dacarbazine	Dacarbazina Almirall	
+Dacarbazine	Dimethyl Triazeno Imidazole Carboxamide	
+Dacarbazine	Dimethyl-triazeno-imidazole-carboximide	
+Dacarbazine	Imidazole Carboxamide Dimethyltriazeno	
+Dacarbazine	Dacatic	
+Siltuximab	Siltuximab	
+Siltuximab	cCLB8	
+Siltuximab	anti-IL-6 chimeric monoclonal antibody	
+Siltuximab	CNTO-328	
+Siltuximab	SILTUXIMAB	
+Siltuximab	Anti-IL-6_Chimeric_Monoclonal_Antibody	
+Siltuximab	CNTO 328	
+Siltuximab	Anti-IL-6 Chimeric Monoclonal Antibody	
+Siltuximab	Sylvant	
+Ibrutinib	BTK_Inhibitor_PCI-32765	
+Ibrutinib	CRA-032765	
+Ibrutinib	BTK Inhibitor PCI-32765	
+Ibrutinib	IBRUTINIB	
+Ibrutinib	PCI-32765	
+Ibrutinib	Ibrutinib	
+Ibrutinib	2-Propen-1-one, 1-((3R)-3-(4-amino-3-(4-phenoxyphenyl)-1h-pyrazolo(3,4-d)pyrimidin-1-yl)-1-piperidinyl)-	
+Doxorubicin Hydrochloride	Farmiblastina	
+Doxorubicin Hydrochloride	Adriamycin Hydrochloride	
+Doxorubicin Hydrochloride	Adriamycin hydrochloride	
+Doxorubicin Hydrochloride	Adriblastina	
+Doxorubicin Hydrochloride	L-Lyxo-hexopyranoside, 3b-glycol-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-methoxy-6,11-dioxo-1a-naphthacenyl 3-amino-2,3,6-trideoxy-alpha-, hydrochloride	
+Doxorubicin Hydrochloride	Hydroxyl Daunorubicin	
+Doxorubicin Hydrochloride	Adriamycin	
+Doxorubicin Hydrochloride	5,12-Naphthacenedione, 10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-,hydrochloride, (8S-cis)-(9CI)	
+Doxorubicin Hydrochloride	ADM	
+Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	
+Doxorubicin Hydrochloride	Doxorubicin hydrochloride	
+Doxorubicin Hydrochloride	Doxorubicin.HCl	
+Doxorubicin Hydrochloride	Hydroxyldaunorubicin	
+Doxorubicin Hydrochloride	Adrimedac	
+Doxorubicin Hydrochloride	Doxorubicin	
+Doxorubicin Hydrochloride	DOXORUBICIN HYDROCHLORIDE	
+Doxorubicin Hydrochloride	(8S-cis)-10-[(3-Amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroacetyl)-1-methoxy-5,12-naphthacenedione	
+Doxorubicin Hydrochloride	Doxolem	
+Doxorubicin Hydrochloride	Adriablastin	
+Doxorubicin Hydrochloride	Adriacin	
+Doxorubicin Hydrochloride	Adriamycine	
+Doxorubicin Hydrochloride	doxorubicin	
+Doxorubicin Hydrochloride	hydroxydaunorubicin	
+Doxorubicin Hydrochloride	Chloridrato de Doxorrubicina	
+Doxorubicin Hydrochloride	FI 106	
+Doxorubicin Hydrochloride	Doxorubin	
+Doxorubicin Hydrochloride	FI-106	
+Doxorubicin Hydrochloride	(8S-cis)-10-[(3-Amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione	
+Doxorubicin Hydrochloride	DOXORUBICIN	
+Doxorubicin Hydrochloride	5,12-Naphthacenedione, 10-[(3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8, 9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-, hydrochloride, (8S-cis)- (9CI)	
+Doxorubicin Hydrochloride	Rubex	
+Doxorubicin Hydrochloride	Adriamycin RDF	
+Doxorubicin Hydrochloride	DOX	
+Doxorubicin Hydrochloride	14-Hydroxydaunorubicin Hydrochloride	
+Doxorubicin Hydrochloride	Adriamycin PFS	
+Doxorubicin Hydrochloride	ADRIAMYCIN, HYDROCHLORIDE	
+Doxorubicin Hydrochloride	Doxorubicin_Hydrochloride	
+Doxorubicin Hydrochloride	3-Hydroxyacetyldaunorubicin Hydrochloride	
+Doxorubicin Hydrochloride	Adriblastine	
+Doxorubicin Hydrochloride	DOXO-CELL	
+Doxorubicin Hydrochloride	14-Hydroxydaunomycin	
+Doxorubicin Hydrochloride	doxorubicin hydrochloride	
+Thiotepa	Thioplex	
+Thiotepa	Triethylenethiophosphoramide	
+Thiotepa	triethylenethiophosphoramide	
+Thiotepa	THIOTEPA	
+Thiotepa	TIO TEF	
+Thiotepa	STEPA	
+Thiotepa	Thiofosfamide	
+Thiotepa	1,1',1''-Phosphinothioyldynetrisaziridine	
+Thiotepa	tris(1-aziridinyl)phosphine sulfide	
+Thiotepa	TSPA	
+Thiotepa	Thio-Tepa	
+Thiotepa	Tris(1-aziridinyl)phosphine sulfide	
+Thiotepa	Thiophosphamide	
+Thiotepa	Tifosyl	
+Thiotepa	Thiofozil	
+Thiotepa	Thiotef	
+Thiotepa	Tepadina	
+Thiotepa	Tespamine	
+Thiotepa	Tio-tef	
+Thiotepa	Triethylene Thiophosphoramide	
+Thiotepa	N,N',N''-triethylenethiophosphoramide	
+Thiotepa	Girostan	
+Thiotepa	N,N', N''-Triethylenethiophosphoramide	
+Thiotepa	Tespamin	
+Thiotepa	TESPA	
+Thiotepa	Thiophosphoramide	
+Thiotepa	thiotepa	
+Thiotepa	Triethylene thiophosphoramide	
+Thiotepa	Thiotepa	
+Thiotepa	1,1',1"-phosphinothioylidynetrisaziridine	
+Thiotepa	WR 45312	
+Thiotepa	1,1',1''-Phosphinothioylidynetrisaziridine	
+Thiotepa	Oncotiotepa	
+Pertuzumab	Monoclonal Antibody 2C4	
+Pertuzumab	Perjeta	
+Pertuzumab	2C4	
+Pertuzumab	Pertuzumab	
+Pertuzumab	RO4368451	
+Pertuzumab	2C4 Antibody	
+Pertuzumab	rhuMAb2C4	
+Pertuzumab	Immunoglobulin G1, Anti-(Human V (Receptor)) (Human-Mouse Monoclonal 2C4 Heavy Chain), Disulfide with Human-Mouse Monoclonal 2C4 Kappa-Chain, Dimer	
+Pertuzumab	pertuzumab	
+Pertuzumab	MoAb 2C4	
+Pertuzumab	PERTUZUMAB	
+Ponatinib Hydrochloride	Multitargeted_Receptor_Tyrosine_Kinase_Inhibitor_AP24534	
+Ponatinib Hydrochloride	PONATINIB	
+Ponatinib Hydrochloride	AP-24534	
+Ponatinib Hydrochloride	AP24534	
+Ponatinib Hydrochloride	Benzamide, 3-(2-Imidazo(1,2-B)Pyridazin-3-Ylethynyl)-4-Methyl-N-(4-((4-Methyl-1- Piperazinyl)Methyl)-3-(Trifluoromethyl)Phenyl)	
+Ponatinib Hydrochloride	Benzamide, 3-(2-Imidazo(1,2-B)Pyridazin-3-Ylethynyl)-4-Methyl-N-(4-((4-Methyl-1- Piperazinyl)Methyl)-3-(Trifluoromethyl)Phenyl)-, Hydrochloride (1:1)	
+Ponatinib Hydrochloride	Ponatinib Hydrochloride	
+Ponatinib Hydrochloride	AP24534 HCl	
+Ponatinib Hydrochloride	PONATINIB HYDROCHLORIDE	
+Ponatinib Hydrochloride	Ponatinib	
+Sorafenib Tosylate	sorafenib tosylate	
+Sorafenib Tosylate	BAY_43-9006	
+Sorafenib Tosylate	Sorafenib Tosylate	
+Sorafenib Tosylate	sorafenib	
+Sorafenib Tosylate	SORAFENIB TOSYLATE	
+Sorafenib Tosylate	Sorafenib	
+Sorafenib Tosylate	BAY 43-9006 Tosylate	
+Sorafenib Tosylate	BAY 54-9085	
+Sorafenib Tosylate	4-(4-(3-(4-Chloro-3-trifluoromethylphenyl)ureido)phenoxy)pyridine-2-carboxyllic Acid Methyamide-4-methylbenzenesulfonate Tosylate	
+Sorafenib Tosylate	SORAFENIB	
+Sorafenib Tosylate	BAY 43-9006	
+Sorafenib Tosylate	Nexavar	
+Dinutuximab	DINUTUXIMAB	
+Dinutuximab	Ch 14.18UTC	
+Dinutuximab	Dinutuximab	
+Dinutuximab	MOAB Ch14.18	
+Dinutuximab	Monoclonal_Antibody_Ch14_18	
+Dinutuximab	Ch14.18	
+Dinutuximab	Unituxin	
+Dinutuximab	monoclonal antibody Ch14.18	
