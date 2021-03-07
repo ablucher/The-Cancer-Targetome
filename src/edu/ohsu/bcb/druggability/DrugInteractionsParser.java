@@ -242,7 +242,80 @@ public class DrugInteractionsParser {
 		
 	}
 	
-
+	/**
+	 * This method reads in a set of drugs and their synonyms from a file
+	 * 
+	 * 03/07/21 - to run on Sophia's updated drug thesaurus sets
+	 * @throws IOException 
+	 */
+	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(String thesaurusFile) throws IOException{
+		//create map for drug -->synonym
+		Map<String, Set<String>> drugToSynonym = new HashMap<String, Set<String>>();
+		
+		//open file
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput(thesaurusFile);		
+		String line;
+		Set<String> foundDrugs = new HashSet<String>();//keep track of found drugs
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");//split on tab
+			String drugName = tokens[0];//first column is drug name
+			String synonym = tokens[2];//second column is synonym
+			
+			//do we already have this drug?
+			if (drugToSynonym.containsKey(drugName)) {
+				Set<String> existingSynonymDeck = drugToSynonym.get(drugName);
+				existingSynonymDeck.add(synonym);
+				drugToSynonym.put(drugName, existingSynonymDeck);
+			}
+			else {
+				Set<String> updatedSynonymSet= new HashSet<String>();
+				updatedSynonymSet.add(synonym); 
+				drugToSynonym.put(drugName, updatedSynonymSet);
+				foundDrugs.add(drugName);//mark as found
+			}	
+		}//while
+		
+		System.out.println("Synonym deck size: " + drugToSynonym.keySet().size());
+		
+		//return synonym map
+		return drugToSynonym;
+		
+	}
+	
+	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(Map<String, Set<String>> existingMap, String thesaurusFile) throws IOException{
+		//use existing map here
+		
+		//open file
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput(thesaurusFile);		
+		String line;
+		Set<String> foundDrugs = new HashSet<String>();//keep track of found drugs
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");//split on tab
+			String drugName = tokens[0];//first column is drug name
+			String synonym = tokens[2];//second column is synonym
+			
+			//do we already have this drug?
+			if (existingMap.containsKey(drugName)) {
+				Set<String> existingSynonymDeck = existingMap.get(drugName);
+				existingSynonymDeck.add(synonym);
+				existingMap.put(drugName, existingSynonymDeck);
+			}
+			else {
+				Set<String> updatedSynonymSet= new HashSet<String>();
+				updatedSynonymSet.add(synonym); 
+				existingMap.put(drugName, updatedSynonymSet);
+				foundDrugs.add(drugName);//mark as found
+			}	
+		}//end while
+		
+		System.out.println("Synonym deck size: " + existingMap.keySet().size());
+		
+		//return synonym map
+		return existingMap;
+		
+	}
 	
 	/**
 	 * Test method to run a drug set (created from other methods) and retrieve all target interactions.
@@ -3284,7 +3357,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//builds off existing NCI deck and adds in her automated thesaurus information
 		Map<String, Set<String>> drugSynsUpdated = loadUpdatedSynonymDeck(drugSyns);
 		System.out.println("Sophia's thesaurus synonym deck loaded; map key set size: " + drugSynsUpdated.keySet().size());
+		//remove the above, check
 		
+		//to test, just rename drugsSyns as drugSynsUpdated* 03/07/21
 		
 //		//open hibernate session and transaction
 //		String configFileName = "resources/drugHibernateMock.cfg.xml";
@@ -3296,7 +3371,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		//iterate through synonym map, get drugs
 		int counter=0;
-		for (String drugName: drugSyns.keySet()){
+		for (String drugName: drugSynsUpdated.keySet()){
 //			if (counter==2){
 //				break;
 //			}
@@ -3304,11 +3379,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			//load drug to database
 			Drug currentDrug = new Drug();
 			currentDrug.setDrugName(drugName);
-			Set<String> currentNCIDrugSyns = drugSyns.get(drugName);
-			if(currentNCIDrugSyns!=null) {
-				System.out.println("Num synonyms: " + currentNCIDrugSyns.size());
-				currentDrug.setDrugSynonyms(currentNCIDrugSyns);
-				for (String syn: currentNCIDrugSyns){
+			Set<String> currentDrugSyns = drugSynsUpdated.get(drugName);
+			if(currentDrugSyns!=null) {
+				System.out.println("Num synonyms: " + currentDrugSyns.size());
+				currentDrug.setDrugSynonyms(currentDrugSyns);
+				for (String syn: currentDrugSyns){
 					System.out.println(syn);
 				}
 			}
@@ -3317,14 +3392,20 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			counter++;
 		}
 		
-		System.out.println("Total number of drugs: " + fullDrugSet.size());
+		System.out.println("Total number of drugs: " + fullDrugSet.size()); //was 173 previously
 		
-		//call method to load drugs 
-		//load drug set from sophia - all 4 sets
-		//add to our durug set * this doesn't resolve any duplicates though?
+		//load sophia's updated sets into drug sets
 		
+		//reconcile new set with old set
+		//add method heree
+		//OUTPUT ONE DRUG SET
 		
+	
 		
+		//output drugs and drug synonyms LONG format
+		//start quick script R for coverage/ stats on drug/ synonym deck
+		//for 03/08/21 meeting
+	
 //		currentSession.getTransaction().commit();
 //		currentSession.close();
 //		SessionFactory thisFactory = currentSession.getSessionFactory();
@@ -3332,26 +3413,37 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 	}
 	
-	/**
-	 * Method to read in updated drug sets and synonyms, compiled by Sophia Jeng 2021
+	/***
+	 * Method to load updated drug sets and synonyms into Drug objects
+	 * Compiled by Sophia Jeng 2021
 	 * 
-	 * @throws IOException
+	 * WORKING HERE
+	 * @throws IOException 
 	 */
-	public Map<String, Set<String>> loadUpdatedSynonymDeck(Map<String, Set<String>> NCIDeck ){
-		//NCIDeck- previous
+	@Test
+	public void testloadNewDrugSets() throws IOException{
+		//load drugs and synonyns for each file from sophia	
+		//MMTERT thesaurus
+		Map<String, Set<String>> drugSynsMMTERT = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt");
+		System.out.println("MMTERT synonym deck loaded; map key set size: " + drugSynsMMTERT.keySet().size());
+		
+		//now build on existing deck; use overloaded method to pass an existing set AND file
+		Map<String, Set<String>> drugSynsMMTERT_PRIME = loadDrugsAndSynonymDeckFromFile(drugSynsMMTERT, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
+		System.out.println("MMTERT synonym deck loaded; map key set size: " + drugSynsMMTERT_PRIME.keySet().size());
+				
+		//now add code to load into a drug set
 		
 		
-		//create new deck; load Sophia's info
-		//for each drug, check against what we have in key set
-		//add string, then add key set
-		Map<String, Set<String>> drugSynDeck = new HashMap<String, Set<String>>();
 		
-
-
-		//return our updated deck
-		return drugSynDeck;
+		//now we need to add for all the sets that sophia compiled
+		
+		
+		
+		//return fullDrugSet;
+			
 	}
 	
+		
 	
 	
 	
