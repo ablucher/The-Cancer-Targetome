@@ -3383,8 +3383,8 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		//load *updated synonym set and decek - from sophia
 		//builds off existing NCI deck and adds in her automated thesaurus information
-		Map<String, Set<String>> drugSynsUpdated = loadUpdatedSynonymDeck(drugSyns);
-		System.out.println("Sophia's thesaurus synonym deck loaded; map key set size: " + drugSynsUpdated.keySet().size());
+		//Map<String, Set<String>> drugSynsUpdated = loadUpdatedSynonymDeck(drugSyns);
+		//System.out.println("Sophia's thesaurus synonym deck loaded; map key set size: " + drugSynsUpdated.keySet().size());
 		//remove the above, check
 		
 		//to test, just rename drugsSyns as drugSynsUpdated* 03/07/21
@@ -3394,35 +3394,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
 //		currentSession.beginTransaction();
 		
-		//RUNNING DRUG SET
-		Set<Drug> fullDrugSet = new HashSet<Drug>();
+		Set<Drug> fullDrugSet = createDrugSetFromSynonymDeck(drugSyns);
 		
-		//iterate through synonym map, get drugs
-		int counter=0;
-		for (String drugName: drugSynsUpdated.keySet()){
-//			if (counter==2){
-//				break;
-//			}
-			System.out.println("Create Drug object for  drug: " + drugName);
-			//load drug to database
-			Drug currentDrug = new Drug();
-			currentDrug.setDrugName(drugName);
-			Set<String> currentDrugSyns = drugSynsUpdated.get(drugName);
-			if(currentDrugSyns!=null) {
-				System.out.println("Num synonyms: " + currentDrugSyns.size());
-				currentDrug.setDrugSynonyms(currentDrugSyns);
-				for (String syn: currentDrugSyns){
-					System.out.println(syn);
-				}
-			}
-//			currentSession.save(currentDrug);
-			fullDrugSet.add(currentDrug);//update our running set of drugs
-			counter++;
-		}
+		System.out.println("Total number of drugs: " + fullDrugSet.size()); //173 from our targetome V1 count
 		
-		System.out.println("Total number of drugs: " + fullDrugSet.size()); //was 173 previously
-		
-		//load sophia's updated sets into drug sets
+		//load sophia's drug-> synonym deck
+		//then load into Drugs, then reconcile the two.
+		Set<Drug> betaDrugSet= loadBetaDrugSets();
+		System.out.println("Total number of drugs: " + betaDrugSet.size()); //430 in beta (includes dup formulations)
 		
 		//reconcile new set with old set
 		//add method heree
@@ -3440,16 +3419,58 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		thisFactory.close();
 		
 	}
+
+	/**
+	 * Extracted method - take a deck of drugs -> synonym
+	 * and create a Drug set
+	 * 
+	 * 03/07/21
+	 * @param drugSynonymMap
+	 * @return
+	 */
+	private Set<Drug> createDrugSetFromSynonymDeck(Map<String, Set<String>> drugSynonymMap) {
+		//initialize running drug set
+		Set<Drug> fullDrugSet = new HashSet<Drug>();
+		
+		//iterate through synonym map, get drugs
+		int counter=0;
+		
+		//FOR EACH DRUG
+		for (String drugName: drugSynonymMap.keySet()){
+//			if (counter==2){
+//				break;
+//			}
+			System.out.println("Create Drug object for  drug: " + drugName);
+			
+			//create drug //TODO add session persist here
+			Drug currentDrug = new Drug();
+			currentDrug.setDrugName(drugName);
+			Set<String> currentDrugSyns = drugSynonymMap.get(drugName);
+			if(currentDrugSyns!=null) {
+				//System.out.println("Num synonyms: " + currentDrugSyns.size());
+				currentDrug.setDrugSynonyms(currentDrugSyns);
+				
+//				for (String syn: currentDrugSyns){
+//					System.out.println(syn);
+//				}
+			}
+//			currentSession.save(currentDrug);
+			fullDrugSet.add(currentDrug);//update our running set of drugs
+			counter++;
+		}
+		return fullDrugSet;
+	}
 	
 	/***
-	 * Method to load updated drug sets and synonyms into Drug objects
+	 * Method to load BETA drug sets and synonyms into maps (drug name -> synonym deck) then into Drug objects
+	 * Returns a Set of Drug objects
 	 * Compiled by Sophia Jeng 2021
 	 * 
 	 * WORKING HERE
+	 * TODO - combine these files into 1, and read in in 2 steps - thesaurus and manual
 	 * @throws IOException 
 	 */
-	@Test
-	public void testloadNewDrugSets() throws IOException{
+	public Set<Drug> loadBetaDrugSets() throws IOException{
 		//load drugs and synonyns for each file from sophia	
 		//SMMART thesaurus
 		Map<String, Set<String>> drugSynsSMMART = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt", true, 0, 1);
@@ -3483,36 +3504,82 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//now need to bring in the manual synonyms as well- manual smmart 1
 		Map<String, Set<String>> drugSyns_BetaV2 = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART2_HNSCC, "resources/beta_v2/aml_not_found_thesarus_manual.txt", false, 0, 1);
 		System.out.println("AML manual deck added; map key set size: " + drugSyns_BetaV2.keySet().size());
-				
 		
 		//now add code to load into a drug set
-		
-		//now we need to add for all the sets that sophia compiled
-		
+		//take our drug->synonym deck and load into a drug set
+		Set<Drug> updatedDrugSet = createDrugSetFromSynonymDeck(drugSyns_BetaV2);
+		System.out.println("Total number of drugs: " + updatedDrugSet.size()); //count: w/ some formulation duplicates
+	
+		return updatedDrugSet;
+			
+	}
+	
+	
+	/***
+	 * Test method for "loadBetaDrugSets" to load updated drug sets and synonyms into Drug objects
+	 * 
+	 * @throws IOException 
+	 */
+	@Test
+	public void testLoadBetaDrugSets() throws IOException{
+		//load drugs and synonyns for each file from sophia	
+		//SMMART thesaurus
+		Map<String, Set<String>> drugSynsSMMART = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt", true, 0, 1);
+		System.out.println("SMMART synonym deck loaded; map key set size: " + drugSynsSMMART.keySet().size());
+
+		//now build on existing deck; use overloaded method to pass an existing set AND file
+		Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt", true, 0, 1);
+		System.out.println("SMMART2 synonym deck added; map key set size: " + drugSynsSMMART_2.keySet().size());
+
+		//build on deck, add hnscc
+		Map<String, Set<String>> drugSynsAddHNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART_2, "resources/beta_v2/nci_thesarus_hnscc_df.txt",true, 0, 1);
+		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddHNSCC.keySet().size());
+
+		//build on deck, add aml
+		Map<String, Set<String>> drugSynsAddAML = loadDrugsAndSynonymDeckFromFile(drugSynsAddHNSCC, "resources/beta_v2/nci_thesarus_beataml_df.txt",true, 0, 1);
+		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddAML.keySet().size());
+
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		//NO HEADERS on these files
+		Map<String, Set<String>> drugSynsManSMMART = loadDrugsAndSynonymDeckFromFile(drugSynsAddAML, "resources/beta_v2/mmtert_not_found_thesarus_manual.txt",false, 0, 1);
+		System.out.println("SMMART manual deck 1 added; map key set size: " + drugSynsManSMMART.keySet().size());
+
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSynsManSMMART2 = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART, "resources/beta_v2/prime_act_not_found_thesarus_manual.txt", false, 0, 1);
+		System.out.println("SMMART manual deck 2 added; map key set size: " + drugSynsManSMMART2.keySet().size());
+
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSynsManSMMART2_HNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART2, "resources/beta_v2/hnscc_not_found_not_nat_thesarus_manual.txt", false, 0, 1);
+		System.out.println("HNSCC manual deck added; map key set size: " + drugSynsManSMMART2_HNSCC.keySet().size());
+
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSyns_BetaV2 = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART2_HNSCC, "resources/beta_v2/aml_not_found_thesarus_manual.txt", false, 0, 1);
+		System.out.println("AML manual deck added; map key set size: " + drugSyns_BetaV2.keySet().size());
+
+
+		//now add code to load into a drug set
+		//take our drug->synonym deck and load into a drug set
+		Set<Drug> updatedDrugSet = createDrugSetFromSynonymDeck(drugSyns_BetaV2);
+
+		System.out.println("Total number of drugs: " + updatedDrugSet.size()); //count: w/ some formulation duplicates
+
 		//output to file so we can keep track
 		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck_BetaV2.txt");
 		ps.println("Drug" + "\t" + "Synonyms");
 		for (String drugName: drugSyns_BetaV2.keySet()) {
-			System.out.println("Checking drug: " + drugName);
+			//System.out.println("Checking drug: " + drugName);
 			ps.print(drugName + "\t");
 			Set<String> allSynonyms = drugSyns_BetaV2.get(drugName);
-			System.out.println("Synonym deck size: " + allSynonyms.size());
+			//System.out.println("Synonym deck size: " + allSynonyms.size());
 			for (String synonym:allSynonyms) {
 				ps.print(synonym + "|");
 			}
 			ps.println();
 		}
 		ps.close();
-		
-		
-		//return fullDrugSet;
-			
+
 	}
-	
-		
-	
-	
-	
+
 	
 	@Test
 	public void testReadIUPHAR() throws IOException{
