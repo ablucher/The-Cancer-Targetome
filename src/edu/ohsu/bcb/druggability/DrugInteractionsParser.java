@@ -2636,6 +2636,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * ddr1). Updated output in folder results_070617
 	 * @throws IOException
 	 * @throws ParseException 
+	 * 
+	 * Working here 03/07/21 on Beta V2
+	 * -Test run for each of the sections
+	 * -start with drug names and thesaurus
+	 * 
 	 */
 	
 	@Test
