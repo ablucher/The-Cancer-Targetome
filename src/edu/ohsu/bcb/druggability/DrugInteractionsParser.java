@@ -3446,9 +3446,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		//now build on existing deck; use overloaded method to pass an existing set AND file
 		Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
-		System.out.println("SMMART2 synonym deck loaded; map key set size: " + drugSynsSMMART_2.keySet().size());
+		System.out.println("SMMART2 synonym deck added; map key set size: " + drugSynsSMMART_2.keySet().size());
 				
-		//keep adding sets - hnscc and aml
+		//build on deck, add hnscc
+		Map<String, Set<String>> drugSynsAddHNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART_2, "resources/beta_v2/nci_thesarus_hnscc_df.txt");
+		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddHNSCC.keySet().size());
+		
+		//build on deck, add aml
+		Map<String, Set<String>> drugSynsAddAML = loadDrugsAndSynonymDeckFromFile(drugSynsAddHNSCC, "resources/beta_v2/nci_thesarus_beataml_df.txt");
+		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddAML.keySet().size());
 		
 		
 		//now need to bring in the manual synonyms as well
@@ -3461,12 +3467,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//now we need to add for all the sets that sophia compiled
 		
 		//output to file so we can keep track
-		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck_SMMART_2.txt");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck_SMMART_2_HNSCC_AML.txt");
 		ps.println("Drug" + "\t" + "Synonyms");
-		for (String drugName: drugSynsSMMART_2.keySet()) {
+		for (String drugName: drugSynsAddAML.keySet()) {
 			System.out.println("Checking drug: " + drugName);
 			ps.print(drugName + "\t");
-			Set<String> allSynonyms = drugSynsSMMART_2.get(drugName);
+			Set<String> allSynonyms = drugSynsAddAML.get(drugName);
 			System.out.println("Synonym deck size: " + allSynonyms.size());
 			for (String synonym:allSynonyms) {
 				ps.print(synonym + "|");
