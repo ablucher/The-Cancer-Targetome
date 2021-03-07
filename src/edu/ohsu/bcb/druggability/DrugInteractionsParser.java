@@ -257,21 +257,28 @@ public class DrugInteractionsParser {
 		fileUt.setInput(thesaurusFile);		
 		String line;
 		Set<String> foundDrugs = new HashSet<String>();//keep track of found drugs
+		System.out.println("Reading in thesaurus file: MMTERT");
+		fileUt.readLine();//skip header
+		
 		while ((line = fileUt.readLine()) != null){
 			String[] tokens = line.split("\t");//split on tab
 			String drugName = tokens[0];//first column is drug name
-			String synonym = tokens[2];//second column is synonym
+			String synonym = tokens[1];//second column is synonym
+			System.out.println("Drug: " + drugName);
+			System.out.println("Synonym: "+ synonym);
 			
 			//do we already have this drug?
-			if (drugToSynonym.containsKey(drugName)) {
+			if (drugToSynonym.keySet().contains(drugName)) {
+				System.out.println("Drug already in map, just update");
 				Set<String> existingSynonymDeck = drugToSynonym.get(drugName);
 				existingSynonymDeck.add(synonym);
 				drugToSynonym.put(drugName, existingSynonymDeck);
 			}
 			else {
-				Set<String> updatedSynonymSet= new HashSet<String>();
-				updatedSynonymSet.add(synonym); 
-				drugToSynonym.put(drugName, updatedSynonymSet);
+				System.out.println("Create new map entry: ");
+				Set<String> newSynonymSet= new HashSet<String>();
+				newSynonymSet.add(synonym); 
+				drugToSynonym.put(drugName, newSynonymSet);
 				foundDrugs.add(drugName);//mark as found
 			}	
 		}//while
