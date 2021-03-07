@@ -3274,11 +3274,16 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	public void test_beta_LoadingNCIDrugs() throws IOException{
 		//load drug set from file
 		Set<String> testDrugs = loadDrugSetFromFile("resources/drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
-		System.out.println("Drug set loaded; number of drugs: " + testDrugs.size());
+		System.out.println("NCI Drug set loaded; number of drugs: " + testDrugs.size());
 		
 		//load NCI synonyms
 		Map<String, Set<String>> drugSyns = loadNCISynonyms(testDrugs, "resources/NCIThesaurus_v04.25.16.txt");
 		System.out.println("NCI thesaurus synonym deck loaded; map key set size: " + drugSyns.keySet().size());
+		
+		//load *updated synonym set and decek - from sophia
+		//builds off existing NCI deck and adds in her automated thesaurus information
+		Map<String, Set<String>> drugSynsUpdated = loadUpdatedSynonymDeck(drugSyns);
+		System.out.println("Sophia's thesaurus synonym deck loaded; map key set size: " + drugSynsUpdated.keySet().size());
 		
 		
 //		//open hibernate session and transaction
@@ -3299,11 +3304,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			//load drug to database
 			Drug currentDrug = new Drug();
 			currentDrug.setDrugName(drugName);
-			Set<String> currentDrugSyns = drugSyns.get(drugName);
-			if(currentDrugSyns!=null) {
-				System.out.println("Num synonyms: " + currentDrugSyns.size());
-				currentDrug.setDrugSynonyms(currentDrugSyns);
-				for (String syn: currentDrugSyns){
+			Set<String> currentNCIDrugSyns = drugSyns.get(drugName);
+			if(currentNCIDrugSyns!=null) {
+				System.out.println("Num synonyms: " + currentNCIDrugSyns.size());
+				currentDrug.setDrugSynonyms(currentNCIDrugSyns);
+				for (String syn: currentNCIDrugSyns){
 					System.out.println(syn);
 				}
 			}
@@ -3314,12 +3319,42 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		System.out.println("Total number of drugs: " + fullDrugSet.size());
 		
+		//call method to load drugs 
+		//load drug set from sophia - all 4 sets
+		//add to our durug set * this doesn't resolve any duplicates though?
+		
+		
+		
 //		currentSession.getTransaction().commit();
 //		currentSession.close();
 //		SessionFactory thisFactory = currentSession.getSessionFactory();
 //		thisFactory.close();
 		
 	}
+	
+	/**
+	 * Method to read in updated drug sets and synonyms, compiled by Sophia Jeng 2021
+	 * 
+	 * @throws IOException
+	 */
+	public Map<String, Set<String>> loadUpdatedSynonymDeck(Map<String, Set<String>> NCIDeck ){
+		//NCIDeck- previous
+		
+		
+		//create new deck; load Sophia's info
+		//for each drug, check against what we have in key set
+		//add string, then add key set
+		Map<String, Set<String>> drugSynDeck = new HashMap<String, Set<String>>();
+		
+
+
+		//return our updated deck
+		return drugSynDeck;
+	}
+	
+	
+	
+	
 	
 	@Test
 	public void testReadIUPHAR() throws IOException{
