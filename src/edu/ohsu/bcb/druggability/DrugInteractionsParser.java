@@ -3423,13 +3423,13 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	@Test
 	public void testloadNewDrugSets() throws IOException{
 		//load drugs and synonyns for each file from sophia	
-		//MMTERT thesaurus
-		Map<String, Set<String>> drugSynsMMTERT = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt");
-		System.out.println("MMTERT synonym deck loaded; map key set size: " + drugSynsMMTERT.keySet().size());
+		//SMMART thesaurus
+		Map<String, Set<String>> drugSynsSMMART = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt");
+		System.out.println("SMMART2 synonym deck loaded; map key set size: " + drugSynsSMMART.keySet().size());
 		
 		//now build on existing deck; use overloaded method to pass an existing set AND file
-		Map<String, Set<String>> drugSynsMMTERT_PRIME = loadDrugsAndSynonymDeckFromFile(drugSynsMMTERT, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
-		System.out.println("MMTERT synonym deck loaded; map key set size: " + drugSynsMMTERT_PRIME.keySet().size());
+		//Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
+		//System.out.println("SMMART 2 synonym deck loaded; map key set size: " + drugSynsSMMART_2.keySet().size());
 				
 		//now add code to load into a drug set
 		
@@ -3437,6 +3437,20 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		//now we need to add for all the sets that sophia compiled
 		
+		//output to file so we can keep track
+		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck.txt");
+		ps.println("Drug" + "\t" + "Synonyms");
+		for (String drugName: drugSynsSMMART.keySet()) {
+			System.out.println("Checking drug: " + drugName);
+			ps.print(drugName + "\t");
+			Set<String> allSynonyms = drugSynsSMMART.get(drugName);
+			System.out.println("Synonym deck size: " + allSynonyms.size());
+			for (String synonym:allSynonyms) {
+				ps.print(synonym + "|");
+			}
+			ps.println();
+		}
+		ps.close();
 		
 		
 		//return fullDrugSet;
