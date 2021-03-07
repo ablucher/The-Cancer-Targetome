@@ -3448,9 +3448,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
 		System.out.println("SMMART2 synonym deck loaded; map key set size: " + drugSynsSMMART_2.keySet().size());
 				
+		//keep adding sets - hnscc and aml
+		
+		
+		//now need to bring in the manual synonyms as well
+		
+		
+		
+		
 		//now add code to load into a drug set
-		
-		
 		
 		//now we need to add for all the sets that sophia compiled
 		
