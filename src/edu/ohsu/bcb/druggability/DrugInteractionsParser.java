@@ -30,7 +30,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionBuilder;
 import org.hibernate.SessionFactory;
-
+import org.jsoup.select.Evaluator.IsEmpty;
 import org.reactome.r3.util.FileUtility;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -78,10 +78,10 @@ public class DrugInteractionsParser {
 		List<String> repeatDrugs = new ArrayList<String>();
 		
 		//output files for combo, duplicate by formulation drugs
-		PrintStream cs = new PrintStream("resultsV2/NCIDrugs_CombosExcluded_12.02.16.txt");
+		PrintStream cs = new PrintStream("results_beta_V2/NCIDrugs_CombosExcluded_12.02.16.txt");
 		cs.println("Drug");
 		
-		PrintStream ds = new PrintStream("resultsV2/NCIDrugs_Excluded_12.02.16.txt");
+		PrintStream ds = new PrintStream("results_beta_V2/NCIDrugs_Excluded_12.02.16.txt");
 		ds.println("Drug");
 		
 		
@@ -142,12 +142,14 @@ public class DrugInteractionsParser {
 	
 	/**
 	 * Test method for loading drug set from file
+	 * 
+	 * CHECKED 03/07/21
 	 * @throws Exception 
 	 */
 	@Test
-	public void testLoadDrugSetFromFile() throws Exception{
+	public void test_beta_LoadDrugSetFromFile() throws Exception{
 		//String drugFile = "drug_sets/testDrugSet.txt";//for testing
-		String drugFile = "drug_sets/scrapedNCIDrugs_05.11.16.txt";//for testing, 236 unique listings
+		String drugFile = "resources/drug_sets/scrapedNCIDrugs_05.11.16.txt";//for testing, 236 unique listings
 		//load drug set from file
 		//1 header, col[0] for drugs
 		Set<String> drugSet = loadDrugSetFromFile(drugFile, 1, 0, "\t");
@@ -506,21 +508,24 @@ public class DrugInteractionsParser {
 	/**
 	 * This method takes a list of drugs, loads synonyms, and persists
 	 * them to hibernate database. This method opens the hibernate session.
+	 * 
+	 * Updated 03/7/21, beta work, remove persist functionality for time being
+	 * -returns a drug set, not a session
 	 * @throws IOException
 	 * @throws ParseException 
 	 */
-	public Session persistDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
-		//load drug set
+	public Set<Drug> beta_persistDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+		//load drug set; CHECKED
 		Set<String> testDrugs = loadDrugSetFromFile(drugFile, headers, drugCol, sep);
 		//load NCI synonyms
 		Map<String, Set<String>> drugSyns = loadNCISynonyms(testDrugs, "resources/NCIThesaurus_v04.25.16.txt");
 		System.out.println("NCI drug syn map size:" + drugSyns.size());
 		
-		//hibernate config file
-		//open hibernate session and transaction
-		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16
-		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
-		currentSession.beginTransaction();
+//		//hibernate config file - 
+//		//open hibernate session and transaction
+//		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16
+//		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
+//		currentSession.beginTransaction();
 
 		//create set for all drugs
 		Set<Drug> fullDrugList = new HashSet<Drug>();
@@ -537,34 +542,34 @@ public class DrugInteractionsParser {
 			Set<String> currentDrugSyns = drugSyns.get(drugName);
 			if (currentDrugSyns==null){
 				currentDrug.setDrugSynonyms(null);
-				//check for approval date
-				String approvalDate = getFDAApprovalDate(currentDrug);
-				currentDrug.setApprovalDate(approvalDate);
-				//ps.println(drugName + "\t" + approvalDate);
-				//counters
-				if (approvalDate!=null){
-						foundCounter++;
-				}
-				else{
-					nullCounter++;
-				}
-				
-				//currentSession.save(currentDrug);
+//				//check for approval date
+//				String approvalDate = getFDAApprovalDate(currentDrug);
+//				currentDrug.setApprovalDate(approvalDate);
+//				//ps.println(drugName + "\t" + approvalDate);
+//				//counters
+//				if (approvalDate!=null){
+//						foundCounter++;
+//				}
+//				else{
+//					nullCounter++;
+//				}
+//				
+//				//currentSession.save(currentDrug);
 				fullDrugList.add(currentDrug);//add to set here
 				continue;
 			}
 			//set synonyms from map
 			currentDrug.setDrugSynonyms(currentDrugSyns);
-			//retrieve fda approval date
-			String approvalDate = getFDAApprovalDate(currentDrug);
-			currentDrug.setApprovalDate(approvalDate);
-			//currentSession.save(currentDrug);
-			if (approvalDate!=null){//increment our counters
-					foundCounter++;
-			}
-			else{
-				nullCounter++;
-			}
+//			//retrieve fda approval date
+//			String approvalDate = getFDAApprovalDate(currentDrug);
+//			currentDrug.setApprovalDate(approvalDate);
+//			//currentSession.save(currentDrug);
+//			if (approvalDate!=null){//increment our counters
+//					foundCounter++;
+//			}
+//			else{
+//				nullCounter++;
+//			}
 			//add to fullDrugset
 			fullDrugList.add(currentDrug);
 		}
@@ -582,15 +587,16 @@ public class DrugInteractionsParser {
 		}
 		System.out.println("Number unique drugs: " + checkedDrugs.size());
 		//commit these drugs to database
-		for (Drug drug: checkedDrugs){
-			currentSession.save(drug);
-		}
-		
-		System.out.println("Commit DRUG SET to database complete.");
-		System.out.println("Num Approval Dates found: " + foundCounter);
-		System.out.println("Num Approval Dates null: " + nullCounter);
-		
-		return currentSession;
+//		for (Drug drug: checkedDrugs){
+//			currentSession.save(drug);
+//		}
+//		
+//		System.out.println("Commit DRUG SET to database complete.");
+//		System.out.println("Num Approval Dates found: " + foundCounter);
+//		System.out.println("Num Approval Dates null: " + nullCounter);
+//		
+//		return currentSession;
+		return checkedDrugs;
 
 	}
 	
@@ -600,7 +606,7 @@ public class DrugInteractionsParser {
 	@Test
 	public void testDrugsPersistAndQuery() throws IOException, ParseException{
 		//drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-		Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		
 		//now query drugs
 		Set<Drug> drugSet = queryDrugSet(currentSession);
@@ -983,7 +989,7 @@ public class DrugInteractionsParser {
 
 		System.out.println("Starting test method: ");
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-	    Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+	    Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		System.out.println("Drugs loaded to database.");
 	
 		System.out.println("Starting on persist BindingDB");
@@ -2190,7 +2196,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	@Test
 	public void testPersistTTD() throws IOException, ParseException{
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-	    Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+	    Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		System.out.println("Drugs loaded to database.");
 	
 		System.out.println("Starting on persistTTD");
@@ -2216,7 +2222,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	@Test
 	public void testPersistDrugBank() throws IOException, ParseException{
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-	    Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+	    Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		System.out.println("Drugs loaded to database.");
 
 	    //persist drugbank *FIX THIS - currently only is a check
@@ -2251,7 +2257,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	@Test
 	public void testPersistIUPHAR() throws IOException, ParseException{
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-		Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		
 		//persist iuphar 
 		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
@@ -2640,13 +2646,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * Working here 03/07/21 on Beta V2
 	 * -Test run for each of the sections
 	 * -start with drug names and thesaurus
-	 * 
+	 * -then run through what we have**
+	 * -
 	 */
 	
 	@Test
 	public void testPersistAll() throws IOException, ParseException{
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-		Session currentSession = persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		//retrieve pharm classes, added 10/11/16
 		Session currentSessionWithClasses = persistDrugClasses(currentSession);
 		
@@ -3264,39 +3271,53 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * @throws IOException
 	 */
 	@Test
-	public void testLoadingNCIDrugs() throws IOException{
+	public void test_beta_LoadingNCIDrugs() throws IOException{
 		//load drug set from file
-		Set<String> testDrugs = loadDrugSetFromFile("drug_sets/testDrugSet.txt", 1, 0, "\t" );
+		Set<String> testDrugs = loadDrugSetFromFile("resources/drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		System.out.println("Drug set loaded; number of drugs: " + testDrugs.size());
+		
 		//load NCI synonyms
 		Map<String, Set<String>> drugSyns = loadNCISynonyms(testDrugs, "resources/NCIThesaurus_v04.25.16.txt");
+		System.out.println("NCI thesaurus synonym deck loaded; map key set size: " + drugSyns.keySet().size());
 		
-		//open hibernate session and transaction
-		String configFileName = "resources/drugHibernateMock.cfg.xml";
-		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
-		currentSession.beginTransaction();
+		
+//		//open hibernate session and transaction
+//		String configFileName = "resources/drugHibernateMock.cfg.xml";
+//		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
+//		currentSession.beginTransaction();
 		
 		//RUNNING DRUG SET
 		Set<Drug> fullDrugSet = new HashSet<Drug>();
 		
 		//iterate through synonym map, get drugs
+		int counter=0;
 		for (String drugName: drugSyns.keySet()){
+//			if (counter==2){
+//				break;
+//			}
+			System.out.println("Create Drug object for  drug: " + drugName);
 			//load drug to database
 			Drug currentDrug = new Drug();
 			currentDrug.setDrugName(drugName);
 			Set<String> currentDrugSyns = drugSyns.get(drugName);
-			System.out.println("Num synonyms: " + currentDrugSyns.size());
-			currentDrug.setDrugSynonyms(currentDrugSyns);
-			for (String syn: currentDrugSyns){
-				System.out.println(syn);
+			if(currentDrugSyns!=null) {
+				System.out.println("Num synonyms: " + currentDrugSyns.size());
+				currentDrug.setDrugSynonyms(currentDrugSyns);
+				for (String syn: currentDrugSyns){
+					System.out.println(syn);
+				}
 			}
-			currentSession.save(currentDrug);
+//			currentSession.save(currentDrug);
 			fullDrugSet.add(currentDrug);//update our running set of drugs
+			counter++;
 		}
 		
-		currentSession.getTransaction().commit();
-		currentSession.close();
-		SessionFactory thisFactory = currentSession.getSessionFactory();
-		thisFactory.close();
+		System.out.println("Total number of drugs: " + fullDrugSet.size());
+		
+//		currentSession.getTransaction().commit();
+//		currentSession.close();
+//		SessionFactory thisFactory = currentSession.getSessionFactory();
+//		thisFactory.close();
 		
 	}
 	
