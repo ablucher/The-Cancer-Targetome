@@ -244,11 +244,14 @@ public class DrugInteractionsParser {
 	
 	/**
 	 * This method reads in a set of drugs and their synonyms from a file
+	 * String thesaurusFile - our input file to read
+	 * indexDrug - column to use for drug name
+	 * indexSynonym - column to use for drug synonym
 	 * 
 	 * 03/07/21 - to run on Sophia's updated drug thesaurus sets
 	 * @throws IOException 
 	 */
-	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(String thesaurusFile) throws IOException{
+	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(String thesaurusFile, boolean header, int indexDrug, int indexSynonym) throws IOException{
 		//create map for drug -->synonym
 		Map<String, Set<String>> drugToSynonym = new HashMap<String, Set<String>>();
 		
@@ -258,12 +261,13 @@ public class DrugInteractionsParser {
 		String line;
 		Set<String> foundDrugs = new HashSet<String>();//keep track of found drugs
 		//System.out.println("Reading in thesaurus file: MMTERT");
-		fileUt.readLine();//skip header
-		
+		if (header) {
+			fileUt.readLine();//skip header
+		}
 		while ((line = fileUt.readLine()) != null){
 			String[] tokens = line.split("\t");//split on tab
-			String drugName = tokens[0];//first column is drug name
-			String synonym = tokens[1];//second column is synonym
+			String drugName = tokens[indexDrug];//first column is drug name
+			String synonym = tokens[indexSynonym];//second column is synonym
 			//System.out.println("Drug: " + drugName);
 			//System.out.println("Synonym: "+ synonym);
 			
@@ -297,7 +301,7 @@ public class DrugInteractionsParser {
 	 * @return
 	 * @throws IOException
 	 */
-	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(Map<String, Set<String>> existingMap, String thesaurusFile) throws IOException{
+	public Map<String, Set<String>> loadDrugsAndSynonymDeckFromFile(Map<String, Set<String>> existingMap, String thesaurusFile, boolean header, int indexDrug, int indexSynonym) throws IOException{
 		//use existing map here
 		
 		//open file
@@ -305,10 +309,17 @@ public class DrugInteractionsParser {
 		fileUt.setInput(thesaurusFile);		
 		String line;
 		Set<String> foundDrugs = new HashSet<String>();//keep track of found drugs
+		if(header) {
+			fileUt.readLine(); //skip header
+		}
 		while ((line = fileUt.readLine()) != null){
-			String[] tokens = line.split("\t");//split on tab
-			String drugName = tokens[0];//first column is drug name
-			String synonym = tokens[1];//second column is synonym
+			String[] tokens = line.split("\t");//split on tab	
+			if(tokens.length<2) {//need to add?
+				continue;
+			}
+			String drugName = tokens[indexDrug];//first column is drug name
+			
+			String synonym = tokens[indexSynonym];//second column is synonym
 			//System.out.println("Drug: " + drugName);
 			//System.out.println("Synonym: "+ synonym);
 			
@@ -3441,38 +3452,50 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	public void testloadNewDrugSets() throws IOException{
 		//load drugs and synonyns for each file from sophia	
 		//SMMART thesaurus
-		Map<String, Set<String>> drugSynsSMMART = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt");
+		Map<String, Set<String>> drugSynsSMMART = loadDrugsAndSynonymDeckFromFile("resources/beta_v2/nci_thesarus_mmtert_df.txt", true, 0, 1);
 		System.out.println("SMMART synonym deck loaded; map key set size: " + drugSynsSMMART.keySet().size());
 		
 		//now build on existing deck; use overloaded method to pass an existing set AND file
-		Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt");
+		Map<String, Set<String>> drugSynsSMMART_2 = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART, "resources/beta_v2/nci_thesarus_prime_act_df.txt", true, 0, 1);
 		System.out.println("SMMART2 synonym deck added; map key set size: " + drugSynsSMMART_2.keySet().size());
 				
 		//build on deck, add hnscc
-		Map<String, Set<String>> drugSynsAddHNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART_2, "resources/beta_v2/nci_thesarus_hnscc_df.txt");
+		Map<String, Set<String>> drugSynsAddHNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsSMMART_2, "resources/beta_v2/nci_thesarus_hnscc_df.txt",true, 0, 1);
 		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddHNSCC.keySet().size());
 		
 		//build on deck, add aml
-		Map<String, Set<String>> drugSynsAddAML = loadDrugsAndSynonymDeckFromFile(drugSynsAddHNSCC, "resources/beta_v2/nci_thesarus_beataml_df.txt");
+		Map<String, Set<String>> drugSynsAddAML = loadDrugsAndSynonymDeckFromFile(drugSynsAddHNSCC, "resources/beta_v2/nci_thesarus_beataml_df.txt",true, 0, 1);
 		System.out.println("HNSCC synonym deck added; map key set size: " + drugSynsAddAML.keySet().size());
 		
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		//NO HEADERS on these files
+		Map<String, Set<String>> drugSynsManSMMART = loadDrugsAndSynonymDeckFromFile(drugSynsAddAML, "resources/beta_v2/mmtert_not_found_thesarus_manual.txt",false, 0, 1);
+		System.out.println("SMMART manual deck 1 added; map key set size: " + drugSynsManSMMART.keySet().size());
 		
-		//now need to bring in the manual synonyms as well
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSynsManSMMART2 = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART, "resources/beta_v2/prime_act_not_found_thesarus_manual.txt", false, 0, 1);
+		System.out.println("SMMART manual deck 2 added; map key set size: " + drugSynsManSMMART2.keySet().size());
 		
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSynsManSMMART2_HNSCC = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART2, "resources/beta_v2/hnscc_not_found_not_nat_thesarus_manual.txt", false, 0, 1);
+		System.out.println("HNSCC manual deck added; map key set size: " + drugSynsManSMMART2_HNSCC.keySet().size());
 		
-		
+		//now need to bring in the manual synonyms as well- manual smmart 1
+		Map<String, Set<String>> drugSyns_BetaV2 = loadDrugsAndSynonymDeckFromFile(drugSynsManSMMART2_HNSCC, "resources/beta_v2/aml_not_found_thesarus_manual.txt", false, 0, 1);
+		System.out.println("AML manual deck added; map key set size: " + drugSyns_BetaV2.keySet().size());
+				
 		
 		//now add code to load into a drug set
 		
 		//now we need to add for all the sets that sophia compiled
 		
 		//output to file so we can keep track
-		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck_SMMART_2_HNSCC_AML.txt");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningSynonymDeck_BetaV2.txt");
 		ps.println("Drug" + "\t" + "Synonyms");
-		for (String drugName: drugSynsAddAML.keySet()) {
+		for (String drugName: drugSyns_BetaV2.keySet()) {
 			System.out.println("Checking drug: " + drugName);
 			ps.print(drugName + "\t");
-			Set<String> allSynonyms = drugSynsAddAML.get(drugName);
+			Set<String> allSynonyms = drugSyns_BetaV2.get(drugName);
 			System.out.println("Synonym deck size: " + allSynonyms.size());
 			for (String synonym:allSynonyms) {
 				ps.print(synonym + "|");
