@@ -3407,8 +3407,13 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//add method heree
 		//OUTPUT ONE DRUG SET
 		
-	
+		System.out.println("Reconciling V1 Drug and Beta Drug Sets");
+		//initialize resolved set of drugs
+		Set<Drug> reconciledSet = reconcileDrugSets(fullDrugSet, betaDrugSet);
 		
+		//final set number; note will include dup formulations for now
+		System.out.println("Reconciled Drug Set " + reconciledSet.size()); 
+			
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting
@@ -3418,6 +3423,37 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		SessionFactory thisFactory = currentSession.getSessionFactory();
 //		thisFactory.close();
 		
+	}
+
+	/**
+	 * @param fullDrugSet
+	 * @param betaDrugSet
+	 * @return
+	 */
+	private Set<Drug> reconcileDrugSets(Set<Drug> fullDrugSet, Set<Drug> betaDrugSet) {
+		Set<Drug> reconciledSet = new HashSet<Drug>();
+		//iterate through each set
+		for(Drug drugV1: fullDrugSet) {
+			for (Drug drugBeta: betaDrugSet) {
+				//compare - if match found
+				if(drugBeta.isEquivalent(drugV1)) {
+					System.out.println("Drug previously stored");
+
+					//then take drug name and synonyms from beta and add to drug V1 information
+					Set<String> drugV1Synonyms =  drugV1.getDrugSynonyms();
+					drugV1Synonyms.add(drugBeta.getDrugName()); //first commit beta drug name
+					for(String drugBetaSynonym:drugBeta.getDrugSynonyms() ) {
+						drugV1Synonyms.add(drugBetaSynonym);//now commit each beta drug synonym as well
+					}
+					
+				}
+				else { //otherwise add to the reconciled set
+					reconciledSet.add(drugBeta);
+					System.out.println("New Beta Drug added");
+				}
+			}//end for drugBeta	
+		}//end for drugV1
+		return reconciledSet;
 	}
 
 	/**
