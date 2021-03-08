@@ -3496,8 +3496,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	
 	/**
 	 * Test method to make sure that if we have a synonym drug in beta test, it gets added correctly to the first test
-	 * Checked - imatinib and gleevec are resolved to one, synonyms are combined
-	 * Checked - are other drugs kept correctly in the sets?
+	 * Check1  - run with just imatinib and gleevec are resolved to 1, synonyms are combined; correect
+	 * Check2 - run with imatinib and alectinib in first set, gleevec in second; are other drugs kept correctly
+	 *           in the sets?; yes, resolves imatinib/gleevec and keeps alectinib
+	 * Check3 - run with imatinib and alectinib in first set, gleevec in second, and pazopanib in second;
+	 * 			er
 	 * 03/07/21
 	 */
 	@Test
@@ -3529,7 +3532,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		gleevec.setDrugSynonyms(gleevecSynonyms);
 		drugSetBeta.add(gleevec);
 		
-		//reonciled set should have only 2 drugs: imatinib(=gleevec and alectinib
+		Drug pazopanib = new Drug();
+		pazopanib.setDrugName("Pazopanib");
+		drugSetBeta.add(pazopanib);
+		Set<String> pazopanibSynonyms = new HashSet<String>();
+		pazopanibSynonyms.add("Paz");
+		pazopanib.setDrugSynonyms(pazopanibSynonyms);
+		
+		//now check what we have in reconciled set
 		Set<Drug> reconciledSet = reconcileDrugSets(drugSetV1, drugSetBeta);
 		System.out.println("Size of reconciled set: " + reconciledSet.size());
 		for(Drug eachDrug: reconciledSet) {
