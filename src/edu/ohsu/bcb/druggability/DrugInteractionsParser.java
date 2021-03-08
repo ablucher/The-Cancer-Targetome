@@ -3425,7 +3425,10 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 	}
 
-	/**
+	/**Method to iterate through 2 Drug sets; and reconcile them;
+	 * Adds any new drugs in 2nd set to the first set; updates synonym deck
+	 * 
+	 * Returns final resolved Drug Set
 	 * @param fullDrugSet
 	 * @param betaDrugSet
 	 * @return
@@ -3433,12 +3436,18 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	private Set<Drug> reconcileDrugSets(Set<Drug> fullDrugSet, Set<Drug> betaDrugSet) {
 		Set<Drug> reconciledSet = new HashSet<Drug>();
 		//iterate through each set
+		
+		//FIRST PASS, ADD drugsV1 to reconciled set
+		//AND PICK UP ANY NEW SYNONYMS FROM THE BETA SET
 		for(Drug drugV1: fullDrugSet) {
 			for (Drug drugBeta: betaDrugSet) {
-				//compare - if match found
-				if(drugBeta.isEquivalent(drugV1)) {
-					System.out.println("Drug previously stored");
-
+				//first add to our reconciled set
+				reconciledSet.add(drugV1);
+				
+				//now compare - any additional drug name info in our beta set?
+				if(drugBeta.isEquivalent(drugV1)) {//use our existing method to compare 2 Drug objects; nice
+					System.out.println("Drug match in Beta Set found, grab synonyms");
+					
 					//then take drug name and synonyms from beta and add to drug V1 information
 					Set<String> drugV1Synonyms =  drugV1.getDrugSynonyms();
 					drugV1Synonyms.add(drugBeta.getDrugName()); //first commit beta drug name
@@ -3447,15 +3456,89 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 					}
 					
 				}
-				else { //otherwise add to the reconciled set
-					reconciledSet.add(drugBeta);
-					System.out.println("New Beta Drug added");
-				}
 			}//end for drugBeta	
 		}//end for drugV1
+		//after this pass, now all of V1 have been added to reconciledSet plus they have extended synonym decks
+		//from our beta set as appropriate
+		
+		//SECOND PASS, add beta drugs to reconciled set
+		//this lets us go through and add (any beta drugs we don't have) into our reconciled set
+		Set<Drug> flagBetaDrugsToAdd = new HashSet<Drug>();
+		boolean foundInReconciledSet = false;
+		
+		for (Drug drugBetaSecondPass: betaDrugSet) {
+			for(Drug drugInReconciledSet: reconciledSet) {
+				if(drugBetaSecondPass.isEquivalent(drugInReconciledSet)) {
+					foundInReconciledSet = true; //then PASS, we already have it * DO WE NEED SOME KIND OF INDICATOR HERE?
+					break; // end loop
+				}
+				//else, just go to nect drug to check 
+			}//end loop reconciled set
+			
+			//if flag is STILL false; then add to reconciled set
+			if(foundInReconciledSet==false) {
+				flagBetaDrugsToAdd.add(drugBetaSecondPass);
+			}
+			//now that it's added, re-set the flag before we go to next beta drug
+			foundInReconciledSet=true;
+			
+		}
+		
+		//now spin through the flagged beta drugs and add them to reconciled set at the end
+		//this step is need so that we don't modify the reconciled set while iterating through it 
+		//in our loop above!
+		for(Drug flaggedBetaDrug: flagBetaDrugsToAdd) {
+			reconciledSet.add(flaggedBetaDrug);
+		}
+
 		return reconciledSet;
 	}
-
+	
+	/**
+	 * Test method to make sure that if we have a synonym drug in beta test, it gets added correctly to the first test
+	 * Checked - imatinib and gleevec are resolved to one, synonyms are combined
+	 * Checked - are other drugs kept correctly in the sets?
+	 * 03/07/21
+	 */
+	@Test
+	public void testReconcileDrugSets() {
+		Set<Drug> drugSetV1 = new HashSet<Drug>();
+		Drug imatinib = new Drug();
+		imatinib.setDrugName("imatinib");
+		Set<String> imatinibSynonyms = new HashSet<String>();
+		imatinibSynonyms.add("IMATINIB");
+		imatinibSynonyms.add("gleevec");
+		imatinib.setDrugSynonyms(imatinibSynonyms);
+		drugSetV1.add(imatinib);
+		
+		Drug alectinib = new Drug();
+		alectinib.setDrugName("Alectinib");
+		drugSetV1.add(alectinib);
+		Set<String> alectinibSynonyms = new HashSet<String>();
+		alectinibSynonyms.add("Alectinib1");
+		alectinibSynonyms.add("Alectinib2");
+		alectinib.setDrugSynonyms(alectinibSynonyms);
+		
+		
+		Set<Drug> drugSetBeta = new HashSet<Drug>();
+		Drug gleevec = new Drug();
+		gleevec.setDrugName("gleevec");
+		Set<String> gleevecSynonyms = new HashSet<String>();
+		gleevecSynonyms.add("STI-571");
+		gleevecSynonyms.add("STI571");
+		gleevec.setDrugSynonyms(gleevecSynonyms);
+		drugSetBeta.add(gleevec);
+		
+		//reonciled set should have only 2 drugs: imatinib(=gleevec and alectinib
+		Set<Drug> reconciledSet = reconcileDrugSets(drugSetV1, drugSetBeta);
+		System.out.println("Size of reconciled set: " + reconciledSet.size());
+		for(Drug eachDrug: reconciledSet) {
+			System.out.println("Drug: " + eachDrug.getDrugName());
+			System.out.println("Synonym deck: " + eachDrug.getDrugSynonyms().size());
+		}
+		
+	}
+	
 	/**
 	 * Extracted method - take a deck of drugs -> synonym
 	 * and create a Drug set
