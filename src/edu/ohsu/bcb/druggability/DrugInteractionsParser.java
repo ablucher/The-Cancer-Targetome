@@ -1731,7 +1731,124 @@ public class DrugInteractionsParser {
 		}
 	}
 	
+	public Map<Drug, String> beta_checkCoverageDrugBank(Set<Drug> inputDrugSet) throws IOException{
+		
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/beta_v2/drugbank_test_20210127.csv");
+		Set<String> quickDrugSet = new HashSet<String>();
+		
+		String[] headers = fileUt.readLine().split(",");
+		//int lineCounter = 2;
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split(",");
 
+			String ligand=tokens[0];
+			
+			quickDrugSet.add(ligand);
+
+		}
+		//now quick check over our drug set
+		
+		//PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_Add_BetaV2_IUPHAR.tsv");
+		//ps.println("Drug" + "\t" + "IUPHAR");
+		HashMap<Drug, String> drugToDrugBankCoverage = new HashMap<Drug, String>();
+		for (Drug inputDrug: inputDrugSet){
+			for (String drugbank_ligand: quickDrugSet) {
+			if (inputDrug.nameIsEquivalent(drugbank_ligand)) {
+				//ps.println(inputDrug.getDrugName() + "\t" + "Yes" );
+				drugToDrugBankCoverage.put(inputDrug, "DrugBank_Yes");
+			}
+				
+			}
+		}
+		
+		//ps.close();
+
+		return drugToDrugBankCoverage;
+	
+		
+	} 
+
+	/**
+	 * TODO - clean up
+	 * @param inputDrugSet
+	 * @throws IOException 
+	 */
+	public Map<Drug, String> beta_checkCoverageIUPHAR(Set<Drug> inputDrugSet) throws IOException{
+
+
+		//PARSE IUPHAR INTERACTIONS, PERSIST
+		FileUtility fileUt = new FileUtility();
+		//fix this - will need to use regex to ignore commas in data?**
+		fileUt.setInput("resources/IUPHAR/IUPHAR_interactions_fixedAB_06.02.16.csv");
+		//create DatabaseRef
+		//				DatabaseRef iuphar = new DatabaseRef();
+		//				iuphar.setDatabaseName("IUPHAR");
+		//				iuphar.setDownloadDate("06.15.2016");
+		//				iuphar.setDownloadURL("NA");
+		//				iuphar.setVersion("NA");
+		//				databaseSet.add(iuphar);//prob not necessary
+		//				currentSession.save(iuphar);
+
+		//parse file and create quick drug set
+		//added 
+		Set<String> quickDrugSet = new HashSet<String>();
+		
+		String[] headers = fileUt.readLine().split(",");
+		int lineCounter = 2;
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split(",", -1);//need -1?
+
+			//skip if lines != 34 ** fix this
+			if (tokens.length != 34){
+				System.out.println(lineCounter);
+				continue;
+			}
+			//get iuphar info
+			String targetGene=tokens[2];//target gene name
+			String targetUniprot=tokens[3];//uniprot
+
+			//					//skip any blank uniprots
+			////					if (targetUniprot.length()==0){
+			////						continue;
+			////					}
+			//					String targetType= assignTargetType(targetGene, targetUniprot);
+			//					//skip if we can't identify target
+			//					if (targetType.equals("NA")){
+			//						continue;
+			//					}
+			//						
+			//					String targetSpecies=tokens[9];//target species, all for now
+			//					targetSpecies=getSpeciesName(targetSpecies);//convert to species name
+			//																//if human
+			//					
+			String ligand=tokens[10];
+			
+			quickDrugSet.add(ligand);
+
+		}
+		//now quick check over our drug set
+		
+		//PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_Add_BetaV2_IUPHAR.tsv");
+		//ps.println("Drug" + "\t" + "IUPHAR");
+		HashMap<Drug, String> drugToIUPHARCoverage = new HashMap<Drug, String>();
+		for (Drug inputDrug: inputDrugSet){
+			for (String IUPHAR_ligand: quickDrugSet) {
+			if (inputDrug.nameIsEquivalent(IUPHAR_ligand)) {
+				//ps.println(inputDrug.getDrugName() + "\t" + "Yes" );
+				drugToIUPHARCoverage.put(inputDrug, "IUPHAR_Yes");
+			}
+				
+			}
+		}
+		
+		//ps.close();
+
+		return drugToIUPHARCoverage;
+	}
+	
 	/**
 	 * Method parses IUPHAR interactions and evidence and persists to our database.
 	 * Method returns currentSession. 
@@ -1763,7 +1880,8 @@ public class DrugInteractionsParser {
 		databaseSet.add(iuphar);//prob not necessary
 		currentSession.save(iuphar);
 		
-		//parse file
+		//parse file 
+		
 		String[] headers = fileUt.readLine().split(",");
 		int lineCounter = 2;
 		String line = null;
@@ -3381,14 +3499,6 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Map<String, Set<String>> drugSyns = loadNCISynonyms(testDrugs, "resources/NCIThesaurus_v04.25.16.txt");
 		System.out.println("NCI thesaurus synonym deck loaded; map key set size: " + drugSyns.keySet().size());
 		
-		//load *updated synonym set and decek - from sophia
-		//builds off existing NCI deck and adds in her automated thesaurus information
-		//Map<String, Set<String>> drugSynsUpdated = loadUpdatedSynonymDeck(drugSyns);
-		//System.out.println("Sophia's thesaurus synonym deck loaded; map key set size: " + drugSynsUpdated.keySet().size());
-		//remove the above, check
-		
-		//to test, just rename drugsSyns as drugSynsUpdated* 03/07/21
-		
 //		//open hibernate session and transaction
 //		String configFileName = "resources/drugHibernateMock.cfg.xml";
 //		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
@@ -3413,32 +3523,88 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		//final set number; note will include dup formulations for now
 		System.out.println("Reconciled Drug Set " + reconciledSet.size()); 
-			
+		
+		//QUICK CHECKS COVERAGE
+		//call the beta_checkCoverage methods for each database here
+		//IUPHAR
+		Map<Drug, String> drugToIUPHARCoverage = beta_checkCoverageIUPHAR(reconciledSet);
+		
+		//DrugBank
+		Map<Drug, String> drugToDrugBankCoverage = beta_checkCoverageDrugBank(reconciledSet);
+		
+		
 		//output drugs and drug synonyms LONG format
-		//start quick script R for coverage/ stats on drug/ synonym deck
-		//for 03/08/21 meeting//output to file so we can keep track
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_Add_BetaV2.txt");
-		ps.println("Drug" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms");
-		for (Drug eachDrug: reconciledSet) {
-			//System.out.println("Checking drug: " + drugName);
-			ps.print(eachDrug.getDrugName() + "\t");
-			if(eachDrug.getDrugSynonyms()!=null) {
-				ps.print(eachDrug.getDrugSynonyms().size() + "\t");
-				for (String synonym: eachDrug.getDrugSynonyms()) {
-				//System.out.println("Synonym deck size: " + allSynonyms.size());
-						ps.print(synonym + "|");
+				//start quick script R for coverage/ stats on drug/ synonym deck
+				//for 03/08/21 meeting//output to file so we can keep track
+				PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_Add_BetaV2_IUPHAR_DrugBank.tsv");
+				ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
+				for (Drug eachDrug: reconciledSet) {
+					//System.out.println("Checking drug: " + drugName);
+					ps.print(eachDrug.getDrugName() + "\t");
 					
+					//IUPHAR ANNOTATION
+					String iuphar = "No";
+					if(drugToIUPHARCoverage.get(eachDrug)!=null) {
+						iuphar = drugToIUPHARCoverage.get(eachDrug);
+					}
+					ps.print(iuphar + "\t");
+					
+					//DRUGBANK ANNOTATION
+					String drugbank = "No";
+					if(drugToDrugBankCoverage.get(eachDrug)!=null) {
+						drugbank = drugToDrugBankCoverage.get(eachDrug);
+					}
+					ps.print(drugbank + "\t");
+					
+					
+					
+					//SYNONYM
+					if(eachDrug.getDrugSynonyms()!=null) {
+						ps.print(eachDrug.getDrugSynonyms().size() + "\t");
+						for (String synonym: eachDrug.getDrugSynonyms()) {
+						//System.out.println("Synonym deck size: " + allSynonyms.size());
+								ps.print(synonym + "|");
+							
+						}
+					}
+					ps.println();
 				}
-			}
-			ps.println();
-		}
-		ps.close();
-
+				ps.close();
+		
+		
+		
 //		currentSession.getTransaction().commit();
 //		currentSession.close();
 //		SessionFactory thisFactory = currentSession.getSessionFactory();
 //		thisFactory.close();
 		
+	}
+	/**
+	 * Test method to load drug target interactions for our beta set
+	 * 
+	 * 03/08/21
+	 * TODO: this will be updated to include persist() calls with hibernate
+	 * currently it is just to get coverage estimates
+	 */
+	@Test
+	public void test_Beta_LoadDrugTargeteInteractions() {
+		
+		//load from our drug sets
+		Set<Drug> reconciledSet = new HashSet<Drug>(); //load this from previous
+		
+		
+		
+		//then spin through each database
+		//IUPHAR - V1
+		//then drugbank - new
+		
+		//iuphar
+		Session currentSessionIUPHAR = persistIUPHAR(currentSessionWithClasses);
+		System.out.println("Done persisting IUPHAR.");
+		//drugbank
+		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
+		System.out.println("Done persisting DrugBank.");
+	
 	}
 
 	/**Method to iterate through 2 Drug sets; and reconcile them;

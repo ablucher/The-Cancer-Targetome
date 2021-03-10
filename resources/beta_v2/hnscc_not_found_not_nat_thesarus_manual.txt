@@ -1,0 +1,544 @@
+7-oxo K252a	
+A-674563	A-674563
+A-674563	552325-73-2
+A-674563	A674563
+A-674563	A 674563
+A-674563	(S)-1-(5-(3-methyl-1H-indazol-5-yl)pyridin-3-yloxy)-3-phenylpropan-2-amine
+A-674563	UNII-3W2X0WGW6C
+A-674563	3W2X0WGW6C
+A-674563	5-{5-[(2S)-2-amino-3-phenylpropoxy]pyridin-3-yl}-3-methyl-1H-indazole
+A-674563	(2s)-1-{[5-(3-Methyl-1h-Indazol-5-Yl)pyridin-3-Yl]oxy}-3-Phenylpropan-2-Amine
+A-674563	(S)-1-((5-(3-Methyl-1H-indazol-5-yl)pyridin-3-yl)oxy)-3-phenylpropan-2-amine
+A-674563	(2S)-1-[5-(3-Methyl-1H-indazol-5-yl)pyridin-3-yl]oxy-3-phenylpropan-2-amine
+A-674563	(alphaS)-alpha-(((5-(3-Methyl-1H-indazol-5-yl)-3-pyridinyl)oxy)methyl)benzeneethanamine
+A-674563	5-(5-((2S)-2-Amino-3-phenylpropoxy)pyridin-3-yl)-3-methyl-1H-indazole
+A-674563	"indazole-pyridine, 7"
+A-674563	5-indazolyl pyridine 11g
+A-674563	cc-293
+A-674563	MLS006011000
+A-674563	CHEMBL379218
+A-674563	GTPL5655
+A-674563	SCHEMBL2191602
+A-674563	SCHEMBL19031303
+A-674563	BDBM15138
+A-674563	DTXSID10462115
+A-674563	EX-A023
+A-674563	(2S)-1-[5-(3-methyl-2H-indazol-5-yl)pyridin-3-yl]oxy-3-phenylpropan-2-amine
+A-674563	BCP02557
+A-674563	Biochemistry 469551 Compound 11
+A-674563	MFCD11840461
+A-674563	s2670
+A-674563	ZINC16052569
+A-674563	AKOS032947302
+A-674563	BCP9000207
+A-674563	CCG-268139
+A-674563	CS-0486
+A-674563	DB08568
+A-674563	QC-7249
+A-674563	SB19265
+A-674563	NCGC00263147-01
+A-674563	NCGC00263147-05
+A-674563	HY-13254
+A-674563	SMR004702798
+A-674563	a-74563
+A-674563	SW219834-1
+A-674563	X7452
+A-674563	W-5491
+A-674563	Q27074076
+A-674563	"Benzeneethanamine, alpha-(((5-(3-methyl-1H-indazol-5-yl)-3-pyridinyl)oxy)methyl)-, (alphaS)-"
+A-674563	SS3
+APTO-253	LOR-253
+APTO-253	LT-253
+BMX-IN-1	BMX kinase inhibitor
+BS-181	BS-181
+BS-181	1092443-52-1
+BS-181	UNII-75M620LLBN
+BS-181	"5-N-(6-aminohexyl)-7-N-benzyl-3-propan-2-ylpyrazolo[1,5-a]pyrimidine-5,7-diamine"
+BS-181	75M620LLBN
+BS-181	CHEMBL1801932
+BS-181	"N5-(6-aminohexyl)-N7-benzyl-3-isopropylpyrazolo[1,5-a]pyrimidine-5,7-diamine"
+BS-181	C22H32N6
+BS-181	BS 181
+BS-181	"N5-(6-Aminohexyl)-3-isopropyl-N7-benzylpyrazolo[1,5-a]pyrimidine-5,7-diamine"
+BS-181	BS-181 free base
+BS-181	GTPL9405
+BS-181	SCHEMBL10123390
+BS-181	CHEBI:95059
+BS-181	EX-A585
+BS-181	HMS3744E07
+BS-181	BCP02853
+BS-181	3510AH
+BS-181	BDBM50347389
+BS-181	BS 181;BS181
+BS-181	MFCD22056527
+BS-181	ZINC43207770
+BS-181	AKOS026750277
+BS-181	CS-0490
+BS-181	NCGC00346553-01
+BS-181	HY-13266
+BS-181	"Pyrazolo(1,5-a)pyrimidine-5,7-diamine, N5-(6-aminohexyl)-3-(1-methylethyl)-N7-(phenylmethyl)-"
+BS-181	W-5855
+BS-181	J-523430
+BS-181	Q27166830
+BS-181	"N5-(6-aminohexyl)-3-(1-methylethyl)-N7-(phenylmethyl)pyrazolo[1,5-a]pyrimidine-5,7-diamine"
+Crenigacestat	LY3039478
+DMSO	
+F-S-V	
+Ginsenoside Rb2	Ginsenoside-Rb2
+Ginsenoside Rb2	11021-13-9
+Ginsenoside Rb2	NSC308878
+Ginsenoside Rb2	DTXSID00911541
+Ginsenoside Rb2	NSC-308878
+Ginsenoside Rb2	DB-050178
+Ginsenoside Rb2	FT-0626701
+Ginsenoside Rb2	12-Hydroxy-20-[(6-O-pentopyranosylhexopyranosyl)oxy]dammar-24-en-3-yl 2-O-hexopyranosylhexopyranoside
+GSK-1838705A	GSK-1838705
+GSK-1838705A	GSK1838705A
+GSK-1838705A	1116235-97-2
+GSK-1838705A	GSK-1838705A
+GSK-1838705A	GSK 1838705A
+GSK-1838705A	GSK1838705
+GSK-1838705A	"2-((2-((1-(2-(Dimethylamino)acetyl)-5-methoxyindolin-6-yl)amino)-7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino)-6-fluoro-N-methylbenzamide"
+GSK-1838705A	GSK 1838705
+GSK-1838705A	"2-(2-(1-(2-(dimethylamino)acetyl)-5-methoxyindolin-6-ylamino)-7H-pyrrolo[2,3-d]pyrimidin-4-ylamino)-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-[[2-[[1-[2-(dimethylamino)acetyl]-5-methoxy-2,3-dihydroindol-6-yl]amino]-7H-pyrrolo[2,3-d]pyrimidin-4-yl]amino]-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-{[2-({1-[2-(dimethylamino)acetyl]-5-methoxy-2,3-dihydro-1H-indol-6-yl}amino)-7H-pyrrolo[2,3-d]pyrimidin-4-yl]amino}-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-[[2-[[1-[(Dimethylamino)ethanoyl]-5-(methyloxy)-2,3-dihydro-1H-indol-6-yl]amino]-7H-pyrrolo[2,3-d]pyrimidin-4-yl]amino]-6-fluoro-N-methylbenzamide"
+GSK-1838705A	cc-268
+GSK-1838705A	MLS006010967
+GSK-1838705A	CHEMBL464552
+GSK-1838705A	GTPL5683
+GSK-1838705A	SCHEMBL2205605
+GSK-1838705A	SCHEMBL12428872
+GSK-1838705A	BDBM27817
+GSK-1838705A	C27H29FN8O3
+GSK-1838705A	CHEBI:93768
+GSK-1838705A	AOB5716
+GSK-1838705A	DTXSID50648971
+GSK-1838705A	EX-A301
+GSK-1838705A	HMS3656L15
+GSK-1838705A	BCP02847
+GSK-1838705A	KS-00001D3M
+GSK-1838705A	MFCD19443644
+GSK-1838705A	s2703
+GSK-1838705A	ZINC43202844
+GSK-1838705A	AKOS024458500
+GSK-1838705A	AKOS025149101
+GSK-1838705A	BCP9000736
+GSK-1838705A	CCG-269927
+GSK-1838705A	CS-0695
+GSK-1838705A	"pyrrolo[2,3-d]pyrimidine deriv., 40"
+GSK-1838705A	SB19386
+GSK-1838705A	NCGC00346647-01
+GSK-1838705A	NCGC00346647-09
+GSK-1838705A	NCGC00346647-15
+GSK-1838705A	"2-((2-((1-(dimethylglycyl)-5-methoxyindolin-6-yl)amino)-7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino)-6-fluoro-N-methylbenzamide"
+GSK-1838705A	AS-16914
+GSK-1838705A	HY-13020
+GSK-1838705A	SMR004702771
+GSK-1838705A	SW220189-1
+GSK-1838705A	X7516
+GSK-1838705A	GSK 1838705A;GSK-1838705A
+GSK-1838705A	W-5812
+GSK-1838705A	J-505193
+GSK-1838705A	Q27077879
+GSK-1838705A	"2-((2-((1-((Dimethylamino)ethanoyl)-5-(methyloxy)-2,3-dihydro-1h-indol-6-yl)amino)-7h-pyrrolo(2,3-d)pyrimidin-4-yl)amino)-6-fluoro-n -methylbenzamide"
+GSK-1838705A	"2-[(2-{[1-(N,N-dimethylglycyl)-5-(methyloxy)-2,3-dihydro-1H-indol-6-yl]amino}-1H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-[(2-{[1-(N,N-Dimethylglycyl)-5-methoxy-2,3-dihydro-1H-indol-6-yl]amino}-7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-[[2-[[1-[2-(Dimethylamino)acetyl]-2,3-dihydro-5-methoxy-1H-indol-6-yl]amino]-7H-pyrrolo[2,3-d]pyrimidin-4-yl]amino]-6-fluoro-N-methylbenzamide"
+GSK-1838705A	"2-((2-((1-(2-(Dimethylamino)acetyl)-5-methoxyindolin-6-yl)amino)-7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino)-6-fluoro-N-methylbenzamide"
+IMR 1	2-[2-Methoxy-4-[(4-oxo-2-thioxo-5-thiazolidinylidene)methyl]phenoxy]-acetic acid ethyl ester
+IMR 1	Inhibitor of Mastermind Recruitment-1
+Ixabepolone	Ixabepilone
+Ixabepolone	219989-84-1
+Ixabepolone	Azaepothilone B
+Ixabepolone	Ixempra
+Ixabepolone	BMS-247550
+Ixabepolone	Aza-epothilone B
+Ixabepolone	BMS 247550-1
+Ixabepolone	UNII-K27005NP0A
+Ixabepolone	CHEBI:63605
+Ixabepolone	K27005NP0A
+Ixabepolone	NSC747973
+Ixabepolone	BMS 247550-01
+Ixabepolone	BMS-247550-01
+Ixabepolone	"(1S,3S,7S,10R,11S,12S,16R)-7,11-dihydroxy-8,8,10,12,16-pentamethyl-3-((Z)-1-(2-methylthiazol-4-yl)prop-1-en-2-yl)-17-oxa-4-azabicyclo[14.1.0]heptadecane-5,9-dione"
+Ixabepolone	"17-oxa-4-azabicyclo(14.1.0)heptadecane-5,9-dione, 7,11-dihydroxy-8,8,10,12,16-pentamethyl-3-((1E)-1-methyl-2-(2-methyl-4-thiazolyl)ethenyl)-, (1S,3S,7S,10R,11S,12S,16R)-"
+Ixabepolone	"1S,3S,7S,10R,11S,12S,16R)-7,11-Dihydroxy-8,8,10,12,16-pentamethyl-3-((1E)-1-methyl-2-(2-methylthiazol-4-yl)ethenyl)-17-oxa-4-azabicyclo(14.1.0)heptadecane-5,9-dione"
+Ixabepolone	Ixempra (TN)
+Ixabepolone	Ixabepilone [INN]
+Ixabepolone	Ixempra kit
+Ixabepolone	Ixempra (TM)
+Ixabepolone	16-Aza-epothilone B
+Ixabepolone	SCHEMBL8386
+Ixabepolone	Ixabepilone (JAN/USAN/INN)
+Ixabepolone	Ixabepilone [USAN:INN:JAN]
+Ixabepolone	GTPL6824
+Ixabepolone	SCHEMBL1890345
+Ixabepolone	Ixabepilone (BMS-247550)
+Ixabepolone	CHEMBL1201752
+Ixabepolone	CHEBI:95095
+Ixabepolone	HSDB 7738
+Ixabepolone	DTXSID70870252
+Ixabepolone	EX-A1245
+Ixabepolone	ZINC3993846
+Ixabepolone	MFCD04307791
+Ixabepolone	s7930
+Ixabepolone	AKOS025401600
+Ixabepolone	CCG-269752
+Ixabepolone	CS-0551
+Ixabepolone	DB04845
+Ixabepolone	NSC-710428
+Ixabepolone	NSC-747973
+Ixabepolone	BMS 247550 (Epothilone B analogue)
+Ixabepolone	NCGC00378665-02
+Ixabepolone	"(1S,3S,7S,10R,11S,12S,16R)-7,11-dihydroxy-8,8,10,12,16-pentamethyl-3-[(1E)-1-(2-methyl-1,3-thiazol-4-yl)prop-1-en-2-yl]-17-oxa-4-azabicyclo[14.1.0]heptadecane-5,9-dione"
+Ixabepolone	AC-22618
+Ixabepolone	HY-10222
+Ixabepolone	LS-98543
+Ixabepolone	QC-11860
+Ixabepolone	SC-81824
+Ixabepolone	X7258
+Ixabepolone	A11449
+Ixabepolone	D04645
+Ixabepolone	W-5316
+Ixabepolone	49309-EP2295426A1
+Ixabepolone	49309-EP2295427A1
+Ixabepolone	49309-EP2298768A1
+Ixabepolone	49309-EP2311840A1
+Ixabepolone	AB01273979-01
+Ixabepolone	989I841
+Ixabepolone	Azaepothilone B;BMS 247550;BMS 247550-1
+Ixabepolone	SR-01000941577
+Ixabepolone	J-014409
+Ixabepolone	SR-01000941577-1
+Ixabepolone	Q11711607
+Ixabepolone	"(1R,5S,6S,7R,10S,14S,16S)-6,10-dihydroxy-1,5,7,9,9-pentamethyl-14-[(E)-1-(2-methyl-1,3-thiazol-4-yl)prop-1-en-2-yl]-17-oxa-13-azabicyclo[14.1.0]heptadecane-8,12-dione"
+Ixabepolone	"(1r,5s,6s,7r,10s,14s,16s)-6,10-dihydroxy-1,5,7,9,9-pentamethyl-14-[[e]-1-(2-methyl-1,3-thiazol-4-yl]prop-1-en-2-yl)-17-oxa-13-azabicyclo(14,1,0)heptadecane-8,12-dione"
+Ixabepolone	"7-Oxa-4-azabicyclo[14.1.0]heptadecane -5, 7,11-dihydroxy-8,8,10,12,16-pentamethyl-3-[(1E)-1-methyl-2-(2-methyl-4-thiazolyl)ethenyl]-, (1S,3S,7S,10R,11S,12S,16R)-"
+Ixabepolone	Ixempra
+JNJ-28312141	JNJ-28312141
+JNJ-28312141	885692-52-4
+JNJ-28312141	JNJ-28312141 free base
+JNJ-28312141	"4-cyano-N-(5-(1-(2-(dimethylamino)acetyl)piperidin-4-yl)-2',3',4',5'-tetrahydro-[1,1'-biphenyl]-2-yl)-1H-imidazole-2-carboxamide"
+JNJ-28312141	UNII-YKQ241VJ92
+JNJ-28312141	YKQ241VJ92
+JNJ-28312141	CHEMBL1908842
+JNJ-28312141	1149939-55-8 (free base)
+JNJ-28312141	5-cyano-N-[2-(cyclohexen-1-yl)-4-[1-[2-(dimethylamino)acetyl]piperidin-4-yl]phenyl]-1H-imidazole-2-carboxamide
+JNJ-28312141	C26H32N6O2
+JNJ-28312141	CHEMBL1908395
+JNJ-28312141	JNJ 28312141
+JNJ-28312141	4-Cyano-1H-imidazole-2-carboxylic acid {2-cyclohex-1-enyl-4-[1-(2-dimethylamino-acetyl)-piperidin-4-yl]-phenyl]-amide
+JNJ-28312141	4-Cyano-1H-imidazole-2-carboxylic acid {2-cyclohex-1-enyl-4-[1-(2-dimethylamino-acetyl)-piperidin-4-yl]-phenyl}-amide
+JNJ-28312141	JNJ28312141
+JNJ-28312141	GTPL5689
+JNJ-28312141	SCHEMBL4981038
+JNJ-28312141	SCHEMBL20484783
+JNJ-28312141	DTXSID70237129
+JNJ-28312141	SYN1154
+JNJ-28312141	BCP28018
+JNJ-28312141	BDBM50355499
+JNJ-28312141	ZINC38226716
+JNJ-28312141	NCGC00345853-01
+JNJ-28312141	NCGC00345853-02
+JNJ-28312141	"1H-Imidazole-2-carboxamide, 5-cyano-n-(2-(1-cyclohexen-1-yl)-4-(1-(2-(dimethylamino)acetyl)-4-piperidinyl)phenyl)-"
+JNJ-28312141	JNJ28312141; JNJ 28312141
+JNJ-28312141	Q27887253
+JNJ-28312141	4-cyano-1h-imidazole-2-carboxylic acid{2-cyclohex-1-enyl-4-[1-(2-dimethylamino-acetyl)-piperidin-4-yl]-phenyl}-amide
+JNJ-28312141	4-cyano-N-[2-(cyclohex-1-en-1-yl)-4-{1-[2-(dimethylamino)acetyl]piperidin-4-yl}phenyl]-1H-imidazole-2-carboxamide
+JQ1	1268524-70-4
+JQ1	(+)-JQ-1
+JQ1	(+)-JQ1
+JQ1	JQ1 compound
+JQ1	JQ-1
+JQ1	JQ1
+JQ1	"(S)-tert-butyl 2-(4-(4-chlorophenyl)-2,3,9-triMethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl)acetate"
+JQ1	UNII-1MRH0IMX0W
+JQ1	(S)-JQ1
+JQ1	"Bromodomain Inhibitor, (+)-JQ1"
+JQ1	1MRH0IMX0W
+JQ1	C23H25ClN4O2S
+JQ1	CHEMBL1957266
+JQ1	"(S)-(+)-tert-Butyl 2-(4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl)acetate"
+JQ1	"(S)-(+)-tert-Butyl 2-(4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno(3,2-f)(1,2,4)triazolo(4,3-a)(1,4)diazepin-6-yl)acetate"
+JQ1	"tert-butyl (S)-2-(4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl)acetate"
+JQ1	"6H-Thieno(3,2-f)(1,2,4)triazolo(4,3-a)(1,4)diazepine-6-acetic acid, 4-(4-chlorophenyl)-2,3,9-trimethyl-, 1,1-dimethylethyl ester, (6S)-"
+JQ1	"6H-Thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepine-6-acetic acid, 4-(4-chlorophenyl)-2,3,9-trimethyl-, 1,1-dimethylethyl ester, (6S)-"
+JQ1	"tert-Butyl 2-((6S)-4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno(3,2-f)(1,2,4)triazolo(4,3-a)(1,4)diazepin-6-yl)acetate"
+JQ1	3mxf
+JQ1	4flp
+JQ1	4qzs
+JQ1	"tert-butyl 2-((6S)-4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl)acetate"
+JQ1	MLS006011158
+JQ1	SCHEMBL881227
+JQ1	GTPL7511
+JQ1	JQ 1
+JQ1	CHEBI:95080
+JQ1	DTXSID20155309
+JQ1	EX-A457
+JQ1	SYN3004
+JQ1	TEN-010
+JQ1	CHEBI:137113
+JQ1	"(6S)-4-(4-Chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepine-6-acetic acid 1,1-dimethylethyl ester"
+JQ1	BDBM50365262
+JQ1	s7110
+JQ1	ZINC57318556
+JQ1	AKOS016344680
+JQ1	ACN-038216
+JQ1	CCG-269306
+JQ1	CS-0581
+JQ1	JQ1 (+)
+JQ1	SB17021
+JQ1	KS-0000064H
+JQ1	NCGC00250412-01
+JQ1	"(S)-tert-butyl 2-(4-(4-chlorophenyl)-2,3,9-triMethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diaz"
+JQ1	AS-16352
+JQ1	HY-13030
+JQ1	SC-83046
+JQ1	SMR004702930
+JQ1	AB0047492
+JQ1	BB 0262647
+JQ1	"(+)-JQ1, >=98% (HPLC)"
+JQ1	W-5982
+JQ1	Q3156953
+JQ1	"(6S)-4-(4-Chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]di azepine-6-acetic acid 1,1-dimethylethyl ester tert-butyl [(6S)-4-(4-chlorophenyl)-2,3,9-trimethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl]acetate"
+JQ1	"(S)-tert-butyl 2-(4-(4-chlorophenyl)-2,3,9-triMethyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepin-6-yl)acetate"
+MLN120B	ML120B
+NVP-ADW742	NVPADW742
+NVP-ADW742	"5-[3-(phenylmethoxy)phenyl]-7-[trans-3-(1-pyrrolidinylmethyl)cyclobutyl]-7H-pyrrolo[2,3-d]pyrimidin-4-amine"
+NVP-ADW742	ADW742
+NVP-ADW742	GSK552602A
+PF-533228	
+PF-562271	PF-00562271 Besylate
+PF-562271	"N-(3-(((2-((2,3-Dihydro-2-oxo-1H-indol-5-yl)amino)-5- (trifluoromethyl)-4-pyrimidinyl)amino)methyl)-2-pyridinyl)-N-methyl-methanesulfonamide benzenesulfonate"
+PF-562271	PF 562271
+PF-562271	PF-00562271
+PF-562271	"PF-562,271"
+PI-103	PI-103
+PI-103	371935-74-9
+PI-103	"3-(4-morpholinopyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	PI103
+PI-103	UNII-YQX02F616F
+PI-103	PI 103
+PI-103	"Phenol, 3-[4-(4-morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]-"
+PI-103	PIK-103
+PI-103	YQX02F616F
+PI-103	CHEBI:90524
+PI-103	"3-[4-(4-Morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]phenol"
+PI-103	371935-74-9 (free base)
+PI-103	PI-103 hydrobromide
+PI-103	"3-(4-morpholin-4-ylpyrido[2,3]furo[2,4-b]pyrimidin-2-yl)phenol"
+PI-103	"3-(4-(4-Morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	"3-(4-Morpholin-4-Ylpyrido[3',2':4,5]furo[3,2-D]pyrimidin-2-Yl)phenol"
+PI-103	"Phenol, 3-(4-(4-morpholinyl)pyrido(3',2':4,5)furo(3,2-d)pyrimidin-2-yl)-"
+PI-103	X6K
+PI-103	PI 103 hydrobromide
+PI-103	Kinome_3597
+PI-103	2x6k
+PI-103	cc-5
+PI-103	"mTOR Inhibitor, PI103"
+PI-103	MLS006010988
+PI-103	SCHEMBL258242
+PI-103	CHEMBL573339
+PI-103	GTPL5701
+PI-103	BDBM25045
+PI-103	cid_9884685
+PI-103	CTK8F1083
+PI-103	KS-00000HCH
+PI-103	DTXSID40190676
+PI-103	EX-A039
+PI-103	PIK 103
+PI-103	QCR-256
+PI-103	SYN1065
+PI-103	4l23
+PI-103	"pyridofuropyrimidine derivative, 2"
+PI-103	BCPP000107
+PI-103	HMS3229C15
+PI-103	HMS3244E11
+PI-103	HMS3244E12
+PI-103	HMS3244F11
+PI-103	HMS3295E19
+PI-103	HMS3650M10
+PI-103	HMS3654E09
+PI-103	BCP01923
+PI-103	BCP19373
+PI-103	ZINC3963016
+PI-103	MFCD11983145
+PI-103	s1038
+PI-103	AKOS024462563
+PI-103	CCG-101301
+PI-103	compound 2 [PMID: 17601739]
+PI-103	CS-0127
+PI-103	"3-(4-(4-Morpholinyl)pyrido[3&prime;,2&prime;:4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	NCGC00187906-01
+PI-103	NCGC00187906-02
+PI-103	NCGC00187906-03
+PI-103	NCGC00187906-15
+PI-103	"3-(6-morpholin-4-yl-8-oxa-3,5,10-triazatricyclo[7.4.0.02,7]trideca-1(9),2(7),3,5,10,12-hexaen-4-yl)phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(13),2,4,6,9,11-hexaen-4-yl]phenol"
+PI-103	AK163162
+PI-103	AS-16221
+PI-103	HY-10115
+PI-103	SMR002530603
+PI-103	AB0033724
+PI-103	FT-0712341
+PI-103	SW218117-2
+PI-103	X7432
+PI-103	EC-000.2123
+PI-103	W-5518
+PI-103	935P749
+PI-103	SR-01000946304
+PI-103	SR-01000946304-1
+PI-103	BRD-K67868012-003-01-5
+PI-103	Q27088379
+PI-103	"3-(4-morpholinopyrido[2,3]furo[2,4-b]pyrimidin-2-yl)phenol"
+PI-103	"3-[4-(4-morpholinyl)-2-pyrido[2,3]furo[2,4-b]pyrimidinyl]phenol"
+PI-103	"3-(4-(4-morpholinyl)pyrido[3?,2?:4,5]furo[3,2-d]pyrimidin-2- yl)phenol"
+PI-103	"3-(4-morpholin-4-ylpyrido[3 ,2 :4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	"3-[4-(4-morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]"
+PI-103	"3-[4-(morpholin-4-yl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(9),2(7),3,5,10,12-hexaen-4-yl]phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(9),2,4,6,10,12-hexaen-4-yl]phenol"
+PI-103	PI 103
+QNZ	
+SCH-772984	SCH772984
+SCH-772984	942183-80-4
+SCH-772984	SCH-772984
+SCH-772984	(R)-1-(2-oxo-2-(4-(4-(pyrimidin-2-yl)phenyl)piperazin-1-yl)ethyl)-N-(3-(pyridin-4-yl)-1H-indazol-5-yl)pyrrolidine-3-carboxamide
+SCH-772984	CHEMBL3590107
+SCH-772984	(3~{R})-1-[2-oxidanylidene-2-[4-(4-pyrimidin-2-ylphenyl)piperazin-1-yl]ethyl]-~{N}-(3-pyridin-4-yl-1~{H}-indazol-5-yl)pyrrolidine-3-carboxamide
+SCH-772984	(3r)-1-(2-Oxo-2-{4-[4-(Pyrimidin-2-Yl)phenyl]piperazin-1-Yl}ethyl)-N-[3-(Pyridin-4-Yl)-2h-Indazol-5-Yl]pyrrolidine-3-Carboxamide
+SCH-772984	(3R)-1-[2-oxo-2-[4-(4-pyrimidin-2-ylphenyl)piperazin-1-yl]ethyl]-N-(3-pyridin-4-yl-1H-indazol-5-yl)pyrrolidine-3-carboxamide
+SCH-772984	38Z
+SCH-772984	GTPL8056
+SCH-772984	SCHEMBL12151489
+SCH-772984	KS-00001DUJ
+SCH-772984	AOB6425
+SCH-772984	EX-A296
+SCH-772984	C33H33N9O2
+SCH-772984	2711AH
+SCH-772984	BDBM50094464
+SCH-772984	MFCD11878503
+SCH-772984	s7101
+SCH-772984	ZINC96174209
+SCH-772984	AKOS025402018
+SCH-772984	ACN-034807
+SCH-772984	CS-1421
+SCH-772984	SB19428
+SCH-772984	"SCH772984, SCH 984"
+SCH-772984	NCGC00350780-11
+SCH-772984	(R)-1-(2-oxo-2-(4-(4-(pyrimidin-2-yl)phenyl)piperazin-1-yl)ethyl)-N-(3-(pyridin-4-yl)-1H-indazol-5-y
+SCH-772984	AC-28198
+SCH-772984	HY-50846
+SCH-772984	QC-11359
+SCH-772984	W-5497
+SCH-772984	Q27088760
+SCH-772984	(R)-1-(2-oxo-2-(4-(4-(pyrimidin-2-yl)phenyl)piperazin-1-yl)ethyl)-N-(3-(pyridin-4-yl)-1H-indazol-5-
+SCH-772984	"3-Pyrrolidinecarboxamide, 1-[2-oxo-2-[4-[4-(2-pyrimidinyl)phenyl]-1-piperazinyl]ethyl]-N-[3-(4-pyridinyl)-1H-indazol-5-yl]-, (3R)-"
+SCH-772984	F3Z
+Sirolimus	rapamycin
+Sirolimus	RAPAMUNE
+Sirolimus	"9,10,12,13,14,21,22,23,24,25,26,27,32,33,34,34a-Hexadecahydro-9,27-dihydroxy-3-((1R)-2-((1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl)-1-methylethyl)-10,21-dimethoxy-6,8,12,14,20,26-hexamethyl-23,27-epoxy-3H-pyrido(2,1-c)(1,4)oxaazacyclohentriacontine-1,5,11,2"
+Sirolimus	RAPA
+Sirolimus	SLM
+Sirolimus	AY 22989
+Sirolimus	SILA 9268A
+Sirolimus	WY-090217
+Stauprimide	STAUPRIMIDE
+Stauprimide	154589-96-5
+Stauprimide	C35H28N4O5
+Stauprimide	"N-[(2S,3R,4R,6R)-3-Methoxy-2-methyl-16,18-dioxo-29-oxa-1,7,17-triazaoctacyclo[12.12.2.12,6.07,28.08,13.015,19.020,27.021,26]nonacosa-8,10,12,14,19,21,23,25,27-nonaen-4-yl]-N-methylbenzamide"
+Stauprimide	HY-N6747
+Stauprimide	4068AH
+Stauprimide	AKOS024457783
+Stauprimide	ZINC100002122
+Stauprimide	CS-3530
+Stauprimide	Stauprimide - CAS 154589-96-5
+Stauprimide	HY-15126
+Stauprimide	J-009120
+Stauprimide	Q7604751
+Stauprimide	"[9S-(9?,10?,11?,13?)]-N-(2,3,10,11,12,13-Hexahydro-10-methoxy-9-methyl-1,3-dioxo-9,13-epoxy-1H,9H-diindolo[1,2,3-gh:3',2',1'-lm]pyrrolo[3,4-j][1,7]benzodiazonin-11-yl)-N-methylbenzamide"
+Stauprimide	"[9S-(9alpha,10beta,11beta,13alpha)]-N-(2,3,10,11,12,13-Hexahydro-10-methoxy-9-methyl-1,3-dioxo-9,13-epoxy-1H,9H-diindolo[1,2,3-gh"
+Stauprimide	"N-[(2S,3R,4R,6R)-3-Methoxy-2-methyl-16,18-dioxo-29-oxa-1,7,17-triazaoctacyclo[12.12.2.12,6.07,28.08,13.015,19.020,27.021,26]nonacosa-8,10,12,14,19,21,23,25,27-nonaen-4-yl]-N-methylbenzamide"
+STO609	"7-Oxo-7H-benzimidazo[2,1-a]benz[de]isoquinoline-3-carboxylic acid - acetic acid"
+STO609	STO609-acetic-acid
+Tamatinib	"
+6-({5-fluoro-2-[(3,4,5-trimethoxyphenyl)amino]pyrimidin-4-yl}amino)-2,2-dimethyl-2H-pyrido[3,2-b][1,4]oxazin-3(4H)-one"
+Torkinib	PP242
+Torkinib	1092351-67-1
+Torkinib	TORKinib
+Torkinib	PP-242
+Torkinib	PP 242
+Torkinib	Torkinib (PP242)
+Torkinib	"2-(4-amino-1-isopropyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl)-1H-indol-5-ol"
+Torkinib	UNII-H5669VNZ7V
+Torkinib	"2-[4-Amino-1-(1-methylethyl)-1H-pyrazolo[3,4-d]pyrimidin-3-yl]-1H-indol-5-ol"
+Torkinib	H5669VNZ7V
+Torkinib	CHEBI:90679
+Torkinib	"2-[4-Amino-1-(Propan-2-Yl)-1h-Pyrazolo[3,4-D]pyrimidin-3-Yl]-1h-Indol-5-Ol"
+Torkinib	"2-(4-Amino-1-isopropyl-1H-pyrazolo(3,4-d)pyrimidin-3-yl)-1H-indol-5-ol"
+Torkinib	"(2E)-2-(4-amino-1-propan-2-yl-2H-pyrazolo[3,4-d]pyrimidin-3-ylidene)indol-5-ol"
+Torkinib	"2-[4-Amino-1-(1-methylethyl)-1H-pyrazolo-[3,4-d]pyrimidin-3-yl]-1H-indol-5-ol"
+Torkinib	DSSTox_CID_28611
+Torkinib	DSSTox_RID_82881
+Torkinib	DSSTox_GSID_48685
+Torkinib	"2-(4-amino-1-propan-2-yl-2H-pyrazolo[3,4-d]pyrimidin-3-ylidene)-5-indolol"
+Torkinib	CAS-1092351-67-1
+Torkinib	PubChem22482
+Torkinib	cc-25
+Torkinib	MLS006011184
+Torkinib	SCHEMBL298922
+Torkinib	GTPL5704
+Torkinib	CHEMBL1241674
+Torkinib	CHEMBL3988893
+Torkinib	DTXSID5048685
+Torkinib	SCHEMBL21381567
+Torkinib	BDBM36409
+Torkinib	CHEBI:95099
+Torkinib	AOB6296
+Torkinib	EX-A034
+Torkinib	QCR-154
+Torkinib	SYN1181
+Torkinib	HMS3655B12
+Torkinib	BCP02319
+Torkinib	Tox21_113072
+Torkinib	ABP000904
+Torkinib	MFCD12196869
+Torkinib	s2218
+Torkinib	ZINC36056301
+Torkinib	AKOS024458060
+Torkinib	AKOS026750472
+Torkinib	PP242 /PP-242
+Torkinib	Tox21_113072_1
+Torkinib	ZINC110786306
+Torkinib	ZINC139045302
+Torkinib	CCG-267563
+Torkinib	CS-0247
+Torkinib	EX-7207
+Torkinib	"1H-Indol-5-ol, 2-(4-amino-1-(1-methylethyl)-1H-pyrazolo(3,4-d)pyrimidin-3-yl)-"
+Torkinib	CID24905147
+Torkinib	NCGC00188346-02
+Torkinib	NCGC00387863-04
+Torkinib	AC-28392
+Torkinib	AK546456
+Torkinib	AS-16317
+Torkinib	HY-10474
+Torkinib	SMR004702953
+Torkinib	AB0033726
+Torkinib	FT-0696781
+Torkinib	SW220211-1
+Torkinib	X7434
+Torkinib	A25462
+Torkinib	W-5524
+Torkinib	J-507663
+Torkinib	BRD-K87112191-001-02-9
+Torkinib	Q27088430
+Torkinib	Q27166867
+Torkinib	"2-(4-amino-1-isopropyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl)-1H-indole-5-ol"
+Torkinib	"(2Z)-2-(4-amino-1-propan-2-yl-2H-pyrazolo[3,4-d]pyrimidin-3-ylidene)indol-5-ol"
+Torkinib	"2-(4-amino-1-isopropyl-1H-pyrazolo[3,4-d]pyrimidin-3-yl)-1H-indol-5-ol, PP242"
+Torkinib	"2-(4-amino-1-propan-2-yl-2H-pyrazolo[3,4-d]pyrimidin-3-ylidene)indol-5-ol"
+Torkinib	P2X
+Tozasertib	VX-680
+Tozasertib	MK-0457

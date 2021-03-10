@@ -1,0 +1,61 @@
+Copanlisib	aliqopa
+Copanlisib	BAY 80-6946
+Copanlisib	PI3K Inhibitor BAY 80-6946
+Copanlisib	Copanlisib
+Doxorubicin Liposomal	Doxorubicin
+Doxorubicin Liposomal	Doxil
+Doxorubicin Liposomal	Adriamycin
+Doxorubicin Liposomal	Adriablastin
+Doxorubicin Liposomal	Adriablastine
+Doxorubicin Liposomal	Adriamycin
+Doxorubicin Liposomal	Adriblastin
+Doxorubicin Liposomal	Adriblastina
+Doxorubicin Liposomal	Adriblastine
+Doxorubicin Liposomal	Adrimedac
+Doxorubicin Liposomal	DOXO cell
+Doxorubicin Liposomal	DOXO-cell
+Doxorubicin Liposomal	Doxolem
+Doxorubicin Liposomal	Doxorubicin
+Doxorubicin Liposomal	Doxorubicin Hexal
+Doxorubicin Liposomal	Doxorubicin Hydrochloride
+Doxorubicin Liposomal	Doxorubicin NC
+Doxorubicin Liposomal	Doxorubicina Ferrer Farm
+Doxorubicin Liposomal	Doxorubicina Funk
+Doxorubicin Liposomal	Doxorubicina Tedec
+Doxorubicin Liposomal	Doxorubicine Baxter
+Doxorubicin Liposomal	Doxotec
+Doxorubicin Liposomal	Farmiblastina
+Doxorubicin Liposomal	Hydrochloride, Doxorubicin
+Doxorubicin Liposomal	Myocet
+Doxorubicin Liposomal	Onkodox
+Doxorubicin Liposomal	Ribodoxo
+Doxorubicin Liposomal	Rubex
+Doxorubicin Liposomal	Urokit Doxo cell
+Doxorubicin Liposomal	Urokit Doxo-cell
+Doxorubicin Liposomal	Rubex
+Losartan	"2-Butyl-4-chloro-1-((2'-(1H-etrazol-5-yl) (1,1'-biphenyl)-4-yl)methyl)-1H-imidazole-5-methanol"
+Losartan	Cozaar
+Losartan	DuP 753
+Losartan	DuP-753
+Losartan	DuP753
+Losartan	Losartan
+Losartan	Losartan Monopotassium Salt
+Losartan	Losartan Potassium
+Losartan	MK 954
+Losartan	MK-954
+Losartan	MK954
+Losartan	"Monopotassium Salt, Losartan"
+Losartan	"Potassium, Losartan"
+Losartan	"Salt, Losartan Monopotassium"
+Losartan	Cozaar
+Ruxolotinib	Jakavi
+Ruxolotinib	INCA24
+Ruxolotinib	INCB-018424
+Ruxolotinib	INCB018424
+Ruxolotinib	ruxolitinib
+Ruxolotinib	Jakafi
+Sacituzumab	Trodelvy
+Sacituzumab	Sacituzumab govitecan
+Sacituzumab	sacituzumab govitecan-hziy
+Sacituzumab	hRS7-SN-38
+Sacituzumab	IMMU-132
