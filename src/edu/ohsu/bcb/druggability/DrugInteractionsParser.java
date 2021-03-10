@@ -1731,6 +1731,38 @@ public class DrugInteractionsParser {
 		}
 	}
 	
+	
+	public Map<Drug, String> beta_checkCoverageKinaseResource(Set<Drug> inputDrugSet) throws IOException{
+		System.out.println("Reading in Sorger Kinase Database File");
+		
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/beta_v2/sorger_targets.txt");
+		Set<String> quickDrugSet = new HashSet<String>();
+		
+		fileUt.readLine();//skip headers
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");
+			String ligand=tokens[1];
+
+			System.out.println("Drug parsed: " + ligand.trim());
+			quickDrugSet.add(ligand);
+		}
+		//now quick check over our drug set
+		HashMap<Drug, String> drugToResourceCoverage = new HashMap<Drug, String>();
+		for (Drug inputDrug: inputDrugSet){
+			for (String ligand: quickDrugSet) {
+			if (inputDrug.nameIsEquivalent(ligand.trim())) {
+				drugToResourceCoverage.put(inputDrug, "KinaseResource_Yes");
+			}
+				
+			}
+		}
+
+		return drugToResourceCoverage;
+	
+	}
+	
 	public Map<Drug, String> beta_checkCoverageDrugBank(Set<Drug> inputDrugSet) throws IOException{
 		
 		FileUtility fileUt = new FileUtility();
@@ -3486,11 +3518,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	}
 	
 	/**
-	 * Test method for loading NCI drugs, not working 6/14/16
+	 * Test method for loading NCI drugs, synonyms, 
+	 * Adding and reconciling BetaV2 drugs and synonyms
+	 * And performing quick coverage check across our resources
+	 * + updated DrugBank file, new Sorger database (Sophia parsed)
+	 *
 	 * @throws IOException
 	 */
 	@Test
-	public void test_beta_LoadingNCIDrugs() throws IOException{
+	public void test_beta_LoadingDrugsAndCoverageCheck() throws IOException{
 		//load drug set from file
 		Set<String> testDrugs = loadDrugSetFromFile("resources/drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		System.out.println("NCI Drug set loaded; number of drugs: " + testDrugs.size());
@@ -3532,46 +3568,60 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//DrugBank
 		Map<Drug, String> drugToDrugBankCoverage = beta_checkCoverageDrugBank(reconciledSet);
 		
+		//Sorger; new in Beta version
+		Map<Drug, String> drugToKinaseResourceCoverage = beta_checkCoverageKinaseResource(reconciledSet);
+		
+		//TTD
+		//Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
+		
+		//BindingDB
+		//Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDb(reconciledSet);
+		
 		
 		//output drugs and drug synonyms LONG format
-				//start quick script R for coverage/ stats on drug/ synonym deck
-				//for 03/08/21 meeting//output to file so we can keep track
-				PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_Add_BetaV2_IUPHAR_DrugBank.tsv");
-				ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
-				for (Drug eachDrug: reconciledSet) {
-					//System.out.println("Checking drug: " + drugName);
-					ps.print(eachDrug.getDrugName() + "\t");
-					
-					//IUPHAR ANNOTATION
-					String iuphar = "No";
-					if(drugToIUPHARCoverage.get(eachDrug)!=null) {
-						iuphar = drugToIUPHARCoverage.get(eachDrug);
-					}
-					ps.print(iuphar + "\t");
-					
-					//DRUGBANK ANNOTATION
-					String drugbank = "No";
-					if(drugToDrugBankCoverage.get(eachDrug)!=null) {
-						drugbank = drugToDrugBankCoverage.get(eachDrug);
-					}
-					ps.print(drugbank + "\t");
-					
-					
-					
-					//SYNONYM
-					if(eachDrug.getDrugSynonyms()!=null) {
-						ps.print(eachDrug.getDrugSynonyms().size() + "\t");
-						for (String synonym: eachDrug.getDrugSynonyms()) {
-						//System.out.println("Synonym deck size: " + allSynonyms.size());
-								ps.print(synonym + "|");
-							
-						}
-					}
-					ps.println();
+		//start quick script R for coverage/ stats on drug/ synonym deck
+		//for 03/08/21 meeting//output to file so we can keep track- done
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage.tsv");
+		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
+		for (Drug eachDrug: reconciledSet) {
+			//System.out.println("Checking drug: " + drugName);
+			ps.print(eachDrug.getDrugName() + "\t");
+
+			//IUPHAR ANNOTATION
+			String iuphar = "No";
+			if(drugToIUPHARCoverage.get(eachDrug)!=null) {
+				iuphar = drugToIUPHARCoverage.get(eachDrug);
+			}
+			ps.print(iuphar + "\t");
+
+			//DRUGBANK ANNOTATION
+			String drugbank = "No";
+			if(drugToDrugBankCoverage.get(eachDrug)!=null) {
+				drugbank = drugToDrugBankCoverage.get(eachDrug);
+			}
+			ps.print(drugbank + "\t");
+
+			//SORGER KINASE RESOURCE ANNOTATION
+			String kinaseResource = "No";
+			if(drugToKinaseResourceCoverage.get(eachDrug)!=null) {
+				kinaseResource = drugToKinaseResourceCoverage.get(eachDrug);
+			}
+			ps.print(kinaseResource + "\t");
+
+			//SYNONYM
+			if(eachDrug.getDrugSynonyms()!=null) {
+				ps.print(eachDrug.getDrugSynonyms().size() + "\t");
+				for (String synonym: eachDrug.getDrugSynonyms()) {
+					//System.out.println("Synonym deck size: " + allSynonyms.size());
+					ps.print(synonym + "|");
+
 				}
-				ps.close();
-		
-		
+			}
+			ps.println();
+		}
+		ps.close();
+
+
 		
 //		currentSession.getTransaction().commit();
 //		currentSession.close();
