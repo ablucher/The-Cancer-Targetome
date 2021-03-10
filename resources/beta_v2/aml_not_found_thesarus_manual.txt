@@ -1,0 +1,529 @@
+17-AAG	17AAG
+17-AAG	17 AAG
+17-AAG	Tanespimycin
+17-AAG	17-N-allylamino-17-demethoxygeldanamycin
+A-674563	A674563
+A-674563	"
+(.ALPHA.S)-.ALPHA.-(((5-(3-METHYL-1H-INDAZOL-5-YL)-3-PYRIDINYL)OXY)METHYL)BENZENEETHANAMINE"
+A-674563	5-(5-((2S)-2-AMINO-3-PHENYLPROPOXY)PYRIDIN-3-YL)-3-METHYL-1H-INDAZOLE
+A-674563	"BENZENEETHANAMINE, .ALPHA.-(((5-(3-METHYL-1H-INDAZOL-5-YL)-3-PYRIDINYL)OXY)METHYL)-, (.ALPHA.S)-"
+AKT Inhibitor X	
+AST-487	AST 487
+AST-487	630124-46-8
+AST-487	AST-487
+AST-487	NVP-AST487
+AST-487	AST487
+AST-487	UNII-W34UO2M4T6
+AST-487	W34UO2M4T6
+AST-487	1-(4-((4-Ethylpiperazin-1-yl)methyl)-3-(trifluoromethyl)phenyl)-3-(4-((6-(methylamino)pyrimidin-4-yl)oxy)phenyl)urea
+AST-487	1-[4-[(4-ethylpiperazin-1-yl)methyl]-3-(trifluoromethyl)phenyl]-3-[4-[6-(methylamino)pyrimidin-4-yl]oxyphenyl]urea
+AST-487	C26H30F3N7O2
+AST-487	N-[4-[(4-Ethyl-1-piperazinyl)methyl]-3-(trifluoromethyl)phenyl]-N'-[4-[[6-(methylamino)-4-pyrimidinyl]oxy]phenyl]urea
+AST-487	NVP-AST 487
+AST-487	NVP-AST-487
+AST-487	Kinome_3855
+AST-487	cc-640
+AST-487	AST-48
+AST-487	CHEMBL574738
+AST-487	GTPL5661
+AST-487	SCHEMBL1684259
+AST-487	BDBM31085
+AST-487	AST-487/AST487
+AST-487	DTXSID70212239
+AST-487	SYN1210
+AST-487	cid_11409972
+AST-487	BCP21589
+AST-487	EX-A1374
+AST-487	3455AH
+AST-487	s6662
+AST-487	ZB1589
+AST-487	ZINC23247639
+AST-487	AST-487 (NVP-AST487)
+AST-487	CS-0779
+AST-487	NCGC00354729-03
+AST-487	HY-15002
+AST-487	"Urea, N-(4-((4-ethyl-1-piperazinyl)methyl)-3-(trifluoromethyl)phenyl)-N'-(4-((6-(methylamino)-4-pyrimidinyl)oxy)phenyl)-"
+AST-487	EC-000.2120
+AST-487	A15003
+AST-487	W-5519
+AST-487	J-519601
+AST-487	Q27074554
+AST-487	1-[4-[(4-ethyl-1-piperazinyl)methyl]-3-(trifluoromethyl)phenyl]-3-[4-[[6-(methylamino)-4-pyrimidinyl]oxy]phenyl]urea
+AST-487	1-[4-[(4-ethylpiperazino)methyl]-3-(trifluoromethyl)phenyl]-3-[4-[6-(methylamino)pyrimidin-4-yl]oxyphenyl]urea
+AST-487	3-{4-[(4-ethylpiperazin-1-yl)methyl]-3-(trifluoromethyl)phenyl}-1-(4-{[6-(methylamino)pyrimidin-4-yl]oxy}phenyl)urea
+AT-101	AT101
+AT-101	AT 101
+AT-101	(R)-(-)-Gossypol;R-(-)-gossypol acetic acid
+AT-101	gossypol enantiomer
+AT-101	gossypol
+AZD1152-HQPA	"
+
+Barasertib"
+AZD1152-HQPA	AZD1152HQPA
+AZD1152-HQPA	AZD1152 HQPA
+AZD1152-HQPA	AZD2811
+Baiclein	Baicalein
+Baiclein	"5,6,7-trihydroxyflavone"
+Bay 11-7085	Bay117085
+Bay 11-7085	Bay 11 7085
+Bay 11-7085	(E)-3-(4-t-Butylphenylsulfonyl)-2-propenenitrile
+BMS-345541	BMS345541
+CHIR-99021	CT99021
+CHIR-99021	CHIR99021
+CHIR-99021	CHIR 99021
+CHIR-99021	"6-((2-((4-(2,4-Dichlorophenyl)-5-(4-methyl-1H-imidazol-2-yl)pyrimidin-2-yl)amino)ethyl)amino)nicotinonitrile"
+DBZ	Dibenzazepine
+DBZ	YO-01027
+Doramapimod	BIRB 796
+Etomoxir	2[6(4-chlorophenoxy)hexyl]oxirane-2-carboxylate
+Etomoxir	Ethyl 2-[6-(4-chlorophenoxy)hexyl]oxirane-2-carboxylate
+F_S_V	
+GDC-0879	GDC0879
+GDC-0879	GDC 0879
+GDC-0879	AR-00341677
+GDC-0879	AR 00341677
+Go6976	Goe 6976
+Go6976	PD 406976
+Go6976	"5,6,7,13-Tetrahydro-13-methyl-5-oxo-12H-indolo[2,3-a]pyrrolo[3,4-c]carbazole-12-propanenitrile"
+GSK-1838705A	"
+BENZAMIDE, 2-((2-((1-(2-(DIMETHYLAMINO)ACETYL)-5-METHOXY-1H-INDOL-6-YL)AMINO)-7H-PYRROLO(2,3-D)PYRIMIDIN-4-YL)AMINO)-6-FLUORO-N-METHYL-"
+GSK-1904529A	GSK 4529
+GSK-1904529A	"N-(2,6-Difluorophenyl)-5-[3-[2-[[5-ethyl-2-(methyloxy)-4-[4-[4-(methylsulfonyl)-1-piperazinyl]-1-piperidinyl]phenyl]amino]-4-pyrimidinyl]imidazo[1,2-a]pyridin-2-yl]-2-(methyloxy)benzamide"
+GW-2580	GW 2580
+GW-2580	GW2580
+JAK Inhibitor I	
+JNJ-28312141	JNJ-28312141
+JNJ-28312141	885692-52-4
+JNJ-28312141	JNJ-28312141 free base
+JNJ-28312141	"4-cyano-N-(5-(1-(2-(dimethylamino)acetyl)piperidin-4-yl)-2',3',4',5'-tetrahydro-[1,1'-biphenyl]-2-yl)-1H-imidazole-2-carboxamide"
+JNJ-28312141	UNII-YKQ241VJ92
+JNJ-28312141	YKQ241VJ92
+JNJ-28312141	CHEMBL1908842
+JNJ-28312141	1149939-55-8 (free base)
+JNJ-7706621	"
+1H-1,2,4-TRIAZOLE-3,5-DIAMINE, N3-(4-(AMINOSULFONYL)PHENYL)-1-(2,6-DIFLUOROBENZOYL)- 4-((5-AMINO-1-(2,6-DIFLUOROBENZOYL)-1H-(1,2,4)TRIAZOL-3-YL)AMINO)BENZENESULFONAMIDE"
+JNJ-7706621	"
+JNJ-770662"
+JNJ-7706621	"
+AURORA KINASE/CDK INHIBITOR"
+JNJ-7706621	"
+BENZENESULFONAMIDE, 4-((5-AMINO-1-(2,6-DIFLUOROBENZOYL)-1H-1,2,4-TRIAZOL-3-YL)AMINO)-"
+JQ1	 +-JQ1
+KI20227	"N-[4-[(6,7-dimethoxy-4-quinolinyl)oxy]-2-methoxyphenyl]-N'-[1-(2-thiazolyl)ethyl]-urea"
+KU-55933	KU55933
+LY-333531	"
+Ruboxistaurin"
+Masitinib	Masivet
+Masitinib	Kinavet
+MEK1/2 Inhibitor	
+Metformin	Glucophage
+Metformin	Fortamet
+Metformin	Glumetza
+Metformin	Riomet
+MLN120B	ML120B
+NF-kB Activation Inhibitor	
+NVP-ADW742	NVPADW742
+NVP-ADW742	"5-[3-(phenylmethoxy)phenyl]-7-[trans-3-(1-pyrrolidinylmethyl)cyclobutyl]-7H-pyrrolo[2,3-d]pyrimidin-4-amine"
+NVP-ADW742	ADW742
+NVP-ADW742	GSK552602A
+NVP-AEW541	AEW541
+PD153035	SU-5271 Hcl
+PD153035	PD153035 Hcl
+PD153035	SU-5271
+PD153035	AG1517 Hcl
+PD153035	AG1517
+PD153035	ZM 252868 HCl
+PD153035	ZM 252868
+PD173955	
+PD98059	
+Perhexiline maleate	"2-(2,2-Dicyclohexylethyl)piperidine"
+Perhexiline maleate	Perhexiline maleate salt
+Perhexiline maleate	Perhexiline maleate Hcl
+PH-797804	PH797804
+PHA-665752	PHA665752
+PHT-427	"4-dodecyl-N-(1,3,4-thiadiazol-2-yl)benzenesulfonamide"
+PHT-427	PHT427
+PI-103	PI-103
+PI-103	371935-74-9
+PI-103	"3-(4-morpholinopyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	PI103
+PI-103	UNII-YQX02F616F
+PI-103	PI 103
+PI-103	"Phenol, 3-[4-(4-morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]-"
+PI-103	PIK-103
+PI-103	YQX02F616F
+PI-103	CHEBI:90524
+PI-103	"3-[4-(4-Morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]phenol"
+PI-103	371935-74-9 (free base)
+PI-103	PI-103 hydrobromide
+PI-103	"3-(4-morpholin-4-ylpyrido[2,3]furo[2,4-b]pyrimidin-2-yl)phenol"
+PI-103	"3-(4-(4-Morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	"3-(4-Morpholin-4-Ylpyrido[3',2':4,5]furo[3,2-D]pyrimidin-2-Yl)phenol"
+PI-103	"Phenol, 3-(4-(4-morpholinyl)pyrido(3',2':4,5)furo(3,2-d)pyrimidin-2-yl)-"
+PI-103	X6K
+PI-103	PI 103 hydrobromide
+PI-103	Kinome_3597
+PI-103	2x6k
+PI-103	cc-5
+PI-103	"mTOR Inhibitor, PI103"
+PI-103	MLS006010988
+PI-103	SCHEMBL258242
+PI-103	CHEMBL573339
+PI-103	GTPL5701
+PI-103	BDBM25045
+PI-103	cid_9884685
+PI-103	CTK8F1083
+PI-103	KS-00000HCH
+PI-103	DTXSID40190676
+PI-103	EX-A039
+PI-103	PIK 103
+PI-103	QCR-256
+PI-103	SYN1065
+PI-103	4l23
+PI-103	"pyridofuropyrimidine derivative, 2"
+PI-103	BCPP000107
+PI-103	HMS3229C15
+PI-103	HMS3244E11
+PI-103	HMS3244E12
+PI-103	HMS3244F11
+PI-103	HMS3295E19
+PI-103	HMS3650M10
+PI-103	HMS3654E09
+PI-103	BCP01923
+PI-103	BCP19373
+PI-103	ZINC3963016
+PI-103	MFCD11983145
+PI-103	s1038
+PI-103	AKOS024462563
+PI-103	CCG-101301
+PI-103	compound 2 [PMID: 17601739]
+PI-103	CS-0127
+PI-103	"3-(4-(4-Morpholinyl)pyrido[3&prime;,2&prime;:4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	NCGC00187906-01
+PI-103	NCGC00187906-02
+PI-103	NCGC00187906-03
+PI-103	NCGC00187906-15
+PI-103	"3-(6-morpholin-4-yl-8-oxa-3,5,10-triazatricyclo[7.4.0.02,7]trideca-1(9),2(7),3,5,10,12-hexaen-4-yl)phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(13),2,4,6,9,11-hexaen-4-yl]phenol"
+PI-103	AK163162
+PI-103	AS-16221
+PI-103	HY-10115
+PI-103	SMR002530603
+PI-103	AB0033724
+PI-103	FT-0712341
+PI-103	SW218117-2
+PI-103	X7432
+PI-103	EC-000.2123
+PI-103	W-5518
+PI-103	935P749
+PI-103	SR-01000946304
+PI-103	SR-01000946304-1
+PI-103	BRD-K67868012-003-01-5
+PI-103	Q27088379
+PI-103	"3-(4-morpholinopyrido[2,3]furo[2,4-b]pyrimidin-2-yl)phenol"
+PI-103	"3-[4-(4-morpholinyl)-2-pyrido[2,3]furo[2,4-b]pyrimidinyl]phenol"
+PI-103	"3-(4-(4-morpholinyl)pyrido[3?,2?:4,5]furo[3,2-d]pyrimidin-2- yl)phenol"
+PI-103	"3-(4-morpholin-4-ylpyrido[3 ,2 :4,5]furo[3,2-d]pyrimidin-2-yl)phenol"
+PI-103	"3-[4-(4-morpholinyl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]"
+PI-103	"3-[4-(morpholin-4-yl)pyrido[3',2':4,5]furo[3,2-d]pyrimidin-2-yl]phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(9),2(7),3,5,10,12-hexaen-4-yl]phenol"
+PI-103	"3-[6-(morpholin-4-yl)-8-oxa-3,5,10-triazatricyclo[7.4.0.0^{2,7}]trideca-1(9),2,4,6,10,12-hexaen-4-yl]phenol"
+PI-103	PI 103
+PLX-4720	PLX-4720
+PLX-4720	918505-84-7
+PLX-4720	PLX4720
+PLX-4720	PLX 4720
+PLX-4720	"N-(3-(5-chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluorophenyl)propane-1-sulfonamide"
+PLX-4720	UNII-EQY31RO8HA
+PLX-4720	"N-[3-[(5-Chloro-1H-pyrrolo[2,3-b]pyridin-3-yl)carbonyl]-2,4-difluorophenyl]-1-propanesulfonamide"
+PLX-4720	EQY31RO8HA
+PLX-4720	"N-[3-(5-chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluorophenyl]propane-1-sulfonamide"
+PLX-4720	"N-{3-[(5-chloro-1H-pyrrolo[2,3-b]pyridin-3-yl)carbonyl]-2,4-difluorophenyl}propane-1-sulfonamide"
+PLX-4720	CHEBI:90295
+PLX-4720	"N-[3-(5-chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluoro-phenyl]propane-1-sulfonamide"
+PLX-4720	C17H14ClF2N3O3S
+PLX-4720	"N-[3-({5-chloro-1H-pyrrolo[2,3-b]pyridin-3-yl}carbonyl)-2,4-difluorophenyl]propane-1-sulfonamide"
+PLX-4720	"Propane-1-sulfonic acid[3-(5-chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluorophenyl]-amide"
+PLX-4720	"a,a-dimethoxytoluene"
+PLX-4720	PubChem19346
+PLX-4720	3c4c
+PLX-4720	MLS006010065
+PLX-4720	SCHEMBL133733
+PLX-4720	GTPL5703
+PLX-4720	CHEMBL1230020
+PLX-4720	BDBM25617
+PLX-4720	CTK5H0564
+PLX-4720	DTXSID10238711
+PLX-4720	EX-A186
+PLX-4720	SYN1069
+PLX-4720	HMS3244C03
+PLX-4720	HMS3244C04
+PLX-4720	HMS3244D03
+PLX-4720	HMS3265I09
+PLX-4720	HMS3265I10
+PLX-4720	HMS3265J09
+PLX-4720	HMS3265J10
+PLX-4720	HMS3654M10
+PLX-4720	HMS3750K11
+PLX-4720	HMS3884C05
+PLX-4720	ACT06829
+PLX-4720	AOB87700
+PLX-4720	BCP01754
+PLX-4720	KS-000004WP
+PLX-4720	"PLX-4720,PLX4720"
+PLX-4720	PLX-4720/PLX4720
+PLX-4720	ABP000428
+PLX-4720	BBL102256
+PLX-4720	MFCD14635203
+PLX-4720	s1152
+PLX-4720	STL556055
+PLX-4720	ZINC39059267
+PLX-4720	AKOS015919071
+PLX-4720	CCG-268810
+PLX-4720	CS-0094
+PLX-4720	DB06999
+PLX-4720	NCGC00187911-01
+PLX-4720	NCGC00187911-02
+PLX-4720	NCGC00187911-06
+PLX-4720	"1-Propanesulfonamide, N-[3-[(5-chloro-1H-pyrrolo[2,3-b]pyridin-3-yl)carbonyl]-2,4-difluorophenyl]-"
+PLX-4720	AC-23171
+PLX-4720	AK162149
+PLX-4720	AS-19376
+PLX-4720	HY-51424
+PLX-4720	SC-65663
+PLX-4720	SMR004701225
+PLX-4720	AB0008154
+PLX-4720	DB-003736
+PLX-4720	FT-0673969
+PLX-4720	SW218119-2
+PLX-4720	X7406
+PLX-4720	A19411
+PLX-4720	Q-4563
+PLX-4720	Raf Kinase Inhibitor V - CAS 918505-84-7
+PLX-4720	505P847
+PLX-4720	J-522979
+PLX-4720	BRD-K16478699-001-01-9
+PLX-4720	Q27088418
+PLX-4720	"N-[3-[(5-Chloro-1H-pyrrolo[2,3-b]pyridin-3-yl)carb"
+PLX-4720	"N-[3-(5-chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluoro-phenyl]pr opane-1-sulfonamide"
+PLX-4720	"propane-1-sulfonic acid [3-(5-chloro-1h-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluoro-phenyl]-amide"
+PLX-4720	"N-(3-(5-Chloro-1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,4-difluorophenyl)propane-1-sulfonamide"
+PRT062607	BIIB057
+PRT062607	P505-15
+PRT062607	P50515
+R406	"N_-(2,2-Dimethyl-3-oxo-4H-pyrid[1,4]oxazin-6-yl)-5-fluoro-N_-(3,4,5-trimethoxyphenyl)-2,4-pyrimidinediamine"
+R406	"6-(5-Fluoro-2-(3,4,5-trimethoxyphenylamino)pyrimidin-4-ylamino)-2,2-dimethyl-2H-pyrido[3,2-b][1,4]oxazin-3(4H)-one"
+R406	Syk Inhibitor VI
+Ralimetinib	Ralimetinib Mesylate
+Ralimetinib	LY2228820
+Ralimetinib	862507-23-1
+Ralimetinib	Ralimetinib Mesylate
+Ralimetinib	Ralimetinib dimesylate
+Ralimetinib	UNII-QUW7B71FO9
+Ralimetinib	862507-23-1 (mesylate)
+Ralimetinib	QUW7B71FO9
+Ralimetinib	Ralimetinib mesylate [USAN]
+Ralimetinib	LY-2228820
+Ralimetinib	LY 2228820
+Ralimetinib	"5-(2-(tert-butyl)-4-(4-fluorophenyl)-1H-imidazol-5-yl)-3-neopentyl-3H-imidazo[4,5-b]pyridin-2-amine dimethanesulfonate"
+Ralimetinib	Ralimetinib mesylate (USAN)
+Ralimetinib	LY2228820 diMesylate
+Ralimetinib	LY2228820 2MsOH
+Ralimetinib	"5-(2-tert-butyl-4-(4-fluorophenyl)-1H-imidazol-5-yl)-3-neopentyl-3H-imidazo[4,5-b]pyridin-2-amine dimethanesulfonate"
+Ralimetinib	LY-2228820 dimesylate
+Ralimetinib	cc-430
+Ralimetinib	SCHEMBL3992244
+Ralimetinib	CHEMBL2364627
+Ralimetinib	SCHEMBL16347433
+Ralimetinib	DTXSID60235457
+Ralimetinib	BCPP000179
+Ralimetinib	HMS3654J16
+Ralimetinib	BCP02295
+Ralimetinib	EX-A2289
+Ralimetinib	Ralimetinib 2MsOH(LY2228820)
+Ralimetinib	MFCD17169991
+Ralimetinib	LY2228820; Ralimetinib dimesylate
+Ralimetinib	BCP9000872
+Ralimetinib	CCG-270240
+Ralimetinib	CS-0208
+Ralimetinib	KS-00000T78
+Ralimetinib	LSN-2322600
+Ralimetinib	"3H-Imidazo(4,5-b)pyridin-2-amine, 5-(2-(1,1-dimethylethyl)-4-(4-fluorophenyl)-1H-imidazol-5-yl)-3-(2,2-dimethylpropyl)-, methanesulfonate (1:2)"
+Ralimetinib	AK176011
+Ralimetinib	AS-56110
+Ralimetinib	HY-13241
+Ralimetinib	FT-0670881
+Ralimetinib	SW220068-1
+Ralimetinib	D10659
+Ralimetinib	W-5947
+Ralimetinib	J-516068
+Ralimetinib	Q27287506
+Ralimetinib	"5-(2-(tert-butyl)-4-(4-fluorophenyl)-1h-imidazol-5-yl)-3-(2,2-dimethylpropyl)-3h-imidazo(4,5-b)pyridin-2-amine methanesulfonate"
+Ralimetinib	"5-[2-tert-butyl-4-(4-fluorophenyl)-1H-imidazol-5-yl]-3-(2,2-dimethylpropyl)imidazo[4,5-b]pyridin-2-amine;methanesulfonic acid"
+Ralimetinib	"5-[2-tert-Butyl-5-(4-fluoro-phenyl)-1H-imidazol-4-yl]-3-(2,2-dimethyl-propyl)-3H-imidazo[4,5-b]pyridin-2-ylamine dimethanesulfonate"
+Ralimetinib	LY2228820
+Rapamycin	Sirolimus
+Rapamycin	RAPAMUNE
+Rapamycin	"9,10,12,13,14,21,22,23,24,25,26,27,32,33,34,34a-Hexadecahydro-9,27-dihydroxy-3-((1R)-2-((1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl)-1-methylethyl)-10,21-dimethoxy-6,8,12,14,20,26-hexamethyl-23,27-epoxy-3H-pyrido(2,1-c)(1,4)oxaazacyclohentriacontine-1,5,11,2"
+Rapamycin	RAPA
+Rapamycin	SLM
+Rapamycin	AY 22989
+Rapamycin	SILA 9268A
+Rapamycin	WY-090217
+Roscovitine	Seliciclib
+Roscovitine	CYC202
+S31-201	NSC 74859
+SB-431542	SB431542
+SB-431542	CHEMBL44008
+SB-431542	3tzm
+SB-431542	GTPL8216
+SB-431542	FHYUGAJXYORMHI-UHFFFAOYSA-N
+SB-431542	"4-[4-(1,3-benzodioxol-5-yl)-5-pyridin-2-yl-1H-imidazol-2-yl]benzamide"
+SR9011	SR-9011
+SR9011	"
+1-Pyrrolidinecarboxamide, 3-((((4-chlorophenyl)methyl)((5-nitro-2-thienyl)methyl)amino)methyl)-n-pentyl-"
+STO609	"7-Oxo-7H-benzimidazo[2,1-a]benz[de]isoquinoline-3-carboxylic acid - acetic acid"
+STO609	STO609-acetic-acid
+SU11274	PKI-SU1127
+SU14813	SU 014813
+SYK Inhibitor	
+TG100-115	"
+3-(2,4-Diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol"
+TG100-115	"6,7-Bis(3-hydroxyphenyl)pteridine-2,4-diamine"
+Tofacitinib	Tofacitinib
+Tofacitinib	Tasocitinib
+Tofacitinib	477600-75-2
+Tofacitinib	"3-((3R,4R)-4-methyl-3-(methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino)piperidin-1-yl)-3-oxopropanenitrile"
+Tofacitinib	CP-690550
+Tofacitinib	CP 690550
+Tofacitinib	racemic-tofacitinib
+Tofacitinib	1259404-17-5
+Tofacitinib	rac-Tofacitinib
+Tofacitinib	"CP-690,550"
+Tofacitinib	"Tofacitinib (CP-690550,Tasocitinib)"
+Tofacitinib	UNII-87LA6FU830
+Tofacitinib	"3-{(3R,4R)-4-methyl-3-[methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]piperidin-1-yl}-3-oxopropanenitrile"
+Tofacitinib	CHEMBL221959
+Tofacitinib	"3-((3R,4R)-rel-4-Methyl-3-(methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino)piperidin-1-yl)-3-oxopropanenitrile"
+Tofacitinib	CHEBI:71200
+Tofacitinib	87LA6FU830
+Tofacitinib	477600-75-2 (free base)
+Tofacitinib	MFCD11035919
+Tofacitinib	"1-Piperidinepropanenitrile, 4-methyl-3-(methyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamino)-beta-oxo-, (3R,4R)-"
+Tofacitinib	CP690550
+Tofacitinib	"3-((3R,4R)-4-Methyl-3-(methyl(7H-pyrrolo(2,3-d)pyrimidin-4-yl)amino)piperidin-1-yl)-3-oxopropanenitrile"
+Tofacitinib	"3-[(3R*,4R*)-4-Methyl-3-[methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]piperidin-1-yl]-3-oxopropanenitrile"
+Tofacitinib	"3-[(3R,4R)-4-methyl-3-[methyl({7H-pyrrolo[2,3-d]pyrimidin-4-yl})amino]piperidin-1-yl]-3-oxopropanenitrile"
+Tofacitinib	"3-[(3R,4R)-4-methyl-3-[methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]piperidin-1-yl]-3-oxopropanenitrile"
+Tofacitinib	"3-{(3R,4R)-4-Methyl-3-[methyl-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)-amino]-piperidin-1-yl}-3-oxo-propionitrile"
+Tofacitinib	Tofacitinib [USAN:INN]
+Tofacitinib	C16H20N6O
+Tofacitinib	tofacitinibum
+Tofacitinib	3eyg
+Tofacitinib	3fup
+Tofacitinib	3lxk
+Tofacitinib	4oti
+Tofacitinib	MI1
+Tofacitinib	Tofacitinib (USAN)
+Tofacitinib	PubChem16767
+Tofacitinib	cc-396
+Tofacitinib	SCHEMBL322753
+Tofacitinib	GTPL5677
+Tofacitinib	QCR-53
+Tofacitinib	CTK3J8304
+Tofacitinib	HSDB 8311
+Tofacitinib	DTXSID90197271
+Tofacitinib	EX-A205
+Tofacitinib	BCPP000274
+Tofacitinib	CP-690550 FREE BASE
+Tofacitinib	AOB87470
+Tofacitinib	KS-000001IG
+Tofacitinib	KS-000006RA
+Tofacitinib	ZINC3818808
+Tofacitinib	"CP-690,550 FREE BASE"
+Tofacitinib	ABP000824
+Tofacitinib	ANW-51607
+Tofacitinib	BDBM50193995
+Tofacitinib	CP-690
+Tofacitinib	s2789
+Tofacitinib	AKOS005145814
+Tofacitinib	AKOS005258733
+Tofacitinib	AC-8193
+Tofacitinib	BCP9000550
+Tofacitinib	CA10005
+Tofacitinib	CCG-264998
+Tofacitinib	CS-0050
+Tofacitinib	DB08895
+Tofacitinib	GS-6106
+Tofacitinib	PB20522
+Tofacitinib	SB20004
+Tofacitinib	SB20005
+Tofacitinib	NCGC00229511-02
+Tofacitinib	NCGC00229511-04
+Tofacitinib	NCGC00229511-10
+Tofacitinib	NCGC00244463-01
+Tofacitinib	"Tofacitinib (CP-690550, Tasocitinib)"
+Tofacitinib	CP690550(Tasocitinib)/CP-690550
+Tofacitinib	HY-40354
+Tofacitinib	SC-21829
+Tofacitinib	AB0007916
+Tofacitinib	"CP690,550"
+Tofacitinib	CP-690-550
+Tofacitinib	W6440
+Tofacitinib	CP- 690 550
+Tofacitinib	D09970
+Tofacitinib	Q-9324
+Tofacitinib	AB01565786_02
+Tofacitinib	600M752
+Tofacitinib	AR-270/43507983
+Tofacitinib	J-524314
+Tofacitinib	Q3530324
+Tofacitinib	BRD-K31283835-001-01-9
+Tofacitinib	BRD-K31283835-048-04-4
+Tofacitinib	"3-((3R,4R)-4-methyl-3-(methyl(7H-pyrrolo[2,3-d]pyr"
+Tofacitinib	"3-((3R,4R)-4-Methyl(7H-Pyrrolo[2,3-D]Pyrimidin-4-Yi)Amino)Piperidin-1-Yl-3-Oxopropaneni"
+Tofacitinib	"(3R,4R)-3-{4-Methyl-3-[methyl-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)-amino]-piperidin-1-yl}-3-oxo-propionitrile"
+Tofacitinib	"(3R,4R)-4-methyl-3-(methyl-7H-pyrrolo[2,3-d]pyrimidin-4-ylamino)-beta-oxo-1-piperidine propanenitrile"
+Tofacitinib	"3-[(3R,4R)-4-methyl-3-[methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]-1-piperidyl]-3-oxo-propanenitrile"
+Tofacitinib	"3-{(3R,4R)-4-methyl-3-[methyl-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)-amino]piperidin-1-yl}-3-oxo-propionitrile"
+Tofacitinib	"3-{(3R,4R)-4-Methyl-3-[methyl-(7H-pyrrolo[2,3-d]pyrimidin4-yl)-amino]-piperidin-1-yl}-3-oxo-propionitrile"
+Tofacitinib	"3-{4-methyl-3-[methyl(7H-pyrrolo[2,3-d]pyrimidin-4-yl)amino]-1-piperidinyl}-3-oxopropanenitrile"
+Tofacitinib	"3-Piperidinamine, 1-(cyanoacetyl)-4-methyl-N-methyl-N-1H-pyrrolo(2,3-d)pyrimidin-4-yl-, (3R,4R)-"
+Tofacitinib	Xeljanz
+Tofacitinib	Jaquinus
+Tofacitinib	Tofacinix
+Tofacitinib	CP-690550
+Tozasertib	VX-680
+Tozasertib	MK-0457
+Vargetef	nintedanib
+VX-745	Neflamapimod
+XAV-939	NVP-XAV939
+XMD 8-87	XMD8-87
+XMD 8-87	1234480-46-6
+XMD 8-87	ACK1-B19
+XMD 8-87	CHEMBL1672987
+XMD 8-87	LUN80466
+XMD 8-87	XMD 8-87
+XMD 8-87	1234480-46-6 (free base)
+XMD 8-87	"2-((2-methoxy-4-(4-methylpiperazin-1-yl)phenyl)amino)-11-methyl-5,11-dihydro-6H-benzo[e]pyrimido[5,4-b][1,4]diazepin-6-one"
+XMD 8-87	"2-((2-methoxy-4-(4-methylpiperazin-1-yl)phenyl)amino)-11-methyl-5Hbenzo[e]pyrimido[5,4-b][1,4]diazepin-6(11H)-one"
+XMD 8-87	"2-(2-methoxy-4-(4-methylpiperazin-1-yl)phenylamino)-11-methyl-5H-benzo[e]pyrimido[5,4-b][1,4]diazepin-6(11H)-one"
+XMD 8-87	"2-[2-methoxy-4-(4-methylpiperazin-1-yl)anilino]-11-methyl-5H-pyrimido[4,5-b][1,4]benzodiazepin-6-one"
+XMD 8-87	"Scaffold, B19"
+XMD 8-87	SCHEMBL619088
+XMD 8-87	XMD887
+XMD 8-87	BCP19603
+XMD 8-87	BCP19604
+XMD 8-87	EX-A1296
+XMD 8-87	BDBM50337126
+XMD 8-87	s8272
+XMD 8-87	ZINC66066132
+XMD 8-87	AKOS030632024
+XMD 8-87	CCG-269185
+XMD 8-87	CS-6438
+XMD 8-87	BS-14733
+XMD 8-87	HY-15811
+XMD 8-87	1321828-64-1
+XMD 8-87	"2-((2-methoxy-4-(4-methylpiperazin-1-yl)phenyl)amino)-11-methyl-5H-benzo[e]pyrimido[5,4-b][1,4]diazepin-6(11H)-one"
+XMD 8-87	"5,11-Dihydro-2-[[2-methoxy-4-(4-methyl-1-piperazinyl)phenyl]amino]-11-methyl-6H-pyrimido[4,5-b][1,4]benzodiazepin-6-one"
+XMD 8-87	"6H-Pyrimido[4,5-b][1,4]benzodiazepin-6-one, 5,11-dihydro-2-[[2-methoxy-4-(4-methyl-1-piperazinyl)phenyl]amino]-11-methyl-"
