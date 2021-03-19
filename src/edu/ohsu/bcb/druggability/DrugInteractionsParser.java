@@ -1778,11 +1778,15 @@ public class DrugInteractionsParser {
 			//drug 
 			String ligand= tokens[5]; //DRUG NAME
 
-			System.out.println("Drug parsed: " + ligand);
+			//System.out.println("Drug parsed: " + ligand);
 			quickDrugSet.add(ligand);
 		}
+		System.out.println("Finished reading in the BindingDB drugs.");
+		System.out.println("Now check BindingDB drugs against our set.");
+		
 		//now quick check over our drug set
 		HashMap<Drug, String> drugToResourceCoverage = new HashMap<Drug, String>();
+		
 		for (Drug inputDrug: inputDrugSet){
 			for (String ligand: quickDrugSet) {
 				if (inputDrug.nameIsEquivalent(ligand.trim())) {
@@ -3604,18 +3608,19 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//Sorger; new in Beta version
 		Map<Drug, String> drugToKinaseResourceCoverage = beta_checkCoverageKinaseResource(reconciledSet);
 		
-		//TTD
-		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
 		
 		//BindingDB
-		//Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDb(reconciledSet);
+		Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDB(reconciledSet);
+				
+		//TTD
+		//Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
 		
 		
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
 		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_031921.tsv");
-		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
+		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconciledSet) {
 			//System.out.println("Checking drug: " + drugName);
 			ps.print(eachDrug.getDrugName() + "\t");
@@ -3640,6 +3645,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 				kinaseResource = drugToKinaseResourceCoverage.get(eachDrug);
 			}
 			ps.print(kinaseResource + "\t");
+			
+			//BINDINGDB ANNOTATION
+			String BindingDBResource = "No";
+			if(drugToBindingDBCoverage.get(eachDrug)!=null) {
+				BindingDBResource = drugToBindingDBCoverage.get(eachDrug);
+			}
+			ps.print(BindingDBResource + "\t");
+
 
 			//SYNONYM
 			if(eachDrug.getDrugSynonyms()!=null) {
