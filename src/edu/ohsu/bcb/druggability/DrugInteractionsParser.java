@@ -1763,6 +1763,39 @@ public class DrugInteractionsParser {
 	
 	}
 	
+	public Map<Drug, String> beta_checkCoverageBindingDB(Set<Drug> inputDrugSet) throws IOException{
+		System.out.println("Reading in BindingDB Database File");
+
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/BindingDb/BindingDB_All_07.03.16.tsv");
+
+		Set<String> quickDrugSet = new HashSet<String>();
+
+		fileUt.readLine();//skip headers
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t", -1);//-1 to preserve trailing empty strings
+			//drug 
+			String ligand= tokens[5]; //DRUG NAME
+
+			System.out.println("Drug parsed: " + ligand);
+			quickDrugSet.add(ligand);
+		}
+		//now quick check over our drug set
+		HashMap<Drug, String> drugToResourceCoverage = new HashMap<Drug, String>();
+		for (Drug inputDrug: inputDrugSet){
+			for (String ligand: quickDrugSet) {
+				if (inputDrug.nameIsEquivalent(ligand.trim())) {
+					drugToResourceCoverage.put(inputDrug, "BindingDB_Yes");
+				}
+
+			}
+		}
+
+		return drugToResourceCoverage;
+	}
+
+	
 	public Map<Drug, String> beta_checkCoverageDrugBank(Set<Drug> inputDrugSet) throws IOException{
 		
 		FileUtility fileUt = new FileUtility();
@@ -3572,7 +3605,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Map<Drug, String> drugToKinaseResourceCoverage = beta_checkCoverageKinaseResource(reconciledSet);
 		
 		//TTD
-		//Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
+		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
 		
 		//BindingDB
 		//Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDb(reconciledSet);
@@ -3581,7 +3614,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_031921.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconciledSet) {
 			//System.out.println("Checking drug: " + drugName);
