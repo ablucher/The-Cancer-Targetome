@@ -1773,13 +1773,27 @@ public class DrugInteractionsParser {
 
 		fileUt.readLine();//skip headers
 		String line = null;
+		
+		int counter = 0;//add counter so we can parse BindingDB
 		while ((line = fileUt.readLine()) != null){
 			String[] tokens = line.split("\t", -1);//-1 to preserve trailing empty strings
 			//drug 
 			String ligand= tokens[5]; //DRUG NAME
+			
+			//System.out.println("BindingDB ligand: " + ligand);
+			//need to split ligand name to get all ligand synonyms
+			String[] ligands = ligand.split("::");
+			for (String eachLigand: ligands) {
+				//System.out.println("BindingDB eachligand: " + eachLigand);
+				quickDrugSet.add(eachLigand);//add each individual BindingDB synonym to our drug set
+			}
 
 			//System.out.println("Drug parsed: " + ligand);
-			quickDrugSet.add(ligand);
+//			
+//			if (counter==10){
+//				break;
+//			}
+//			counter++;
 		}
 		System.out.println("Finished reading in the BindingDB drugs.");
 		System.out.println("Now check BindingDB drugs against our set.");
@@ -1788,6 +1802,10 @@ public class DrugInteractionsParser {
 		HashMap<Drug, String> drugToResourceCoverage = new HashMap<Drug, String>();
 		
 		for (Drug inputDrug: inputDrugSet){
+			
+			//note; for bindingDB this will be all the synonyms
+			//this should still work, because if we hit a ligand that matches, we will store
+			//03/19/21 should be good for just our quick coverage check
 			for (String ligand: quickDrugSet) {
 				if (inputDrug.nameIsEquivalent(ligand.trim())) {
 					drugToResourceCoverage.put(inputDrug, "BindingDB_Yes");
