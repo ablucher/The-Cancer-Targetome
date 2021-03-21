@@ -1763,6 +1763,65 @@ public class DrugInteractionsParser {
 	
 	}
 	
+	public Map<Drug, String> beta_checkCoverageTTD(Set<Drug> inputDrugSet) throws IOException{
+		System.out.println("Reading in TTD File");
+		
+		System.out.println("Parsing TTD File");
+		//iterate through file
+		
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/BindingDb/BindingDB_All_07.03.16.tsv");
+
+		Set<String> quickDrugSet = new HashSet<String>();
+
+		fileUt.readLine();//skip headers
+		String line = null;
+		
+		int counter = 0;//add counter so we can parse BindingDB
+//		while ((line = fileUt.readLine()) != null){
+//			String[] tokens = line.split("\t", -1);//-1 to preserve trailing empty strings
+//			//drug 
+//			String ligand= tokens[5]; //DRUG NAME
+//			
+//			//System.out.println("BindingDB ligand: " + ligand);
+//			//need to split ligand name to get all ligand synonyms
+//			String[] ligands = ligand.split("::");
+//			for (String eachLigand: ligands) {
+//				//System.out.println("BindingDB eachligand: " + eachLigand);
+//				quickDrugSet.add(eachLigand);//add each individual BindingDB synonym to our drug set
+//			}
+//
+//			//System.out.println("Drug parsed: " + ligand);
+////			
+////			if (counter==10){
+////				break;
+////			}
+////			counter++;
+//		}
+//		System.out.println("Finished reading in the BindingDB drugs.");
+//		System.out.println("Now check BindingDB drugs against our set.");
+//		
+		//loop to build map
+		//now quick check over our drug set
+		HashMap<Drug, String> drugToResourceCoverage = new HashMap<Drug, String>();
+
+		for (Drug inputDrug: inputDrugSet){
+
+			//note; for bindingDB this will be all the synonyms
+			//this should still work, because if we hit a ligand that matches, we will store
+			//03/19/21 should be good for just our quick coverage check
+			for (String ligand: quickDrugSet) {
+				if (inputDrug.nameIsEquivalent(ligand.trim())) {
+					drugToResourceCoverage.put(inputDrug, "BindingDB_Yes");
+				}
+
+			}
+		}
+
+		return drugToResourceCoverage;
+		
+	}
+	
 	public Map<Drug, String> beta_checkCoverageBindingDB(Set<Drug> inputDrugSet) throws IOException{
 		System.out.println("Reading in BindingDB Database File");
 
@@ -3631,14 +3690,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDB(reconciledSet);
 				
 		//TTD
-		//Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
+		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconciledSet);
 		
 		
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_031921.tsv");
-		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_032121.tsv");
+		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t"+"BindingDB" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconciledSet) {
 			//System.out.println("Checking drug: " + drugName);
 			ps.print(eachDrug.getDrugName() + "\t");
