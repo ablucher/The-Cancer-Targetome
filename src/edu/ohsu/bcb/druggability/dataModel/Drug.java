@@ -1,5 +1,6 @@
 package edu.ohsu.bcb.druggability.dataModel;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -24,6 +25,7 @@ public class Drug  {
 	private String drugName;
 	private Integer drugID;//need unique ID for database tables
 	private Set<String> drugSynonyms; //prev was tree set, change accompny methods
+	private HashMap<String, Set<String>> drugFormulations;
 	private String approvalDate;
 	private String atcClassID;
 	private String atcClassName;
@@ -256,6 +258,14 @@ public class Drug  {
 			}
 		}
 		return false;//if not found, return false
+	}
+
+	public HashMap<String, Set<String>> getDrugFormulations() {
+		return drugFormulations;
+	}
+
+	public void setDrugFormulations(HashMap<String, Set<String>> drugFormulations) {
+		this.drugFormulations = drugFormulations;
 	}
 
 }
