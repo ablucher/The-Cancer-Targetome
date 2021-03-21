@@ -3675,6 +3675,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		System.out.println("Reconciled Drug Set - Remove Vaccines " + removeVaccinesFromDrugSet.size()); 
 				
 		//reconcile formulations*
+		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeVaccinesFromDrugSet);
+		System.out.println("Reconciled Drug Set - Remove Formulations " + reconcileFormulations.size()); 
+		
 		
 		//QUICK CHECKS COVERAGE
 		//call the beta_checkCoverage methods for each database here
@@ -3888,6 +3891,16 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		return reconciledSet;
 	}
 	
+	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet){
+		Set<Drug> cleanedDrugSet = new HashSet<Drug>();
+		
+		
+		
+		
+		
+		return cleanedDrugSet;
+	}
+	
 	public Set<Drug> removeVaccinesFromDrugSets(Set<Drug> inputDrugSet) throws FileNotFoundException{
 		
 		Set<Drug> cleanedDrugSet = new HashSet<Drug>();
@@ -3904,7 +3917,6 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 				
 				//PRINT SYNONYM
 				if(inputDrug.getDrugSynonyms()!=null) {
-					ps.print(inputDrug.getDrugSynonyms().size() + "\t");
 					for (String synonym: inputDrug.getDrugSynonyms()) {
 						//System.out.println("Synonym deck size: " + allSynonyms.size());
 						ps.print(synonym + "|");
