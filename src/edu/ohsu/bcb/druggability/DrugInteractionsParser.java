@@ -3891,13 +3891,56 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		return reconciledSet;
 	}
 	
-	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet){
+	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet) throws IOException{
 		Set<Drug> cleanedDrugSet = new HashSet<Drug>();
 		
-		
-		
-		
-		
+		//formulation file
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/beta_v2/Drug_Formulation.txt");//file from sophia
+		fileUt.readLine();//skip headers
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");
+
+			String drugParent=tokens[0];
+			String formulation=tokens[1];
+			//skip any entry where we don't have formulation
+			if (formulation == null | formulation.isEmpty()){
+				continue;
+			}
+			//SO ASSUMING WE HAVE A DRUG FORMULATION:
+			//read formulation synonyms into a set
+			String[] formulationSynonyms=tokens[2].split("||");//will need to parse here
+			Set<String> drugFormulationSynonymSet= new HashSet<String>();
+			for (String syn: formulationSynonyms) {
+				drugFormulationSynonymSet.add(syn);
+			}
+			
+			//for each line, iterate through our input drug set
+			//this may take a little while* TODO check me
+			for (Drug inputDrug: inputDrugSet) {
+				if (inputDrug.nameIsEquivalent(drugParent)) {//check against first column
+					//see if there is an existing map
+					//if so, add to it
+					if (inputDrug.getDrugFormulations() !=null) {
+						Map<String, Set<String>> inputDrugFormulationMap= inputDrug.getDrugFormulations();
+						inputDrugFormulationMap.put(formulation, drugFormulationSynonymSet);
+					}	
+					else {//else create new map
+						Map<String, Set<String>> inputDrugFormulationMap= new HashMap<String, Set<String>>();
+						inputDrugFormulationMap.put(formulation, drugFormulationSynonymSet);
+						
+					}
+					//add the modified drug to our input set now
+					cleanedDrugSet.add(inputDrug);
+				}
+			}
+
+		}
+		//return our drug set - this will be significantly reduced
+		//because it only has 1 drug object; with formulations rolled up. 
+			
+		//add *manual formulation file check as well
 		return cleanedDrugSet;
 	}
 	
