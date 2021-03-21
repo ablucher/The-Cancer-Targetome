@@ -3682,28 +3682,27 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//QUICK CHECKS COVERAGE
 		//call the beta_checkCoverage methods for each database here
 		//IUPHAR
-		Map<Drug, String> drugToIUPHARCoverage = beta_checkCoverageIUPHAR(removeVaccinesFromDrugSet);
+		Map<Drug, String> drugToIUPHARCoverage = beta_checkCoverageIUPHAR(reconcileFormulations);
 		
 		//DrugBank
-		Map<Drug, String> drugToDrugBankCoverage = beta_checkCoverageDrugBank(removeVaccinesFromDrugSet);
+		Map<Drug, String> drugToDrugBankCoverage = beta_checkCoverageDrugBank(reconcileFormulations);
 		
 		//Sorger; new in Beta version
-		Map<Drug, String> drugToKinaseResourceCoverage = beta_checkCoverageKinaseResource(removeVaccinesFromDrugSet);
-		
+		Map<Drug, String> drugToKinaseResourceCoverage = beta_checkCoverageKinaseResource(reconcileFormulations);
 		
 		//BindingDB
-		Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDB(removeVaccinesFromDrugSet);
+		Map<Drug, String> drugToBindingDBCoverage = beta_checkCoverageBindingDB(reconcileFormulations);
 				
 		//TTD
-		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(removeVaccinesFromDrugSet);
+		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconcileFormulations);
 		
 		
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_RemoveVaccines_032121.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_RemoveVaccines_ReconcileFormulations_032121.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t"+"TTD" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
-		for (Drug eachDrug: removeVaccinesFromDrugSet) {
+		for (Drug eachDrug: reconcileFormulations) {
 			//System.out.println("Checking drug: " + drugName);
 			ps.print(eachDrug.getDrugName() + "\t");
 
@@ -3892,7 +3891,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	}
 	
 	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet) throws IOException{
-		Set<Drug> cleanedDrugSet = new HashSet<Drug>();
+		Set<Drug> collapsedDrugToFormulationSet = new HashSet<Drug>();
 		
 		//formulation file
 		FileUtility fileUt = new FileUtility();
@@ -3906,6 +3905,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			String formulation=tokens[1];
 			//skip any entry where we don't have formulation
 			if (formulation == null | formulation.isEmpty()){
+				
 				continue;
 			}
 			//SO ASSUMING WE HAVE A DRUG FORMULATION:
@@ -3923,25 +3923,61 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 					//see if there is an existing map
 					//if so, add to it
 					if (inputDrug.getDrugFormulations() !=null) {
-						Map<String, Set<String>> inputDrugFormulationMap= inputDrug.getDrugFormulations();
+						HashMap<String, Set<String>> inputDrugFormulationMap= inputDrug.getDrugFormulations();
 						inputDrugFormulationMap.put(formulation, drugFormulationSynonymSet);
+						inputDrug.setDrugFormulations(inputDrugFormulationMap);
 					}	
 					else {//else create new map
-						Map<String, Set<String>> inputDrugFormulationMap= new HashMap<String, Set<String>>();
+						HashMap<String, Set<String>> inputDrugFormulationMap= new HashMap<String, Set<String>>();
 						inputDrugFormulationMap.put(formulation, drugFormulationSynonymSet);
+						inputDrug.setDrugFormulations(inputDrugFormulationMap);
 						
 					}
 					//add the modified drug to our input set now
-					cleanedDrugSet.add(inputDrug);
+					collapsedDrugToFormulationSet.add(inputDrug);
 				}
 			}
 
 		}
+		System.out.println("Size of collapsed drug set: "+ collapsedDrugToFormulationSet.size());
+		
+		Set<Drug> resolvedDrugSet = new HashSet<Drug>();
+		
+		for (Drug inputDrug: inputDrugSet) {//506 drugs
+			boolean updatedDrugFound= false;
+			
+			for (Drug collapsedDrug: collapsedDrugToFormulationSet) {//~80 something drugs?
+				
+				if (inputDrug.isEquivalent(collapsedDrug)) {//this should work for additional forms just fine
+					resolvedDrugSet.add(collapsedDrug);//add the updated Drug
+					updatedDrugFound = true;
+				}
+				
+			}
+			//after finishing checking all collapsed drugs
+			if(updatedDrugFound==false) {
+				//then add input drug to our set
+				resolvedDrugSet.add(inputDrug);
+			}
+			
+		}
+		//MONDAY MORNING PICK UP HERE
+		//OUTPUT our drug sets and see what we're working with
+		//TESTING adding collapsed drugs to our full set
+		//okay, now we have 
+		//collapsedDrugToFormulationSet
+		//this should add and replace any matching drugs here
+		//otherwise* we have to spin through the input drug set, if match, 
+		//add new collaprse drug to second set
+		//if no match, add existing input drug to second set
+		//and return second set
+		//inputDrugSet.addAll(collapsedDrugToFormulationSet);<--this did not work
+		
 		//return our drug set - this will be significantly reduced
 		//because it only has 1 drug object; with formulations rolled up. 
 			
 		//add *manual formulation file check as well
-		return cleanedDrugSet;
+		return resolvedDrugSet;
 	}
 	
 	public Set<Drug> removeVaccinesFromDrugSets(Set<Drug> inputDrugSet) throws FileNotFoundException{
