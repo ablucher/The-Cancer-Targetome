@@ -3671,11 +3671,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		System.out.println("Reconciled Drug Set " + reconciledSet.size()); 
 		
 		//remove vaccines
-		Set<Drug> removeVaccinesFromDrugSet = removeVaccinesFromDrugSets(reconciledSet);
-		System.out.println("Reconciled Drug Set - Remove Vaccines " + removeVaccinesFromDrugSet.size()); 
+		Set<Drug> removeNonDrugsFromDrugSet = removeNonDrugsFromDrugSets(reconciledSet);
+		System.out.println("Reconciled Drug Set - Remove Vaccines " + removeNonDrugsFromDrugSet.size()); 
 				
 		//reconcile formulations*
-		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeVaccinesFromDrugSet);
+		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeNonDrugsFromDrugSet);
 		System.out.println("Reconciled Drug Set - Remove Formulations " + reconcileFormulations.size()); 
 		
 		
