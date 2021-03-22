@@ -3675,7 +3675,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		System.out.println("Reconciled Drug Set - Remove Vaccines " + removeVaccinesFromDrugSet.size()); 
 				
 		//reconcile formulations*
-		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets2(removeVaccinesFromDrugSet);
+		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeVaccinesFromDrugSet);
 		System.out.println("Reconciled Drug Set - Remove Formulations " + reconcileFormulations.size()); 
 		
 		
@@ -3890,7 +3890,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		return reconciledSet;
 	}
 	
-	public Set<Drug> reconcileFormulationsFromDrugSets2(Set<Drug> inputDrugSet) throws IOException{
+	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet) throws IOException{
 		Set<Drug> finalDrugSet = new HashSet<Drug>();
 		
 		System.out.println("Reading in the drug formulation file...");
@@ -4030,110 +4030,6 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	}
 	
 	
-	public Set<Drug> reconcileFormulationsFromDrugSets(Set<Drug> inputDrugSet) throws IOException{
-		Set<Drug> collapsedDrugToFormulationSet = new HashSet<Drug>();
-		
-		System.out.println("Reading in the drug formulation file...");
-		
-		//formulation file
-		//load into two maps
-		//formulation -> parent drug
-		//and
-		//formulation -> synonyms
-		Map<String, String> formulationToParentDrug = new HashMap<String, String>();
-		Map<String, Set<String>> formulationToFormulationSynonyms = new HashMap<String, Set<String>>();
-		
-		FileUtility fileUt = new FileUtility();
-		fileUt.setInput("resources/beta_v2/Drug_Formulation.txt");//file from sophia
-		fileUt.readLine();//skip headers
-		String line = null;
-		while ((line = fileUt.readLine()) != null){
-			String[] tokens = line.split("\t");
-
-			String drugParent=tokens[0]; //don't need this info
-			String formulation=tokens[1];
-			//skip any entry where we don't have formulation
-			if (formulation == null | formulation.isEmpty()){
-				continue;
-			}
-
-			String[] formulationSynonyms=tokens[2].split("||");//will need to parse here
-			Set<String> drugFormulationSynonymSet= new HashSet<String>();
-			for (String syn: formulationSynonyms) {
-				drugFormulationSynonymSet.add(syn);
-			}
-			//now pull the parent drug from our input set
-			
-			formulationToParentDrug.put(formulation, drugParent);
-			formulationToFormulationSynonyms.put(formulation, drugFormulationSynonymSet);
-			
-			
-		}
-		System.out.println("Size of formulation map: " + formulationToParentDrug.keySet().size());
-		System.out.println("Size of formulation synonym map: " + formulationToFormulationSynonyms.keySet().size());
-		//TODO - output the map here to a file, and check
-		
-		System.out.println("Okay, now we need to make a new drug set and populate with our reconciled Drug objects:");
-		//intialize a new drug set where we will put the reconciled Drug objects
-		//with collapsed formulation info
-		Set<Drug> secondDrugSet = new HashSet<Drug>();
-		for (Drug inputDrug: inputDrugSet) {
-			secondDrugSet.add(inputDrug);
-		}
-		
-		Set<Drug> finalDrugSet = new HashSet<Drug>(); // our final set to return
-		
-		//now iterate through input drugs
-		for (Drug inputDrug: inputDrugSet) {
-			//if the input drug is listed in our formulation set
-			if (formulationToParentDrug.containsKey(inputDrug.getDrugName())) {
-				System.out.println("Input Drug match found with formulation map, drug: " + inputDrug.getDrugName());
-				
-				//pull back the Drug object connected to this formulation name
-				String retrieveParentDrug = formulationToParentDrug.get(inputDrug.getDrugName());
-				System.out.println("Retrieving Parent Drug match: " + retrieveParentDrug);
-				
-				//okay now we need to get the PARENT DRUG OBJECT for parent name
-				Drug parentDrugObject = new Drug();
-				for (Drug secondDrug: secondDrugSet) {
-					if (secondDrug.getDrugName().equals(retrieveParentDrug)) {
-						System.out.println("Success, we have the Drug object that matches, drug name is: " + secondDrug.getDrugName());
-						parentDrugObject.setDrugName(secondDrug.getDrugName());
-						parentDrugObject.setDrugSynonyms(secondDrug.getDrugSynonyms());
-
-					
-					}
-				}
-				
-				
-
-				//now set this info as formulation for the retieve parent drug
-				//and add to our second set
-				String formulationName = inputDrug.getDrugName();
-				Set<String> formulationSynonymSet = formulationToFormulationSynonyms.get(formulationName);
-				//create new hashmap for our formulation info only
-				HashMap<String, Set<String>> formulationInfo = new HashMap<String, Set<String>>();
-				formulationInfo.put(formulationName, formulationSynonymSet); //add the formulation info
-				System.out.println("Created new formulation map for this drug: ");
-				System.out.println("Formulation name is: " + formulationName);
-				System.out.println("Formulation synonym map size is: " + formulationSynonymSet.size());
-				
-				//TODO - asseess if this will work
-				if( parentDrugObject.getDrugName() != null) { //TODO - problem here?
-					System.out.println("We are committing this parent Drug object with name: "+ parentDrugObject.getDrugName());
-				}
-				parentDrugObject.setDrugFormulations(formulationInfo);
-				finalDrugSet.add(parentDrugObject);
-				System.out.println("Running final set drug size is: " + finalDrugSet.size());
-			}
-//			else {//if not we can just add to second set
-//				secondDrugSet.add(inputDrug);
-//			}
-		}
-		
-		//right now - will just return the collapsed drugs
-		return finalDrugSet;
-	}
 	
 	public Set<Drug> removeVaccinesFromDrugSets(Set<Drug> inputDrugSet) throws FileNotFoundException{
 		
