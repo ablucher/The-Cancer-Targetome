@@ -3696,6 +3696,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//TTD
 		Map<Drug, String> drugToTTDCoverage = beta_checkCoverageTTD(reconcileFormulations);
 		
+		//****
+		//TO DO MONDAY - work on why we have some formulations that aren't
+		//reconciling with the parent sets****
 		
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
