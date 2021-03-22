@@ -3700,7 +3700,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_Cleaned_032121.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_Cleaned2_032121.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t"+"TTD" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconcileFormulations) {
 			//System.out.println("Checking drug: " + drugName);
@@ -3755,6 +3755,32 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		}
 		ps.close();
 		
+		//PRINT OUT THE FORMULATION TABLE
+		PrintStream ps_formulation = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_DrugToFormulationTable_032121.tsv");
+		ps_formulation.println("Drug" +"\t"+ "Formulation + \t" + "Formulation_Synonyms ");
+		for (Drug eachDrug2: reconcileFormulations) {
+
+			if(eachDrug2.getDrugFormulations()!=null) {
+				Map<String, Set<String>> formulationMap = eachDrug2.getDrugFormulations();
+				for( String form: formulationMap.keySet()) {
+					//print drug name first
+
+					ps_formulation.print(eachDrug2.getDrugName() + "\t");
+
+					//print out the formulation name
+					ps_formulation.print(form + "\t");
+					//and the synonums
+					Set<String> formSynonyms = formulationMap.get(form);
+					//for (String syn: formSynonyms) {
+					//	ps_formulation.print(syn + "|");
+					//}
+					ps_formulation.println();
+					//end line
+				}
+			}
+		}
+		ps_formulation.close();
+
 //		currentSession.getTransaction().commit();
 //		currentSession.close();
 //		SessionFactory thisFactory = currentSession.getSessionFactory();
@@ -4029,9 +4055,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 	}
 	
+	/**
+	 * Removes vaccines, autologous, cells, and supplement listings
+	 * This is because we used the NCI thesaurus dictionary and need to clean up a little bit
+	 * @param inputDrugSet
+	 * @return
+	 * @throws FileNotFoundException
+	 */
 	
-	
-	public Set<Drug> removeVaccinesFromDrugSets(Set<Drug> inputDrugSet) throws FileNotFoundException{
+	public Set<Drug> removeNonDrugsFromDrugSets(Set<Drug> inputDrugSet) throws FileNotFoundException{
 		
 		Set<Drug> cleanedDrugSet = new HashSet<Drug>();
 		
@@ -4041,8 +4073,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		for (Drug inputDrug: inputDrugSet) {
 			String inputDrugName = inputDrug.getDrugName();
-			if (inputDrugName.contains("Vaccine") | inputDrugName.contains("vaccine") | 
-				inputDrugName.contains("Autologous")) {
+			if (inputDrugName.contains("Vaccine") || inputDrugName.contains("vaccine") || 
+				inputDrugName.contains("Autologous") || inputDrugName.contains("Cells") ||
+				inputDrugName.contains("Supplement")|| inputDrugName.contains("Green Tea") ) {
 				//PRINT DRUG NAMe
 				ps.print(inputDrugName + "\t");
 				
