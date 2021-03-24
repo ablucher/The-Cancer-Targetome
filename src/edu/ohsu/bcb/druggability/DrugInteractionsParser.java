@@ -3703,7 +3703,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_Cleaned2_032121.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_032221.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResourcee" + "\t"+"BindingDB" + "\t"+"TTD" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconcileFormulations) {
 			//System.out.println("Checking drug: " + drugName);
@@ -3936,21 +3936,25 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		fileUt.setInput("resources/beta_v2/Drug_Formulation.txt");//file from sophia
 		fileUt.readLine();//skip headers
 		String line = null;
+		System.out.println("Printing out each formulation for map building");
 		while ((line = fileUt.readLine()) != null){
 			String[] tokens = line.split("\t");
 
 			String drugParent=tokens[0]; //don't need this info
-			String formulation=tokens[1];
+			String formulation=tokens[1].trim();//add a trim here see of that helps** 03/22/21
+			System.out.println("Drug is: " + drugParent + " formulation is: " + formulation);
 			//skip any entry where we don't have formulation
 			if (formulation == null | formulation.isEmpty()){
 				continue;
 			}
-
+			System.out.print("Synonyms are: ");
 			String[] formulationSynonyms=tokens[2].split("||");//will need to parse here
 			Set<String> drugFormulationSynonymSet= new HashSet<String>();
 			for (String syn: formulationSynonyms) {
+				System.out.println(syn + " ");
 				drugFormulationSynonymSet.add(syn);
 			}
+			System.out.println();
 			//now pull the parent drug from our input set
 			
 			formulationToParentDrug.put(formulation, drugParent);
