@@ -3757,22 +3757,24 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 					ps.print(synonym + "||");//use same OR operator as Sophia 3/31/21
 
 				}
+//				ps.println("\t");
 			}
-			ps.println("\t");
-			if (eachDrug.getDrugFormulations()!=null) { // JUST PRINT THE FORMULATIONS HERE// SKIP the SYNONYMS for NOW
-				ps.print(eachDrug.getDrugFormulations().size() + "\t");
-				Map<String, Set<String>> formulationMap = eachDrug.getDrugFormulations();
-				for (String formulation: formulationMap.keySet()) {
-					ps.print(formulation + "||");//use same OR operator as Sophia 3/31/21
-
-				}
+			
+//			if (eachDrug.getDrugFormulations()!=null) { // JUST PRINT THE FORMULATIONS HERE// SKIP the SYNONYMS for NOW
+//				ps.print(eachDrug.getDrugFormulations().size() + "\t");
+//				Map<String, Set<String>> formulationMap = eachDrug.getDrugFormulations();
+//				for (String formulation: formulationMap.keySet()) {
+//					ps.print(formulation + "||");//use same OR operator as Sophia 3/31/21
+//
+//				}
+//			}
 			ps.println();//end line
 		}
 		ps.close();
 		
 		//PRINT OUT THE FORMULATION TABLE
-		PrintStream ps_formulation = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_DrugToFormulationTable_032121.tsv");
-		ps_formulation.println("Drug" +"\t"+ "Formulation + \t" + "Formulation_Synonyms ");
+		PrintStream ps_formulation = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_DrugToFormulationTable_033121.tsv");
+		ps_formulation.println("Drug" +"\t"+ "Formulation" + "\t" + "Formulation_Synonyms");
 		for (Drug eachDrug2: reconcileFormulations) {
 
 			if(eachDrug2.getDrugFormulations()!=null) {
@@ -3786,9 +3788,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 					ps_formulation.print(form + "\t");
 					//and the synonums
 					Set<String> formSynonyms = formulationMap.get(form);
-					//for (String syn: formSynonyms) {
-					//	ps_formulation.print(syn + "|");
-					//}
+					for (String syn: formSynonyms) {
+						ps_formulation.print(syn + "||");
+					}
 					ps_formulation.println();
 					//end line
 				}
@@ -3960,11 +3962,13 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 				continue;
 			}
 			System.out.print("Synonyms are: ");
-			String[] formulationSynonyms=tokens[2].split("||");//will need to parse here
+			String formulationSynonyms=tokens[2].replace("||", "_");
+			System.out.println("Checking formulation split: " + formulationSynonyms );
+			String[] formulationSynonymsSplit =  formulationSynonyms.split("_");//will need to parse here TODO
 			Set<String> drugFormulationSynonymSet= new HashSet<String>();
-			for (String syn: formulationSynonyms) {
-				System.out.println(syn + " ");
-				drugFormulationSynonymSet.add(syn);
+			for (String syn: formulationSynonymsSplit) {
+				System.out.println(syn.trim() + " ");
+				drugFormulationSynonymSet.add(syn.trim());
 			}
 			System.out.println();
 			//now pull the parent drug from our input set
@@ -4094,7 +4098,8 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			String inputDrugName = inputDrug.getDrugName();
 			if (inputDrugName.contains("Vaccine") || inputDrugName.contains("vaccine") || 
 				inputDrugName.contains("Autologous") || inputDrugName.contains("Cells") ||
-				inputDrugName.contains("Supplement")|| inputDrugName.contains("Green Tea") ) {
+				inputDrugName.contains("Supplement")|| inputDrugName.contains("Green Tea") ||
+				inputDrugName.contains("Nanodispersion")) {
 				//PRINT DRUG NAMe
 				ps.print(inputDrugName + "\t");
 				
