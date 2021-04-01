@@ -3706,7 +3706,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_033121.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_040121_V2.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResource" + "\t"+"BindingDB" + "\t"+"TTD" + "\t"+ 
 		           "Synonym_Deck_Size + \t" + "Synonyms" + "\t" + "Formulation_Deck_Size" + "\t" + "Formulations_Abbr");
 		for (Drug eachDrug: reconcileFormulations) {
@@ -3773,7 +3773,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		ps.close();
 		
 		//PRINT OUT THE FORMULATION TABLE
-		PrintStream ps_formulation = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_DrugToFormulationTable_033121.tsv");
+		PrintStream ps_formulation = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_DrugToFormulationTable_040121_V2.tsv");
 		ps_formulation.println("Drug" +"\t"+ "Formulation" + "\t" + "Formulation_Synonyms");
 		for (Drug eachDrug2: reconcileFormulations) {
 
@@ -4046,8 +4046,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			}
 			else {//if the formulation drug doesn't have a parent look-up (this happens in several cases!)
 				System.out.println("Cant't complete Parent drug look up! " + formulationParentDrugName);
-				ParentDrugSet.add(formulationDrug);
-				System.out.println("Okay just move this formulationDrug to Parent Set then " );
+				//okay here we need to make a new parent drug
+				Drug newParentDrug = new Drug();
+				newParentDrug.setDrugName(formulationParentDrugName);
+				
+				//ParentDrugSet.add(formulationDrug); //old -> commit formulation drug to parent set
+				//System.out.println("Okay just move this formulationDrug to Parent Set then " );
+				ParentDrugSet.add(newParentDrug); //old -> commit formulation drug to parent set
+				System.out.println("Okay create a new parent for th eParent Set then " );
+				
 				System.out.println("Parent drug set size is now: " + ParentDrugSet.size());
 				continue; //continue for now so we can finish
 			}
@@ -4096,10 +4103,10 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		
 		for (Drug inputDrug: inputDrugSet) {
 			String inputDrugName = inputDrug.getDrugName();
-			if (inputDrugName.contains("Vaccine") || inputDrugName.contains("vaccine") || 
+			if (inputDrugName.contains("Vaccine") || inputDrugName.contains("vaccine") ||
 				inputDrugName.contains("Autologous") || inputDrugName.contains("Cells") ||
 				inputDrugName.contains("Supplement")|| inputDrugName.contains("Green Tea") ||
-				inputDrugName.contains("Nanodispersion")) {
+				inputDrugName.contains("Nanodispersion") ||inputDrugName.contains("Combination")  ) {
 				//PRINT DRUG NAMe
 				ps.print(inputDrugName + "\t");
 				
