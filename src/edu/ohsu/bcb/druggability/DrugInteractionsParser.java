@@ -3702,10 +3702,11 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//PICK UP HERE WED 3/31
 		//may need to add modifications to formulation file
 		
+		
 		//output drugs and drug synonyms LONG format
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
-		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_032221.tsv");
+		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_033121.tsv");
 		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResource" + "\t"+"BindingDB" + "\t"+"TTD" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
 		for (Drug eachDrug: reconcileFormulations) {
 			//System.out.println("Checking drug: " + drugName);
@@ -3752,7 +3753,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 				ps.print(eachDrug.getDrugSynonyms().size() + "\t");
 				for (String synonym: eachDrug.getDrugSynonyms()) {
 					//System.out.println("Synonym deck size: " + allSynonyms.size());
-					ps.print(synonym + "|");
+					ps.print(synonym + "||");//use same OR operator as Sophia 3/31/21
 
 				}
 			}
@@ -3935,7 +3936,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Map<String, Set<String>> formulationToFormulationSynonyms = new HashMap<String, Set<String>>();
 		
 		FileUtility fileUt = new FileUtility();
-		fileUt.setInput("resources/beta_v2/Drug_Formulation.txt");//file from sophia
+		fileUt.setInput("resources/beta_v2/Drug_Formulation_033121.txt");//file from sophia
 		fileUt.readLine();//skip headers
 		String line = null;
 		System.out.println("Printing out each formulation for map building");
