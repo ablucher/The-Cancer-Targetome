@@ -3707,7 +3707,8 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//start quick script R for coverage/ stats on drug/ synonym deck
 		//for 03/08/21 meeting//output to file so we can keep track- done
 		PrintStream ps = new PrintStream("results_beta_V2/RunningDrugDeck_V1_AddBetaV2_CheckDrugCoverage_033121.tsv");
-		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResource" + "\t"+"BindingDB" + "\t"+"TTD" + "\t" + "Synonym_Deck_Size + \t" + "Synonyms ");
+		ps.println("Drug" + "\t" +"IUPHAR" + "\t"+"DrugBank" + "\t"+"Sorger_KinaseResource" + "\t"+"BindingDB" + "\t"+"TTD" + "\t"+ 
+		           "Synonym_Deck_Size + \t" + "Synonyms" + "\t" + "Formulation_Deck_Size" + "\t" + "Formulations_Abbr");
 		for (Drug eachDrug: reconcileFormulations) {
 			//System.out.println("Checking drug: " + drugName);
 			ps.print(eachDrug.getDrugName() + "\t");
@@ -3757,7 +3758,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 
 				}
 			}
-			ps.println();
+			ps.println("\t");
+			if (eachDrug.getDrugFormulations()!=null) { // JUST PRINT THE FORMULATIONS HERE// SKIP the SYNONYMS for NOW
+				ps.print(eachDrug.getDrugFormulations().size() + "\t");
+				Map<String, Set<String>> formulationMap = eachDrug.getDrugFormulations();
+				for (String formulation: formulationMap.keySet()) {
+					ps.print(formulation + "||");//use same OR operator as Sophia 3/31/21
+
+				}
+			ps.println();//end line
 		}
 		ps.close();
 		
