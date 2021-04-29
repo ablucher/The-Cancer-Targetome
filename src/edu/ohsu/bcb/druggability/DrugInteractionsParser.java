@@ -3217,12 +3217,26 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//works to run old drug set
 		Session currentSession = beta_persistNewDrugSet();
 		
-	
-		//then go through parent resources here
+		//drug classes- skipped for now
 		
-		currentSession.getTransaction().commit();
-		currentSession.close();
-		SessionFactory thisFactory = currentSession.getSessionFactory();		
+		//then go through parent resources here
+		//iuphar
+		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
+		System.out.println("Done persisting IUPHAR.");
+//		//drugbank
+//		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
+//		System.out.println("Done persisting DrugBank.");
+//		//ttd
+//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+//		System.out.println("Done persisting TTD.");
+//		//bindingDB
+//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+//		System.out.println("Done persisting BindingDB.");
+//		
+		
+		currentSessionIUPHAR.getTransaction().commit();
+		currentSessionIUPHAR.close();
+		SessionFactory thisFactory = currentSessionIUPHAR.getSessionFactory();		
 		thisFactory.close();
 	}
 	
