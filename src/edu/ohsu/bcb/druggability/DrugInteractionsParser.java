@@ -615,7 +615,9 @@ public class DrugInteractionsParser {
 	 * @throws IOException
 	 * @throws ParseException 
 	 */
-	public Set<Drug> beta_persistDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+	//public Set<Drug> beta_persistDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+	public Session beta_persistDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+			
 		//load drug set; CHECKED
 		Set<String> testDrugs = loadDrugSetFromFile(drugFile, headers, drugCol, sep);
 		//load NCI synonyms
@@ -624,9 +626,9 @@ public class DrugInteractionsParser {
 		
 //		//hibernate config file - 
 //		//open hibernate session and transaction
-//		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16
-//		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
-//		currentSession.beginTransaction();
+		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16 -> 04/28/21
+		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
+		currentSession.beginTransaction();
 
 		//create set for all drugs
 		Set<Drug> fullDrugList = new HashSet<Drug>();
@@ -664,7 +666,7 @@ public class DrugInteractionsParser {
 //			//retrieve fda approval date
 //			String approvalDate = getFDAApprovalDate(currentDrug);
 //			currentDrug.setApprovalDate(approvalDate);
-//			//currentSession.save(currentDrug);
+			currentSession.save(currentDrug);
 //			if (approvalDate!=null){//increment our counters
 //					foundCounter++;
 //			}
@@ -688,16 +690,16 @@ public class DrugInteractionsParser {
 		}
 		System.out.println("Number unique drugs: " + checkedDrugs.size());
 		//commit these drugs to database
-//		for (Drug drug: checkedDrugs){
-//			currentSession.save(drug);
-//		}
-//		
-//		System.out.println("Commit DRUG SET to database complete.");
+		for (Drug drug: checkedDrugs){
+			currentSession.save(drug);
+		}
+		
+		System.out.println("Commit DRUG SET to database complete.");
 //		System.out.println("Num Approval Dates found: " + foundCounter);
 //		System.out.println("Num Approval Dates null: " + nullCounter);
 //		
-//		return currentSession;
-		return checkedDrugs;
+		return currentSession;
+		//return checkedDrugs;
 
 	}
 	
@@ -3010,66 +3012,94 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * -start with drug names and thesaurus
 	 * -then run through what we have**
 	 * -
-	 */
-	
+	 * 
+	 * Working here 04/28/21 on Beta V2
+	 * run through existing methods into new database
+	 * 
+	 */	
 	@Test
 	public void testPersistAll() throws IOException, ParseException{
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
 		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
-		//retrieve pharm classes, added 10/11/16
-		Session currentSessionWithClasses = persistDrugClasses(currentSession);
 		
-		//iuphar
-		Session currentSessionIUPHAR = persistIUPHAR(currentSessionWithClasses);
-		System.out.println("Done persisting IUPHAR.");
-		//drugbank
-		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
-		System.out.println("Done persisting DrugBank.");
-		//ttd
-		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-		System.out.println("Done persisting TTD.");
-		//bindingDB
-		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-		System.out.println("Done persisting BindingDB.");
-		
-		//run check for uniprots and also assign the gene symbol as "target name"
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionBindingDB);
-
-		//OUTPUT INTERACTIONS HERE
-		//Drug info file - for EDA
-		Set<Drug> drugSet = queryDrugSet(currentSessionBindingDB);
-		PrintStream ds = new PrintStream("results_070617/Targetome_DrugInformation_070617.txt");
-		
-		//PrintStream ds = new PrintStream("resultsV2/DruggabilityV2_Drugs_10.18.16.txt");
-		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
-
-		
-		//Druggability V2 Interactions - for EDA
-		//PrintStream ps = new PrintStream("resultsV2/DruggabilityV2_10.18.16.txt");
-		//Updated file - 07/06/17
-		PrintStream ps = new PrintStream("results_070617/Targetome_FullEvidence_070617.txt");
-		
-		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
-		
-		//for each drug
-		for (Drug finalDrug: drugSet){
-			String drugName = finalDrug.getDrugName();//get drug name
-			//now query database for all drug info and print to file
-			queryDatabaseDrug2(currentSessionBindingDB, drugName, ps);
-			//also print drug file
-			ds.println(finalDrug.getDrugName() + "\t" + finalDrug.getApprovalDate() + "\t" + finalDrug.getAtcClassID() + "\t" + finalDrug.getAtcClassName() + "\t" + finalDrug.getAtcClassStatus()+ "\t"+ finalDrug.getEpcClassID() + "\t" + finalDrug.getEpcClassName());
-		}
-		
-		ps.close();
-		ds.close();
-		
-		
+//		//retrieve pharm classes, added 10/11/16
+//		Session currentSessionWithClasses = persistDrugClasses(currentSession);
+//		
+//		//iuphar
+//		Session currentSessionIUPHAR = persistIUPHAR(currentSessionWithClasses);
+//		System.out.println("Done persisting IUPHAR.");
+//		//drugbank
+//		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
+//		System.out.println("Done persisting DrugBank.");
+//		//ttd
+//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+//		System.out.println("Done persisting TTD.");
+//		//bindingDB
+//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+//		System.out.println("Done persisting BindingDB.");
+//		
+//		//run check for uniprots and also assign the gene symbol as "target name"
+//		Session currentSessionTargetsChecked = persistTargetNames(currentSessionBindingDB);
+//
+//		//OUTPUT INTERACTIONS HERE
+//		//Drug info file - for EDA
+//		Set<Drug> drugSet = queryDrugSet(currentSessionBindingDB);
+//		PrintStream ds = new PrintStream("results_070617/Targetome_DrugInformation_070617.txt");
+//		
+//		//PrintStream ds = new PrintStream("resultsV2/DruggabilityV2_Drugs_10.18.16.txt");
+//		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
+//
+//		
+//		//Druggability V2 Interactions - for EDA
+//		//PrintStream ps = new PrintStream("resultsV2/DruggabilityV2_10.18.16.txt");
+//		//Updated file - 07/06/17
+//		PrintStream ps = new PrintStream("results_070617/Targetome_FullEvidence_070617.txt");
+//		
+//		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
+//		
+//		//for each drug
+//		for (Drug finalDrug: drugSet){
+//			String drugName = finalDrug.getDrugName();//get drug name
+//			//now query database for all drug info and print to file
+//			queryDatabaseDrug2(currentSessionBindingDB, drugName, ps);
+//			//also print drug file
+//			ds.println(finalDrug.getDrugName() + "\t" + finalDrug.getApprovalDate() + "\t" + finalDrug.getAtcClassID() + "\t" + finalDrug.getAtcClassName() + "\t" + finalDrug.getAtcClassStatus()+ "\t"+ finalDrug.getEpcClassID() + "\t" + finalDrug.getEpcClassName());
+//		}
+//		
+//		ps.close();
+//		ds.close();
+//		
+//		
 		//close session, should always be LAST SESSION
-		currentSessionTargetsChecked.getTransaction().commit();
-		currentSessionTargetsChecked.close();
-		SessionFactory thisFactory = currentSessionTargetsChecked.getSessionFactory();
+//		currentSessionTargetsChecked.getTransaction().commit();
+//		currentSessionTargetsChecked.close();
+//		SessionFactory thisFactory = currentSessionTargetsChecked.getSessionFactory();
+		currentSession.getTransaction().commit();
+		currentSession.close();
+		SessionFactory thisFactory = currentSession.getSessionFactory();		
 		thisFactory.close();
 	}
+	
+	/**
+	 * New persistAll method for V2 Beta
+	 * see testPersistAll() for method formatting
+	 * @throws IOException
+	 * @throws ParseException
+	 */
+	@Test
+	public void testBetaPersistAll() throws IOException, ParseException{
+		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
+		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		
+		
+		currentSession.getTransaction().commit();
+		currentSession.close();
+		SessionFactory thisFactory = currentSession.getSessionFactory();		
+		thisFactory.close();
+	}
+	
+	
+	
 	/** This method checked all the targets of a current session and
 	 * converts target.getName() field to official gene name according to uniprot
 	 * and keeps listed name stored in synonyms. 
@@ -4049,10 +4079,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 				//okay here we need to make a new parent drug
 				Drug newParentDrug = new Drug();
 				newParentDrug.setDrugName(formulationParentDrugName);
+				//Map<String, Set<String>> newFormMap = formulationDrug.getDrugFormulations(); // TODO
+				//newParentDrug.set
 				
 				//ParentDrugSet.add(formulationDrug); //old -> commit formulation drug to parent set
 				//System.out.println("Okay just move this formulationDrug to Parent Set then " );
 				ParentDrugSet.add(newParentDrug); //old -> commit formulation drug to parent set
+				//plus add to our look-up map
+				parentDrugLookup.put(newParentDrug.getDrugName(), newParentDrug); // TODO CHECK ME
 				System.out.println("Okay create a new parent for th eParent Set then " );
 				
 				System.out.println("Parent drug set size is now: " + ParentDrugSet.size());
