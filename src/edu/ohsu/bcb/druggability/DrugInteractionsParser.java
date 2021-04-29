@@ -3081,8 +3081,10 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	}
 	
 	/**
-	 * New persistAll method for V2 Beta
+	 * New persistAll method for V2 Beta 04/28/21
 	 * see testPersistAll() for method formatting
+	 * 
+	 * 
 	 * @throws IOException
 	 * @throws ParseException
 	 */
@@ -3091,6 +3093,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
 		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		
+		//then go through parent resources here
 		
 		currentSession.getTransaction().commit();
 		currentSession.close();
@@ -3834,33 +3837,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		thisFactory.close();
 		
 	}
-	/**
-	 * Test method to load drug target interactions for our beta set
-	 * 
-	 * 03/08/21
-	 * TODO: this will be updated to include persist() calls with hibernate
-	 * currently it is just to get coverage estimates
-	 */
-	@Test
-	public void test_Beta_LoadDrugTargeteInteractions() {
-		
-		//load from our drug sets
-		Set<Drug> reconciledSet = new HashSet<Drug>(); //load this from previous
-		
-		
-		
-		//then spin through each database
-		//IUPHAR - V1
-		//then drugbank - new
-		
-		//iuphar
-		Session currentSessionIUPHAR = persistIUPHAR(currentSessionWithClasses);
-		System.out.println("Done persisting IUPHAR.");
-		//drugbank
-		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
-		System.out.println("Done persisting DrugBank.");
 	
-	}
 
 	/**Method to iterate through 2 Drug sets; and reconcile them;
 	 * Adds any new drugs in 2nd set to the first set; updates synonym deck
