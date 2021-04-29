@@ -715,7 +715,7 @@ public class DrugInteractionsParser {
 	 * @throws IOException
 	 * @throws ParseException
 	 */
-	public Session beta_persistNewDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+	public Session beta_persistNewDrugSet() throws IOException, ParseException{
 				
 		//hibernate config file - 
 		//open hibernate session and transaction
@@ -3214,7 +3214,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	@Test
 	public void testBetaPersistAll() throws IOException, ParseException{
 		//works to run old drug set
-		Session currentSession = beta_persistNewDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		Session currentSession = beta_persistNewDrugSet();
 		
 	
 		//then go through parent resources here
