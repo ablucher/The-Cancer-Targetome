@@ -3234,11 +3234,37 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		//bindingDB
 //		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
 //		System.out.println("Done persisting BindingDB.");
-//		
+//				//run check for uniprots and also assign the gene symbol as "target name"
 		
-		currentSessionIUPHAR.getTransaction().commit();
-		currentSessionIUPHAR.close();
-		SessionFactory thisFactory = currentSessionIUPHAR.getSessionFactory();		
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionIUPHAR);
+
+		//OUTPUT INTERACTIONS HERE
+		//Drug info file - for EDA
+		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_042921.txt");
+		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
+
+		
+		//Drug-Target Interactions - for EDA
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_042921.txt");
+		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
+		
+		//for each drug
+		for (Drug finalDrug: drugSet){
+			String drugName = finalDrug.getDrugName();//get drug name
+			//now query database for all drug info and print to file
+			//this method takes the PS file - outputs evidence
+			queryDatabaseDrug3(currentSessionTargetsChecked, drugName, ps);
+			//also print drug file
+			ds.println(finalDrug.getDrugName() + "\t" + finalDrug.getApprovalDate() + "\t" + finalDrug.getAtcClassID() + "\t" + finalDrug.getAtcClassName() + "\t" + finalDrug.getAtcClassStatus()+ "\t"+ finalDrug.getEpcClassID() + "\t" + finalDrug.getEpcClassName());
+		}
+		
+		ps.close();
+		ds.close();
+		
+		currentSessionTargetsChecked.getTransaction().commit();
+		currentSessionTargetsChecked.close();
+		SessionFactory thisFactory = currentSessionTargetsChecked.getSessionFactory();		
 		thisFactory.close();
 	}
 	
