@@ -3213,7 +3213,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * @throws ParseException
 	 */
 	@Test
-	public void test_BetaPersistAll() throws IOException, ParseException{
+	public void test_betaPersistAll() throws IOException, ParseException{
 		//works to run old drug set
 		Session currentSession = beta_persistNewDrugSet();
 		
