@@ -702,6 +702,129 @@ public class DrugInteractionsParser {
 		//return checkedDrugs;
 
 	}
+	/**
+	 * beta_persistNewDrug set
+	 * runs through our code for old and new drug sets
+	 * persists
+	 * 
+	 * @param drugFile
+	 * @param headers
+	 * @param drugCol
+	 * @param sep
+	 * @return
+	 * @throws IOException
+	 * @throws ParseException
+	 */
+	public Session beta_persistNewDrugSet(String drugFile, int headers, int drugCol, String sep) throws IOException, ParseException{
+				
+		//hibernate config file - 
+		//open hibernate session and transaction
+		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16 -> 04/28/21
+		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
+		currentSession.beginTransaction();
+
+		//V1 DRUGS
+		//load drug set from file
+		Set<String> testDrugs = loadDrugSetFromFile("resources/drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		System.out.println("NCI Drug set loaded; number of drugs: " + testDrugs.size());
+		
+		//load NCI synonyms
+		Map<String, Set<String>> drugSyns = loadNCISynonyms(testDrugs, "resources/NCIThesaurus_v04.25.16.txt");
+		System.out.println("NCI thesaurus synonym deck loaded; map key set size: " + drugSyns.keySet().size());
+		Set<Drug> fullDrugSet = createDrugSetFromSynonymDeck(drugSyns);	
+		System.out.println("Total number of drugs: " + fullDrugSet.size()); //173 from our targetome V1 count
+		
+		//load sophia's drug-> synonym deck
+		//then load into Drugs, then reconcile the two.
+		Set<Drug> betaDrugSet= loadBetaDrugSets();
+		System.out.println("Total number of drugs: " + betaDrugSet.size()); //430 in beta (includes dup formulations)
+		//reconcile drug sets
+		System.out.println("Reconciling V1 Drug and Beta Drug Sets");
+		//initialize resolved set of drugs
+		Set<Drug> reconciledSet = reconcileDrugSets(fullDrugSet, betaDrugSet);
+		//final set number; note will include dup formulations for now
+		System.out.println("Reconciled Drug Set " + reconciledSet.size()); 
+		//remove vaccines
+		Set<Drug> removeNonDrugsFromDrugSet = removeNonDrugsFromDrugSets(reconciledSet);
+		System.out.println("Reconciled Drug Set - Remove Vaccines " + removeNonDrugsFromDrugSet.size()); 
+				
+		//reconcile formulations*
+		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeNonDrugsFromDrugSet);
+		System.out.println("Reconciled Drug Set - Remove Formulations " + reconcileFormulations.size()); 
+	
+	//end pasted code
+		
+		
+		//create set for all drugs
+		Set<Drug> fullDrugList = new HashSet<Drug>();
+		
+		//CREATE Drug Objects
+		//iterate through synonym map, get drugs
+
+		for (String drugName: drugSyns.keySet()){
+			//create new drug object
+			Drug currentDrug = new Drug();
+			currentDrug.setDrugName(drugName);
+			Set<String> currentDrugSyns = drugSyns.get(drugName);
+			if (currentDrugSyns==null){
+				currentDrug.setDrugSynonyms(null);
+//				//check for approval date
+//				String approvalDate = getFDAApprovalDate(currentDrug);
+//				currentDrug.setApprovalDate(approvalDate);
+//				//ps.println(drugName + "\t" + approvalDate);
+//				//counters
+//				if (approvalDate!=null){
+//						foundCounter++;
+//				}
+//				else{
+//					nullCounter++;
+//				}
+//				
+//				//currentSession.save(currentDrug);
+				fullDrugList.add(currentDrug);//add to set here
+				continue;
+			}
+			//set synonyms from map
+			currentDrug.setDrugSynonyms(currentDrugSyns);
+//			//retrieve fda approval date
+//			String approvalDate = getFDAApprovalDate(currentDrug);
+//			currentDrug.setApprovalDate(approvalDate);
+			currentSession.save(currentDrug);
+//			if (approvalDate!=null){//increment our counters
+//					foundCounter++;
+//			}
+//			else{
+//				nullCounter++;
+//			}
+			//add to fullDrugset
+			fullDrugList.add(currentDrug);
+		}
+		System.out.println("Number all drugs: " + fullDrugList.size());
+		//Now we need to check for any duplicates because of name/synonym
+		Set<Drug> checkedDrugs = new HashSet<Drug>();
+		for (Drug drug: fullDrugList){
+			if (drug.containedInSet(checkedDrugs)){//if already in set, skip
+				System.out.println("Skipped drug: " + drug.getDrugName());
+				continue;
+			}
+			else{
+				checkedDrugs.add(drug);//add to set
+			}
+		}
+		System.out.println("Number unique drugs: " + checkedDrugs.size());
+		//commit these drugs to database
+		for (Drug drug: checkedDrugs){
+			currentSession.save(drug);
+		}
+		
+		System.out.println("Commit DRUG SET to database complete.");
+//		System.out.println("Num Approval Dates found: " + foundCounter);
+//		System.out.println("Num Approval Dates null: " + nullCounter);
+//		
+		return currentSession;
+		//return checkedDrugs;
+
+	}
 	
 	
 	
@@ -3084,14 +3207,17 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * New persistAll method for V2 Beta 04/28/21
 	 * see testPersistAll() for method formatting
 	 * 
+	 * WORKING HERE 4/28/21
 	 * 
 	 * @throws IOException
 	 * @throws ParseException
 	 */
 	@Test
 	public void testBetaPersistAll() throws IOException, ParseException{
-		//Session currentSession = drugsPersist("drug_sets/testDrugSet.txt", 1, 0, "\t");
-		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		//works to run old drug set
+		Session currentSession = beta_persistNewDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
+		
+		
 		
 		//then go through parent resources here
 		
