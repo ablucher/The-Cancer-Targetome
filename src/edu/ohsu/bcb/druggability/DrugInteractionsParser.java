@@ -3228,15 +3228,15 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//drugbank
 		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
 		System.out.println("Done persisting DrugBank.");
-//		//ttd
-//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-//		System.out.println("Done persisting TTD.");
+		//ttd
+		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+		System.out.println("Done persisting TTD.");
 //		//bindingDB
 //		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
 //		System.out.println("Done persisting BindingDB.");
 //				//run check for uniprots and also assign the gene symbol as "target name"
 		
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionDrugBank);
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionTTD);
 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA

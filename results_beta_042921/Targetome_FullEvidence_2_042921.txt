@@ -2,6 +2,7 @@ Drug	Target_Name	Target_Type	Target_UniProt	Target_Species	Database	Reference	As
 Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	DrugBank	20550106	NA	NA	NA	II
 Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	DrugBank	17900616	NA	NA	NA	II
 Oxaliplatin	Oxaliplatin	DNA	DNA	null	Homo sapiens	DrugBank	19255091	NA	NA	NA	II
 CSF-1R Inhibitor BLZ945	CSF-1R Inhibitor BLZ945	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	24498562	IC50	=	1	III
@@ -12,6 +13,7 @@ Pelitinib	Pelitinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	15006373	IC50	=		III
 Lomustine	Lomustine	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Lomustine	Lomustine	DNA	DNA	null	Homo sapiens	DrugBank	11007934	NA	NA	NA	II
 Lomustine	Lomustine	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Lomustine	Lomustine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Lomustine	Lomustine	DNA	DNA	null	Homo sapiens	DrugBank	17146474	NA	NA	NA	II
 Lomustine	Lomustine	STMN4	Protein	Q9H169	Homo sapiens	DrugBank	18162179	NA	NA	NA	II
 Lomustine	Lomustine	STMN4	Protein	Q9H169	Homo sapiens	DrugBank	18593927	NA	NA	NA	II
@@ -19,6 +21,7 @@ Dactinomycin	Dactinomycin	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	7756657	NA	
 Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	DrugBank	2410919	NA	NA	NA	II
 Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	DrugBank	10576292	NA	NA	NA	II
 Dactinomycin	Dactinomycin	DNA	DNA	null	Homo sapiens	DrugBank	19348506	NA	NA	NA	II
 Denileukin Diftitox	Denileukin Diftitox	IL2RA	Protein	P01589	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
@@ -32,6 +35,7 @@ Denileukin Diftitox	Denileukin Diftitox	IL2RG	Protein	P31785	Homo sapiens	DrugBa
 Denileukin Diftitox	Denileukin Diftitox	IL2RG	Protein	P31785	Homo sapiens	DrugBank	11707860	NA	NA	NA	II
 Denileukin Diftitox	Denileukin Diftitox	IL2RG	Protein	P31785	Homo sapiens	DrugBank	15811959	NA	NA	NA	II
 Denileukin Diftitox	Denileukin Diftitox	IL2RB	Protein	P14784	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
+Denileukin Diftitox	Denileukin Diftitox	IL2RB	Protein	P14784	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Denileukin Diftitox	Denileukin Diftitox	IL2RB	Protein	P14784	Homo sapiens	DrugBank	16516670	NA	NA	NA	II
 Denileukin Diftitox	Denileukin Diftitox	IL2RB	Protein	P14784	Homo sapiens	DrugBank	17187516	NA	NA	NA	II
 Denileukin Diftitox	Denileukin Diftitox	IL2RB	Protein	P14784	Homo sapiens	DrugBank	15811959	NA	NA	NA	II
@@ -42,13 +46,16 @@ Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	TOP2A	Protein	P11388	Homo 
 Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	1963303	NA	NA	NA	II
 Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	6380596	NA	NA	NA	II
 Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	1963303	NA	NA	NA	II
+Daunorubicin Hydrochloride	Daunorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Olaparib	Olaparib	PARP3	Protein	Q9Y6F1	Homo sapiens	DrugBank	25981132	NA	NA	NA	II
+Olaparib	Olaparib	PARP1	Protein	P09874	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Olaparib	Olaparib	PARP1	Protein	P09874	Homo sapiens	DrugBank	25981132	NA	NA	NA	II
 Olaparib	Olaparib	PARP1	Protein	P09874	Homo sapiens	IUPHAR	18800822	IC50	=	5	III
 Olaparib	Olaparib	PARP1	Protein	P09874	Homo sapiens	IUPHAR	12857389	IC50	=	5	III
 Olaparib	Olaparib	PARP2	Protein	Q9UGN5	Homo sapiens	DrugBank	25981132	NA	NA	NA	II
 Olaparib	Olaparib	PARP2	Protein	Q9UGN5	Homo sapiens	IUPHAR	18800822	IC50	=	1	III
 Olaparib	Olaparib	PARP2	Protein	Q9UGN5	Homo sapiens	IUPHAR	12857389	IC50	=	1	III
+Bendamustine Hydrochloride	Bendamustine Hydrochloride	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Rolapitant Hydrochloride	Rolapitant Hydrochloride	TACR1	Protein	P25103	Homo sapiens	IUPHAR	22497992	Ki	=	0.66	III
 Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	17929114	NA	NA	NA	II
 Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	19822896	NA	NA	NA	II
@@ -56,9 +63,14 @@ Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	17715389	NA	NA	NA	
 Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	16721371	NA	NA	NA	II
 Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	19920925	NA	NA	NA	II
 Nilotinib	Nilotinib	ABL1	Protein	P00519	Homo sapiens	IUPHAR	15930265	IC50	=	15	III
+Nilotinib	Nilotinib	ABL2	Protein	P42684	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Nilotinib	Nilotinib	KIT	Protein	P10721	Homo sapiens	DrugBank	17699867	NA	NA	NA	II
+Nilotinib	Nilotinib	KIT	Protein	P10721	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tozasertib	Tozasertib	AURKC	Protein	Q9UQB9	Homo sapiens	IUPHAR	14981513	Ki	=	4.599999905	III
+Tozasertib	Tozasertib	LCK	Protein	P06239	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Tozasertib	Tozasertib	AURKB	Protein	Q96GD4	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tozasertib	Tozasertib	AURKB	Protein	Q96GD4	Homo sapiens	IUPHAR	14981513	Ki	=	18	III
+Tozasertib	Tozasertib	AURKA	Protein	O14965	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tozasertib	Tozasertib	AURKA	Protein	O14965	Homo sapiens	IUPHAR	22037378	Kd	=	3.900000095	III
 Tozasertib	Tozasertib	AURKA	Protein	O14965	Homo sapiens	IUPHAR	14981513	Ki	=	0.600000024	III
 Momelotinib	Momelotinib	JAK3	Protein	P52333	Homo sapiens	IUPHAR	19295546	IC50	=	155	III
@@ -66,6 +78,7 @@ Momelotinib	Momelotinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	19295546	IC50	=	
 Momelotinib	Momelotinib	JAK1	Protein	P23458	Homo sapiens	IUPHAR	19295546	IC50	=	11	III
 Cediranib	Cediranib	FLT1	Protein	P17948	Homo sapiens	IUPHAR	15899831	IC50	=	5	III
 Cediranib	Cediranib	KDR	Protein	P35968	Homo sapiens	DrugBank	15899831	NA	NA	NA	II
+Cediranib	Cediranib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cediranib	Cediranib	KDR	Protein	P35968	Homo sapiens	IUPHAR	22037378	Kd	=	1.100000024	III
 Cediranib	Cediranib	KDR	Protein	P35968	Homo sapiens	IUPHAR	15899831	IC50	<	1	III
 Cediranib	Cediranib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	15899831	IC50	=	5	III
@@ -74,12 +87,18 @@ Cediranib	Cediranib	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	15899831	IC50	=	110
 Cediranib	Cediranib	FLT4	Protein	P35916	Homo sapiens	IUPHAR	15899831	IC50	<	3	III
 Cediranib	Cediranib	PDGFRA	Protein	P16234	Homo sapiens	IUPHAR	15899831	IC50	=	36	III
 Cediranib	Cediranib	KIT	Protein	P10721	Homo sapiens	IUPHAR	15899831	IC50	=	3	III
+Midostaurin	Midostaurin	PRKCG	Protein	P05129	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Midostaurin	Midostaurin	FLT3	Protein	P36888	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Midostaurin	Midostaurin	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22037378	Kd	=	11	III
 Midostaurin	Midostaurin	FLT3	Protein	P36888	Homo sapiens	IUPHAR	12124173	IC50	=	528	III
+CDK Inhibitor R547	CDK Inhibitor R547	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CDK Inhibitor R547	CDK Inhibitor R547	CDK2	Protein	P24941	Homo sapiens	IUPHAR	22037378	Kd	=	0.529999971	III
 CDK Inhibitor R547	CDK Inhibitor R547	CDK2	Protein	P24941	Homo sapiens	IUPHAR	17121911	Ki	=	3	III
+CDK Inhibitor R547	CDK Inhibitor R547	CDK4	Protein	P11802	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CDK Inhibitor R547	CDK Inhibitor R547	CDK4	Protein	P11802	Homo sapiens	IUPHAR	17121911	Ki	=	1	III
+CDK Inhibitor R547	CDK Inhibitor R547	CDK7	Protein	P50613	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CDK Inhibitor R547	CDK Inhibitor R547	CDK1	Protein	P06493	Homo sapiens	IUPHAR	17121911	Ki	=	2	III
+CDK Inhibitor R547	CDK Inhibitor R547	Cell division control protein 2 homolog	Protein	Q6LFL1	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR1|IFNAR2	Protein	P17181|P48551	Homo sapiens	IUPHAR	10607680	NA	NA	NA	II
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR1	Protein	P17181	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR1	Protein	P17181	Homo sapiens	DrugBank	19955815	NA	NA	NA	II
@@ -94,12 +113,17 @@ Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR2	Protein	P48551	Homo sapiens	D
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR2	Protein	P48551	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR2	Protein	P48551	Homo sapiens	DrugBank	15898717	NA	NA	NA	II
 Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR2	Protein	P48551	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Peginterferon Alfa-2b	Peginterferon Alfa-2b	IFNAR2	Protein	P48551	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+VX-745	VX-745	MAPK12	Protein	P53778	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 VX-745	VX-745	MAPK14	Protein	Q16539	Homo sapiens	IUPHAR	18183025	IC50	=	10	III
 VX-745	VX-745	MAPK11	Protein	Q15759	Homo sapiens	IUPHAR	18183025	IC50	=	220	III
+Roscovitine	Roscovitine	CDK7	Protein	P50613	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Roscovitine	Roscovitine	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Roscovitine	Roscovitine	CDK2	Protein	P24941	Homo sapiens	IUPHAR	23252711	Ki	=	250	III
 Roscovitine	Roscovitine	CDK2	Protein	P24941	Homo sapiens	IUPHAR	23252711	Ki	=	250	III
 Roscovitine	Roscovitine	CDK9	Protein	P50750	Homo sapiens	IUPHAR	23252711	Ki	=	790	III
 Roscovitine	Roscovitine	CDK9	Protein	P50750	Homo sapiens	IUPHAR	23252711	Ki	=	790	III
+Roscovitine	Roscovitine	Cell division control protein 2 homolog	Protein	Q6LFL1	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR1A	Protein	P08908	Homo sapiens	DrugBank	2164935	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR1B	Protein	P28222	Homo sapiens	DrugBank	2164935	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
@@ -113,6 +137,7 @@ Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sa
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	19320280	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	12032025	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	11972287	NA	NA	NA	II
+Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	20098535	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	11763467	NA	NA	NA	II
 Ondansetron Hydrochloride	Ondansetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	IUPHAR	8818349	Ki	~		III
@@ -130,6 +155,7 @@ Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	10566562	NA	NA	NA
 Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	20166930	NA	NA	NA	II
 Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	IUPHAR	10377455	NA	NA	NA	II
 Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	10580458	NA	NA	NA	II
+Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	10555907	NA	NA	NA	II
 Rofecoxib	Rofecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	10643177	NA	NA	NA	II
 Rofecoxib	Rofecoxib	ELN	Protein	P15502	Homo sapiens	DrugBank	16679386	NA	NA	NA	II
@@ -175,6 +201,7 @@ Bexarotene	Bexarotene	RXRA	Protein	P19793	Homo sapiens	DrugBank	17483357	NA	NA	N
 Bexarotene	Bexarotene	RXRA	Protein	P19793	Homo sapiens	DrugBank	15056048	NA	NA	NA	II
 Bexarotene	Bexarotene	RXRA	Protein	P19793	Homo sapiens	DrugBank	14700480	NA	NA	NA	II
 Nivolumab	Nivolumab	PDCD1	Protein	Q15116	Homo sapiens	DrugBank	23289116	NA	NA	NA	II
+Nivolumab	Nivolumab	PDCD1	Protein	Q15116	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Nivolumab	Nivolumab	PDCD1	Protein	Q15116	Homo sapiens	IUPHAR	21154117	Kd	=	0.730000019	III
 Nivolumab	Nivolumab	PDCD1	Protein	Q15116	Homo sapiens	IUPHAR	23302904	Kd	=	0.730000019	III
 Thiotepa	Thiotepa	DNA	DNA	null	Homo sapiens	DrugBank	21160603	NA	NA	NA	II
@@ -182,16 +209,17 @@ Thiotepa	Thiotepa	DNA	DNA	null	Homo sapiens	DrugBank	20454509	NA	NA	NA	II
 Thiotepa	Thiotepa	DNA	DNA	null	Homo sapiens	DrugBank	20459744	NA	NA	NA	II
 Thiotepa	Thiotepa	DNA	DNA	null	Homo sapiens	DrugBank	10913381	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
-Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	18343240	NA	NA	NA	II
-Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	16012181	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	18503402	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11894013	NA	NA	NA	II
-Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	12620146	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	17355997	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	20481659	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11255078	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	14967460	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	20623992	NA	NA	NA	II
+Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	18343240	NA	NA	NA	II
+Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	16012181	NA	NA	NA	II
+Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	12620146	NA	NA	NA	II
+Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	16857825	NA	NA	NA	II
 Panitumumab	Panitumumab	EGFR	Protein	P00533	Homo sapiens	IUPHAR	14967460	Kd	=	0.050000001	III
 Vorinostat	Vorinostat	HDAC3	Protein	O15379	Homo sapiens	DrugBank	17694093	NA	NA	NA	II
@@ -199,6 +227,7 @@ Vorinostat	Vorinostat	HDAC3	Protein	O15379	Homo sapiens	IUPHAR	20139990	Ki	=	5	I
 Vorinostat	Vorinostat	HDAC11	Protein	Q96DB2	Homo sapiens	IUPHAR	20451378	Ki	=	36	III
 Vorinostat	Vorinostat	HDAC9	Protein	Q9UKV0	Homo sapiens	IUPHAR	20451378	Ki	=	65	III
 Vorinostat	Vorinostat	HDAC1	Protein	Q13547	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
+Vorinostat	Vorinostat	HDAC1	Protein	Q13547	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vorinostat	Vorinostat	HDAC1	Protein	Q13547	Homo sapiens	DrugBank	17694093	NA	NA	NA	II
 Vorinostat	Vorinostat	HDAC1	Protein	Q13547	Homo sapiens	IUPHAR	20139990	Ki	=	1.299999952	III
 Vorinostat	Vorinostat	HDAC8	Protein	Q9BY41	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
@@ -212,7 +241,11 @@ Vorinostat	Vorinostat	HDAC6	Protein	Q9UBN7	Homo sapiens	IUPHAR	20139990	Ki	=	1.6
 Vorinostat	Vorinostat	HDAC10	Protein	Q969S8	Homo sapiens	IUPHAR	20451378	Ki	=	50	III
 Vorinostat	Vorinostat	HDAC5	Protein	Q9UQL6	Homo sapiens	IUPHAR	20139990	Ki	=	3600	III
 Niraparib	Niraparib	PARP2	Protein	Q9UGN5	Homo sapiens	IUPHAR	19873981	IC50	=	2.099999905	III
+Niraparib	Niraparib	PARP1	Protein	P09874	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Niraparib	Niraparib	PARP1	Protein	P09874	Homo sapiens	IUPHAR	19873981	IC50	=	3.799999952	III
+AT-101	AT-101	BCL2	Protein	P10415	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+AT-101	AT-101	BCL2L1	Protein	Q07817	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+AT-101	AT-101	MCL1	Protein	Q07820	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 PRT062607	PRT062607	FGR	Protein	P09769	Homo sapiens	IUPHAR	22040680	IC50	=	81	III
 PRT062607	PRT062607	SYK	Protein	P43405	Homo sapiens	IUPHAR	22040680	IC50	=	1	III
 PRT062607	PRT062607	MAP3K9	Protein	P80192	Homo sapiens	IUPHAR	22040680	IC50	=	88	III
@@ -223,11 +256,13 @@ GSK-1838705A	GSK-1838705A	RPS6KA1	Protein	Q15418	Homo sapiens	IUPHAR	19825801	IC
 GSK-1838705A	GSK-1838705A	ALK	Protein	Q9UM73	Homo sapiens	IUPHAR	19825801	IC50	=	0.5	III
 Tofacitinib	Tofacitinib	JAK2	Protein	O60674	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Tofacitinib	Tofacitinib	JAK3	Protein	P52333	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Tofacitinib	Tofacitinib	JAK3	Protein	P52333	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tofacitinib	Tofacitinib	JAK3	Protein	P52333	Homo sapiens	IUPHAR	21105711	IC50	=		III
 Tofacitinib	Tofacitinib	JAK3	Protein	P52333	Homo sapiens	IUPHAR	14593182	IC50	=		III
 Tofacitinib	Tofacitinib	JAK1	Protein	P23458	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Erdafitinib	Erdafitinib	FGFR3	Protein	P22607	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	3.019999981	I
 Erdafitinib	Erdafitinib	FGFR2	Protein	P21802	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	2.289999962	I
+Erdafitinib	Erdafitinib	FGFR1	Protein	P11362	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Erdafitinib	Erdafitinib	FGFR1	Protein	P11362	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	1.139999986	I
 Erdafitinib	Erdafitinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	36.29999924	I
 Erdafitinib	Erdafitinib	FGFR4	Protein	P22455	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	5.619999886	I
@@ -236,6 +271,7 @@ Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	18024399	NA	NA	NA	II
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	18549246	NA	NA	NA	II
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	20454509	NA	NA	NA	II
+Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	17884638	NA	NA	NA	II
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	16781199	NA	NA	NA	II
 Melphalan	Melphalan	DNA	DNA	null	Homo sapiens	DrugBank	20196133	NA	NA	NA	II
@@ -245,6 +281,7 @@ GDC-0879	GDC-0879	BRAF	Protein	P15056	Homo sapiens	IUPHAR	22037378	IC50	=		III
 GDC-0879	GDC-0879	BRAF	Protein	P15056	Homo sapiens	IUPHAR	18676143	IC50	=		III
 Vemurafenib	Vemurafenib	BRAF	Protein	P15056	Homo sapiens	DrugBank	23094782	NA	NA	NA	II
 Vemurafenib	Vemurafenib	BRAF	Protein	P15056	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Vemurafenib	Vemurafenib	BRAF	Protein	P15056	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vemurafenib	Vemurafenib	BRAF	Protein	P15056	Homo sapiens	IUPHAR	22808911	IC50	=	100	III
 Vemurafenib	Vemurafenib	RAF1	Protein	P04049	Homo sapiens	IUPHAR	22808911	IC50	=		III
 Vemurafenib	Vemurafenib	RAF1	Protein	P04049	Homo sapiens	IUPHAR	26343583	IC50	=		III
@@ -257,6 +294,7 @@ Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	Dru
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	DrugBank	10942240	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	DrugBank	11342449	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	IUPHAR	10720144	NA	NA	NA	II
+Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	DrugBank	11249747	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	DrugBank	20564405	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	CD33	Protein	P20138	Homo sapiens	DrugBank	11410481	NA	NA	NA	II
@@ -279,12 +317,15 @@ Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	FCGR2B	Protein	P31994	Homo sapiens	D
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	FCGR3B	Protein	O75015	Homo sapiens	DrugBank	7509291	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	FCGR3B	Protein	O75015	Homo sapiens	DrugBank	9649182	NA	NA	NA	II
 Gemtuzumab Ozogamicin	Gemtuzumab Ozogamicin	FCGR3B	Protein	O75015	Homo sapiens	DrugBank	9815888	NA	NA	NA	II
+JAK2 Inhibitor AZD1480	JAK2 Inhibitor AZD1480	JAK2	Protein	O60674	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 JAK2 Inhibitor AZD1480	JAK2 Inhibitor AZD1480	JAK2	Protein	O60674	Homo sapiens	IUPHAR	18775810	IC50	=	8	III
 JAK2 Inhibitor AZD1480	JAK2 Inhibitor AZD1480	JAK3	Protein	P52333	Homo sapiens	IUPHAR	18775810	IC50	=	3630	III
+JAK2 Inhibitor AZD1480	JAK2 Inhibitor AZD1480	JAK1	Protein	P23458	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 JAK2 Inhibitor AZD1480	JAK2 Inhibitor AZD1480	JAK1	Protein	P23458	Homo sapiens	IUPHAR	21138246	IC50	<	3	III
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	1277199	NA	NA	NA	II
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	2334681	NA	NA	NA	II
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	8183243	NA	NA	NA	II
+Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17089011	NA	NA	NA	II
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17016621	NA	NA	NA	II
@@ -294,25 +335,32 @@ Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sa
 Doxorubicin Hydrochloride	Doxorubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	IUPHAR	11430001	IC50	=	1000	III
 Ruxolotinib	Ruxolotinib	JAK1	Protein	P23458	Homo sapiens	DrugBank	23061804	NA	NA	NA	II
 Ruxolotinib	Ruxolotinib	JAK1	Protein	P23458	Homo sapiens	DrugBank	23514013	NA	NA	NA	II
+Ruxolotinib	Ruxolotinib	JAK1	Protein	P23458	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ruxolotinib	Ruxolotinib	JAK1	Protein	P23458	Homo sapiens	IUPHAR	23061660	IC50	=		III
 Ruxolotinib	Ruxolotinib	JAK1	Protein	P23458	Homo sapiens	IUPHAR	20130243	IC50	=		III
 Ruxolotinib	Ruxolotinib	TYK2	Protein	P29597	Homo sapiens	IUPHAR	23061660	IC50	=	0.550000012	III
 Ruxolotinib	Ruxolotinib	JAK3	Protein	P52333	Homo sapiens	IUPHAR	23061660	IC50	=	3.220000029	III
 Ruxolotinib	Ruxolotinib	JAK2	Protein	O60674	Homo sapiens	DrugBank	23061804	NA	NA	NA	II
 Ruxolotinib	Ruxolotinib	JAK2	Protein	O60674	Homo sapiens	DrugBank	23514013	NA	NA	NA	II
+Ruxolotinib	Ruxolotinib	JAK2	Protein	O60674	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ruxolotinib	Ruxolotinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	23061660	IC50	=		III
 Ruxolotinib	Ruxolotinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	20130243	IC50	=		III
 PH-797804	PH-797804	MAPK14	Protein	Q16539	Homo sapiens	IUPHAR	NA_IUPHAR	Ki	=	2.900000095	I
 PH-797804	PH-797804	MAPK11	Protein	Q15759	Homo sapiens	IUPHAR	21620699	Ki	=	40	III
 Sacituzumab	Sacituzumab	TACSTD2	Protein	P09758	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
+Sapanisertib	Sapanisertib	CRTC2	Protein	Q53ET0	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Sapanisertib	Sapanisertib	MAPKAP1	Protein	Q9BPZ7	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Sapanisertib	Sapanisertib	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Sapanisertib	Sapanisertib	MTOR	Protein	P42345	Homo sapiens	IUPHAR	22367541	Ki	=	1.399999976	III
 Sapanisertib	Sapanisertib	MTOR	Protein	P42345	Homo sapiens	IUPHAR	22367541	IC50	=	1	III
 Sapanisertib	Sapanisertib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	22367541	IC50	=	221	III
 Sapanisertib	Sapanisertib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	22367541	IC50	=	219	III
 Sapanisertib	Sapanisertib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	22367541	IC50	=	230	III
+Sapanisertib	Sapanisertib	CRTC1	Protein	Q6UUV9	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tivozanib	Tivozanib	FLT1	Protein	P17948	Homo sapiens	IUPHAR	23098265	IC50	=	0.209999993	III
 Tivozanib	Tivozanib	FLT4	Protein	P35916	Homo sapiens	IUPHAR	23098265	IC50	=	0.239999995	III
 Tivozanib	Tivozanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	23098265	IC50	=	0.159999996	III
+Decitabine	Decitabine	DNA (cytosine-5)-methyltransferase	Protein	P11876	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Decitabine	Decitabine	DNMT1	Protein	P26358	Homo sapiens	DrugBank	11259619	NA	NA	NA	II
 Decitabine	Decitabine	DNMT1	Protein	P26358	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Decitabine	Decitabine	DNMT1	Protein	P26358	Homo sapiens	DrugBank	11069027	NA	NA	NA	II
@@ -354,21 +402,29 @@ Bevacizumab	Bevacizumab	FCGR1A	Protein	P12314	Homo sapiens	DrugBank	17016423	NA	
 Bevacizumab	Bevacizumab	FCGR1A	Protein	P12314	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Bevacizumab	Bevacizumab	FCGR2B	Protein	P31994	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Bevacizumab	Bevacizumab	FCGR2B	Protein	P31994	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Neratinib	Neratinib	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Neratinib	Neratinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	15173008	IC50	=	92	III
+Neratinib	Neratinib	ERBB2	Protein	P04626	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Neratinib	Neratinib	ERBB2	Protein	P04626	Homo sapiens	IUPHAR	22037378	Kd	=	6	III
 Neratinib	Neratinib	ERBB2	Protein	P04626	Homo sapiens	IUPHAR	15173008	IC50	=	59	III
 Necitumumab	Necitumumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	20197484	NA	NA	NA	II
+Necitumumab	Necitumumab	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Necitumumab	Necitumumab	EGFR	Protein	P00533	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	=	0.319999993	I
 Lenalidomide	Lenalidomide	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12720152	NA	NA	NA	II
 Lenalidomide	Lenalidomide	PTGS2	Protein	P35354	Homo sapiens	DrugBank	15598423	NA	NA	NA	II
 Lenalidomide	Lenalidomide	CRBN	Protein	Q96SW2	Homo sapiens	DrugBank	22966948	NA	NA	NA	II
 Lenalidomide	Lenalidomide	TNFSF11	Protein	O14788	Homo sapiens	DrugBank	19370685	NA	NA	NA	II
 Lenalidomide	Lenalidomide	TNFSF11	Protein	O14788	Homo sapiens	DrugBank	17369076	NA	NA	NA	II
+Lenalidomide	Lenalidomide	TNF	Protein	P01375	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Lenalidomide	Lenalidomide	CDH5	Protein	P33151	Homo sapiens	DrugBank	18805433	NA	NA	NA	II
+Blinatumomab	Blinatumomab	CD4	Protein	P01730	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Blinatumomab	Blinatumomab	CD3E	Protein	P07766	Homo sapiens	IUPHAR	12209608	Kd	=	100	III
+Blinatumomab	Blinatumomab	CD3G	Protein	P09693	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Blinatumomab	Blinatumomab	CD19	Protein	P15391	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Blinatumomab	Blinatumomab	CD19	Protein	P15391	Homo sapiens	DrugBank	25883042	NA	NA	NA	II
 Blinatumomab	Blinatumomab	CD19	Protein	P15391	Homo sapiens	IUPHAR	12209608	Kd	=	1	III
 Blinatumomab	Blinatumomab	CD3D	Protein	P04234	Homo sapiens	DrugBank	25883042	NA	NA	NA	II
+Fedratinib	Fedratinib	JAK2	Protein	O60674	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Fedratinib	Fedratinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	21106455	IC50	=	3	III
 Fedratinib	Fedratinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	18394554	IC50	=	3	III
 Fedratinib	Fedratinib	TYK2	Protein	P29597	Homo sapiens	IUPHAR	21106455	IC50	=	150	III
@@ -405,11 +461,13 @@ Vinblastine Sulfate	Vinblastine Sulfate	TUBD1	Protein	Q9UJT1	Homo sapiens	DrugBa
 Vinblastine Sulfate	Vinblastine Sulfate	TUBD1	Protein	Q9UJT1	Homo sapiens	DrugBank	1818332	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBD1	Protein	Q9UJT1	Homo sapiens	DrugBank	15579115	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBD1	Protein	Q9UJT1	Homo sapiens	DrugBank	14619954	NA	NA	NA	II
+Vinblastine Sulfate	Vinblastine Sulfate	Tubulin beta-2 chain	Protein	P05217	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vinblastine Sulfate	Vinblastine Sulfate	TUBE1	Protein	Q9UJT0	Homo sapiens	DrugBank	9664292	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBE1	Protein	Q9UJT0	Homo sapiens	DrugBank	18220533	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBE1	Protein	Q9UJT0	Homo sapiens	DrugBank	1818332	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBE1	Protein	Q9UJT0	Homo sapiens	DrugBank	15579115	NA	NA	NA	II
 Vinblastine Sulfate	Vinblastine Sulfate	TUBE1	Protein	Q9UJT0	Homo sapiens	DrugBank	14619954	NA	NA	NA	II
+Metformin	Metformin	ACACB	Protein	O00763	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Metformin	Metformin	PRKAB1	Protein	Q9Y478	Homo sapiens	DrugBank	12890675	NA	NA	NA	II
 Metformin	Metformin	PRKAB1	Protein	Q9Y478	Homo sapiens	DrugBank	12960015	NA	NA	NA	II
 Metformin	Metformin	PRKAB1	Protein	Q9Y478	Homo sapiens	DrugBank	19428322	NA	NA	NA	II
@@ -426,6 +484,7 @@ Cabazitaxel	Cabazitaxel	TUBB	Protein	P07437	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	
 Cabazitaxel	Cabazitaxel	TUBB1	Protein	Q9H4B7	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Osimertinib	Osimertinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	26522274	NA	NA	NA	II
 Osimertinib	Osimertinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=		I
+Entospletinib	Entospletinib	SYK	Protein	P43405	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Entospletinib	Entospletinib	SYK	Protein	P43405	Homo sapiens	IUPHAR	24779514	IC50	=	7.699999809	III
 Aldesleukin	Aldesleukin	IL2RG	Protein	P31785	Homo sapiens	DrugBank	17635814	NA	NA	NA	II
 Aldesleukin	Aldesleukin	IL2RG	Protein	P31785	Homo sapiens	DrugBank	17363735	NA	NA	NA	II
@@ -434,6 +493,7 @@ Aldesleukin	Aldesleukin	IL2RG	Protein	P31785	Homo sapiens	DrugBank	16477002	NA	N
 Aldesleukin	Aldesleukin	IL2RG	Protein	P31785	Homo sapiens	DrugBank	17083048	NA	NA	NA	II
 Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	DrugBank	16596189	NA	NA	NA	II
+Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	DrugBank	16477002	NA	NA	NA	II
 Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	DrugBank	16569767	NA	NA	NA	II
 Aldesleukin	Aldesleukin	IL2RB	Protein	P14784	Homo sapiens	DrugBank	16617454	NA	NA	NA	II
@@ -450,6 +510,7 @@ Plerixafor	Plerixafor	ACKR3	Protein	P25106	Homo sapiens	IUPHAR	19255243	NA	NA	NA
 Plerixafor	Plerixafor	ACKR3	Protein	P25106	Homo sapiens	IUPHAR	20956518	NA	NA	NA	II
 Plerixafor	Plerixafor	CXCR4	Protein	P61073	Homo sapiens	DrugBank	23204107	NA	NA	NA	II
 Plerixafor	Plerixafor	CXCR4	Protein	P61073	Homo sapiens	IUPHAR	11923301	NA	NA	NA	II
+Plerixafor	Plerixafor	CXCR4	Protein	P61073	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Plerixafor	Plerixafor	CXCR4	Protein	P61073	Homo sapiens	DrugBank	18847313	NA	NA	NA	II
 Dual IGF-1R/InsR Inhibitor BMS-754807	Dual IGF-1R/InsR Inhibitor BMS-754807	IGF1R	Protein	P08069	Homo sapiens	IUPHAR	19778024	IC50	=	2	III
 Pan-AKT Kinase Inhibitor GSK690693	Pan-AKT Kinase Inhibitor GSK690693	PRKCQ	Protein	Q04759	Homo sapiens	IUPHAR	18800763	IC50	=	2	III
@@ -473,6 +534,7 @@ Clofarabine	Clofarabine	POLA1	Protein	P09884	Homo sapiens	DrugBank	18780321	NA	N
 Clofarabine	Clofarabine	POLA1	Protein	P09884	Homo sapiens	DrugBank	17852710	NA	NA	NA	II
 Clofarabine	Clofarabine	DNA	DNA	null	Homo sapiens	DrugBank	18728851	NA	NA	NA	II
 Clofarabine	Clofarabine	DNA	DNA	null	Homo sapiens	DrugBank	20631817	NA	NA	NA	II
+Clofarabine	Clofarabine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	18728851	NA	NA	NA	II
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	15230627	NA	NA	NA	II
@@ -483,6 +545,7 @@ Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	20631817	NA	NA
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	18780321	NA	NA	NA	II
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	DrugBank	17852710	NA	NA	NA	II
 Clofarabine	Clofarabine	RRM1	Protein	P23921	Homo sapiens	IUPHAR	1707752	IC50	=	5	III
+Clofarabine	Clofarabine	Ribonucleoside-diphosphate reductase	Protein	P08543	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Clofarabine	Clofarabine	RRM2	Protein	P31350	Homo sapiens	IUPHAR	1707752	IC50	=	5	III
 Celecoxib	Celecoxib	CA12	Protein	O43570	Homo sapiens	IUPHAR	23965175	Ki	=	18	III
 Celecoxib	Celecoxib	PDPK1	Protein	O15530	Homo sapiens	DrugBank	14973075	NA	NA	NA	II
@@ -495,17 +558,20 @@ Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12093311	NA	NA	NA
 Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12086292	NA	NA	NA	II
 Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12055598	NA	NA	NA	II
 Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12086402	NA	NA	NA	II
+Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	DrugBank	12104042	NA	NA	NA	II
 Celecoxib	Celecoxib	PTGS2	Protein	P35354	Homo sapiens	IUPHAR	12643942	IC50	=	2	III
 Mitomycin C	Mitomycin C	DNA	DNA	null	Homo sapiens	DrugBank	744262	NA	NA	NA	II
 Mitomycin C	Mitomycin C	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Mitomycin C	Mitomycin C	DNA	DNA	null	Homo sapiens	DrugBank	2131038	NA	NA	NA	II
 Mitomycin C	Mitomycin C	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Mitomycin C	Mitomycin C	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	17429625	NA	NA	NA	II
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	16230377	NA	NA	NA	II
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	17148760	NA	NA	NA	II
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	16397263	NA	NA	NA	II
+Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	DrugBank	17155893	NA	NA	NA	II
 Dasatinib	Dasatinib	SRC	Protein	P12931	Homo sapiens	IUPHAR	15930265	IC50	=	0.800000012	III
 Dasatinib	Dasatinib	YES1	Protein	P07947	Homo sapiens	DrugBank	16507911	NA	NA	NA	II
@@ -521,9 +587,11 @@ Dasatinib	Dasatinib	KIT	Protein	P10721	Homo sapiens	DrugBank	16397263	NA	NA	NA	I
 Dasatinib	Dasatinib	KIT	Protein	P10721	Homo sapiens	DrugBank	17351742	NA	NA	NA	II
 Dasatinib	Dasatinib	ABL2	Protein	P42684	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Dasatinib	Dasatinib	ABL2	Protein	P42684	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
+Dasatinib	Dasatinib	ABL2	Protein	P42684	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dasatinib	Dasatinib	ABL2	Protein	P42684	Homo sapiens	DrugBank	20072833	NA	NA	NA	II
 Dasatinib	Dasatinib	LCK	Protein	P06239	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Dasatinib	Dasatinib	LCK	Protein	P06239	Homo sapiens	DrugBank	17154512	NA	NA	NA	II
+Dasatinib	Dasatinib	LCK	Protein	P06239	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dasatinib	Dasatinib	LCK	Protein	P06239	Homo sapiens	DrugBank	20072833	NA	NA	NA	II
 Dasatinib	Dasatinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Dasatinib	Dasatinib	ABL1	Protein	P00519	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
@@ -535,6 +603,7 @@ Dasatinib	Dasatinib	EPHA2	Protein	P29317	Homo sapiens	DrugBank	20072833	NA	NA	NA
 Dasatinib	Dasatinib	FYN	Protein	P06241	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Dasatinib	Dasatinib	FYN	Protein	P06241	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Dasatinib	Dasatinib	FYN	Protein	P06241	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Dasatinib	Dasatinib	FYN	Protein	P06241	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dasatinib	Dasatinib	FYN	Protein	P06241	Homo sapiens	DrugBank	20072833	NA	NA	NA	II
 Halofuginone	Halofuginone	COL1A1	Protein	P02452	Homo sapiens	DrugBank	11099465	NA	NA	NA	II
 Halofuginone	Halofuginone	MMP2	Protein	P08253	Homo sapiens	DrugBank	11099465	NA	NA	NA	II
@@ -544,6 +613,7 @@ Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	I
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	17896912	NA	NA	NA	II
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	10914698	NA	NA	NA	II
+Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	17886562	NA	NA	NA	II
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	17897837	NA	NA	NA	II
 Temozolomide	Temozolomide	DNA	DNA	null	Homo sapiens	DrugBank	18772354	NA	NA	NA	II
@@ -558,6 +628,7 @@ Linifanib	Linifanib	CDK19	Protein	Q9BWU1	Homo sapiens	IUPHAR	26502155	Kd	=	11.89
 Linifanib	Linifanib	KDR	Protein	P35968	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Linifanib	Linifanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	16648571	IC50	=	4	III
 Linifanib	Linifanib	TEK	Protein	Q02763	Homo sapiens	IUPHAR	16648571	IC50	=	170	III
+Linifanib	Linifanib	CSF1	Protein	P09603	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Linifanib	Linifanib	FLT1	Protein	P17948	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Linifanib	Linifanib	FLT1	Protein	P17948	Homo sapiens	IUPHAR	16648571	IC50	=	3	III
 Linifanib	Linifanib	CSF1R	Protein	P07333	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
@@ -600,6 +671,7 @@ Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	10366506	NA	NA
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	10573085	NA	NA	NA	II
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	10520035	NA	NA	NA	II
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	IUPHAR	9593475	NA	NA	NA	II
+Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	10092828	NA	NA	NA	II
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	10744652	NA	NA	NA	II
 Alemtuzumab	Alemtuzumab	CD52	Protein	P31358	Homo sapiens	DrugBank	19479612	NA	NA	NA	II
@@ -610,6 +682,7 @@ Alemtuzumab	Alemtuzumab	C1QA	Protein	P02745	Homo sapiens	DrugBank	17016423	NA	NA
 Alemtuzumab	Alemtuzumab	C1QA	Protein	P02745	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Genistein	Genistein	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Genistein	Genistein	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Genistein	Genistein	PPARG	Protein	P37231	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Genistein	Genistein	ESRRG	Protein	P62508	Homo sapiens	IUPHAR	14638870	NA	NA	NA	II
 Genistein	Genistein	TRPC5	Protein	Q9UL62	Homo sapiens	IUPHAR	20233211	NA	NA	NA	II
 Genistein	Genistein	NCOA2	Protein	Q15596	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
@@ -636,6 +709,7 @@ SB-431542	SB-431542	ACVR1C	Protein	Q8NER5	Homo sapiens	IUPHAR	19616940	NA	NA	NA	
 SB-431542	SB-431542	TGFBR1	Protein	P36897	Homo sapiens	IUPHAR	11855979	IC50	=	94	III
 Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	PLK3	Protein	Q9H4B4	Homo sapiens	IUPHAR	17291758	IC50	=	9	III
 Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	PLK2	Protein	Q9NYY3	Homo sapiens	IUPHAR	17291758	IC50	=	3.5	III
+Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	PLK1	Protein	P53350	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	PLK1	Protein	P53350	Homo sapiens	IUPHAR	17291758	IC50	=	0.829999983	III
 Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	PLK1	Protein	P53350	Homo sapiens	IUPHAR	23103095	Ki	=	3	III
 Plk1 Inhibitor BI 2536	Plk1 Inhibitor BI 2536	BRD4	Protein	O60885	Homo sapiens	IUPHAR	24584101	Kd	=	37	III
@@ -646,6 +720,7 @@ Pamidronate Disodium	Pamidronate Disodium	FDPS	Protein	P14324	Homo sapiens	DrugB
 Pamidronate Disodium	Pamidronate Disodium	FDPS	Protein	P14324	Homo sapiens	DrugBank	15713990	NA	NA	NA	II
 Pamidronate Disodium	Pamidronate Disodium	FDPS	Protein	P14324	Homo sapiens	DrugBank	15487700	NA	NA	NA	II
 Pamidronate Disodium	Pamidronate Disodium	FDPS	Protein	P14324	Homo sapiens	IUPHAR	18327899	IC50	=	200	III
+Pamidronate Disodium	Pamidronate Disodium	Farnesyl pyrophosphate synthetase	Protein	Q86C09	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Alectinib	Alectinib	MET	Protein	P08581	Homo sapiens	IUPHAR	22225917	IC50	>	5000	III
 Alectinib	Alectinib	ALK	Protein	Q9UM73	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Alectinib	Alectinib	ALK	Protein	Q9UM73	Homo sapiens	IUPHAR	22225917	IC50	=	1.899999976	III
@@ -653,6 +728,7 @@ Zebularine	Zebularine	Cytidine deaminase	Protein	P0ABF6	Escherichia coli (strain
 Zebularine	Zebularine	Cytidine deaminase	Protein	P0ABF6	Escherichia coli (strain K12)	DrugBank	17139284	NA	NA	NA	II
 PHA-665752	PHA-665752	MET	Protein	P08581	Homo sapiens	IUPHAR	22037378	Kd	=	0.270000011	III
 PHA-665752	PHA-665752	MET	Protein	P08581	Homo sapiens	IUPHAR	14612533	Ki	=	4	III
+Taselisib	Taselisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Taselisib	Taselisib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	23662903	Ki	=	0.970000029	III
 Taselisib	Taselisib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	23662903	Ki	=	0.289999992	III
 Taselisib	Taselisib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	23662903	Ki	=	0.209999993	III
@@ -685,13 +761,18 @@ Toremifene	Toremifene	ESR1	Protein	P03372	Homo sapiens	DrugBank	16515478	NA	NA	N
 Toremifene	Toremifene	ESR1	Protein	P03372	Homo sapiens	DrugBank	16917142	NA	NA	NA	II
 Toremifene	Toremifene	ESR1	Protein	P03372	Homo sapiens	DrugBank	17503894	NA	NA	NA	II
 Toremifene	Toremifene	ESR1	Protein	P03372	Homo sapiens	DrugBank	15369444	NA	NA	NA	II
+Toremifene	Toremifene	7 ER	Protein	Q13262	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Onalespib	Onalespib	HSP90AA1	Protein	P07900	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	DrugBank	8640534	NA	NA	NA	II
 Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	DrugBank	17932658	NA	NA	NA	II
 Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cisplatin	Cisplatin	DNA	DNA	null	Homo sapiens	DrugBank	17900616	NA	NA	NA	II
 Axitinib	Axitinib	FLT1	Protein	P17948	Homo sapiens	DrugBank	18541897	NA	NA	NA	II
+Axitinib	Axitinib	CSF1	Protein	P09603	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Axitinib	Axitinib	PLK4	Protein	O00444	Homo sapiens	IUPHAR	23829549	IC50	=	46	III
+Axitinib	Axitinib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Axitinib	Axitinib	KDR	Protein	P35968	Homo sapiens	DrugBank	18541897	NA	NA	NA	II
 Axitinib	Axitinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	22037378	Kd	=	5.900000095	III
 Axitinib	Axitinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	20869793	IC50	=	0.25	III
@@ -701,12 +782,15 @@ Quizartinib	Quizartinib	PDGFRA	Protein	P16234	Homo sapiens	IUPHAR	19754199	Kd	=	
 Quizartinib	Quizartinib	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	19754199	Kd	=	12	III
 Quizartinib	Quizartinib	KIT	Protein	P10721	Homo sapiens	IUPHAR	19754199	Kd	=	4.800000191	III
 Quizartinib	Quizartinib	FLT3	Protein	P36888	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Quizartinib	Quizartinib	FLT3	Protein	P36888	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Quizartinib	Quizartinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22037378	Kd	=		III
 Quizartinib	Quizartinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	19754199	Kd	=		III
 Quizartinib	Quizartinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	19654408	IC50	=	4.199999809	III
 Quizartinib	Quizartinib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	19754199	Kd	=	7.699999809	III
+Atezolizumab	Atezolizumab	CD274	Protein	Q9NZQ7	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Atezolizumab	Atezolizumab	CD274	Protein	Q9NZQ7	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	=		I
 Lestaurtinib	Lestaurtinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22037378	Kd	=	8.5	III
+Lestaurtinib	Lestaurtinib	NTRK1	Protein	P04629	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dovitinib	Dovitinib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	15598814	IC50	=		III
 Dovitinib	Dovitinib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	19113866	IC50	=		III
 Dovitinib	Dovitinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	15598814	IC50	=	2000	III
@@ -769,11 +853,15 @@ Staurosporine	Staurosporine	GSK3B	Protein	P49841	Homo sapiens	DrugBank	17139284	
 Staurosporine	Staurosporine	PRKCQ	Protein	Q04759	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Staurosporine	Staurosporine	PRKCQ	Protein	Q04759	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Dacomitinib	Dacomitinib	ERBB4	Protein	Q15303	Homo sapiens	IUPHAR	22621397	IC50	=	74	III
+Dacomitinib	Dacomitinib	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dacomitinib	Dacomitinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	22621397	IC50	=	6	III
 Dacomitinib	Dacomitinib	ERBB2	Protein	P04626	Homo sapiens	IUPHAR	22621397	IC50	=	46	III
+Dinaciclib	Dinaciclib	Cell division control protein 2 homolog	Protein	Q6LFL1	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dinaciclib	Dinaciclib	CDK5	Protein	Q00535	Homo sapiens	IUPHAR	24007471	IC50	=	1	III
 Dinaciclib	Dinaciclib	CDK1	Protein	P06493	Homo sapiens	IUPHAR	24007471	IC50	=	3	III
+Dinaciclib	Dinaciclib	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dinaciclib	Dinaciclib	CDK2	Protein	P24941	Homo sapiens	IUPHAR	24007471	IC50	=	1	III
+Dinaciclib	Dinaciclib	CDK9	Protein	P50750	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dinaciclib	Dinaciclib	CDK9	Protein	P50750	Homo sapiens	IUPHAR	24007471	IC50	=	4	III
 Fluorouracil	Fluorouracil	TYMS	Protein	P04818	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Fluorouracil	Fluorouracil	TYMS	Protein	P04818	Homo sapiens	DrugBank	16538493	NA	NA	NA	II
@@ -786,6 +874,7 @@ Fluorouracil	Fluorouracil	RNA	RNA	null	Homo sapiens	DrugBank	12724731	NA	NA	NA	I
 Fluorouracil	Fluorouracil	RNA	RNA	null	Homo sapiens	DrugBank	15032669	NA	NA	NA	II
 Fluorouracil	Fluorouracil	RNA	RNA	null	Homo sapiens	DrugBank	18979208	NA	NA	NA	II
 Fluorouracil	Fluorouracil	RNA	RNA	null	Homo sapiens	DrugBank	9264308	NA	NA	NA	II
+Fluorouracil	Fluorouracil	Thymidylate synthase	Protein	P13922	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Fluorouracil	Fluorouracil	DNA	DNA	null	Homo sapiens	DrugBank	12724731	NA	NA	NA	II
 Fluorouracil	Fluorouracil	DNA	DNA	null	Homo sapiens	DrugBank	15032669	NA	NA	NA	II
 Fluorouracil	Fluorouracil	DNA	DNA	null	Homo sapiens	DrugBank	18979208	NA	NA	NA	II
@@ -816,11 +905,13 @@ Panobinostat	Panobinostat	HDAC3	Protein	O15379	Homo sapiens	DrugBank	17145876	NA
 Panobinostat	Panobinostat	HDAC3	Protein	O15379	Homo sapiens	DrugBank	17455259	NA	NA	NA	II
 Panobinostat	Panobinostat	HDAC3	Protein	O15379	Homo sapiens	IUPHAR	17868033	EC50	=	4	III
 Panobinostat	Panobinostat	HDAC1	Protein	Q13547	Homo sapiens	DrugBank	17145876	NA	NA	NA	II
+Panobinostat	Panobinostat	HDAC1	Protein	Q13547	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Panobinostat	Panobinostat	HDAC1	Protein	Q13547	Homo sapiens	DrugBank	17455259	NA	NA	NA	II
 Panobinostat	Panobinostat	HDAC1	Protein	Q13547	Homo sapiens	IUPHAR	17868033	EC50	=	3	III
 Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	19480393	NA	NA	NA	II
 Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Mechlorethamine Hydrochloride	Mechlorethamine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	15781216	NA	NA	NA	II
 Sipuleucel-T	Sipuleucel-T	ACPP	Protein	P15309	Homo sapiens	DrugBank	26025563	NA	NA	NA	II
 Sipuleucel-T	Sipuleucel-T	ACPP	Protein	P15309	Homo sapiens	DrugBank	15176049	NA	NA	NA	II
@@ -846,6 +937,7 @@ Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	DrugBank	11752352	NA	N
 Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
 Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	DrugBank	17660958	NA	NA	NA	II
 Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	DrugBank	11098307	NA	NA	NA	II
+Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Trastuzumab	Trastuzumab	ERBB2	Protein	P04626	Homo sapiens	DrugBank	18690878	NA	NA	NA	II
 Trastuzumab	Trastuzumab	FCGR2A	Protein	P12318	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Trastuzumab	Trastuzumab	FCGR2A	Protein	P12318	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
@@ -861,14 +953,17 @@ Trastuzumab	Trastuzumab	C1QB	Protein	P02746	Homo sapiens	DrugBank	17016423	NA	NA
 Trastuzumab	Trastuzumab	C1QB	Protein	P02746	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Trastuzumab	Trastuzumab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Aurora Kinase Inhibitor MLN8054	Aurora Kinase Inhibitor MLN8054	AURKB	Protein	Q96GD4	Homo sapiens	IUPHAR	19402633	IC50	=	9.300000191	III
+Aurora Kinase Inhibitor MLN8054	Aurora Kinase Inhibitor MLN8054	AURKA	Protein	O14965	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Aurora Kinase Inhibitor MLN8054	Aurora Kinase Inhibitor MLN8054	AURKA	Protein	O14965	Homo sapiens	IUPHAR	22037378	Kd	=	6.5	III
 Aurora Kinase Inhibitor MLN8054	Aurora Kinase Inhibitor MLN8054	AURKA	Protein	O14965	Homo sapiens	IUPHAR	17360485	IC50	=		III
 Aurora Kinase Inhibitor MLN8054	Aurora Kinase Inhibitor MLN8054	AURKA	Protein	O14965	Homo sapiens	IUPHAR	19402633	IC50	=		III
 Cabozantinib	Cabozantinib	KDR	Protein	P35968	Homo sapiens	DrugBank	21606412	NA	NA	NA	II
+Cabozantinib	Cabozantinib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cabozantinib	Cabozantinib	KDR	Protein	P35968	Homo sapiens	DrugBank	21926191	NA	NA	NA	II
 Cabozantinib	Cabozantinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	21926191	IC50	=	0.349999994	III
 Cabozantinib	Cabozantinib	RET	Protein	P07949	Homo sapiens	DrugBank	21606412	NA	NA	NA	II
 Cabozantinib	Cabozantinib	MET	Protein	P08581	Homo sapiens	DrugBank	21606412	NA	NA	NA	II
+Cabozantinib	Cabozantinib	MET	Protein	P08581	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cabozantinib	Cabozantinib	MET	Protein	P08581	Homo sapiens	DrugBank	21926191	NA	NA	NA	II
 Cabozantinib	Cabozantinib	MET	Protein	P08581	Homo sapiens	IUPHAR	21926191	IC50	=	1.299999952	III
 Dexamethasone	Dexamethasone	NOS2	Protein	P35228	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
@@ -890,6 +985,7 @@ Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16956592	
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	IUPHAR	8282004	NA	NA	NA	II
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	IUPHAR	10611474	NA	NA	NA	II
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	IUPHAR	10747884	NA	NA	NA	II
+Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16971495	NA	NA	NA	II
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16891588	NA	NA	NA	II
 Dexamethasone	Dexamethasone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16835395	NA	NA	NA	II
@@ -930,6 +1026,7 @@ Ibritumomab Tiuxetan	Ibritumomab Tiuxetan	FCGR2A	Protein	P12318	Homo sapiens	Dru
 Ibritumomab Tiuxetan	Ibritumomab Tiuxetan	FCGR2A	Protein	P12318	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Pictilisib	Pictilisib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	18754654	IC50	=	3	III
 Pictilisib	Pictilisib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	18754654	IC50	=	3	III
+Pictilisib	Pictilisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Pictilisib	Pictilisib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	18754654	IC50	=	75	III
 Pictilisib	Pictilisib	PIK3CB	Protein	P42338	Homo sapiens	IUPHAR	18754654	IC50	=	33	III
 Vincristine Sulfate	Vincristine Sulfate	TUBA4A	Protein	P68366	Homo sapiens	DrugBank	20691709	NA	NA	NA	II
@@ -941,6 +1038,7 @@ Vincristine Sulfate	Vincristine Sulfate	TUBB	Protein	P07437	Homo sapiens	DrugBan
 Vincristine Sulfate	Vincristine Sulfate	TUBB	Protein	P07437	Homo sapiens	DrugBank	20442307	NA	NA	NA	II
 Vincristine Sulfate	Vincristine Sulfate	TUBB	Protein	P07437	Homo sapiens	DrugBank	19277662	NA	NA	NA	II
 Zoledronic Acid	Zoledronic Acid	Fdps	Protein	P05369	Rat	IUPHAR	18325729	IC50	=	500	III
+Zoledronic Acid	Zoledronic Acid	Farnesyl pyrophosphate synthetase	Protein	Q86C09	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Zoledronic Acid	Zoledronic Acid	FDPS	Protein	P14324	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Zoledronic Acid	Zoledronic Acid	FDPS	Protein	P14324	Homo sapiens	DrugBank	11160603	NA	NA	NA	II
 Zoledronic Acid	Zoledronic Acid	FDPS	Protein	P14324	Homo sapiens	DrugBank	17535895	NA	NA	NA	II
@@ -955,6 +1053,7 @@ Dacarbazine	Dacarbazine	POLA2	Protein	Q14181	Homo sapiens	DrugBank	3098406	NA	NA
 Dacarbazine	Dacarbazine	POLA2	Protein	Q14181	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Dacarbazine	Dacarbazine	POLA2	Protein	Q14181	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Dacarbazine	Dacarbazine	DNA	DNA	null	Homo sapiens	DrugBank	3098406	NA	NA	NA	II
+Dacarbazine	Dacarbazine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dacarbazine	Dacarbazine	PGD	Protein	P52209	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Dacarbazine	Dacarbazine	PGD	Protein	P52209	Homo sapiens	DrugBank	20235752	NA	NA	NA	II
 Thalidomide	Thalidomide	ORM2	Protein	P19652	Homo sapiens	DrugBank	8755512	NA	NA	NA	II
@@ -971,6 +1070,7 @@ Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	11752352	NA	NA	
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	12113124	NA	NA	NA	II
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	12046682	NA	NA	NA	II
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	12102294	NA	NA	NA	II
+Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	8755512	NA	NA	NA	II
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	12167383	NA	NA	NA	II
 Thalidomide	Thalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	12105857	NA	NA	NA	II
@@ -983,6 +1083,7 @@ Fludarabine Phosphate	Fludarabine Phosphate	RRM1	Protein	P23921	Homo sapiens	Dru
 Fludarabine Phosphate	Fludarabine Phosphate	RRM1	Protein	P23921	Homo sapiens	DrugBank	19519505	NA	NA	NA	II
 Fludarabine Phosphate	Fludarabine Phosphate	RRM1	Protein	P23921	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Fludarabine Phosphate	Fludarabine Phosphate	RRM1	Protein	P23921	Homo sapiens	IUPHAR	7048062	IC50	=	1000	III
+Fludarabine Phosphate	Fludarabine Phosphate	ADA	Protein	P00813	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Fludarabine Phosphate	Fludarabine Phosphate	DCK	Protein	P27707	Homo sapiens	DrugBank	15820918	NA	NA	NA	II
 Fludarabine Phosphate	Fludarabine Phosphate	DCK	Protein	P27707	Homo sapiens	DrugBank	16421443	NA	NA	NA	II
 Fludarabine Phosphate	Fludarabine Phosphate	DCK	Protein	P27707	Homo sapiens	DrugBank	20137114	NA	NA	NA	II
@@ -994,9 +1095,11 @@ Fludarabine Phosphate	Fludarabine Phosphate	POLA1	Protein	P09884	Homo sapiens	Dr
 Fludarabine Phosphate	Fludarabine Phosphate	POLA1	Protein	P09884	Homo sapiens	DrugBank	17168705	NA	NA	NA	II
 Fludarabine Phosphate	Fludarabine Phosphate	RRM2	Protein	P31350	Homo sapiens	IUPHAR	7048062	IC50	=	1000	III
 B-Raf/VEGFR-2 Inhibitor RAF265	B-Raf/VEGFR-2 Inhibitor RAF265	BRAF	Protein	P15056	Homo sapiens	IUPHAR	22037378	Kd	=	1200	III
+B-Raf/VEGFR-2 Inhibitor RAF265	B-Raf/VEGFR-2 Inhibitor RAF265	RAF1	Protein	P04049	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Paclitaxel	Paclitaxel	MAP4	Protein	P27816	Homo sapiens	DrugBank	18068131	NA	NA	NA	II
 Paclitaxel	Paclitaxel	MAPT	Protein	P10636	Homo sapiens	DrugBank	18068131	NA	NA	NA	II
 Paclitaxel	Paclitaxel	MAP2	Protein	P11137	Homo sapiens	DrugBank	18068131	NA	NA	NA	II
+Paclitaxel	Paclitaxel	TUBB	Protein	P07437	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Paclitaxel	Paclitaxel	TUBB	Protein	P07437	Homo sapiens	IUPHAR	16377187	EC50	=	9	III
 Paclitaxel	Paclitaxel	Tlr4	Protein	Q9QUK6	Mouse	IUPHAR	10644670	NA	NA	NA	II
 Paclitaxel	Paclitaxel	NR1I2	Protein	O75469	Homo sapiens	DrugBank	18839173	NA	NA	NA	II
@@ -1017,6 +1120,8 @@ Hydroxyurea	Hydroxyurea	RRM1	Protein	P23921	Homo sapiens	DrugBank	20005847	NA	NA
 Hydroxyurea	Hydroxyurea	RRM1	Protein	P23921	Homo sapiens	DrugBank	14583450	NA	NA	NA	II
 Hydroxyurea	Hydroxyurea	RRM1	Protein	P23921	Homo sapiens	DrugBank	20462199	NA	NA	NA	II
 Hydroxyurea	Hydroxyurea	RRM1	Protein	P23921	Homo sapiens	IUPHAR	15670581	IC50	=	148000	III
+Hydroxyurea	Hydroxyurea	Ribonucleoside-diphosphate reductase	Protein	P08543	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Idarubicin Hydrochloride	Idarubicin Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Idarubicin Hydrochloride	Idarubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	1723369	NA	NA	NA	II
 Idarubicin Hydrochloride	Idarubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	8036155	NA	NA	NA	II
 Idarubicin Hydrochloride	Idarubicin Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	17716648	NA	NA	NA	II
@@ -1035,6 +1140,7 @@ Brigatinib	Brigatinib	ALK	Protein	Q9UM73	Homo sapiens	IUPHAR	21502504	IC50	=	0.6
 Brigatinib	Brigatinib	ALK	Protein	Q9UM73	Homo sapiens	IUPHAR	21502504	Ki	=	0.090000004	III
 Tyrosine Kinase Inhibitor SU5402	Tyrosine Kinase Inhibitor SU5402	FGFR1	Protein	P11362	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Sonidegib	Sonidegib	SMO	Protein	Q99835	Homo sapiens	DrugBank	26323341	NA	NA	NA	II
+Sonidegib	Sonidegib	SMO	Protein	Q99835	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Sonidegib	Sonidegib	SMO	Protein	Q99835	Homo sapiens	IUPHAR	23063522	Ki	=	6	III
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	10519994	NA	NA	NA	II
@@ -1042,6 +1148,7 @@ Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBan
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	10812836	NA	NA	NA	II
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	12107644	NA	NA	NA	II
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	12079382	NA	NA	NA	II
+Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Aminolevulinic Acid	Aminolevulinic Acid	ALAD	Protein	P13716	Homo sapiens	DrugBank	10879826	NA	NA	NA	II
 Bortezomib	Bortezomib	PSMA4	Protein	P25789	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Bortezomib	Bortezomib	PSMA2	Protein	P25787	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
@@ -1076,7 +1183,9 @@ Bortezomib	Bortezomib	PSMA3	Protein	P25788	Homo sapiens	DrugBank	10592235	NA	NA	
 Bortezomib	Bortezomib	PSMA7	Protein	O14818	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Foretinib	Foretinib	HGF	Protein	P14210	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Foretinib	Foretinib	KDR	Protein	P35968	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Foretinib	Foretinib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Foretinib	Foretinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	23098265	IC50	=		III
+Foretinib	Foretinib	MET	Protein	P08581	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Foretinib	Foretinib	MET	Protein	P08581	Homo sapiens	IUPHAR	23644189	IC50	=		III
 Foretinib	Foretinib	MET	Protein	P08581	Homo sapiens	IUPHAR	23098265	IC50	=		III
 Foretinib	Foretinib	MET	Protein	P08581	Homo sapiens	IUPHAR	22037378	Kd	=	1.399999976	III
@@ -1094,10 +1203,12 @@ Romidepsin	Romidepsin	HDAC9	Protein	Q9UKV0	Homo sapiens	IUPHAR	20139990	Ki	=	110
 Romidepsin	Romidepsin	HDAC5	Protein	Q9UQL6	Homo sapiens	IUPHAR	20139990	Ki	=	550	III
 Romidepsin	Romidepsin	HDAC7	Protein	Q8WUI4	Homo sapiens	IUPHAR	20139990	Ki	=	1250	III
 Romidepsin	Romidepsin	HDAC1	Protein	Q13547	Homo sapiens	DrugBank	21587264	NA	NA	NA	II
+Romidepsin	Romidepsin	HDAC1	Protein	Q13547	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Romidepsin	Romidepsin	HDAC1	Protein	Q13547	Homo sapiens	IUPHAR	20139990	Ki	=	0.0015	III
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	15991937	NA	NA	NA	II
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	15573751	NA	NA	NA	II
+Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	15026875	NA	NA	NA	II
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	12710529	NA	NA	NA	II
 Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	DrugBank	12719755	NA	NA	NA	II
@@ -1105,6 +1216,7 @@ Losartan	Losartan	AGTR1	Protein	P30556	Homo sapiens	IUPHAR	8372104	IC50	=		III
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	19774211	NA	NA	NA	II
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	20531964	NA	NA	NA	II
+Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	20155724	NA	NA	NA	II
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	18466433	NA	NA	NA	II
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	19344392	NA	NA	NA	II
@@ -1112,10 +1224,12 @@ Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	20569080	NA	NA	N
 Everolimus	Everolimus	MTOR	Protein	P42345	Homo sapiens	IUPHAR	9723437	IC50	=	2	III
 Dabrafenib	Dabrafenib	SIK1	Protein	P57059	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Dabrafenib	Dabrafenib	BRAF	Protein	P15056	Homo sapiens	DrugBank	23621583	NA	NA	NA	II
+Dabrafenib	Dabrafenib	BRAF	Protein	P15056	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dabrafenib	Dabrafenib	BRAF	Protein	P15056	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	3.200000048	I
 Dabrafenib	Dabrafenib	RAF1	Protein	P04049	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Dabrafenib	Dabrafenib	NEK11	Protein	Q8NG66	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Dabrafenib	Dabrafenib	LIMK1	Protein	P53667	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Durvalumab	Durvalumab	CD274	Protein	Q9NZQ7	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Durvalumab	Durvalumab	CD274	Protein	Q9NZQ7	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	=	2	I
 Alvocidib	Alvocidib	CDK4	Protein	P11802	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Alvocidib	Alvocidib	CDK4	Protein	P11802	Homo sapiens	IUPHAR	8674031	Ki	=	65	III
@@ -1129,6 +1243,7 @@ Alvocidib	Alvocidib	CDK8	Protein	P49336	Homo sapiens	DrugBank	11752352	NA	NA	NA	
 Alvocidib	Alvocidib	CDK5	Protein	Q00535	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Alvocidib	Alvocidib	CDK2	Protein	P24941	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Alvocidib	Alvocidib	CDK2	Protein	P24941	Homo sapiens	DrugBank	18465538	NA	NA	NA	II
+Alvocidib	Alvocidib	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Alvocidib	Alvocidib	CDK2	Protein	P24941	Homo sapiens	IUPHAR	8674031	IC50	=		III
 Alvocidib	Alvocidib	CDK2	Protein	P24941	Homo sapiens	IUPHAR	8002990	IC50	=		III
 Alvocidib	Alvocidib	CDK7	Protein	P50613	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
@@ -1140,17 +1255,21 @@ Imiquimod	Imiquimod	TLR8	Protein	Q9NR97	Homo sapiens	DrugBank	18439678	NA	NA	NA	
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	12527213	NA	NA	NA	II
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	15068862	NA	NA	NA	II
+Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	12470615	NA	NA	NA	II
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	IUPHAR	11812998	NA	NA	NA	II
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	14616353	NA	NA	NA	II
 Imiquimod	Imiquimod	TLR7	Protein	Q9NYK1	Homo sapiens	DrugBank	15072849	NA	NA	NA	II
 Vandetanib	Vandetanib	PTK6	Protein	Q13882	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Vandetanib	Vandetanib	EGFR	Protein	P00533	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Vandetanib	Vandetanib	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vandetanib	Vandetanib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	12499271	IC50	=	300	III
+Vandetanib	Vandetanib	RET	Protein	P07949	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vandetanib	Vandetanib	RET	Protein	P07949	Homo sapiens	IUPHAR	12499271	IC50	=	100	III
 Vandetanib	Vandetanib	RET	Protein	P07949	Homo sapiens	IUPHAR	22037378	Kd	=	34	III
 Vandetanib	Vandetanib	TEK	Protein	Q02763	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Vandetanib	Vandetanib	VEGFA	Protein	P15692	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Vandetanib	Vandetanib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vandetanib	Vandetanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	15743202	IC50	=	9	III
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	14640928	NA	NA	NA	II
@@ -1162,6 +1281,7 @@ Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo 
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	14504060	NA	NA	NA	II
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	14635083	NA	NA	NA	II
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	14760130	NA	NA	NA	II
+Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	16163194	NA	NA	NA	II
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	15232725	NA	NA	NA	II
 Palonosetron Hydrochloride	Palonosetron Hydrochloride	HTR3A	Protein	P46098	Homo sapiens	DrugBank	15102873	NA	NA	NA	II
@@ -1181,6 +1301,7 @@ Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	N
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	7499435	NA	NA	NA	II
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	10593896	NA	NA	NA	II
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	16854582	NA	NA	NA	II
+Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	17456767	NA	NA	NA	II
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	9056643	NA	NA	NA	II
 Palifermin	Palifermin	FGFR2	Protein	P21802	Homo sapiens	DrugBank	16390600	NA	NA	NA	II
@@ -1200,16 +1321,21 @@ Palifermin	Palifermin	FGFR3	Protein	P22607	Homo sapiens	DrugBank	7890137	NA	NA	N
 Idelalisib	Idelalisib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	20959606	IC50	=	820	III
 Idelalisib	Idelalisib	PIK3CB	Protein	P42338	Homo sapiens	IUPHAR	20959606	IC50	=	565	III
 Idelalisib	Idelalisib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	20959606	IC50	=	2.5	III
+Idelalisib	Idelalisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Idelalisib	Idelalisib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	20959606	IC50	=	89	III
 Palbociclib	Palbociclib	CDK6	Protein	Q00534	Homo sapiens	DrugBank	15542782	NA	NA	NA	II
+Palbociclib	Palbociclib	CDK6	Protein	Q00534	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Palbociclib	Palbociclib	CDK6	Protein	Q00534	Homo sapiens	IUPHAR	15542782	IC50	=	16	III
 Palbociclib	Palbociclib	CDK4	Protein	P11802	Homo sapiens	DrugBank	15542782	NA	NA	NA	II
+Palbociclib	Palbociclib	CDK4	Protein	P11802	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Palbociclib	Palbociclib	CDK4	Protein	P11802	Homo sapiens	IUPHAR	15542782	IC50	=	11	III
+Mercaptopurine	Mercaptopurine	Inosine-5'-monophosphate dehydrogenase	Protein	P50097	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Mercaptopurine	Mercaptopurine	HPRT1	Protein	P00492	Homo sapiens	DrugBank	15354273	NA	NA	NA	II
 Mercaptopurine	Mercaptopurine	PPAT	Protein	Q06203	Homo sapiens	DrugBank	18506437	NA	NA	NA	II
 Mercaptopurine	Mercaptopurine	PPAT	Protein	Q06203	Homo sapiens	DrugBank	21948594	NA	NA	NA	II
 Mercaptopurine	Mercaptopurine	IMPDH2	Protein	P12268	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Mercaptopurine	Mercaptopurine	IMPDH2	Protein	P12268	Homo sapiens	DrugBank	18506437	NA	NA	NA	II
+Mercaptopurine	Mercaptopurine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Masitinib	Masitinib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	19789626	IC50	=	800	III
 Masitinib	Masitinib	KIT	Protein	P10721	Homo sapiens	IUPHAR	22037378	Kd	=	8.100000381	III
 Masitinib	Masitinib	KIT	Protein	P10721	Homo sapiens	IUPHAR	19789626	IC50	=	200	III
@@ -1218,6 +1344,7 @@ Bosutinib	Bosutinib	BCR	Protein	P11274	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	N
 Bosutinib	Bosutinib	STK24	Protein	Q9Y6E0	Homo sapiens	IUPHAR	19039322	IC50	=	3.900000095	III
 Bosutinib	Bosutinib	MAP2K1	Protein	Q02750	Homo sapiens	DrugBank	19039322	NA	NA	NA	II
 Bosutinib	Bosutinib	FRK	Protein	P42685	Homo sapiens	IUPHAR	19039322	IC50	=	2.200000048	III
+Bosutinib	Bosutinib	ABL2	Protein	P42684	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Bosutinib	Bosutinib	CAMK2G	Protein	Q13555	Homo sapiens	DrugBank	23493838	NA	NA	NA	II
 Bosutinib	Bosutinib	CAMK2G	Protein	Q13555	Homo sapiens	IUPHAR	19039322	IC50	=	184	III
 Bosutinib	Bosutinib	MAP2K2	Protein	P36507	Homo sapiens	DrugBank	19039322	NA	NA	NA	II
@@ -1236,8 +1363,10 @@ Bosutinib	Bosutinib	FYN	Protein	P06241	Homo sapiens	IUPHAR	19039322	IC50	=	1.799
 Bosutinib	Bosutinib	MAP4K5	Protein	Q9Y4K4	Homo sapiens	IUPHAR	19039322	IC50	=	0.300000012	III
 Bosutinib	Bosutinib	TNK2	Protein	Q07912	Homo sapiens	IUPHAR	19039322	IC50	=	2.700000048	III
 Bosutinib	Bosutinib	SRC	Protein	P12931	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Bosutinib	Bosutinib	SRC	Protein	P12931	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Bosutinib	Bosutinib	SRC	Protein	P12931	Homo sapiens	IUPHAR	17721511	IC50	=	1	III
 Etoposide Phosphate	Etoposide Phosphate	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	17578914	NA	NA	NA	II
+Etoposide Phosphate	Etoposide Phosphate	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	16271071	NA	NA	NA	II
 Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	16309315	NA	NA	NA	II
@@ -1247,8 +1376,10 @@ Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBa
 Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	50.40000153	I
 Etoposide Phosphate	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	50.40000153	I
 Vismodegib	Vismodegib	SMO	Protein	Q99835	Homo sapiens	DrugBank	23662017	NA	NA	NA	II
+Vismodegib	Vismodegib	SMO	Protein	Q99835	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vismodegib	Vismodegib	SMO	Protein	Q99835	Homo sapiens	IUPHAR	23063522	Ki	=	16.20000076	III
 Etoposide	Etoposide Phosphate	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	17578914	NA	NA	NA	II
+Etoposide	Etoposide Phosphate	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	16271071	NA	NA	NA	II
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	16309315	NA	NA	NA	II
@@ -1257,15 +1388,18 @@ Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	1736133
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17514873	NA	NA	NA	II
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	50.40000153	I
 Etoposide	Etoposide Phosphate	TOP2A	Protein	P11388	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	50.40000153	I
+Vistusertib	Vistusertib	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Birinapant	Birinapant	XIAP	Protein	P98170	Homo sapiens	IUPHAR	23225169	Kd	=	45	III
 Birinapant	Birinapant	BIRC2	Protein	Q13490	Homo sapiens	IUPHAR	23225169	Kd	<	1	III
 PLX-4720	PLX-4720	KDR	Protein	P35968	Homo sapiens	IUPHAR	12538485	Ki	=	9	III
 PLX-4720	PLX-4720	BRAF	Protein	P15056	Homo sapiens	IUPHAR	22037378	Kd	=	330	III
 PLX-4720	PLX-4720	BRAF	Protein	P15056	Homo sapiens	IUPHAR	18287029	IC50	=	160	III
+Serabelisib	Serabelisib	PIK3C2A	Protein	O00443	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Defibrotide Sodium	Defibrotide Sodium	ADORA1	Protein	P30542	Homo sapiens	DrugBank	8405101	NA	NA	NA	II
 Defibrotide Sodium	Defibrotide Sodium	ADORA2A	Protein	P29274	Homo sapiens	DrugBank	8405101	NA	NA	NA	II
 Defibrotide Sodium	Defibrotide Sodium	ADORA2B	Protein	P29275	Homo sapiens	DrugBank	8405101	NA	NA	NA	II
 CDK Inhibitor AT7519	CDK Inhibitor AT7519	CDK2	Protein	P24941	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+CDK Inhibitor AT7519	CDK Inhibitor AT7519	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CDK Inhibitor AT7519	CDK Inhibitor AT7519	CDK1	Protein	P06493	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Filgrastim	Filgrastim	ELANE	Protein	P08246	Homo sapiens	DrugBank	16245075	NA	NA	NA	II
 Filgrastim	Filgrastim	ELANE	Protein	P08246	Homo sapiens	DrugBank	17475913	NA	NA	NA	II
@@ -1278,10 +1412,13 @@ Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	DrugBank	17127322	NA	NA	
 Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	DrugBank	15949269	NA	NA	NA	II
 Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	DrugBank	17494858	NA	NA	NA	II
 Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	DrugBank	16033816	NA	NA	NA	II
+Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Filgrastim	Filgrastim	CSF3R	Protein	Q99062	Homo sapiens	DrugBank	17001306	NA	NA	NA	II
 Filgrastim	Filgrastim	CSF2RB|CSF2RA	Protein	P32927|P15509	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
 Filgrastim	Filgrastim	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
+Crizotinib	Crizotinib	ROS1	Protein	P08922	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Crizotinib	Crizotinib	MET	Protein	P08581	Homo sapiens	DrugBank	22594847	NA	NA	NA	II
+Crizotinib	Crizotinib	MET	Protein	P08581	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Crizotinib	Crizotinib	MET	Protein	P08581	Homo sapiens	IUPHAR	21812414	Ki	=	2	III
 Crizotinib	Crizotinib	MET	Protein	P08581	Homo sapiens	IUPHAR	21708465	IC50	=	0.779999971	III
 Crizotinib	Crizotinib	ALK	Protein	Q9UM73	Homo sapiens	DrugBank	22594847	NA	NA	NA	II
@@ -1289,9 +1426,12 @@ Crizotinib	Crizotinib	ALK	Protein	Q9UM73	Homo sapiens	IUPHAR	21812414	IC50	=	1	I
 Procarbazine Hydrochloride	Procarbazine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Procarbazine Hydrochloride	Procarbazine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	9307842	NA	NA	NA	II
 Procarbazine Hydrochloride	Procarbazine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Procarbazine Hydrochloride	Procarbazine Hydrochloride	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Procarbazine Hydrochloride	Procarbazine Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	12948823	NA	NA	NA	II
+Motesanib	Motesanib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Motesanib	Motesanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	22037378	Kd	=	2.599999905	III
 Motesanib	Motesanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	23098265	IC50	=	3	III
+Motesanib	Motesanib	KIT	Protein	P10721	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Motesanib	Motesanib	FLT1	Protein	P17948	Homo sapiens	IUPHAR	23098265	IC50	=	2	III
 Motesanib	Motesanib	FLT4	Protein	P35916	Homo sapiens	IUPHAR	23098265	IC50	=	6	III
 Trabectedin	Trabectedin	Nr1i2	Protein	O54915	Mouse	IUPHAR	11329060	NA	NA	NA	II
@@ -1299,17 +1439,23 @@ Trabectedin	Trabectedin	DNA	DNA	null	Homo sapiens	DrugBank	17154523	NA	NA	NA	II
 Trabectedin	Trabectedin	DNA	DNA	null	Homo sapiens	DrugBank	20647340	NA	NA	NA	II
 Trabectedin	Trabectedin	DNA	DNA	null	Homo sapiens	DrugBank	19515014	NA	NA	NA	II
 Larotrectinib	Larotrectinib	NTRK1	Protein	P04629	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	9.699999809	I
+Ziv-Aflibercept	Ziv-Aflibercept	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ziv-Aflibercept	Ziv-Aflibercept	VEGFB	Protein	P49765	Homo sapiens	DrugBank	22813448	NA	NA	NA	II
 Ziv-Aflibercept	Ziv-Aflibercept	VEGFA	Protein	P15692	Homo sapiens	IUPHAR	24179482	NA	NA	NA	II
+Ziv-Aflibercept	Ziv-Aflibercept	VEGFA	Protein	P15692	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ziv-Aflibercept	Ziv-Aflibercept	VEGFA	Protein	P15692	Homo sapiens	IUPHAR	24144450	NA	NA	NA	II
 Ziv-Aflibercept	Ziv-Aflibercept	VEGFA	Protein	P15692	Homo sapiens	IUPHAR	19236257	NA	NA	NA	II
 Ziv-Aflibercept	Ziv-Aflibercept	VEGFA	Protein	P15692	Homo sapiens	DrugBank	22813448	NA	NA	NA	II
+Ziv-Aflibercept	Ziv-Aflibercept	PIGF	Protein	Q07326	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ziv-Aflibercept	Ziv-Aflibercept	PGF	Protein	P49763	Homo sapiens	DrugBank	22813448	NA	NA	NA	II
 Infigratinib	Infigratinib	FGFR4	Protein	P22455	Homo sapiens	IUPHAR	21936542	IC50	=	60	III
+Infigratinib	Infigratinib	FGFR1	Protein	P11362	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Infigratinib	Infigratinib	FGFR1	Protein	P11362	Homo sapiens	IUPHAR	21936542	IC50	=	0.899999976	III
 Infigratinib	Infigratinib	KDR	Protein	P35968	Homo sapiens	IUPHAR	21936542	IC50	=	180	III
 Infigratinib	Infigratinib	FGFR3	Protein	P22607	Homo sapiens	IUPHAR	21936542	IC50	=	1	III
 Infigratinib	Infigratinib	FGFR2	Protein	P21802	Homo sapiens	IUPHAR	21936542	IC50	=	1.399999976	III
+Darolutamide	Darolutamide	AR	Protein	P10275	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Belinostat	Belinostat	HDAC1	Protein	Q13547	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Belinostat	Belinostat	HDAC1	Protein	Q13547	Homo sapiens	IUPHAR	17868033	EC50	=	41	III
 Belinostat	Belinostat	HDAC1	Protein	Q13547	Homo sapiens	IUPHAR	20139990	Ki	=	0.850000024	III
 Belinostat	Belinostat	HDAC2	Protein	Q92769	Homo sapiens	IUPHAR	17868033	EC50	=	125	III
@@ -1334,9 +1480,11 @@ Thioguanine	Thioguanine	IMPDH2	Protein	P12268	Homo sapiens	IUPHAR	14529546	NA	NA
 Thioguanine	Thioguanine	DNA	DNA	null	Homo sapiens	DrugBank	18506437	NA	NA	NA	II
 Thioguanine	Thioguanine	DNA	DNA	null	Homo sapiens	DrugBank	16267626	NA	NA	NA	II
 Thioguanine	Thioguanine	DNA	DNA	null	Homo sapiens	DrugBank	6400065	NA	NA	NA	II
+Thioguanine	Thioguanine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Thioguanine	Thioguanine	DNA	DNA	null	Homo sapiens	DrugBank	2676034	NA	NA	NA	II
 Ifosfamide	Ifosfamide	DNA	DNA	null	Homo sapiens	DrugBank	10100700	NA	NA	NA	II
 Ifosfamide	Ifosfamide	DNA	DNA	null	Homo sapiens	DrugBank	16702183	NA	NA	NA	II
+Ifosfamide	Ifosfamide	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ifosfamide	Ifosfamide	DNA	DNA	null	Homo sapiens	DrugBank	15827549	NA	NA	NA	II
 Ifosfamide	Ifosfamide	DNA	DNA	null	Homo sapiens	DrugBank	14586139	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	16485343	NA	NA	NA	II
@@ -1345,6 +1493,7 @@ Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	20616909	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	18318562	NA	NA	NA	II
+Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	19825456	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	18473971	NA	NA	NA	II
 Nelarabine	Nelarabine	DNA	DNA	null	Homo sapiens	DrugBank	18516261	NA	NA	NA	II
@@ -1353,10 +1502,12 @@ Nelarabine	Nelarabine	POLA1	Protein	P09884	Homo sapiens	DrugBank	91427	NA	NA	NA	
 Nelarabine	Nelarabine	POLA1	Protein	P09884	Homo sapiens	DrugBank	18035189	NA	NA	NA	II
 Nelarabine	Nelarabine	POLA1	Protein	P09884	Homo sapiens	DrugBank	18473971	NA	NA	NA	II
 Alisertib	Alisertib	AURKA	Protein	O14965	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Alisertib	Alisertib	AURKA	Protein	O14965	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Alisertib	Alisertib	AURKA	Protein	O14965	Homo sapiens	IUPHAR	19320489	IC50	=	1	III
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	9031099	NA	NA	NA	II
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	19749264	NA	NA	NA	II
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	14871502	NA	NA	NA	II
 Chlorambucil	Chlorambucil	DNA	DNA	null	Homo sapiens	DrugBank	20350810	NA	NA	NA	II
@@ -1364,6 +1515,7 @@ Venetoclax	Venetoclax	BCL2L2	Protein	Q92843	Homo sapiens	IUPHAR	23291630	Ki	=	24
 Venetoclax	Venetoclax	MCL1	Protein	Q07820	Homo sapiens	IUPHAR	23291630	Ki	>	444	III
 Venetoclax	Venetoclax	BCL2L1	Protein	Q07817	Homo sapiens	IUPHAR	23291630	Ki	=	48	III
 Venetoclax	Venetoclax	BCL2	Protein	P10415	Homo sapiens	DrugBank	23410971	NA	NA	NA	II
+Venetoclax	Venetoclax	BCL2	Protein	P10415	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Venetoclax	Venetoclax	BCL2	Protein	P10415	Homo sapiens	IUPHAR	23291630	Ki	<	0.01	III
 Arsenic Trioxide	Arsenic Trioxide	TXNRD1	Protein	Q16881	Homo sapiens	DrugBank	17640917	NA	NA	NA	II
 Arsenic Trioxide	Arsenic Trioxide	AKT1	Protein	P31749	Homo sapiens	DrugBank	16239170	NA	NA	NA	II
@@ -1395,10 +1547,15 @@ Arsenic Trioxide	Arsenic Trioxide	JUN	Protein	P05412	Homo sapiens	DrugBank	12426
 Carboplatin	Carboplatin	DNA	DNA	null	Homo sapiens	DrugBank	17925555	NA	NA	NA	II
 Carboplatin	Carboplatin	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Carboplatin	Carboplatin	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Carboplatin	Carboplatin	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Carboplatin	Carboplatin	DNA	DNA	null	Homo sapiens	DrugBank	17900616	NA	NA	NA	II
+Tanespimycin	Tanespimycin	HSP90AA1	Protein	P07900	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Copanlisib	Copanlisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Dactolisib	Dactolisib	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dactolisib	Dactolisib	MTOR	Protein	P42345	Homo sapiens	IUPHAR	18606717	IC50	=	6	III
 Dactolisib	Dactolisib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	18606717	IC50	=	4	III
 Dactolisib	Dactolisib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	18606717	IC50	=	7	III
+Dactolisib	Dactolisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Dactolisib	Dactolisib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	18606717	IC50	=	5	III
 Dactolisib	Dactolisib	ATR	Protein	Q13535	Homo sapiens	IUPHAR	21552262	IC50	=	21	III
 Cerdulatinib	Cerdulatinib	JAK2	Protein	O60674	Homo sapiens	IUPHAR	25253883	IC50	=	6	III
@@ -1420,10 +1577,12 @@ Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	DrugBank	17893968	NA
 Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	DrugBank	17904265	NA	NA	NA	II
+Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cyclophosphamide	Cyclophosphamide	DNA	DNA	null	Homo sapiens	DrugBank	17922622	NA	NA	NA	II
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	12590540	NA	NA	NA	II
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	12227806	NA	NA	NA	II
+Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	15121485	NA	NA	NA	II
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	17643344	NA	NA	NA	II
 Aprepitant	Aprepitant	TACR1	Protein	P25103	Homo sapiens	DrugBank	12784346	NA	NA	NA	II
@@ -1434,6 +1593,7 @@ Vargetef	Vargetef	FLT4	Protein	P35916	Homo sapiens	IUPHAR	18559524	IC50	=	13	III
 Vargetef	Vargetef	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	18559524	IC50	=	65	III
 Vargetef	Vargetef	LCK	Protein	P06239	Homo sapiens	DrugBank	18559524	NA	NA	NA	II
 Vargetef	Vargetef	FLT1	Protein	P17948	Homo sapiens	DrugBank	18559524	NA	NA	NA	II
+Vargetef	Vargetef	FLT1	Protein	P17948	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vargetef	Vargetef	FLT1	Protein	P17948	Homo sapiens	IUPHAR	18559524	IC50	=	31	III
 Vargetef	Vargetef	FGFR4	Protein	P22455	Homo sapiens	IUPHAR	18559524	IC50	=	610	III
 Vargetef	Vargetef	KDR	Protein	P35968	Homo sapiens	DrugBank	18559524	NA	NA	NA	II
@@ -1447,9 +1607,11 @@ Vargetef	Vargetef	PDGFRA	Protein	P16234	Homo sapiens	IUPHAR	18559524	IC50	=	59	I
 Vargetef	Vargetef	FGFR2	Protein	P21802	Homo sapiens	DrugBank	18559524	NA	NA	NA	II
 Vargetef	Vargetef	FGFR2	Protein	P21802	Homo sapiens	IUPHAR	18559524	IC50	=	37	III
 Vargetef	Vargetef	FGFR1	Protein	P11362	Homo sapiens	DrugBank	18559524	NA	NA	NA	II
+Vargetef	Vargetef	FGFR1	Protein	P11362	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vargetef	Vargetef	FGFR1	Protein	P11362	Homo sapiens	IUPHAR	18559524	IC50	=	69	III
 Topotecan Hydrochloride	Topotecan Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	12426403	NA	NA	NA	II
 Topotecan Hydrochloride	Topotecan Hydrochloride	DNA	DNA	null	Homo sapiens	DrugBank	10677551	NA	NA	NA	II
+Topotecan Hydrochloride	Topotecan Hydrochloride	DNA topoisomerase I	Protein	Q00313	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Topotecan Hydrochloride	Topotecan Hydrochloride	TOP1	Protein	P11387	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Topotecan Hydrochloride	Topotecan Hydrochloride	TOP1	Protein	P11387	Homo sapiens	DrugBank	12437383	NA	NA	NA	II
 Topotecan Hydrochloride	Topotecan Hydrochloride	TOP1	Protein	P11387	Homo sapiens	DrugBank	11166732	NA	NA	NA	II
@@ -1472,36 +1634,46 @@ Dexrazoxane Hydrochloride	Dexrazoxane Hydrochloride	TOP2A	Protein	P11388	Homo sa
 Dexrazoxane Hydrochloride	Dexrazoxane Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Dexrazoxane Hydrochloride	Dexrazoxane Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Dexrazoxane Hydrochloride	Dexrazoxane Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Dexrazoxane Hydrochloride	Dexrazoxane Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Romiplostim	Romiplostim	C1S	Protein	P09871	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Romiplostim	Romiplostim	MPL	Protein	P40238	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
 Romiplostim	Romiplostim	MPL	Protein	P40238	Homo sapiens	DrugBank	23250851	NA	NA	NA	II
 Torkinib	Torkinib	PASK	Protein	Q96RG2	Homo sapiens	IUPHAR	18849971	NA	NA	NA	II
 Torkinib	Torkinib	MTOR	Protein	P42345	Homo sapiens	IUPHAR	18849971	IC50	=	8	III
+Ranolazine	Ranolazine	SCN10A	Protein	Q9Y5Y9	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ranolazine	Ranolazine	SCN5A	Protein	Q14524	Homo sapiens	DrugBank	17220471	NA	NA	NA	II
 Ranolazine	Ranolazine	SCN5A	Protein	Q14524	Homo sapiens	DrugBank	19077543	NA	NA	NA	II
 Ranolazine	Ranolazine	SCN9A	Protein	Q15858	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Ranolazine	Ranolazine	SCN9A	Protein	Q15858	Homo sapiens	DrugBank	19077543	NA	NA	NA	II
+Ranolazine	Ranolazine	SCN9A	Protein	Q15858	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 PHT-427	PHT-427	AKT2	Protein	P31751	Homo sapiens	IUPHAR	20197390	Ki	=	2670	III
 PHT-427	PHT-427	PDPK1	Protein	O15530	Homo sapiens	IUPHAR	20197390	Ki	=	5200	III
+Seliciclib	Roscovitine	CDK7	Protein	P50613	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Seliciclib	Roscovitine	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Seliciclib	Roscovitine	CDK2	Protein	P24941	Homo sapiens	IUPHAR	23252711	Ki	=	250	III
 Seliciclib	Roscovitine	CDK2	Protein	P24941	Homo sapiens	IUPHAR	23252711	Ki	=	250	III
 Seliciclib	Roscovitine	CDK9	Protein	P50750	Homo sapiens	IUPHAR	23252711	Ki	=	790	III
 Seliciclib	Roscovitine	CDK9	Protein	P50750	Homo sapiens	IUPHAR	23252711	Ki	=	790	III
+Seliciclib	Roscovitine	Cell division control protein 2 homolog	Protein	Q6LFL1	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Crenolanib	Crenolanib	PDGFRA	Protein	P16234	Homo sapiens	IUPHAR	22745105	Kd	=	2.099999905	III
 Crenolanib	Crenolanib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22745105	Kd	=	0.74000001	III
 Crenolanib	Crenolanib	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	22745105	Kd	=	30	III
 Crenolanib	Crenolanib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	22745105	Kd	=	3.200000048	III
 Crenolanib	Crenolanib	KIT	Protein	P10721	Homo sapiens	IUPHAR	22745105	Kd	=	78	III
 Enzalutamide	Enzalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Enzalutamide	Enzalutamide	AR	Protein	P10275	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Enzalutamide	Enzalutamide	AR	Protein	P10275	Homo sapiens	IUPHAR	19359544	IC50	=	36	III
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16707595	NA	NA	NA	II
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	17121036	NA	NA	NA	II
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	17504182	NA	NA	NA	II
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	16597193	NA	NA	NA	II
+Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	DrugBank	17062674	NA	NA	NA	II
 Prednisone	Prednisone	NR3C1	Protein	P04150	Homo sapiens	IUPHAR	NA_IUPHAR	Ki	=	521	I
 Prednisone	Prednisone	HSD11B1	Protein	P28845	Homo sapiens	DrugBank	20634231	NA	NA	NA	II
 Vatalanib	Vatalanib	KDR	Protein	P35968	Homo sapiens	DrugBank	17584317	NA	NA	NA	II
+Vatalanib	Vatalanib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Vatalanib	Vatalanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	16321531	IC50	=	21	III
 Vatalanib	Vatalanib	KDR	Protein	P35968	Homo sapiens	IUPHAR	22037378	Kd	=	62	III
 Vatalanib	Vatalanib	FLT1	Protein	P17948	Homo sapiens	DrugBank	17584317	NA	NA	NA	II
@@ -1510,7 +1682,9 @@ Vatalanib	Vatalanib	FLT4	Protein	P35916	Homo sapiens	DrugBank	17584317	NA	NA	NA	
 Vatalanib	Vatalanib	FLT4	Protein	P35916	Homo sapiens	IUPHAR	12477352	IC50	=	195	III
 Vatalanib	Vatalanib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	10882357	IC50	=	600	III
 Pertuzumab	Pertuzumab	ERBB2	Protein	P04626	Homo sapiens	DrugBank	15093539	NA	NA	NA	II
+Pertuzumab	Pertuzumab	ERBB2	Protein	P04626	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Pertuzumab	Pertuzumab	ERBB2	Protein	P04626	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	<	10	I
+Liposomal Doxorubicin 	Liposomal Doxorubicin 	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Liposomal Doxorubicin 	Liposomal Doxorubicin 	DNA	DNA	null	Homo sapiens	DrugBank	1277199	NA	NA	NA	II
 Liposomal Doxorubicin 	Liposomal Doxorubicin 	DNA	DNA	null	Homo sapiens	DrugBank	2334681	NA	NA	NA	II
 Liposomal Doxorubicin 	Liposomal Doxorubicin 	DNA	DNA	null	Homo sapiens	DrugBank	8183243	NA	NA	NA	II
@@ -1526,6 +1700,8 @@ Cytarabine	Cytarabine	DNA	DNA	null	Homo sapiens	DrugBank	20459144	NA	NA	NA	II
 Cytarabine	Cytarabine	POLB	Protein	P06746	Homo sapiens	DrugBank	16866189	NA	NA	NA	II
 Cytarabine	Cytarabine	POLB	Protein	P06746	Homo sapiens	DrugBank	19372559	NA	NA	NA	II
 Cytarabine	Cytarabine	POLB	Protein	P06746	Homo sapiens	DrugBank	15011952	NA	NA	NA	II
+Cytarabine	Cytarabine	DNA polymerase	Protein	O39644	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Denosumab	Denosumab	TNFSF11	Protein	O14788	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Denosumab	Denosumab	TNFSF11	Protein	O14788	Homo sapiens	DrugBank	16702197	NA	NA	NA	II
 Denosumab	Denosumab	TNFSF11	Protein	O14788	Homo sapiens	DrugBank	18685421	NA	NA	NA	II
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	11931851	NA	NA	NA	II
@@ -1533,6 +1709,7 @@ Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	11752352	NA	NA
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10500149	NA	NA	NA	II
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10076535	NA	NA	NA	II
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	12517791	NA	NA	NA	II
+Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10754148	NA	NA	NA	II
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	IUPHAR	20218717	IC50	=	1000	III
 Bicalutamide	Bicalutamide	AR	Protein	P10275	Homo sapiens	IUPHAR	16420057	Ki	=	19	III
@@ -1555,6 +1732,7 @@ Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12172803	NA	NA	
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12405293	NA	NA	NA	II
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12204108	NA	NA	NA	II
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	19249983	NA	NA	NA	II
+Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12214063	NA	NA	NA	II
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12369143	NA	NA	NA	II
 Lovastatin	Lovastatin	HMGCR	Protein	P04035	Homo sapiens	DrugBank	12082550	NA	NA	NA	II
@@ -1581,6 +1759,7 @@ Tamoxifen Citrate	Tamoxifen Citrate	ESR2	Protein	Q92731	Homo sapiens	DrugBank	16
 Tamoxifen Citrate	Tamoxifen Citrate	ESR2	Protein	Q92731	Homo sapiens	DrugBank	17158759	NA	NA	NA	II
 Tamoxifen Citrate	Tamoxifen Citrate	ESR2	Protein	Q92731	Homo sapiens	IUPHAR	9048584	NA	NA	NA	II
 Tamoxifen Citrate	Tamoxifen Citrate	ESR2	Protein	Q92731	Homo sapiens	DrugBank	16822624	NA	NA	NA	II
+Tamoxifen Citrate	Tamoxifen Citrate	7 ER	Protein	Q13262	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tamoxifen Citrate	Tamoxifen Citrate	PRKCZ	Protein	Q05513	Homo sapiens	DrugBank	3157445	NA	NA	NA	II
 Tamoxifen Citrate	Tamoxifen Citrate	ESR1	Protein	P03372	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Tamoxifen Citrate	Tamoxifen Citrate	ESR1	Protein	P03372	Homo sapiens	DrugBank	2011412	NA	NA	NA	II
@@ -1592,17 +1771,23 @@ FLT3/ABL/Aurora Kinase Inhibitor KW-2449	FLT3/ABL/Aurora Kinase Inhibitor KW-244
 FLT3/ABL/Aurora Kinase Inhibitor KW-2449	FLT3/ABL/Aurora Kinase Inhibitor KW-2449	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22037378	Kd	=	15	III
 FLT3/ABL/Aurora Kinase Inhibitor KW-2449	FLT3/ABL/Aurora Kinase Inhibitor KW-2449	AURKA	Protein	O14965	Homo sapiens	IUPHAR	19541823	IC50	=	48	III
 FLT3/ABL/Aurora Kinase Inhibitor KW-2449	FLT3/ABL/Aurora Kinase Inhibitor KW-2449	AURKB	Protein	Q96GD4	Homo sapiens	IUPHAR	19541823	IC50	=	48	III
+Ridaforolimus	Ridaforolimus	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ridaforolimus	Ridaforolimus	MTOR	Protein	P42345	Homo sapiens	IUPHAR	21482695	IC50	=	0.200000003	III
 Ibrutinib	Ibrutinib	BMX	Protein	P51813	Homo sapiens	IUPHAR	22394077	IC50	=	0.800000012	III
 Ibrutinib	Ibrutinib	BLK	Protein	P51451	Homo sapiens	IUPHAR	22394077	IC50	=	0.5	III
 Ibrutinib	Ibrutinib	BTK	Protein	Q06187	Homo sapiens	DrugBank	25802231	NA	NA	NA	II
 Ibrutinib	Ibrutinib	BTK	Protein	Q06187	Homo sapiens	IUPHAR	17154430	IC50	=	0.5	III
 Navitoclax	Navitoclax	BCL2L2	Protein	Q92843	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Navitoclax	Navitoclax	BCL2L2	Protein	Q92843	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Navitoclax	Navitoclax	BCL2L1	Protein	Q07817	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Navitoclax	Navitoclax	BCL2L1	Protein	Q07817	Homo sapiens	IUPHAR	18841882	Ki	<	1	III
 Navitoclax	Navitoclax	BAD	Protein	Q92934	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Navitoclax	Navitoclax	BCL2	Protein	P10415	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Navitoclax	Navitoclax	BCL2	Protein	P10415	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Navitoclax	Navitoclax	BCL2	Protein	P10415	Homo sapiens	IUPHAR	18841882	Ki	<	1	III
+MET Tyrosine Kinase Inhibitor SGX523	MET Tyrosine Kinase Inhibitor SGX523	MET	Protein	P08581	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Letrozole	Letrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
+Letrozole	Letrozole	CYP19A1	Protein	P11511	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Letrozole	Letrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	14505258	NA	NA	NA	II
 Letrozole	Letrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	10388095	NA	NA	NA	II
 Letrozole	Letrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	15026471	NA	NA	NA	II
@@ -1622,6 +1807,7 @@ Sirolimus	Sirolimus	FGF2	Protein	P09038	Homo sapiens	DrugBank	12742462	NA	NA	NA	
 Sirolimus	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Sirolimus	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	19620795	NA	NA	NA	II
 Sirolimus	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	12742462	NA	NA	NA	II
+Sirolimus	Sirolimus	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Sirolimus	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	20005306	NA	NA	NA	II
 Sirolimus	Sirolimus	FKBP1A	Protein	P62942	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Sirolimus	Sirolimus	FKBP1A	Protein	P62942	Homo sapiens	DrugBank	12742462	NA	NA	NA	II
@@ -1637,14 +1823,18 @@ Lucitanib	Lucitanib	FGFR1	Protein	P11362	Homo sapiens	IUPHAR	22304225	IC50	=	7	I
 SCH-772984	SCH-772984	MAPK1	Protein	P28482	Homo sapiens	IUPHAR	23614898	IC50	=	4	III
 SCH-772984	SCH-772984	MAPK1	Protein	P28482	Homo sapiens	IUPHAR	23614898	IC50	=	1	III
 Ramucirumab	Ramucirumab	KDR	Protein	P35968	Homo sapiens	DrugBank	2182794	NA	NA	NA	II
+Ramucirumab	Ramucirumab	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ramucirumab	Ramucirumab	KDR	Protein	P35968	Homo sapiens	IUPHAR	12917408	IC50	=	1	III
 Ramucirumab	Ramucirumab	KDR	Protein	P35968	Homo sapiens	IUPHAR	12917408	Kd	=	0.050000001	III
+Alpelisib	Alpelisib	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Alpelisib	Alpelisib	PIK3CG	Protein	P48736	Homo sapiens	IUPHAR	23726034	IC50	=	250	III
 Alpelisib	Alpelisib	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	23726034	IC50	=	5	III
 Alpelisib	Alpelisib	PIK3CD	Protein	O00329	Homo sapiens	IUPHAR	23726034	IC50	=	290	III
 Alpelisib	Alpelisib	PIK3CB	Protein	P42338	Homo sapiens	IUPHAR	23726034	IC50	=	1200	III
+Alpelisib	Alpelisib	PIK3C2A	Protein	O00443	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Doramapimod	Doramapimod	MAPK14	Protein	Q16539	Homo sapiens	IUPHAR	22037378	Kd	=	0.449999988	III
 Doramapimod	Doramapimod	MAPK14	Protein	Q16539	Homo sapiens	IUPHAR	22014550	IC50	=	20	III
+Doramapimod	Doramapimod	MAPK12	Protein	P53778	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Doramapimod	Doramapimod	MAPK12	Protein	P53778	Homo sapiens	IUPHAR	22014550	IC50	=	30	III
 Doramapimod	Doramapimod	MAPK13	Protein	O15264	Homo sapiens	IUPHAR	22014550	IC50	=	300	III
 Doramapimod	Doramapimod	MAPK11	Protein	Q15759	Homo sapiens	IUPHAR	22014550	IC50	=	7	III
@@ -1652,6 +1842,7 @@ Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	1422285	NA	NA	NA	II
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	17896789	NA	NA	NA	II
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	19611402	NA	NA	NA	II
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	20577993	NA	NA	NA	II
 Busulfan	Busulfan	DNA	DNA	null	Homo sapiens	DrugBank	19361744	NA	NA	NA	II
@@ -1659,6 +1850,7 @@ STO609	STO609	CAMKK2	Protein	Q96RR4	Homo sapiens	IUPHAR	11867640	IC50	=	40	III
 STO609	STO609	CAMKK1	Protein	Q8N5S9	Homo sapiens	IUPHAR	11867640	IC50	=	140	III
 Ofatumumab	Ofatumumab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	17768100	NA	NA	NA	II
 Ofatumumab	Ofatumumab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	19427037	NA	NA	NA	II
+Ofatumumab	Ofatumumab	MS4A1	Protein	P11836	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ofatumumab	Ofatumumab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	18388516	NA	NA	NA	II
 Ofatumumab	Ofatumumab	MS4A1	Protein	P11836	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	=	0.120999999	I
 Pomalidomide	Pomalidomide	PTGS2	Protein	P35354	Homo sapiens	DrugBank	17308870	NA	NA	NA	II
@@ -1666,6 +1858,8 @@ Pomalidomide	Pomalidomide	TNF	Protein	P01375	Homo sapiens	DrugBank	22917017	NA	N
 Pomalidomide	Pomalidomide	CRBN	Protein	Q96SW2	Homo sapiens	DrugBank	20223979	NA	NA	NA	II
 Pomalidomide	Pomalidomide	CRBN	Protein	Q96SW2	Homo sapiens	DrugBank	22552008	NA	NA	NA	II
 Pomalidomide	Pomalidomide	CRBN	Protein	Q96SW2	Homo sapiens	DrugBank	23730498	NA	NA	NA	II
+mTOR Kinase Inhibitor OSI-027	mTOR Kinase Inhibitor OSI-027	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Epirubicin Hydrochloride	Epirubicin Hydrochloride	TOP2B	Protein	Q02880	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Epirubicin Hydrochloride	Epirubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	16234514	NA	NA	NA	II
 Epirubicin Hydrochloride	Epirubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	17639997	NA	NA	NA	II
 Epirubicin Hydrochloride	Epirubicin Hydrochloride	TOP2A	Protein	P11388	Homo sapiens	DrugBank	14728934	NA	NA	NA	II
@@ -1675,17 +1869,21 @@ Epirubicin Hydrochloride	Epirubicin Hydrochloride	DNA	DNA	null	Homo sapiens	Drug
 Epirubicin Hydrochloride	Epirubicin Hydrochloride	CHD1	Protein	O14646	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Epirubicin Hydrochloride	Epirubicin Hydrochloride	CHD1	Protein	O14646	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Tandutinib	Tandutinib	CSF1R	Protein	P07333	Homo sapiens	IUPHAR	12124172	IC50	=	3430	III
+Tandutinib	Tandutinib	FLT3	Protein	P36888	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Tandutinib	Tandutinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	22037378	Kd	=	3	III
 Tandutinib	Tandutinib	FLT3	Protein	P36888	Homo sapiens	IUPHAR	12124172	IC50	=	220	III
 Tandutinib	Tandutinib	KIT	Protein	P10721	Homo sapiens	IUPHAR	12124172	IC50	=	170	III
 Tandutinib	Tandutinib	PDGFRB	Protein	P09619	Homo sapiens	IUPHAR	12124172	IC50	=	200	III
+17-AAG	Tanespimycin	HSP90AA1	Protein	P07900	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	DrugBank	10687850	NA	NA	NA	II
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	DrugBank	10394541	NA	NA	NA	II
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	DrugBank	15758569	NA	NA	NA	II
+Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	DrugBank	9625809	NA	NA	NA	II
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	DrugBank	16809153	NA	NA	NA	II
 Leuprolide Acetate	Leuprolide Acetate	GNRHR	Protein	P30968	Homo sapiens	IUPHAR	17095587	Ki	=		III
 Leuprolide Acetate	Leuprolide Acetate	Gnrhr	Protein	P30969	Rat	IUPHAR	8013367	NA	NA	NA	II
+Capecitabine	Capecitabine	Thymidylate synthase	Protein	P13922	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Capecitabine	Capecitabine	RNA	RNA	null	Homo sapiens	DrugBank	15763604	NA	NA	NA	II
 Capecitabine	Capecitabine	RNA	RNA	null	Homo sapiens	DrugBank	12724731	NA	NA	NA	II
 Capecitabine	Capecitabine	RNA	RNA	null	Homo sapiens	DrugBank	15032669	NA	NA	NA	II
@@ -1708,6 +1906,7 @@ Capecitabine	Capecitabine	DNA	DNA	null	Homo sapiens	DrugBank	9264308	NA	NA	NA	II
 Capecitabine	Capecitabine	DNA	DNA	null	Homo sapiens	DrugBank	9807659	NA	NA	NA	II
 Temsirolimus	Temsirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Temsirolimus	Temsirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	18265991	NA	NA	NA	II
+Temsirolimus	Temsirolimus	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Temsirolimus	Temsirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	17935273	NA	NA	NA	II
 Temsirolimus	Temsirolimus	MTOR	Protein	P42345	Homo sapiens	IUPHAR	21438579	IC50	=	1760	III
 Carmustine	Carmustine	GSR	Protein	P00390	Homo sapiens	DrugBank	3806383	NA	NA	NA	II
@@ -1721,15 +1920,18 @@ Carmustine	Carmustine	GSR	Protein	P00390	Homo sapiens	DrugBank	6094175	NA	NA	NA	
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	18501520	NA	NA	NA	II
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	11408535	NA	NA	NA	II
+Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	15380096	NA	NA	NA	II
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	11741815	NA	NA	NA	II
 Carmustine	Carmustine	DNA	DNA	null	Homo sapiens	DrugBank	18366283	NA	NA	NA	II
 Carmustine	Carmustine	RNA	RNA	null	Homo sapiens	DrugBank	18366283	NA	NA	NA	II
+Obinutuzumab	Obinutuzumab	MS4A1	Protein	P11836	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Obinutuzumab	Obinutuzumab	MS4A1	Protein	P11836	Homo sapiens	IUPHAR	23537278	NA	NA	NA	II
 Obinutuzumab	Obinutuzumab	MS4A1	Protein	P11836	Homo sapiens	IUPHAR	21378274	NA	NA	NA	II
 Obinutuzumab	Obinutuzumab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	19513948	NA	NA	NA	II
 mTOR Kinase Inhibitor PP242	mTOR Kinase Inhibitor PP242	PASK	Protein	Q96RG2	Homo sapiens	IUPHAR	18849971	NA	NA	NA	II
 mTOR Kinase Inhibitor PP242	mTOR Kinase Inhibitor PP242	MTOR	Protein	P42345	Homo sapiens	IUPHAR	18849971	IC50	=	8	III
+Volasertib	Volasertib	PLK1	Protein	P53350	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Volasertib	Volasertib	PLK1	Protein	P53350	Homo sapiens	IUPHAR	23103095	IC50	=	0.870000005	III
 A-674563	A-674563	PRKACA	Protein	P17612	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 A-674563	A-674563	AKT1	Protein	P31749	Homo sapiens	IUPHAR	15956255	Ki	=	11	III
@@ -1738,11 +1940,14 @@ A-674563	A-674563	PKIA	Protein	P61925	Homo sapiens	DrugBank	10592235	NA	NA	NA	II
 Saracatinib	Saracatinib	LCK	Protein	P06239	Homo sapiens	IUPHAR	17064066	IC50	<	4	III
 Saracatinib	Saracatinib	ABL1	Protein	P00519	Homo sapiens	IUPHAR	17064066	IC50	=	30	III
 Saracatinib	Saracatinib	YES1	Protein	P07947	Homo sapiens	IUPHAR	17064066	IC50	=	4	III
+Saracatinib	Saracatinib	SRC	Protein	P12931	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Saracatinib	Saracatinib	SRC	Protein	P12931	Homo sapiens	IUPHAR	17064066	IC50	=	2.700000048	III
+Saracatinib	Saracatinib	ABL2	Protein	P42684	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	18728707	NA	NA	NA	II
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19337436	NA	NA	NA	II
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19930708	NA	NA	NA	II
+Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19436613	NA	NA	NA	II
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	15814851	NA	NA	NA	II
 Exemestane	Exemestane	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	20360896	NA	NA	NA	II
@@ -1755,10 +1960,12 @@ Cobimetinib	Cobimetinib	MAP2K1	Protein	Q02750	Homo sapiens	IUPHAR	NA_IUPHAR	IC50
 Cobimetinib	Cobimetinib	MAP2K7	Protein	O14733	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	>	10000	I
 Akt Inhibitor MK2206	Akt Inhibitor MK2206	AKT2	Protein	P31751	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	12	I
 Akt Inhibitor MK2206	Akt Inhibitor MK2206	AKT1	Protein	P31749	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	5	I
+Akt Inhibitor MK2206	Akt Inhibitor MK2206	AKT3	Protein	Q9Y243	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Akt Inhibitor MK2206	Akt Inhibitor MK2206	AKT3	Protein	Q9Y243	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	65	I
 Tipifarnib	Tipifarnib	FNTB	Protein	P49356	Homo sapiens	DrugBank	15805288	NA	NA	NA	II
 Tipifarnib	Tipifarnib	FNTB	Protein	P49356	Homo sapiens	IUPHAR	11196150	IC50	=	0.860000014	III
 Tipifarnib	Tipifarnib	FNTB	Protein	P49356	Homo sapiens	IUPHAR	12699751	IC50	=	0.860000014	III
+Tipifarnib	Tipifarnib	Farnesyltransferase	Protein	Q8IHP6	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CHIR-99021	CHIR-99021	GSK3B	Protein	P49841	Homo sapiens	IUPHAR	12606497	IC50	=	6.699999809	III
 CHIR-99021	CHIR-99021	CDK1	Protein	P06493	Homo sapiens	IUPHAR	12606497	IC50	=	8800	III
 CHIR-99021	CHIR-99021	MAPK1	Protein	P28482	Homo sapiens	IUPHAR	12606497	IC50	>	10000	III
@@ -1767,6 +1974,7 @@ Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	11673690	NA	NA	NA	
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	10815932	NA	NA	NA	II
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	11566608	NA	NA	NA	II
+Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	11522647	NA	NA	NA	II
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	DrugBank	11585753	NA	NA	NA	II
 Gefitinib	Gefitinib	EGFR	Protein	P00533	Homo sapiens	IUPHAR	17416531	Ki	=	5.5	III
@@ -1783,6 +1991,7 @@ PI-103	PI-103	PIK3CA	Protein	P42336	Homo sapiens	IUPHAR	19584227	IC50	=	2	III
 Trametinib	Trametinib	MAP2K1	Protein	Q02750	Homo sapiens	DrugBank	23432625	NA	NA	NA	II
 Trametinib	Trametinib	MAP2K1	Protein	Q02750	Homo sapiens	IUPHAR	21245089	IC50	=		III
 Trametinib	Trametinib	MAP2K1	Protein	Q02750	Homo sapiens	IUPHAR	21523318	IC50	=		III
+Trametinib	Trametinib	MAP2K2	Protein	P36507	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Trametinib	Trametinib	MAP2K2	Protein	P36507	Homo sapiens	DrugBank	23432625	NA	NA	NA	II
 Trametinib	Trametinib	MAP2K2	Protein	P36507	Homo sapiens	IUPHAR	21523318	IC50	=	1.799999952	III
 Regorafenib	Regorafenib	PDGFRA	Protein	P16234	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
@@ -1795,11 +2004,14 @@ Regorafenib	Regorafenib	FLT4	Protein	P35916	Homo sapiens	DrugBank	NA_DrugBank	NA
 Regorafenib	Regorafenib	RAF1	Protein	P04049	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Regorafenib	Regorafenib	PDGFRB	Protein	P09619	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Regorafenib	Regorafenib	KDR	Protein	P35968	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Regorafenib	Regorafenib	KDR	Protein	P35968	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Regorafenib	Regorafenib	KDR	Protein	P35968	Homo sapiens	IUPHAR	21170960	IC50		13	III
 Regorafenib	Regorafenib	MAPK11	Protein	Q15759	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Regorafenib	Regorafenib	TEK	Protein	Q02763	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Regorafenib	Regorafenib	KIT	Protein	P10721	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Regorafenib	Regorafenib	KIT	Protein	P10721	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Regorafenib	Regorafenib	RET	Protein	P07949	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
+Regorafenib	Regorafenib	RET	Protein	P07949	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Regorafenib	Regorafenib	BRAF	Protein	P15056	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
 Regorafenib	Regorafenib	BRAF	Protein	P15056	Homo sapiens	IUPHAR	22222036	IC50	=	28	III
 Regorafenib	Regorafenib	NTRK1	Protein	P04629	Homo sapiens	DrugBank	NA_DrugBank	NA	NA	NA	I
@@ -1808,6 +2020,7 @@ Regorafenib	Regorafenib	FGFR2	Protein	P21802	Homo sapiens	DrugBank	NA_DrugBank	N
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	16439860	NA	NA	NA	II
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19794821	NA	NA	NA	II
+Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19470631	NA	NA	NA	II
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19753124	NA	NA	NA	II
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	19389994	NA	NA	NA	II
@@ -1816,12 +2029,15 @@ Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	18073378	NA
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	DrugBank	16034487	NA	NA	NA	II
 Anastrozole	Anastrozole	CYP19A1	Protein	P11511	Homo sapiens	IUPHAR	20413308	IC50	=	15	III
 Eltrombopag Olamine	Eltrombopag Olamine	MPL	Protein	P40238	Homo sapiens	DrugBank	19642221	NA	NA	NA	II
+Eltrombopag Olamine	Eltrombopag Olamine	MPL	Protein	P40238	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Eltrombopag Olamine	Eltrombopag Olamine	MPL	Protein	P40238	Homo sapiens	IUPHAR	18783949	EC50	=	38	III
+Pralatrexate	Pralatrexate	PDF	Protein	Q9HBH1	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Pralatrexate	Pralatrexate	DHFR	Protein	P00374	Homo sapiens	DrugBank	23409799	NA	NA	NA	II
 Pralatrexate	Pralatrexate	DHFR	Protein	P00374	Homo sapiens	IUPHAR	19221750	Ki	=	45	III
 Pralatrexate	Pralatrexate	TYMS	Protein	P04818	Homo sapiens	DrugBank	23409799	NA	NA	NA	II
 Sacituzumab Govitecan	Sacituzumab	TACSTD2	Protein	P09758	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
 FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	FGFR3	Protein	P22607	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	<	5	I
+FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	FGFR1	Protein	P11362	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	FGFR1	Protein	P11362	Homo sapiens	IUPHAR	26080733	IC50	<		III
 FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	KDR	Protein	P35968	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	24	I
 FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	FGFR4	Protein	P22455	Homo sapiens	IUPHAR	NA_IUPHAR	IC50	=	165	I
@@ -1830,11 +2046,13 @@ FGFR Inhibitor AZD4547	FGFR Inhibitor AZD4547	FGFR2	Protein	P21802	Homo sapiens	
 Brentuximab Vedotin	Brentuximab Vedotin	TNFRSF8	Protein	P28908	Homo sapiens	IUPHAR	NA_IUPHAR	NA	NA	NA	I
 Brentuximab Vedotin	Brentuximab Vedotin	TNFRSF8	Protein	P28908	Homo sapiens	DrugBank	12714494	NA	NA	NA	II
 Ipilimumab	Ipilimumab	CTLA4	Protein	P16410	Homo sapiens	DrugBank	18049334	NA	NA	NA	II
+Ipilimumab	Ipilimumab	CTLA4	Protein	P16410	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Ipilimumab	Ipilimumab	CTLA4	Protein	P16410	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	<	1	I
 Rapamycin	Sirolimus	FGF2	Protein	P09038	Homo sapiens	DrugBank	12742462	NA	NA	NA	II
 Rapamycin	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Rapamycin	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	19620795	NA	NA	NA	II
 Rapamycin	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	12742462	NA	NA	NA	II
+Rapamycin	Sirolimus	MTOR	Protein	P42345	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Rapamycin	Sirolimus	MTOR	Protein	P42345	Homo sapiens	DrugBank	20005306	NA	NA	NA	II
 Rapamycin	Sirolimus	FKBP1A	Protein	P62942	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Rapamycin	Sirolimus	FKBP1A	Protein	P62942	Homo sapiens	DrugBank	12742462	NA	NA	NA	II
@@ -1934,10 +2152,12 @@ Fulvestrant	Fulvestrant	ESR1	Protein	P03372	Homo sapiens	DrugBank	12542403	NA	NA
 Fulvestrant	Fulvestrant	ESR1	Protein	P03372	Homo sapiens	DrugBank	12080538	NA	NA	NA	II
 Fulvestrant	Fulvestrant	ESR1	Protein	P03372	Homo sapiens	IUPHAR	12672240	Ki	=	1.039999962	III
 Fulvestrant	Fulvestrant	ESR2	Protein	Q92731	Homo sapiens	IUPHAR	12672240	Ki	=	1.389999986	III
+Fulvestrant	Fulvestrant	7 ER	Protein	Q13262	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10500149	NA	NA	NA	II
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10822172	NA	NA	NA	II
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10752671	NA	NA	NA	II
+Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	10879806	NA	NA	NA	II
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	12231070	NA	NA	NA	II
 Flutamide	Flutamide	AR	Protein	P10275	Homo sapiens	DrugBank	11162924	NA	NA	NA	II
@@ -1950,10 +2170,12 @@ Tamatinib	Tamatinib	SYK	Protein	P43405	Homo sapiens	IUPHAR	22037378	Kd	=	19	III
 Tamatinib	Tamatinib	SYK	Protein	P43405	Homo sapiens	IUPHAR	16946104	IC50	=		III
 Tamatinib	Tamatinib	SYK	Protein	P43405	Homo sapiens	IUPHAR	19254842	IC50	=		III
 Tamatinib	Tamatinib	RET	Protein	P07949	Homo sapiens	IUPHAR	19107952	IC50	=	5	III
+TG100-115	TG100-115	PIK3CG	Protein	P48736	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Bleomycin	Bleomycin	LIG1	Protein	P18858	Homo sapiens	DrugBank	17202402	NA	NA	NA	II
 Bleomycin	Bleomycin	LIG3	Protein	P49916	Homo sapiens	DrugBank	17202402	NA	NA	NA	II
 Bleomycin	Bleomycin	DNA	DNA	null	Homo sapiens	DrugBank	18757754	NA	NA	NA	II
 Bleomycin	Bleomycin	DNA	DNA	null	Homo sapiens	DrugBank	19146404	NA	NA	NA	II
+Bleomycin	Bleomycin	DNA	DNA	null	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Bleomycin	Bleomycin	DNA	DNA	null	Homo sapiens	DrugBank	18597467	NA	NA	NA	II
 Bleomycin	Bleomycin	DNA	DNA	null	Homo sapiens	DrugBank	6177398	NA	NA	NA	II
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
@@ -1961,6 +2183,7 @@ Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	974
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	19434889	NA	NA	NA	II
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	16343217	NA	NA	NA	II
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	15086241	NA	NA	NA	II
+Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	15595341	NA	NA	NA	II
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	14687437	NA	NA	NA	II
 Megestrol Acetate	Megestrol Acetate	PGR	Protein	P06401	Homo sapiens	DrugBank	2982481	NA	NA	NA	II
@@ -2022,11 +2245,17 @@ Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11752352	NA	NA	NA	
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11408594	NA	NA	NA	II
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	10628369	NA	NA	NA	II
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	10601294	NA	NA	NA	II
+Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	11431346	NA	NA	NA	II
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	DrugBank	10480573	NA	NA	NA	II
 Cetuximab	Cetuximab	EGFR	Protein	P00533	Homo sapiens	IUPHAR	NA_IUPHAR	Kd	=	0.389999986	I
+CDK Inhibitor SNS-032	CDK Inhibitor SNS-032	CDK7	Protein	P50613	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+CDK Inhibitor SNS-032	CDK Inhibitor SNS-032	CDK2	Protein	P24941	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 CDK Inhibitor SNS-032	CDK Inhibitor SNS-032	CDK2	Protein	P24941	Homo sapiens	IUPHAR	22037378	Kd	=	69	III
+CDK Inhibitor SNS-032	CDK Inhibitor SNS-032	CDK9	Protein	P50750	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
+Abemaciclib	Abemaciclib	CDK4	Protein	P11802	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Abemaciclib	Abemaciclib	CDK4	Protein	P11802	Homo sapiens	IUPHAR	24919854	IC50	=	2	III
+Abemaciclib	Abemaciclib	CDK6	Protein	Q00534	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Abemaciclib	Abemaciclib	CDK6	Protein	Q00534	Homo sapiens	IUPHAR	24919854	IC50	=	10	III
 Siltuximab	Siltuximab	IL6	Protein	P05231	Homo sapiens	DrugBank	8823310	NA	NA	NA	II
 Rituximab	Rituximab	FCGR2A	Protein	P12318	Homo sapiens	DrugBank	17324336	NA	NA	NA	II
@@ -2038,6 +2267,7 @@ Rituximab	Rituximab	FCGR3B	Protein	O75015	Homo sapiens	DrugBank	16109421	NA	NA	N
 Rituximab	Rituximab	C1S	Protein	P09871	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Rituximab	Rituximab	C1S	Protein	P09871	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Rituximab	Rituximab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	11752352	NA	NA	NA	II
+Rituximab	Rituximab	MS4A1	Protein	P11836	Homo sapiens	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Rituximab	Rituximab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	20350663	NA	NA	NA	II
 Rituximab	Rituximab	MS4A1	Protein	P11836	Homo sapiens	DrugBank	20350667	NA	NA	NA	II
 Rituximab	Rituximab	MS4A1	Protein	P11836	Homo sapiens	IUPHAR	15102696	Kd	=	3.099999905	III
@@ -2059,6 +2289,7 @@ Rituximab	Rituximab	C1QA	Protein	P02745	Homo sapiens	DrugBank	17016423	NA	NA	NA	
 Rituximab	Rituximab	C1QA	Protein	P02745	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
 Rituximab	Rituximab	FCGR2C	Protein	P31995	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
 Rituximab	Rituximab	FCGR2C	Protein	P31995	Homo sapiens	DrugBank	17139284	NA	NA	NA	II
+Azacitidine	Azacitidine	DNA (cytosine-5)-methyltransferase	Protein	P11876	null	Therapeutic Target Database	NA_TTD	NA	NA	NA	I
 Azacitidine	Azacitidine	DNA	DNA	null	Homo sapiens	DrugBank	15793220	NA	NA	NA	II
 Azacitidine	Azacitidine	DNA	DNA	null	Homo sapiens	DrugBank	20126405	NA	NA	NA	II
 Azacitidine	Azacitidine	DNA	DNA	null	Homo sapiens	DrugBank	17016423	NA	NA	NA	II
