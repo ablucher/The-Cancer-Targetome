@@ -2590,7 +2590,9 @@ public class DrugInteractionsParser {
 				interaction.setExpEvidenceSet(newExpSet);
 				
 				//add flag so that we can print out this info**
-				flaggedInteractions.add(interaction);			
+				if(flaggedInteractions!=null && interaction!=null) {//null catch added 04/28/21
+					flaggedInteractions.add(interaction);			
+				}
 			}
 			
 			//save interaction to session
@@ -3146,7 +3148,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Session currentSession = beta_persistDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		
 //		//retrieve pharm classes, added 10/11/16
-//		Session currentSessionWithClasses = persistDrugClasses(currentSession);
+		Session currentSessionWithClasses = persistDrugClasses(currentSession);
 //		
 //		//iuphar
 //		Session currentSessionIUPHAR = persistIUPHAR(currentSessionWithClasses);
