@@ -799,23 +799,24 @@ public class DrugInteractionsParser {
 		}
 		System.out.println("Number all drugs: " + fullDrugList.size());
 		
-		//Now we need to check for any duplicates because of name/synonym
-		Set<Drug> checkedDrugs = new HashSet<Drug>();
-		for (Drug drug: fullDrugList){
-			if (drug.containedInSet(checkedDrugs)){//if already in set, skip
-				System.out.println("Skipped drug: " + drug.getDrugName());
-				continue;
-			}
-			else{
-				checkedDrugs.add(drug);//add to set
-			}
-		}
-		System.out.println("Number unique drugs: " + checkedDrugs.size());
-		//commit these drugs to database
-		for (Drug drug: checkedDrugs){
-			currentSession.save(drug);
-		}
-		
+		//EXCLUDED 04/28/21 7:36 pm, don't think we need this check now
+//		//Now we need to check for any duplicates because of name/synonym
+//		Set<Drug> checkedDrugs = new HashSet<Drug>();
+//		for (Drug drug: fullDrugList){
+//			if (drug.containedInSet(checkedDrugs)){//if already in set, skip
+//				System.out.println("Skipped drug: " + drug.getDrugName());
+//				continue;
+//			}
+//			else{
+//				checkedDrugs.add(drug);//add to set
+//			}
+//		}
+//		System.out.println("Number unique drugs: " + checkedDrugs.size());
+//		//commit these drugs to database
+//		for (Drug drug: checkedDrugs){
+//			currentSession.save(drug);
+//		}
+//		
 		System.out.println("Commit DRUG SET to database complete.");
 //		System.out.println("Num Approval Dates found: " + foundCounter);
 //		System.out.println("Num Approval Dates null: " + nullCounter);
@@ -3212,7 +3213,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * @throws ParseException
 	 */
 	@Test
-	public void testBetaPersistAll() throws IOException, ParseException{
+	public void test_BetaPersistAll() throws IOException, ParseException{
 		//works to run old drug set
 		Session currentSession = beta_persistNewDrugSet();
 		
