@@ -751,21 +751,19 @@ public class DrugInteractionsParser {
 		//reconcile formulations*
 		Set<Drug> reconcileFormulations = reconcileFormulationsFromDrugSets(removeNonDrugsFromDrugSet);
 		System.out.println("Reconciled Drug Set - Remove Formulations " + reconcileFormulations.size()); 
-	
-	//end pasted code
-		
-		
-		//create set for all drugs
+
+		//do we need this set?
 		Set<Drug> fullDrugList = new HashSet<Drug>();
 		
-		//CREATE Drug Objects
-		//iterate through synonym map, get drugs
-
-		for (String drugName: drugSyns.keySet()){
+		//CREATE DRUG OBJECTS;
+		//editing this for our reconciled set; review code in beta_persistDrugSet() for reference
+		for (Drug eachDrug: reconcileFormulations){
+			String drugName = eachDrug.getDrugName();
+			
 			//create new drug object
 			Drug currentDrug = new Drug();
 			currentDrug.setDrugName(drugName);
-			Set<String> currentDrugSyns = drugSyns.get(drugName);
+			Set<String> currentDrugSyns = eachDrug.getDrugSynonyms();
 			if (currentDrugSyns==null){
 				currentDrug.setDrugSynonyms(null);
 //				//check for approval date
@@ -800,6 +798,7 @@ public class DrugInteractionsParser {
 			fullDrugList.add(currentDrug);
 		}
 		System.out.println("Number all drugs: " + fullDrugList.size());
+		
 		//Now we need to check for any duplicates because of name/synonym
 		Set<Drug> checkedDrugs = new HashSet<Drug>();
 		for (Drug drug: fullDrugList){
@@ -3217,8 +3216,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//works to run old drug set
 		Session currentSession = beta_persistNewDrugSet("drug_sets/scrapedNCIDrugs_05.11.16.txt", 1, 0, "\t" );
 		
-		
-		
+	
 		//then go through parent resources here
 		
 		currentSession.getTransaction().commit();
