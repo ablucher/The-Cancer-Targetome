@@ -3225,9 +3225,9 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//iuphar
 		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
 		System.out.println("Done persisting IUPHAR.");
-//		//drugbank
-//		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
-//		System.out.println("Done persisting DrugBank.");
+		//drugbank
+		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
+		System.out.println("Done persisting DrugBank.");
 //		//ttd
 //		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
 //		System.out.println("Done persisting TTD.");
@@ -3236,17 +3236,17 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		System.out.println("Done persisting BindingDB.");
 //				//run check for uniprots and also assign the gene symbol as "target name"
 		
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionIUPHAR);
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionDrugBank);
 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_042921.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_2_042921.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_042921.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_042921.txt");
 		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
