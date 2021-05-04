@@ -719,7 +719,7 @@ public class DrugInteractionsParser {
 				
 		//hibernate config file - 
 		//open hibernate session and transaction
-		String configFileName = "resources/drugHibernateV2.cfg.xml";//updated 9/7/16 -> 04/28/21
+		String configFileName = "resources/drugHibernateV2.cfg.xml";// 04/28/21
 		Session currentSession = DruggabilityHibernatePersist.openSession(configFileName);
 		currentSession.beginTransaction();
 
@@ -800,23 +800,24 @@ public class DrugInteractionsParser {
 		System.out.println("Number all drugs: " + fullDrugList.size());
 		
 		//EXCLUDED 04/28/21 7:36 pm, don't think we need this check now
-//		//Now we need to check for any duplicates because of name/synonym
-//		Set<Drug> checkedDrugs = new HashSet<Drug>();
-//		for (Drug drug: fullDrugList){
-//			if (drug.containedInSet(checkedDrugs)){//if already in set, skip
-//				System.out.println("Skipped drug: " + drug.getDrugName());
-//				continue;
-//			}
-//			else{
-//				checkedDrugs.add(drug);//add to set
-//			}
-//		}
-//		System.out.println("Number unique drugs: " + checkedDrugs.size());
-//		//commit these drugs to database
-//		for (Drug drug: checkedDrugs){
-//			currentSession.save(drug);
-//		}
-//		
+		//Now we need to check for any duplicates because of name/synonym
+		//THIS RESOLVES BY SYNONYMS BEFORE COMMITTING THE DRUGS
+		Set<Drug> checkedDrugs = new HashSet<Drug>();
+		for (Drug drug: fullDrugList){
+			if (drug.containedInSet(checkedDrugs)){//if already in set, skip
+				System.out.println("Skipped drug: " + drug.getDrugName());
+				continue;
+			}
+			else{
+				checkedDrugs.add(drug);//add to set
+			}
+		}
+		System.out.println("Number unique drugs: " + checkedDrugs.size());
+		//commit these drugs to database
+		for (Drug drug: checkedDrugs){
+			currentSession.save(drug);
+		}
+		
 		System.out.println("Commit DRUG SET to database complete.");
 //		System.out.println("Num Approval Dates found: " + foundCounter);
 //		System.out.println("Num Approval Dates null: " + nullCounter);
@@ -3245,8 +3246,8 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_050421.txt");
-		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_050421.txt");
+		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
 		for (Drug finalDrug: drugSet){
