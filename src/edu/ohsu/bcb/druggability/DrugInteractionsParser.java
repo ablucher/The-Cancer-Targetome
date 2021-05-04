@@ -1273,7 +1273,7 @@ public class DrugInteractionsParser {
 		DrugInteractionsParser parser = new DrugInteractionsParser();
 		String imatinibName = "Imatinib mesylate";
 		System.out.println(" Querying Cancer Targetome for:" + imatinibName );
-		Drug imatinib = parser.queryDatabaseDrug3(session, imatinibName, psEvidence);
+		Drug imatinib = parser.queryDatabaseDrug(session, imatinibName, psEvidence);
 		Set<String> imatinibSynonyms = imatinib.getDrugSynonyms();
 		System.out.println("Printing imatinib synonyms");
 		for (String syn: imatinibSynonyms){
@@ -3231,22 +3231,21 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//ttd
 		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
 		System.out.println("Done persisting TTD.");
-//		//bindingDB
-//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-//		System.out.println("Done persisting BindingDB.");
-//				//run check for uniprots and also assign the gene symbol as "target name"
-		
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionTTD);
+		//bindingDB
+		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+		System.out.println("Done persisting BindingDB.");
+		//run check for uniprots and also assign the gene symbol as "target name"
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionBindingDB);
 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_2_042921.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_050421.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_042921.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_050421.txt");
 		ps.println("Drug" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
@@ -3254,7 +3253,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 			String drugName = finalDrug.getDrugName();//get drug name
 			//now query database for all drug info and print to file
 			//this method takes the PS file - outputs evidence
-			queryDatabaseDrug3(currentSessionTargetsChecked, drugName, ps);
+			queryDatabaseDrug(currentSessionTargetsChecked, drugName, ps);
 			//also print drug file
 			ds.println(finalDrug.getDrugName() + "\t" + finalDrug.getApprovalDate() + "\t" + finalDrug.getAtcClassID() + "\t" + finalDrug.getAtcClassName() + "\t" + finalDrug.getAtcClassStatus()+ "\t"+ finalDrug.getEpcClassID() + "\t" + finalDrug.getEpcClassName());
 		}
@@ -3476,227 +3475,14 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 //		currentSession.close();
 //		
 	}
-//	
-	/**
-	 * Method queries database (takes current session) and gets all info on
-	 * imatinib.
-	 * @param currentSession
-	 */
-
-	public void queryDatabaseDrug(Session currentSession, String drugName, PrintStream rs){
-		
-		Set<Drug> drugSet = queryDrugSet(currentSession);
-		//get database info
-		Set<Target> targetSet = queryTargetSet(currentSession);
-		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
-		Set<LitEvidence> literatureSet = queryLitEvidenceSet(currentSession);
-		Set<ExpEvidence> experimentalSet = queryExpEvidenceSet(currentSession);
-		Set<Source> sourceSet= querySourceSet(currentSession);
-		Set<DatabaseRef> databaseSet = queryDatabaseSet(currentSession);
-		
-		System.out.println("Begin querying test.");
-		for (Drug drug: drugSet){
-			//print drug info
-			if (drug.nameIsEquivalent(drugName)){
-				System.out.println("Drug found as: " + drug.getDrugName());
-//				System.out.println("Drug synonyms:");
-//				for (String syn: drug.getDrugSynonyms()){
-//					System.out.println(syn);
-//				}
-				
-				//get all interactions involving drug
-				for (Interaction interaction: interactionSet){
-					if (interaction.getIntDrug().isEquivalent(drug)){
-						System.out.println("Interaction: " + interaction.getIntDrug().getDrugName() + " and " + interaction.getIntTarget().getTargetName());
-						
-						//get sources and info
-						if (interaction.getInteractionSourceSet()!=null){
-							Set<Source> intSourceSet = interaction.getInteractionSourceSet();
-							System.out.println("Num Interaction ONLY Evidence: " + intSourceSet.size());
-							System.out.println("***INTERACTION ONLY EVIDENCE***");
-							
-							//we need to print out interaction for each source
-							//
-							for (Source source:intSourceSet){
-								String litPubMed = source.getSourceLiterature().getPubMedID();
-								String databaseRef = source.getSourceDatabase().getDatabaseName();
-								System.out.println("PubMed ID: " + litPubMed);
-								System.out.println("Database: " + databaseRef);
-								
-								String level;
-								if (litPubMed.equals("null") || litPubMed==null || litPubMed.equals("NA_TTD") || litPubMed.equals("NA_BindingDB") || litPubMed.equals("NA_IUPHAR") || litPubMed.equals("NA_DrugBank")){
-									level = "I";//LEVEL I
-								}
-								else{
-									level = "II";//LEVEL II
-								}
-								//here we print to our file
-								//drug/target/target uniprot/database/ref/assayTYPE/assayvalue/level
-								//assaytype = NA
-								//assayValue = NA
-								rs.println(drug.getDrugName() + "\t"+ interaction.getIntTarget().getTargetName()+ "\t"+ interaction.getIntTarget().getUniprotID()+ "\t" + databaseRef + "\t" + litPubMed + "\t" + "NA" + "\t" + "NA"+ "\t" + level);
-							}
-						}
-						//get exp sources and info
-						if (interaction.getExpEvidenceSet()!= null){
-							Set<ExpEvidence> intExpEvidenceSet= interaction.getExpEvidenceSet();
-							System.out.println("Num Experiemental Evidence: " + intExpEvidenceSet.size());
-							System.out.println("***EXPERIMENTAL EVIDENCE***");
-							for (ExpEvidence exp: intExpEvidenceSet){
-								String assayType = exp.getAssayType();
-								String assayValue = exp.getAssayValueMedian();//just valueMed for now
-								System.out.println("Assay Type: " + assayType);
-								System.out.println("Val low: " +exp.getAssayValueLow());
-								System.out.println("Val med: " +exp.getAssayValueMedian());
-								System.out.println("Val high: " +exp.getAssayValueHigh());
-								System.out.println("Units: " +exp.getAssayUnits());
-								System.out.println("Species: " +exp.getAssaySpecies());
-								//INCLUDE LOOP HERE FOR GOING THROUGH EXP SOURCE SET!
-								System.out.println("Exp Source information: ");
-								for (Source source:exp.getExpSourceSet()){
-									String expLit = source.getSourceLiterature().getPubMedID();
-									String expdatabase =  source.getSourceDatabase().getDatabaseName();
-									System.out.println("Exp Source Lit: " + expLit);
-									System.out.println("Exp Source Database: " + expdatabase);
-								
-									String expLevel;
-									if ( expLit.equals("NA_BindingDB") || expLit.equals("NA_IUPHAR") ){
-										expLevel = "I";//LEVEL I
-									}
-									else{//all else LEVEL III for now
-										expLevel = "III";//LEVEL III
-									}
-									rs.println(drug.getDrugName() + "\t"+ interaction.getIntTarget().getTargetName()+ "\t"+ interaction.getIntTarget().getUniprotID()+ "\t" + expdatabase + "\t" + expLit + "\t" + assayType+ "\t" + assayValue+ "\t" + expLevel);
-								}
-								
-							}
-						}
-						else{
-							continue;
-						}
-					}
-					
-				}
-				
-				
-			}
-		}
-		System.out.println("End querying test.");
-			
-			
-	}
-	
-	/**
-	 * Method queries database (takes current session) and gets all info on
-	 * imatinib.
-	 * For Druggability V2, working Mon 9/26/16
-	 * @param currentSession
-	 */
-	public void queryDatabaseDrug2(Session currentSession, String drugName, PrintStream rs){
-		//query database info
-		Set<Drug> drugSet = queryDrugSet(currentSession);
-		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
-		
-		System.out.println("Begin querying test.");
-		for (Drug drug: drugSet){
-			//print drug info
-			if (drug.nameIsEquivalent(drugName)){
-				System.out.println("Drug found as: " + drug.getDrugName());
-
-				//get all interactions involving drug
-				for (Interaction interaction: interactionSet){
-					if (interaction.getIntDrug().isEquivalent(drug)){
-						System.out.println("Interaction: " + interaction.getIntDrug().getDrugName() + " and " + interaction.getIntTarget().getTargetName());
-						
-						//get sources and info
-						if (interaction.getInteractionSourceSet()!=null){
-							Set<Source> intSourceSet = interaction.getInteractionSourceSet();
-							System.out.println("Num Interaction ONLY Evidence: " + intSourceSet.size());
-							System.out.println("***INTERACTION ONLY EVIDENCE***");
-							
-							//we need to print out interaction for each source
-							//
-							for (Source source:intSourceSet){
-								String litPubMed = source.getSourceLiterature().getPubMedID();
-								String databaseRef = source.getSourceDatabase().getDatabaseName();
-								System.out.println("PubMed ID: " + litPubMed);
-								System.out.println("Database: " + databaseRef);
-								
-								String level;
-								if (litPubMed.equals("null") || litPubMed==null || litPubMed.equals("NA_TTD") || litPubMed.equals("NA_BindingDB") || litPubMed.equals("NA_IUPHAR") || litPubMed.equals("NA_DrugBank")){
-									level = "I";//LEVEL I
-								}
-								else{
-									level = "II";//LEVEL II
-								}
-								//here we print to our file
-								//drug/target/target uniprot/targetSpecies/database/ref/assayTYPE/assayvalue/level
-								//assaytype = NA
-								//assayRelation=NA
-								//assayValue = NA
-								rs.println(drug.getDrugName()+ "\t"+ interaction.getIntTarget().getTargetName()+ "\t"+ interaction.getIntTarget().getTargetType()+"\t"+ interaction.getIntTarget().getUniprotID()+ "\t" + interaction.getIntTarget().getTargetSpecies()+ "\t" + databaseRef + "\t" + litPubMed + "\t" + "NA" + "\t" + "NA"+ "\t" + "NA" +"\t" + level);
-							}
-						}
-						//get exp sources and info
-						if (interaction.getExpEvidenceSet()!= null){
-							Set<ExpEvidence> intExpEvidenceSet= interaction.getExpEvidenceSet();
-							System.out.println("Num Experiemental Evidence: " + intExpEvidenceSet.size());
-							System.out.println("***EXPERIMENTAL EVIDENCE***");
-							for (ExpEvidence exp: intExpEvidenceSet){
-								String assayType = exp.getAssayType();
-								String assayValue = exp.getAssayValueMedian();//just valueMed for now
-								String assayRelation=exp.getAssayRelation();
-								System.out.println("Assay Type: " + assayType);
-								System.out.println("Val low: " +exp.getAssayValueLow());
-								System.out.println("Val med: " +exp.getAssayValueMedian());
-								System.out.println("Val high: " +exp.getAssayValueHigh());
-								System.out.println("Units: " +exp.getAssayUnits());
-								System.out.println("Species: " +exp.getAssaySpecies());
-								//INCLUDE LOOP HERE FOR GOING THROUGH EXP SOURCE SET!
-								System.out.println("Exp Source information: ");
-								for (Source source:exp.getExpSourceSet()){
-									String expLit = source.getSourceLiterature().getPubMedID();
-									String expdatabase =  source.getSourceDatabase().getDatabaseName();
-									System.out.println("Exp Source Lit: " + expLit);
-									System.out.println("Exp Source Database: " + expdatabase);
-								
-									String expLevel;
-									if ( expLit.equals("NA_BindingDB") || expLit.equals("NA_IUPHAR") ){
-										expLevel = "I";//LEVEL I
-									}
-									else{//all else LEVEL III for now
-										expLevel = "III";//LEVEL III
-									}
-									//added assay relation to be explicit since
-									//we reformatted bindingDB and iuphar
-									rs.println(drug.getDrugName() + "\t"+ interaction.getIntTarget().getTargetName()+ "\t"+ interaction.getIntTarget().getTargetType() + "\t"+interaction.getIntTarget().getUniprotID()+ "\t" + interaction.getIntTarget().getTargetSpecies() + "\t" + expdatabase + "\t" + expLit + "\t" + assayType+ "\t" + assayRelation + "\t"+ assayValue+ "\t" + expLevel);
-								}
-								
-							}
-						}
-						else{
-							continue;
-						}
-					}
-					
-				}
-				
-				
-			}
-		}
-		System.out.println("End querying test.");
-			
-			
-	}
-	
-	/**
+/**
 	 * Method queries database (takes current session) and gets all info on
 	 * single drug, appends to rs.
 	 * for beatAML drug set, added 6/16/17
 	 * -note file contains additional column - BeatAMLDrug_ListedAs based on listing on inhibtor panel
 	 * @param currentSession
 	 */
-	public Drug queryDatabaseDrug3(Session currentSession, String drugName, PrintStream rs){
+	public Drug queryDatabaseDrug(Session currentSession, String drugName, PrintStream rs){
 		boolean drugInCancerTargetome= false;
 		
 		//query database info
