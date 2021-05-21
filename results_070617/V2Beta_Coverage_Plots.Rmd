@@ -1,0 +1,372 @@
+---
+title: "V2Beta_Coverage_Plots"
+author: "Aurora S Blucher"
+date: "5/20/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(here)
+```
+
+## R Markdown
+
+Coverage assessment for V2
+
+```{r}
+#read in file
+betaV2<-read_tsv(here("results_beta_042921", "Targetome_FullEvidence_2_050421.txt"))
+View(betaV2)
+#clean up
+
+betaV2_forPlot<-betaV2 %>%
+  filter(Target_Species=="Homo sapiens")
+View(betaV2_forPlot) #45, 413 interactions
+
+#Fix Kd, KD level, make sure to clean this up in next Cancer Targetome update
+levels(betaV2_forPlot$Assay_Type)<-list(KD=c("KD", "Kd"), Ki=c("Ki"), IC50=c("IC50"), EC50=c("EC50"), null=c("null"))
+levels(betaV2_forPlot$Assay_Type) #KD, Ki, IC50, EC50, or null
+
+drugInteractions<-betaV2_forPlot
+```
+
+```{r}
+#coverage plots
+####DRUG, TARGET, INTERACTION DATABASE COVERAGE, ALONE AND AGGREGATED
+#Aggregated stats
+numDrugsAll<-nlevels(factor(drugInteractions$Drug_Found)) #303
+numDrugsAll
+numTargetsAll<-nlevels(factor(drugInteractions$Target_UniProt)) #870 targets
+numTargetsAll
+nlevels(factor(drugInteractions$Target_Name))  #870
+nlevels(factor(drugInteractions$Database)) #4
+drugInteractionsGrouped<- drugInteractions %>% group_by(Drug_Found, Target_UniProt)
+interactionsCount<-summarize(drugInteractionsGrouped, count=n())#get unique interactions
+numInteractionsAll<-nrow(interactionsCount) #21864 total interactions
+View(numInteractionsAll)
+#bind into table
+databaseAll<-"All"
+statsAll<-cbind(databaseAll, numDrugsAll, numTargetsAll, numInteractionsAll)
+colnames(statsAll)<-c("Database", "Drugs", "Targets", "Interactions") #colnames
+View(statsAll)
+
+#Group by each database
+#get drug, target counts for each database
+drugInteractionsGroupedDatabase<- drugInteractions%>% 
+                                  group_by(Database)%>% #group by database
+                                  summarize(Drugs=n_distinct(Drug_Found), #get number drugs
+                                            Targets=n_distinct(Target_UniProt) #get num targets
+                                  ) 
+
+#View(drugInteractionsGroupedDatabase)
+#drugbank
+interactionsDrugBank<- drugInteractions %>% 
+                       filter(Database=="DrugBank") %>%
+                       group_by(Drug_Found, Target_UniProt)
+numInteractionsDrugBank<-nrow(summarize(interactionsDrugBank, count=n()) )
+#ttd
+interactionsTTD<- drugInteractions %>% 
+                  filter(Database=="Therapeutic Target Database") %>%
+                  group_by(Drug_Found, Target_UniProt)
+numInteractionsTTD<-nrow(summarize(interactionsTTD, count=n()) )
+#iuphar
+interactionsIUPHAR<- drugInteractions %>% 
+                     filter(Database=="IUPHAR") %>%
+                     group_by(Drug_Found, Target_UniProt) 
+numInteractionsIUPHAR<-nrow(summarize(interactionsIUPHAR, count=n()) )
+#bindingdb
+interactionsBindingDB<- drugInteractions %>% 
+                        filter(Database=="BindingDB") %>%
+                        group_by(Drug_Found, Target_UniProt) 
+numInteractionsBindingDB<-nrow(summarize(interactionsBindingDB, count=n()) )
+#bind together, do alphabetical ordering for each database
+statsInts<-rbind(numInteractionsBindingDB, numInteractionsDrugBank, numInteractionsIUPHAR, numInteractionsTTD)
+colnames(statsInts)<-c("Interactions")
+#View(statsInts)
+#bind with stats from groupings by database
+drugInteractionsDatabases<-cbind(drugInteractionsGroupedDatabase, statsInts)
+rownames(drugInteractionsDatabases)<-NULL #get rid of carryover row names
+#View(drugInteractionsDatabases) #looks correct
+#bind with statsAll= from aggregated interactions
+fullStats<-rbind(drugInteractionsDatabases, statsAll)
+fullStats$Drugs<-as.numeric(as.character(fullStats$Drugs))
+fullStats$Targets<-as.numeric(as.character(fullStats$Targets))
+fullStats$Interactions<-as.numeric(as.character(fullStats$Interactions))
+View(fullStats) 
+
+#reshape data for plotting
+#melt to long format
+  #create item: Drug, Target
+  #create value: Counts of above Items
+fullStatsLong<-fullStats %>%
+  pivot_longer(-Database, names_to = "Item", values_to= "Count")
+View(fullStatsLong)
+#fullStatsLong<-melt(fullStats, variable.name="Item", value.name="Count" )
+
+# #also create version with no interactions
+# #select just drug and target counts
+# fullStatsNoInt<-fullStats %>% select(-Interactions) #call dplyr::select because of MASS
+# fullStatsNoIntLong<-fullStatsNoInt %>%
+#   pivot_longer(names_t)
+# 
+# #fullStatsNoIntLong<-melt(fullStatsNoInt, variable.name="Item", value.name="Count" )
+# #View(fullStatsNoIntLong)
+
+#level ordering
+fullStatsLong$Database<-factor(fullStatsLong$Database, levels = c("BindingDB", "DrugBank", "IUPHAR", "Therapeutic Target Database", "All"))
+fullStatsLong$Item<-factor(fullStatsLong$Item, levels = c("Drugs", "Targets", "Interactions"))
+View(fullStatsLong)
+
+#####PAPER FIGURE. SUPPLEMENTARY FIGURE 1.
+#Plot drug, target counts for each database, and aggregated
+#Titles and labels re-sized for PNG format
+#png("TIPS_Supp1.png", width = 5, height = 3.4, units = 'in', res = 300)
+coverageByDatabase<-ggplot(data=fullStatsLong, #drug, target, interactions
+                           aes(x=Item, y=Count, fill=Database)) + 
+                           facet_wrap(~Item, scales="free")+ 
+                           geom_bar(stat="identity", position="dodge", colour="black") +  
+                           scale_fill_brewer(palette="YlGnBu") + 
+                           ylab("Count") +
+                           #ggtitle("Drug and Target Coverage, by Database and Aggregated") + 
+                           #theme(plot.title = element_text(size=24, face="bold"))+
+                           theme(plot.title = element_text(size=10, face="bold"))+
+                           theme(axis.title.x=element_blank())+ 
+                           theme(axis.text.x=element_blank())+ 
+                           #theme(axis.text.x=element_text(size=14, face="bold"))+ use for drugs/targets
+                           #theme(strip.text.x = element_text(size = 22, face="bold"))+ 
+                           theme(strip.text.x = element_text(size = 8, face="bold"))+ 
+                           theme(axis.text.y=element_text(size=8, face="bold"))+ #16
+                           theme(axis.title.y=element_text(size=8, face="bold"))+#20
+                           theme(legend.title=element_text(size=8, face="bold"))+#20
+                           theme(legend.text=element_text(size=8)) + #16
+                           theme(legend.position="bottom", legend.background=element_rect(colour = "black"))+
+                           guides(fill=guide_legend(title="Resource",nrow=2))
+coverageByDatabase
+#dev.off()
+
+```
+```{r}
+#plot by evidence level
+####DRUG, TARGET, INTERACTIONS BY EVIDENCE LEVEL
+#levels I, II, III
+drugInteractions_123Drugs<-nlevels(factor(drugInteractions$Drug_Found)) #drugs
+drugInteractions_123Targets<-nlevels(factor(drugInteractions$Target_UniProt)) #targets
+drugInteractionsGrouped<- drugInteractions %>% 
+                          group_by(Drug_Found, Target_UniProt, Target_Name) %>%
+                          summarize(count=n())
+drugInteractions_123Ints<-nrow(drugInteractionsGrouped) #interactions
+evidenceStats_123<-cbind("Levels I, II, III", drugInteractions_123Drugs, drugInteractions_123Targets, drugInteractions_123Ints)
+colnames(evidenceStats_123)<-NULL
+
+#levels II and III
+drugInteractions_23<-drugInteractions%>% filter(EvidenceLevel_Assigned=="II" | EvidenceLevel_Assigned=="III")
+drugInteractions_23Drugs<-nlevels(factor(drugInteractions_23$Drug_Found)) #drugs
+drugInteractions_23Targets<-nlevels(factor(drugInteractions_23$Target_UniProt)) #targets
+drugInteractionsGrouped_23<- drugInteractions_23 %>% 
+                             group_by(Drug_Found, Target_UniProt) %>%
+                             summarize(count=n())
+drugInteractions_23Ints<-nrow(drugInteractionsGrouped_23) #interactions
+evidenceStats_23<-cbind("Levels II, III", drugInteractions_23Drugs, drugInteractions_23Targets, drugInteractions_23Ints)
+colnames(evidenceStats_23)<-NULL
+
+#level III all
+drugInteractions_3<-drugInteractions%>% filter(EvidenceLevel_Assigned=="III")
+drugInteractions_3Drugs<-nlevels(factor(drugInteractions_3$Drug_Found)) #drugs
+drugInteractions_3Targets<-nlevels(factor(drugInteractions_3$Target_UniProt)) #targets
+drugInteractionsGrouped_3<- drugInteractions_3 %>% 
+                            group_by(Drug_Found, Target_UniProt) %>%
+                            summarize(count=n())
+drugInteractions_3Ints<-nrow(drugInteractionsGrouped_3) #interactions
+evidenceStats_3<-cbind("Level III", drugInteractions_3Drugs, drugInteractions_3Targets, drugInteractions_3Ints)
+colnames(evidenceStats_3)<-NULL
+
+#level 3 EXACT RELATION ONLY
+drugInteractions_3exact<-drugInteractions_3%>% filter(Assay_Relation=="=")
+drugInteractions_3exactDrugs<-nlevels(factor(drugInteractions_3exact$Drug_Found)) #drugs
+drugInteractions_3exactTargets<-nlevels(factor(drugInteractions_3exact$Target_UniProt)) #targets
+drugInteractionsGrouped_3exact<- drugInteractions_3exact %>% 
+                                 group_by(Drug_Found, Target_UniProt) %>%
+                                 summarize(count=n())
+drugInteractions_3exactInts<-nrow(drugInteractionsGrouped_3exact) #interactions
+evidenceStats_3exact<-cbind("Level III Exact", drugInteractions_3exactDrugs, drugInteractions_3exactTargets, drugInteractions_3exactInts)
+colnames(evidenceStats_3exact)<-NULL
+
+#level 3 thresholds, added Wed 11/16/16 note these thresholds are across all assay types, technically
+                                        #assay types are not comparable like this
+                                        #figure intended as overview/for coverage assessment only
+drugInteractions_3exact$Assay_Value<-as.numeric(as.character(drugInteractions_3exact$Assay_Value))
+#threshold to 10000 nM
+drugInteractions_3exact_10000<-drugInteractions_3exact%>% filter(Assay_Value<10000) 
+drugInteractions_3exact_10000Drugs<-nlevels(factor(drugInteractions_3exact_10000$Drug_Found)) #drugs
+drugInteractions_3exact_10000Targets<-nlevels(factor(drugInteractions_3exact_10000$Target_UniProt)) #targets
+drugInteractions_3exact_10000Grouped<- drugInteractions_3exact_10000 %>% 
+                                       group_by(Drug_Found, Target_UniProt) %>%
+                                       summarize(count=n())
+drugInteractions_3exact_10000Ints<-nrow(drugInteractions_3exact_10000Grouped) #interactions
+evidenceStats_3exact_10000<-cbind("Level III Exact<10,000nM", drugInteractions_3exact_10000Drugs, drugInteractions_3exact_10000Targets, drugInteractions_3exact_10000Ints)
+#threshold to 1000nM
+drugInteractions_3exact_1000<-drugInteractions_3exact%>% filter(Assay_Value<1000)  
+drugInteractions_3exact_1000Drugs<-nlevels(factor(drugInteractions_3exact_1000$Drug_Found)) #drugs
+drugInteractions_3exact_1000Targets<-nlevels(factor(drugInteractions_3exact_1000$Target_UniProt)) #targets
+drugInteractions_3exact_1000Grouped<- drugInteractions_3exact_1000 %>% 
+                                      group_by(Drug_Found, Target_UniProt) %>%
+                                      summarize(count=n())
+drugInteractions_3exact_1000Ints<-nrow(drugInteractions_3exact_1000Grouped) #interactions
+evidenceStats_3exact_1000<-cbind("Level III Exact<1000nM", drugInteractions_3exact_1000Drugs, drugInteractions_3exact_1000Targets, drugInteractions_3exact_1000Ints)
+#threshold to 100nM
+drugInteractions_3exact_100<-drugInteractions_3exact%>% filter(Assay_Value<100)   
+drugInteractions_3exact_100Drugs<-nlevels(factor(drugInteractions_3exact_100$Drug_Found)) #drugs
+drugInteractions_3exact_100Targets<-nlevels(factor(drugInteractions_3exact_100$Target_UniProt)) #targets
+drugInteractions_3exact_100Grouped<- drugInteractions_3exact_100 %>% 
+                                     group_by(Drug_Found, Target_UniProt) %>%
+                                     summarize(count=n())
+drugInteractions_3exact_100Ints<-nrow(drugInteractions_3exact_100Grouped) #interactions
+evidenceStats_3exact_100<-cbind("Level III Exact<100nM", drugInteractions_3exact_100Drugs, drugInteractions_3exact_100Targets, drugInteractions_3exact_100Ints)
+
+#bind evidence stats from each level
+evidenceStats_combined<-as.data.frame(rbind(evidenceStats_123, 
+                                            evidenceStats_23, 
+                                            evidenceStats_3, 
+                                            evidenceStats_3exact, 
+                                            evidenceStats_3exact_10000, 
+                                            evidenceStats_3exact_1000, 
+                                            evidenceStats_3exact_100))
+colnames(evidenceStats_combined)<-c("AnalysisGroup", "Drugs", "Targets", "Interactions")
+#View(evidenceStats_combined)
+evidenceStats_combined$Drugs<-as.numeric(as.character(evidenceStats_combined$Drugs))
+evidenceStats_combined$Targets<-as.numeric(as.character(evidenceStats_combined$Targets))
+evidenceStats_combined$Interactions<-as.numeric(as.character(evidenceStats_combined$Interactions))
+#re-order the factors for analysis groups, make it more clear for graphs
+evidenceStats_combined$AnalysisGroup<-factor(evidenceStats_combined$AnalysisGroup, levels=c("Levels I, II, III", "Levels II, III", "Level III", "Level III Exact", "Level III Exact<10,000nM", "Level III Exact<1000nM", "Level III Exact<100nM"))
+#RESHAPE to long format
+  #id var = analysis group  
+  #value var = count of each analysis group
+View(evidenceStats_combined)
+evidenceStats_combinedLong<-evidenceStats_combined %>%
+  pivot_longer(-AnalysisGroup, names_to = "Item", values_to = "Count")
+#evidenceStats_combinedLong<-melt(evidenceStats_combined, id.var="AnalysisGroup", variable.name="Item", value.name ="Count" )
+#View(evidenceStats_combinedLong)
+
+evidenceStats_combinedLong$Item<-factor(evidenceStats_combinedLong$Item, levels = c("Drugs", "Targets", "Interactions"))
+View(evidenceStats_combinedLong)
+
+#####PAPER FIGURE. FIGURE 2.
+#Drug, Target, Interactions by Evidence Level
+#png("TIPS_Fig2.png", width = 5, height = 3.4, units = 'in', res = 300)
+coverageByEvidenceLevel<-ggplot(data=evidenceStats_combinedLong, 
+                                aes(x=AnalysisGroup, y=Count, fill=AnalysisGroup)) + 
+                                geom_bar(stat="identity", position="dodge", colour="black") + 
+                                facet_wrap(~Item, scales="free") + #facet horizontally
+                                scale_fill_brewer(palette="YlGnBu") + 
+                                ylab("Count") +
+                                #ggtitle("Number of Drugs, Targets, and Interactions by Supporting Evidence Level") + 
+                                #ggtitle("(D)")+
+                                theme(axis.title.x=element_blank(),
+                                      axis.text.x=element_blank(),
+                                      axis.ticks.x=element_blank()) + 
+                                theme(strip.text.x = element_text(size = 8, face="bold"))+ 
+                                #theme(plot.title = element_text(size=24, face="bold"))+
+                                theme(axis.text.y=element_text(size=8, face="bold"))+
+                                theme(axis.title.y=element_text(size=8, face="bold"))+
+                                theme(legend.title=element_text(size=6, face="bold"))+
+                                theme(legend.text=element_text(size=6)) + 
+                                theme(legend.position="bottom", legend.background=element_rect(colour = "black"))+
+                                guides(fill=guide_legend(title="Level of Evidence",nrow=3))
+coverageByEvidenceLevel
+#dev.off()
+
+```
+
+
+```{r}
+#bar plot for imatinib and vandetanib
+#####VANDETANIB
+View(drugInteractions)
+#order the factors for binding assay values
+drugInteractions$Assay_Type<-factor(drugInteractions$Assay_Type, levels = c("KD", "Ki", "IC50", "EC50"))
+
+
+vandetanib_interactions<-drugInteractions%>% filter(Drug_Found=="Vandetanib")
+#View(vandetanib_interactions)
+#now filter to assay relation exact, assay value under 1000 and 100
+vandetanib_interactions$Assay_Value<-as.numeric(as.character(vandetanib_interactions$Assay_Value))
+vandetanib_interactions_100<-vandetanib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=100)
+#View(vandetanib_interactions_100) 
+vandetanib_interactions_100_dis<-vandetanib_interactions_100 %>% 
+  distinct(Drug_Found, Target_UniProt, Target_Name, Database, Assay_Type, Assay_Value, Assay_Relation, Reference)
+#View(vandetanib_interactions_100_dis)
+
+#####PAPER FIGURE. 3B Vandetanib.
+#png("TIPS_Box1FigureII_edits.png", width = 4.8, height = 3.75, units = 'in', res = 300)
+vandetanib_under100_AllAssays<-ggplot(vandetanib_interactions_100_dis, 
+                                      aes(x=Assay_Value, fill=Target_Name))+
+                                      scale_fill_manual(values = tol27rainbow)+
+                                      facet_grid(Assay_Type~.) + #facet by assay type 
+                                      geom_histogram(binwidth = 1.0, colour="black") + 
+                                      ylab("Count") +
+                                      xlab("Binding Assay Value (nM), under 100nM")+
+                                      scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
+                                      scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                      theme(axis.title.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.y=element_text(size=8, face="bold"))+ 
+                                      theme(axis.title.y=element_text(size=8, face="bold"))+ 
+                                      theme(strip.text.y = element_text(size = 8, face="bold"))+ 
+                                      theme(plot.title=element_text(size=10, face="bold"))+ 
+                                      #ggtitle("Vandetanib Assay Value by Assay Type, under 100nM \n Colored By Target Name, BinWidth=1nM")+
+                                      ggtitle("B. Vandetanib")+
+                                      #theme(legend.title=element_text(size=14, face="bold"))+
+                                      #theme(legend.text=element_text(size=14))+
+                                      theme(legend.position="bottom") +
+                                      guides(fill=guide_legend(title="Target",nrow=3))+
+                                      theme(legend.key.size = unit(0.4, "cm"), 
+                                            legend.margin = unit(0, "cm"),
+                                            legend.title = element_text(size = 4, face = "bold"),
+                                            legend.text = element_text(size = 4))
+vandetanib_under100_AllAssays
+#dev.off()
+```
+
+```{r}
+####IMATINIB
+imatinib_interactions<-drugInteractions%>% filter(Drug_Found=="Imatinib")
+#View(imatinib_interactions)
+imatinib_interactions$Assay_Value<-as.numeric(as.character(imatinib_interactions$Assay_Value))
+#imatinib_interactions_1000<-imatinib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=1000)
+#View(imatinib_interactions_1000) #98 interactions
+imatinib_interactions_100<-imatinib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=100)
+#View(imatinib_interactions_100) #86 pieces of evidence
+imatinib_interactions_100_dis<-imatinib_interactions_100 %>% 
+  distinct(Drug_Found, Target_Name, Target_UniProt, Database, Assay_Type, Assay_Value, Assay_Relation, Reference)
+#View(imatinib_interactions_100_dis)#86 total entries
+
+#####PAPER FIGURE. 3A Imatinib.
+#png("TIPS_Box1FigureI_edits.png", width = 4.8, height = 3.50, units = 'in', res = 300)
+imatinib_under100_AllAssays<-ggplot(imatinib_interactions_100_dis, #use for full assay plot
+                                    aes(x=Assay_Value, fill=Target_Name))+
+                                    scale_fill_manual(values = tol14rainbow)+
+                                    facet_grid(Assay_Type~.) + #facet by assay type
+                                    geom_histogram(binwidth = 1.0, colour="black") + 
+                                    ylab("Count") +
+                                    xlab("Binding Assay Value (nM), under 100nM")+
+                                    scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
+                                    scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                    theme(axis.title.x=element_text(size=8, face="bold"))+
+                                    theme(axis.text.x=element_text(size=8, face="bold"))+
+                                    theme(axis.text.y=element_text(size=6, face="bold"))+ 
+                                    theme(axis.title.y=element_text(size=8, face="bold"))+ 
+                                    theme(strip.text.y = element_text(size = 8, face="bold"))+ 
+                                    theme(plot.title=element_text(size=10, face="bold"))+ 
+                                    ggtitle("A. Imatinib")+
+                                    theme(legend.position="bottom") +
+                                    guides(fill=guide_legend(title="Target",nrow=3))+
+                                    theme(legend.key.size = unit(0.4, "cm"), 
+                                          legend.margin = unit(0, "cm"),
+                                          legend.title = element_text(size = 4, face = "bold"),
+                                          legend.text = element_text(size = 4))
+imatinib_under100_AllAssays
+#dev.off()
+```
