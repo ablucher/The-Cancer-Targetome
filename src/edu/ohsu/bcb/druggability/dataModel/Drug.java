@@ -27,7 +27,7 @@ public class Drug  {
 	private Set<String> drugSynonyms; //prev was tree set, change accompny methods
 	private HashMap<String, Set<String>> drugFormulations;
 	private String approvalDate;
-	private String status;
+	private String status;//approved or investigational
 	private String atcClassID;
 	private String atcClassName;
 	private String atcClassStatus;
