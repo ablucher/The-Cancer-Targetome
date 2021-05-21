@@ -1,0 +1,385 @@
+Drug	Approval_Date	ATC_ClassID	ATC_ClassName	ATC_ClassStatus	EPC_ClassID	EPC_ClassName
+Rasburicase	null	null	null	null	null	null
+Oxaliplatin	null	null	null	null	null	null
+CSF-1R Inhibitor BLZ945	null	null	null	null	null	null
+Pelitinib	null	null	null	null	null	null
+Lomustine	null	null	null	null	null	null
+Dactinomycin	null	null	null	null	null	null
+Denileukin Diftitox	null	null	null	null	null	null
+Daunorubicin Hydrochloride	null	null	null	null	null	null
+Olaparib	null	null	null	null	null	null
+Bendamustine Hydrochloride	null	null	null	null	null	null
+Rolapitant Hydrochloride	null	null	null	null	null	null
+Retaspimycin	null	null	null	null	null	null
+Nilotinib	null	null	null	null	null	null
+Radium 223 Dichloride	null	null	null	null	null	null
+Chaparrinone	null	null	null	null	null	null
+Imatinib	null	null	null	null	null	null
+Tozasertib	null	null	null	null	null	null
+IGF-methotrexate Conjugate	null	null	null	null	null	null
+Momelotinib	null	null	null	null	null	null
+Cediranib	null	null	null	null	null	null
+Glucarpidase	null	null	null	null	null	null
+Midostaurin	null	null	null	null	null	null
+CDK Inhibitor R547	null	null	null	null	null	null
+Peginterferon Alfa-2b	null	null	null	null	null	null
+VX-745	null	null	null	null	null	null
+Roscovitine	null	null	null	null	null	null
+Ondansetron Hydrochloride	null	null	null	null	null	null
+Rofecoxib	null	null	null	null	null	null
+Aziridinylbenzoquinone	null	null	null	null	null	null
+Abiraterone	null	null	null	null	null	null
+Bexarotene	null	null	null	null	null	null
+Nivolumab	null	null	null	null	null	null
+Thiotepa	null	null	null	null	null	null
+Panitumumab	null	null	null	null	null	null
+Vorinostat	null	null	null	null	null	null
+Niraparib	null	null	null	null	null	null
+AT-101	null	null	null	null	null	null
+PRT062607	null	null	null	null	null	null
+GSK-1838705A	null	null	null	null	null	null
+Tofacitinib	null	null	null	null	null	null
+Erdafitinib	null	null	null	null	null	null
+Glesatinib	null	null	null	null	null	null
+Etirinotecan Pegol	null	null	null	null	null	null
+Melphalan	null	null	null	null	null	null
+Irinotecan	null	null	null	null	null	null
+GDC-0879	null	null	null	null	null	null
+Vemurafenib	null	null	null	null	null	null
+Selinexor	null	null	null	null	null	null
+Gemtuzumab Ozogamicin	null	null	null	null	null	null
+JAK2 Inhibitor AZD1480	null	null	null	null	null	null
+Doxorubicin Hydrochloride	null	null	null	null	null	null
+Ruxolotinib	null	null	null	null	null	null
+JNJ-7706621	null	null	null	null	null	null
+PH-797804	null	null	null	null	null	null
+Sacituzumab	null	null	null	null	null	null
+Sapanisertib	null	null	null	null	null	null
+MTF-1 Inhibitor APTO-253 HCl	null	null	null	null	null	null
+Tivozanib	null	null	null	null	null	null
+Decitabine	null	null	null	null	null	null
+Bevacizumab	null	null	null	null	null	null
+Neratinib	null	null	null	null	null	null
+Necitumumab	null	null	null	null	null	null
+Lenalidomide	null	null	null	null	null	null
+Blinatumomab	null	null	null	null	null	null
+Fedratinib	null	null	null	null	null	null
+BMX-IN-1	null	null	null	null	null	null
+Leucovorin Calcium	null	null	null	null	null	null
+Vinblastine Sulfate	null	null	null	null	null	null
+Metformin	null	null	null	null	null	null
+Indisulam	null	null	null	null	null	null
+Cabazitaxel	null	null	null	null	null	null
+Osimertinib	null	null	null	null	null	null
+AZD1152-HQPA	null	null	null	null	null	null
+Entospletinib	null	null	null	null	null	null
+Aldesleukin	null	null	null	null	null	null
+Plerixafor	null	null	null	null	null	null
+Bay 11-7085	null	null	null	null	null	null
+FOLFOX	null	null	null	null	null	null
+Dual IGF-1R/InsR Inhibitor BMS-754807	null	null	null	null	null	null
+Mivavotinib	null	null	null	null	null	null
+MEK 1/2 Inhibitor FCN-159	null	null	null	null	null	null
+Pan-AKT Kinase Inhibitor GSK690693	null	null	null	null	null	null
+Clofarabine	null	null	null	null	null	null
+LY-333531	null	null	null	null	null	null
+Celecoxib	null	null	null	null	null	null
+Mitomycin C	null	null	null	null	null	null
+Dasatinib	null	null	null	null	null	null
+Halofuginone	null	null	null	null	null	null
+Temozolomide	null	null	null	null	null	null
+APTO-253	null	null	null	null	null	null
+Pemetrexed	null	null	null	null	null	null
+MALT1 Inhibitor JNJ-67856633	null	null	null	null	null	null
+Linifanib	null	null	null	null	null	null
+Docetaxel	null	null	null	null	null	null
+Alemtuzumab	null	null	null	null	null	null
+Genistein	null	null	null	null	null	null
+JQ1	null	null	null	null	null	null
+Ixabepilone	null	null	null	null	null	null
+Sorafenib	null	null	null	null	null	null
+c-Met Inhibitor JNJ-38877605	null	null	null	null	null	null
+Oraxol	null	null	null	null	null	null
+SB-431542	null	null	null	null	null	null
+Plk1 Inhibitor BI 2536	null	null	null	null	null	null
+IMR 1	null	null	null	null	null	null
+MEK Inhibitor TAK-733	null	null	null	null	null	null
+Pamidronate Disodium	null	null	null	null	null	null
+Alectinib	null	null	null	null	null	null
+Zebularine	null	null	null	null	null	null
+PHA-665752	null	null	null	null	null	null
+Taselisib	null	null	null	null	null	null
+Ralimetinib	null	null	null	null	null	null
+Methotrexate	null	null	null	null	null	null
+Ixazomib Citrate	null	null	null	null	null	null
+Degarelix	null	null	null	null	null	null
+Daratumumab	null	null	null	null	null	null
+Pegaspargase	null	null	null	null	null	null
+Toremifene	null	null	null	null	null	null
+Onalespib	null	null	null	null	null	null
+Cisplatin	null	null	null	null	null	null
+Axitinib	null	null	null	null	null	null
+Quizartinib	null	null	null	null	null	null
+Atezolizumab	null	null	null	null	null	null
+Lestaurtinib	null	null	null	null	null	null
+Entrectinib	null	null	null	null	null	null
+Dovitinib	null	null	null	null	null	null
+2,6-Dimethoxyquinone	null	null	null	null	null	null
+Mesna	null	null	null	null	null	null
+Staurosporine	null	null	null	null	null	null
+R406	null	null	null	null	null	null
+Dacomitinib	null	null	null	null	null	null
+Dinaciclib	null	null	null	null	null	null
+Fluorouracil	null	null	null	null	null	null
+Panobinostat	null	null	null	null	null	null
+Mechlorethamine Hydrochloride	null	null	null	null	null	null
+PF-562271	null	null	null	null	null	null
+Sipuleucel-T	null	null	null	null	null	null
+Lorlatinib	null	null	null	null	null	null
+Trastuzumab	null	null	null	null	null	null
+Aurora Kinase Inhibitor MLN8054	null	null	null	null	null	null
+Cabozantinib	null	null	null	null	null	null
+PD153035	null	null	null	null	null	null
+XMD 8-87	null	null	null	null	null	null
+Dexamethasone	null	null	null	null	null	null
+Ropidoxuridine	null	null	null	null	null	null
+Goserelin Acetate	null	null	null	null	null	null
+Ethinylestradiol	null	null	null	null	null	null
+Ibritumomab Tiuxetan	null	null	null	null	null	null
+Pictilisib	null	null	null	null	null	null
+Vincristine Sulfate	null	null	null	null	null	null
+Sunitinib	null	null	null	null	null	null
+Zoledronic Acid	null	null	null	null	null	null
+Dacarbazine	null	null	null	null	null	null
+Thalidomide	null	null	null	null	null	null
+Fludarabine Phosphate	null	null	null	null	null	null
+B-Raf/VEGFR-2 Inhibitor RAF265	null	null	null	null	null	null
+Crenigacestat	null	null	null	null	null	null
+LSD1 Inhibitor GSK2879552	null	null	null	null	null	null
+Paclitaxel	null	null	null	null	null	null
+Hydroxyurea	null	null	null	null	null	null
+Idarubicin Hydrochloride	null	null	null	null	null	null
+Elesclomol	null	null	null	null	null	null
+BMS-345541	null	null	null	null	null	null
+Brigatinib	null	null	null	null	null	null
+Tyrosine Kinase Inhibitor SU5402	null	null	null	null	null	null
+Tegavivint	null	null	null	null	null	null
+Vadimezan	null	null	null	null	null	null
+Daniquidone	null	null	null	null	null	null
+Sonidegib	null	null	null	null	null	null
+Aminolevulinic Acid	null	null	null	null	null	null
+Bortezomib	null	null	null	null	null	null
+Radgocitabine	null	null	null	null	null	null
+UAE Inhibitor TAK-243	null	null	null	null	null	null
+Foretinib	null	null	null	null	null	null
+Romidepsin	null	null	null	null	null	null
+Losartan	null	null	null	null	null	null
+Luteolin 	null	null	null	null	null	null
+Everolimus	null	null	null	null	null	null
+Dabrafenib	null	null	null	null	null	null
+Durvalumab	null	null	null	null	null	null
+Alvocidib	null	null	null	null	null	null
+MLN120B	null	null	null	null	null	null
+DHA-Paclitaxel	null	null	null	null	null	null
+Imiquimod	null	null	null	null	null	null
+Vandetanib	null	null	null	null	null	null
+Palonosetron Hydrochloride	null	null	null	null	null	null
+SM-88	null	null	null	null	null	null
+Mitoxantrone	null	null	null	null	null	null
+17beta-Hydroxysteroid Dehydrogenase Type 5 Inhibitor ASP9521	null	null	null	null	null	null
+KU-55933	null	null	null	null	null	null
+Palifermin	null	null	null	null	null	null
+Idelalisib	null	null	null	null	null	null
+Palbociclib	null	null	null	null	null	null
+Mercaptopurine	null	null	null	null	null	null
+Sivifene	null	null	null	null	null	null
+Masitinib	null	null	null	null	null	null
+Bosutinib	null	null	null	null	null	null
+Caffeic Acid Phenethyl Ester	null	null	null	null	null	null
+Etoposide Phosphate	null	null	null	null	null	null
+Vismodegib	null	null	null	null	null	null
+Pazopanib	null	null	null	null	null	null
+Etoposide	null	null	null	null	null	null
+Vistusertib	null	null	null	null	null	null
+Birinapant	null	null	null	null	null	null
+Go6976	null	null	null	null	null	null
+PLX-4720	null	null	null	null	null	null
+Serabelisib	null	null	null	null	null	null
+Defibrotide Sodium	null	null	null	null	null	null
+Erlotinib	null	null	null	null	null	null
+Stauprimide	null	null	null	null	null	null
+CDK Inhibitor AT7519	null	null	null	null	null	null
+Filgrastim	null	null	null	null	null	null
+Eribulin Mesylate	null	null	null	null	null	null
+Afatinib	null	null	null	null	null	null
+Crizotinib	null	null	null	null	null	null
+Gilteritinib	null	null	null	null	null	null
+Procarbazine Hydrochloride	null	null	null	null	null	null
+Motesanib	null	null	null	null	null	null
+Iobenguane I-131	null	null	null	null	null	null
+S31-201	null	null	null	null	null	null
+KI20227	null	null	null	null	null	null
+Trabectedin	null	null	null	null	null	null
+Larotrectinib	null	null	null	null	null	null
+Ziv-Aflibercept	null	null	null	null	null	null
+Infigratinib	null	null	null	null	null	null
+Darolutamide	null	null	null	null	null	null
+Belinostat	null	null	null	null	null	null
+Thioguanine	null	null	null	null	null	null
+Ifosfamide	null	null	null	null	null	null
+Lapatinib	null	null	null	null	null	null
+Nelarabine	null	null	null	null	null	null
+Fluzoparib	null	null	null	null	null	null
+Alisertib	null	null	null	null	null	null
+Chlorambucil	null	null	null	null	null	null
+Venetoclax	null	null	null	null	null	null
+Syk Inhibitor HMPL-523	null	null	null	null	null	null
+Arsenic Trioxide	null	null	null	null	null	null
+Carboplatin	null	null	null	null	null	null
+Tanespimycin	null	null	null	null	null	null
+Copanlisib	null	null	null	null	null	null
+Dactolisib	null	null	null	null	null	null
+Cerdulatinib	null	null	null	null	null	null
+AST-487	null	null	null	null	null	null
+Cyclophosphamide	null	null	null	null	null	null
+Aprepitant	null	null	null	null	null	null
+Vargetef	null	null	null	null	null	null
+Coenzyme Q10	null	null	null	null	null	null
+Topotecan Hydrochloride	null	null	null	null	null	null
+Tetrahydrouridine	null	null	null	null	null	null
+Dinutuximab	null	null	null	null	null	null
+Dexrazoxane Hydrochloride	null	null	null	null	null	null
+Ginsenoside	null	null	null	null	null	null
+Scopoletin	null	null	null	null	null	null
+Kunecatechins	null	null	null	null	null	null
+Romiplostim	null	null	null	null	null	null
+Torkinib	null	null	null	null	null	null
+Ranolazine	null	null	null	null	null	null
+PHT-427	null	null	null	null	null	null
+Seliciclib	null	null	null	null	null	null
+Crenolanib	null	null	null	null	null	null
+Enzalutamide	null	null	null	null	null	null
+Ribociclib/Letrozole	null	null	null	null	null	null
+Ambazone	null	null	null	null	null	null
+Prednisone	null	null	null	null	null	null
+Vatalanib	null	null	null	null	null	null
+Pertuzumab	null	null	null	null	null	null
+Liposomal Doxorubicin 	null	null	null	null	null	null
+Cytarabine	null	null	null	null	null	null
+Nutlin-3a	null	null	null	null	null	null
+Asparaginase Erwinia chrysanthemi	null	null	null	null	null	null
+Denosumab	null	null	null	null	null	null
+Bicalutamide	null	null	null	null	null	null
+Selumetinib	null	null	null	null	null	null
+SU11274	null	null	null	null	null	null
+Lovastatin	null	null	null	null	null	null
+Curcumin	null	null	null	null	null	null
+JNJ-28312141	null	null	null	null	null	null
+SR9011	null	null	null	null	null	null
+Tamoxifen Citrate	null	null	null	null	null	null
+FLT3/ABL/Aurora Kinase Inhibitor KW-2449	null	null	null	null	null	null
+Ridaforolimus	null	null	null	null	null	null
+Ibrutinib	null	null	null	null	null	null
+Navitoclax	null	null	null	null	null	null
+Atrasentan	null	null	null	null	null	null
+MET Tyrosine Kinase Inhibitor SGX523	null	null	null	null	null	null
+Letrozole	null	null	null	null	null	null
+GSK-1904529A	null	null	null	null	null	null
+Dubermatinib	null	null	null	null	null	null
+Omacetaxine Mepesuccinate	null	null	null	null	null	null
+Uridine Triacetate	null	null	null	null	null	null
+Sirolimus	null	null	null	null	null	null
+Lucitanib	null	null	null	null	null	null
+SCH-772984	null	null	null	null	null	null
+Ramucirumab	null	null	null	null	null	null
+Alpelisib	null	null	null	null	null	null
+Doramapimod	null	null	null	null	null	null
+Busulfan	null	null	null	null	null	null
+STO609	null	null	null	null	null	null
+Raloxifene	null	null	null	null	null	null
+Ofatumumab	null	null	null	null	null	null
+Pomalidomide	null	null	null	null	null	null
+mTOR Kinase Inhibitor OSI-027	null	null	null	null	null	null
+Epirubicin Hydrochloride	null	null	null	null	null	null
+MEK 1/2 Inhibitor AS703988/MSC2015103B	null	null	null	null	null	null
+Tandutinib	null	null	null	null	null	null
+17-AAG	null	null	null	null	null	null
+Molibresib	null	null	null	null	null	null
+NVP-ADW742	null	null	null	null	null	null
+Leuprolide Acetate	null	null	null	null	null	null
+Capecitabine	null	null	null	null	null	null
+Dihydrolenperone	null	null	null	null	null	null
+Temsirolimus	null	null	null	null	null	null
+Carmustine	null	null	null	null	null	null
+Exicorilant	null	null	null	null	null	null
+Obinutuzumab	null	null	null	null	null	null
+mTOR Kinase Inhibitor PP242	null	null	null	null	null	null
+Talimogene Laherparepvec	null	null	null	null	null	null
+Etomoxir	null	null	null	null	null	null
+Volasertib	null	null	null	null	null	null
+A-674563	null	null	null	null	null	null
+Saracatinib	null	null	null	null	null	null
+DBZ	null	null	null	null	null	null
+Exemestane	null	null	null	null	null	null
+Cobimetinib	null	null	null	null	null	null
+Akt Inhibitor MK2206	null	null	null	null	null	null
+Tipifarnib	null	null	null	null	null	null
+Canertinib	null	null	null	null	null	null
+Birabresib	null	null	null	null	null	null
+SU14813	null	null	null	null	null	null
+CHIR-99021	null	null	null	null	null	null
+Andrographolide	null	null	null	null	null	null
+Gefitinib	null	null	null	null	null	null
+Menatetrenone	null	null	null	null	null	null
+Perhexiline	null	null	null	null	null	null
+BS-181	null	null	null	null	null	null
+Pembrolizumab	null	null	null	null	null	null
+PI-103	null	null	null	null	null	null
+Trametinib	null	null	null	null	null	null
+Regorafenib	null	null	null	null	null	null
+Anastrozole	null	null	null	null	null	null
+Eltrombopag Olamine	null	null	null	null	null	null
+Pralatrexate	null	null	null	null	null	null
+Sacituzumab Govitecan	null	null	null	null	null	null
+FGFR Inhibitor AZD4547	null	null	null	null	null	null
+Brentuximab Vedotin	null	null	null	null	null	null
+Ipilimumab	null	null	null	null	null	null
+Rapamycin	null	null	null	null	null	null
+Tretinoin	null	null	null	null	null	null
+Ceritinib	null	null	null	null	null	null
+Lanreotide Acetate	null	null	null	null	null	null
+XAV-939	null	null	null	null	null	null
+Fulvestrant	null	null	null	null	null	null
+Flutamide	null	null	null	null	null	null
+Eribulin	null	null	null	null	null	null
+MEK Inhibitor CI-1040	null	null	null	null	null	null
+Recombinant Interferon Alfa-2b	null	null	null	null	null	null
+Ponatinib	null	null	null	null	null	null
+Satraplatin	null	null	null	null	null	null
+NVP-AEW541	null	null	null	null	null	null
+Fosgemcitabine Palabenamide	null	null	null	null	null	null
+Tamatinib	null	null	null	null	null	null
+TG100-115	null	null	null	null	null	null
+Bleomycin	null	null	null	null	null	null
+Gemcitabine	null	null	null	null	null	null
+Megestrol Acetate	null	null	null	null	null	null
+Carfilzomib	null	null	null	null	null	null
+Isocoumarin NM-3	null	null	null	null	null	null
+Trioxifene	null	null	null	null	null	null
+Elotuzumab	null	null	null	null	null	null
+GW-2580	null	null	null	null	null	null
+ALK Inhibitor TAE684	null	null	null	null	null	null
+BH3 Mimetic ABT-737	null	null	null	null	null	null
+Sepantronium	null	null	null	null	null	null
+JAK Inhibitor INCB047986	null	null	null	null	null	null
+Resveratrol	null	null	null	null	null	null
+2-Hydroxyoleic Acid	null	null	null	null	null	null
+Cetuximab	null	null	null	null	null	null
+Lenvatinib	null	null	null	null	null	null
+Baiclein	null	null	null	null	null	null
+CDK Inhibitor SNS-032	null	null	null	null	null	null
+Abemaciclib	null	null	null	null	null	null
+Siltuximab	null	null	null	null	null	null
+Rituximab	null	null	null	null	null	null
+Vinorelbine	null	null	null	null	null	null
+Azacitidine	null	null	null	null	null	null
