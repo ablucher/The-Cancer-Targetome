@@ -27,6 +27,7 @@ public class Drug  {
 	private Set<String> drugSynonyms; //prev was tree set, change accompny methods
 	private HashMap<String, Set<String>> drugFormulations;
 	private String approvalDate;
+	private String status;
 	private String atcClassID;
 	private String atcClassName;
 	private String atcClassStatus;
@@ -266,6 +267,14 @@ public class Drug  {
 
 	public void setDrugFormulations(HashMap<String, Set<String>> drugFormulations) {
 		this.drugFormulations = drugFormulations;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 }

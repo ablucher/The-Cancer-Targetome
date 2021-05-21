@@ -757,6 +757,8 @@ public class DrugInteractionsParser {
 		
 		//CREATE DRUG OBJECTS;
 		//editing this for our reconciled set; review code in beta_persistDrugSet() for reference
+		int foundCounter=0;
+		int nullCounter=0;
 		for (Drug eachDrug: reconcileFormulations){
 			String drugName = eachDrug.getDrugName();
 			
@@ -766,40 +768,38 @@ public class DrugInteractionsParser {
 			Set<String> currentDrugSyns = eachDrug.getDrugSynonyms();
 			if (currentDrugSyns==null){
 				currentDrug.setDrugSynonyms(null);
-//				//check for approval date
-//				String approvalDate = getFDAApprovalDate(currentDrug);
-//				currentDrug.setApprovalDate(approvalDate);
-//				//ps.println(drugName + "\t" + approvalDate);
-//				//counters
-//				if (approvalDate!=null){
-//						foundCounter++;
-//				}
-//				else{
-//					nullCounter++;
-//				}
-//				
-//				//currentSession.save(currentDrug);
+				//check for approval date
+				String approvalDate = getFDAApprovalDate(currentDrug);
+				currentDrug.setApprovalDate(approvalDate);
+				//ps.println(drugName + "\t" + approvalDate);
+				//counters
+				if (approvalDate!=null){
+					foundCounter++;
+				}
+				else{
+					nullCounter++;
+				}
+				
 				fullDrugList.add(currentDrug);//add to set here
 				continue;
 			}
 			//set synonyms from map
 			currentDrug.setDrugSynonyms(currentDrugSyns);
-//			//retrieve fda approval date
-//			String approvalDate = getFDAApprovalDate(currentDrug);
-//			currentDrug.setApprovalDate(approvalDate);
+			//retrieve fda approval date
+			String approvalDate = getFDAApprovalDate(currentDrug);
+			currentDrug.setApprovalDate(approvalDate);
 			currentSession.save(currentDrug);
-//			if (approvalDate!=null){//increment our counters
-//					foundCounter++;
-//			}
-//			else{
-//				nullCounter++;
-//			}
+			if (approvalDate!=null){//increment our counters
+					foundCounter++;
+			}
+			else{
+				nullCounter++;
+			}
 			//add to fullDrugset
 			fullDrugList.add(currentDrug);
 		}
 		System.out.println("Number all drugs: " + fullDrugList.size());
 		
-		//EXCLUDED 04/28/21 7:36 pm, don't think we need this check now
 		//Now we need to check for any duplicates because of name/synonym
 		//THIS RESOLVES BY SYNONYMS BEFORE COMMITTING THE DRUGS
 		Set<Drug> checkedDrugs = new HashSet<Drug>();
@@ -819,11 +819,10 @@ public class DrugInteractionsParser {
 		}
 		
 		System.out.println("Commit DRUG SET to database complete.");
-//		System.out.println("Num Approval Dates found: " + foundCounter);
-//		System.out.println("Num Approval Dates null: " + nullCounter);
-//		
+		System.out.println("Num Approval Dates found: " + foundCounter);
+		System.out.println("Num Approval Dates null: " + nullCounter);
+		
 		return currentSession;
-		//return checkedDrugs;
 
 	}
 	
@@ -3241,12 +3240,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_050421.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_2_050421.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_050421.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_050421.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
