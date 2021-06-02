@@ -940,6 +940,10 @@ public class DrugInteractionsParser {
 	 * Method persists DrugBank interactions to druggability database.
 	 * Updated May 20, 2021 for DrugBank V 5.1.8
 	 * Uses Sophia's parsed file for drug-target interactions here
+	 * 
+	 * TODO as of 06/01/21
+	 * Check references - only a small number
+	 * Check Imatinib- Targets - only listing PDGFRA/B currently, should be (9) total
 	 * @param currentSession
 	 * @return
 	 * @throws IOException
@@ -1498,34 +1502,34 @@ public class DrugInteractionsParser {
 //			}
 			
 			
-			//if match found, use as drug for persisting section
-			System.out.println("Match found!: " + drugMatch.getDrugName() + "at line: " + lineCounter);
-			
-			//testing
-			System.out.println("Values found: " + "Ki = " + tokens[8]
-					+ "IC50 = " + tokens[9]
-							+ "KD = " + tokens[10]
-									+ "EC50 = " + tokens[11]
-											+ "KON = " + tokens[12]
-													+ "KOFF = " + tokens[13]);
-
-
-			System.out.println("Checking Target: " + targetName);
-			System.out.println("Checking Target Uniprot: " );
-			if (uniProtID!=null){
-				System.out.println("Uniprot: " + uniProtID);
-			}
-			else{
-				System.out.println("No Uniprot for this target!!");
-			}
-			System.out.println("Assay Org/Species: " + targetOrg);
-			System.out.println("Checking Assay Record: ");
-			System.out.println("Assay Type: " + assayType);
-			System.out.println("Assay Value: " + assayValue);
-			System.out.println("Parent Source: " + parentSource );
-			System.out.println("Checking pubmedIDs: " + pubMedIDs.length);
-			System.out.println("PubMED ID: " + pubMedIDs[0]);
-			System.out.println(line);
+//			//if match found, use as drug for persisting section
+//			System.out.println("Match found!: " + drugMatch.getDrugName() + "at line: " + lineCounter);
+//			
+//			//testing
+//			System.out.println("Values found: " + "Ki = " + tokens[8]
+//					+ "IC50 = " + tokens[9]
+//							+ "KD = " + tokens[10]
+//									+ "EC50 = " + tokens[11]
+//											+ "KON = " + tokens[12]
+//													+ "KOFF = " + tokens[13]);
+//
+//
+//			System.out.println("Checking Target: " + targetName);
+//			System.out.println("Checking Target Uniprot: " );
+//			if (uniProtID!=null){
+//				System.out.println("Uniprot: " + uniProtID);
+//			}
+//			else{
+//				System.out.println("No Uniprot for this target!!");
+//			}
+//			System.out.println("Assay Org/Species: " + targetOrg);
+//			System.out.println("Checking Assay Record: ");
+//			System.out.println("Assay Type: " + assayType);
+//			System.out.println("Assay Value: " + assayValue);
+//			System.out.println("Parent Source: " + parentSource );
+//			System.out.println("Checking pubmedIDs: " + pubMedIDs.length);
+//			System.out.println("PubMED ID: " + pubMedIDs[0]);
+//			System.out.println(line);
 
 			//TARGET
 			Target target = createTarget(currentSession, targetSet, targetName, uniProtID, targetType, targetOrg);
@@ -2268,6 +2272,126 @@ public class DrugInteractionsParser {
 			lineCounter++;
 		}
 		System.out.println("Total num lines: " + lineCounter);
+		return currentSession;
+	}
+
+	/**
+	 * Method parse Small Molecule Suite (Sorger) interactions and evidence and persists to our database.
+	 * Method returns currentSession. 
+	 * 
+	 * Added 06/01/21 - fm Sophia's parsed files
+	 * @throws IOException 
+	 */
+	public Session persistSmallMoleculeSuite(Session currentSession) throws IOException{
+		//query database for current info
+		Set<Drug> drugSet = queryDrugSet(currentSession);
+		//no need to save these since these are saved throughout method
+		//each time we make a change or update
+		Set<Target> targetSet = queryTargetSet(currentSession);
+		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
+		Set<LitEvidence> literatureSet = queryLitEvidenceSet(currentSession);
+		Set<ExpEvidence> experimentalSet = queryExpEvidenceSet(currentSession);
+		Set<Source> sourceSet= querySourceSet(currentSession);
+		Set<DatabaseRef> databaseSet = queryDatabaseSet(currentSession);
+		
+	
+		//PARSE IUPHAR INTERACTIONS, PERSIST
+		FileUtility fileUt = new FileUtility();
+		//fix this - will need to use regex to ignore commas in data?**
+		fileUt.setInput("resources/beta_v2/20210316_sorger_targets.txt");
+		//create DatabaseRef
+		DatabaseRef sorgerSMS = new DatabaseRef();
+		sorgerSMS.setDatabaseName("HiTS Small Molecule Suite");
+		sorgerSMS.setDownloadDate("06.123.2020");
+		sorgerSMS.setDownloadURL("NA");
+		sorgerSMS.setVersion("NA");
+		databaseSet.add(sorgerSMS);//prob not necessary
+		currentSession.save(sorgerSMS);
+		
+		System.out.println("Parsing Sorger SMS Database");
+		
+		//parse file 
+		fileUt.readLine(); //skip headers
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");
+
+			String ligand = tokens[1];
+			String[] targetGenes=tokens[2].split("|");//target gene name
+			
+			int targetCounter=0;
+			String targetToUse="null"; //intialize
+			for (String eachTargetGene: targetGenes) {
+				System.out.println(eachTargetGene);
+				if (targetCounter==0){
+					targetToUse = eachTargetGene;
+				}
+				targetCounter++;
+			}
+			//String targetGeneName = targetGene[0]; //TODO - check whether first entry is OK
+			String targetUniprot=tokens[3];//uniprot
+			String targetType = "NA";
+			String targetSpecies = "NA";
+			
+			String assayValueMedian= tokens[7];
+			String assayType=tokens[9];//IC50, KD, KI, EC50
+			String assayRelation=tokens[10];//>, <, or =
+			
+			String[] pubMedIDs = tokens[11].split("|");//add a split, even though we don't need here
+													   //b/c we need to format pubMedIDs into a String[]
+			
+//			if (pubMedIDs.length()==0){
+//				pubMedIDs = "NA_SMS";
+//			}
+			
+			System.out.println("Parsing entry: ");
+			System.out.println("Drug: " + ligand);
+			System.out.println("TargetName, first entry only: " + targetToUse);
+			System.out.println("TargetUniProt " + targetUniprot);
+			System.out.println("Refs: ");
+			for (String pub: pubMedIDs) {
+				System.out.println("PubMedID: " + pub);
+			}
+			
+			//for each of our drugs
+			for (Drug drug: drugSet){
+				//if IUPHAR ligand matches drug
+				if (drug.nameIsEquivalent(ligand)){
+					System.out.println("MATCH found: " + ligand);
+					
+					
+					//TARGET
+					//method either pulls existing target or creates new target
+					Target target = createTarget(currentSession, targetSet, targetToUse, targetUniprot, targetType, targetSpecies);
+					currentSession.save(target);
+				
+					
+					//INTERACTION WITH EXPERIMENTAL EVIDENCE
+					//create Exp evidence from current IUPHAR entry
+					//parent source = NA for now
+					//target species added 7/20/16
+					//TODO - check pubmed refs here for SMS database
+					ExpEvidence exp = createExpEvidence(currentSession, sorgerSMS, assayType, 
+													    "NA", assayValueMedian, "NA",
+													    assayRelation, "NA", "NA", "NA",
+													    pubMedIDs, literatureSet, sourceSet, experimentalSet);
+											 //pass to create interaction method
+					currentSession.save(exp);
+					
+					//take exp and pass to createInteraction()
+					//within that method, checks existing interactionSet
+					//if interaction already present, evidence gets added to the evidence set
+					//otherwise, create new Interaction
+					//save to session
+					
+					//create interaction **CENTERPIECE OF DATA MODEL
+					Interaction currentInteraction = createInteractionWithExp(currentSession, drug, target,null, interactionSet, exp, null);
+					currentSession.save(currentInteraction);
+					
+				}
+
+		}
+		}
 		return currentSession;
 	}
 
@@ -3223,7 +3347,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * New persistAll method for V2 Beta 04/28/21
 	 * see testPersistAll() for method formatting
 	 * 
-	 * WORKING HERE 4/28/21
+	 * WORKING HERE 06/01/21
 	 * 
 	 * @throws IOException
 	 * @throws ParseException
@@ -3239,27 +3363,31 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//iuphar
 		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
 		System.out.println("Done persisting IUPHAR.");
-		//drugbank
-		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
-		System.out.println("Done persisting DrugBank.");
-		//ttd
-		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-		System.out.println("Done persisting TTD.");
-		//bindingDB
-		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-		System.out.println("Done persisting BindingDB.");
+//		//drugbank
+//		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
+//		System.out.println("Done persisting DrugBank.");
+//		//ttd
+//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+//		System.out.println("Done persisting TTD.");
+//		//bindingDB
+//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+//		System.out.println("Done persisting BindingDB.");
+		//sorger SMS, added 06/01/21
+		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionIUPHAR);
+		System.out.println("Done persisting Sorger SMS.");
+				
 		//run check for uniprots and also assign the gene symbol as "target name"
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionBindingDB);
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionSMS);
 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210601.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210601_2.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210601.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210601_2.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
