@@ -981,19 +981,11 @@ public class DrugInteractionsParser {
 		while ((line = drugBankFile.readLine()) != null){
 			String[] tokens = line.split(","); //comma separated
 			
-			if( tokens.length <= 2){//skip
+			if( tokens.length !=5){//skip if we don't have all entries
 				continue;
 			}
-			
 			String drugName = tokens[0];
-			
-			//include escape for IMC-11F8 listing, no reference attached and drugbank now 
-			//has this resolved with necitumumab
-			if (drugName.equals("IMC-11F8")){
-				continue;
-			}
 			String targetName= tokens[1];
-			
 			if(tokens[2] == null || tokens[2].isEmpty()) {
 				continue;//then just move to next like
 			}
@@ -1004,20 +996,6 @@ public class DrugInteractionsParser {
 			//check target type, if NA then just continue
 			if (targetType.equals("NA")){
 				continue;//then skip this entry in drugbank file
-			}
-			
-			//species name is tokens 4 TO DO
-			if(tokens[0].equals("Irinotecan") ||tokens[0].equals("Tretinoin") || tokens[0].equals("Imiquimod") ||
-					tokens[0].equals("Losartan") || tokens[0].equals("Tamoxifen Citrate") ||tokens[0].equals("Aprepitant")||
-					tokens[0].equals("Pemetrexed")||tokens[0].equals("Prednisone") || tokens[0].equals("Clofarabine")) {
-				continue;
-			}
-			if(tokens[1].equals("DNA topoisomerase 2-beta") || tokens[1].trim().equals("DNA topoisomerase I") ||
-					tokens[1].equals("Mitogen-activated protein kinase 8")) {
-				continue;//SKIP this problem line for now**
-			}
-			if (tokens[4].isEmpty() || tokens[4]== null || tokens[4].equals("null")) {
-				continue;
 			}
 			String targetOrg=tokens[4];
 			targetOrg= getSpeciesName(targetOrg);
@@ -3393,12 +3371,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210521.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210601.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210521.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210601.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
