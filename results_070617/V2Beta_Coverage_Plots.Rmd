@@ -370,3 +370,117 @@ imatinib_under100_AllAssays<-ggplot(imatinib_interactions_100_dis, #use for full
 imatinib_under100_AllAssays
 #dev.off()
 ```
+```{r}
+#additional examples
+#Thurs May 20, 2021
+
+#####Crizotinib
+crizotinib_interactions<-drugInteractions%>% filter(Drug_Found=="Crizotinib")
+crizotinib_interactions$Assay_Value<-as.numeric(as.character(crizotinib_interactions$Assay_Value))
+crizotinib_interactions_100<-crizotinib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=100)
+#View(crizotinib_interactions_100) 
+crizotinib_interactions_100_dis<-crizotinib_interactions_100 %>% 
+  distinct(Drug_Found, Target_UniProt, Target_Name, Database, Assay_Type, Assay_Value, Assay_Relation, Reference)
+#View(crizotinib_interactions_100_dis)
+
+crizotinib_interactions_AllAssays<-ggplot(crizotinib_interactions_100_dis, 
+                                      aes(x=Assay_Value, fill=Target_Name))+
+                                      scale_fill_manual(values = tol27rainbow)+
+                                      facet_grid(Assay_Type~.) + #facet by assay type 
+                                      geom_histogram(binwidth = 1.0, colour="black") + 
+                                      ylab("Count") +
+                                      xlab("Binding Assay Value (nM), under 100nM")+
+                                      scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
+                                      scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                      theme(axis.title.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.y=element_text(size=8, face="bold"))+ 
+                                      theme(axis.title.y=element_text(size=8, face="bold"))+ 
+                                      theme(strip.text.y = element_text(size = 8, face="bold"))+ 
+                                      theme(plot.title=element_text(size=10, face="bold"))+ 
+                                      #ggtitle("Vandetanib Assay Value by Assay Type, under 100nM \n Colored By Target Name, BinWidth=1nM")+
+                                      ggtitle("C. Crizotinib")+
+                                      #theme(legend.title=element_text(size=14, face="bold"))+
+                                      #theme(legend.text=element_text(size=14))+
+                                      theme(legend.position="bottom") +
+                                      guides(fill=guide_legend(title="Target",nrow=3))+
+                                      theme(legend.key.size = unit(0.4, "cm"), 
+                                            legend.margin = unit(0, "cm"),
+                                            legend.title = element_text(size = 4, face = "bold"),
+                                            legend.text = element_text(size = 4))
+crizotinib_interactions_AllAssays
+
+```
+```{r}
+#PARP INHIBITORS
+#OLAPARIB AND NIRAPARIB
+
+
+#####Olaparib
+olaparib_interactions<-drugInteractions%>% filter(Drug_Found=="Olaparib")
+olaparib_interactions$Assay_Value<-as.numeric(as.character(olaparib_interactions$Assay_Value))
+olaparib_interactions_100<-olaparib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=100)
+olaparib_interactions_100_dis<-olaparib_interactions_100 %>% 
+  distinct(Drug_Found, Target_UniProt, Target_Name, Database, Assay_Type, Assay_Value, Assay_Relation, Reference)
+
+olaparib_interactions_AllAssays<-ggplot(olaparib_interactions_100_dis, 
+                                      aes(x=Assay_Value, fill=Target_Name))+
+                                      scale_fill_manual(values = tol27rainbow)+
+                                      facet_grid(Assay_Type~.) + #facet by assay type 
+                                      geom_histogram(binwidth = 1.0, colour="black") + 
+                                      ylab("Count") +
+                                      xlab("Binding Assay Value (nM), under 100nM")+
+                                      scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
+                                      scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                      theme(axis.title.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.y=element_text(size=8, face="bold"))+ 
+                                      theme(axis.title.y=element_text(size=8, face="bold"))+ 
+                                      theme(strip.text.y = element_text(size = 8, face="bold"))+ 
+                                      theme(plot.title=element_text(size=10, face="bold"))+ 
+                                      ggtitle("D. Olaparib")+
+                                      #theme(legend.title=element_text(size=14, face="bold"))+
+                                      #theme(legend.text=element_text(size=14))+
+                                      theme(legend.position="bottom") +
+                                      guides(fill=guide_legend(title="Target",nrow=3))+
+                                      theme(legend.key.size = unit(0.4, "cm"), 
+                                            legend.margin = unit(0, "cm"),
+                                            legend.title = element_text(size = 4, face = "bold"),
+                                            legend.text = element_text(size = 4))
+olaparib_interactions_AllAssays
+
+#niraparib
+niraparib_interactions<-drugInteractions%>% filter(Drug_Found=="Niraparib")
+niraparib_interactions$Assay_Value<-as.numeric(as.character(niraparib_interactions$Assay_Value))
+niraparib_interactions_100<-niraparib_interactions %>% filter(Assay_Relation=="=" & Assay_Value <=100)
+niraparib_interactions_100_dis<-niraparib_interactions_100 %>% 
+  distinct(Drug_Found, Target_UniProt, Target_Name, Database, Assay_Type, Assay_Value, Assay_Relation, Reference)
+
+niraparib_interactions_AllAssays<-ggplot(niraparib_interactions_100_dis, 
+                                      aes(x=Assay_Value, fill=Target_Name))+
+                                      scale_fill_manual(values = tol27rainbow)+
+                                      facet_grid(Assay_Type~.) + #facet by assay type 
+                                      geom_histogram(binwidth = 1.0, colour="black") + 
+                                      ylab("Count") +
+                                      xlab("Binding Assay Value (nM), under 100nM")+
+                                      scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
+                                      scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                      theme(axis.title.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.x=element_text(size=8, face="bold"))+
+                                      theme(axis.text.y=element_text(size=8, face="bold"))+ 
+                                      theme(axis.title.y=element_text(size=8, face="bold"))+ 
+                                      theme(strip.text.y = element_text(size = 8, face="bold"))+ 
+                                      theme(plot.title=element_text(size=10, face="bold"))+ 
+                                      ggtitle("E. Niraparib")+
+                                      #theme(legend.title=element_text(size=14, face="bold"))+
+                                      #theme(legend.text=element_text(size=14))+
+                                      theme(legend.position="bottom") +
+                                      guides(fill=guide_legend(title="Target",nrow=3))+
+                                      theme(legend.key.size = unit(0.4, "cm"), 
+                                            legend.margin = unit(0, "cm"),
+                                            legend.title = element_text(size = 4, face = "bold"),
+                                            legend.text = element_text(size = 4))
+niraparib_interactions_AllAssays
+
+
+```
