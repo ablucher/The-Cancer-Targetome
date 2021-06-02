@@ -2316,7 +2316,11 @@ public class DrugInteractionsParser {
 		while ((line = fileUt.readLine()) != null){
 			String[] tokens = line.split("\t");
 
-			String ligand = tokens[1];
+			String ligand = tokens[1].trim();
+			if (ligand.equals("NaN")){//skip if no ligand entry
+				continue;
+			}
+			
 			String[] targetGenes=tokens[2].split("\\|");//target gene name
 			
 			int targetCounter=0;
@@ -2344,29 +2348,30 @@ public class DrugInteractionsParser {
 //				pubMedIDs = "NA_SMS";
 //			}
 			
-			System.out.println("Parsing entry: ");
-			System.out.println("Drug: " + ligand);
-			System.out.println("TargetName, first entry only: " + targetToUse);
-			System.out.println("TargetUniProt: " + targetUniprot);
-			System.out.println("Refs: ");
-			for (String pub: pubMedIDs) {
-				System.out.println("PubMedID: " + pub);
-			}
+//			System.out.println("Parsing entry: ");
+//			System.out.println("Drug: " + ligand);
+//			System.out.println("TargetName, first entry only: " + targetToUse);
+//			System.out.println("TargetUniProt: " + targetUniprot);
+//			System.out.println("Refs: ");
+//			for (String pub: pubMedIDs) {
+//				System.out.println("PubMedID: " + pub);
+//			}
 			
+			System.out.println("Checking SMS for ligands in our drug set: ");
 			//for each of our drugs
 			for (Drug drug: drugSet){
 				//if IUPHAR ligand matches drug
 				if (drug.nameIsEquivalent(ligand)){
 					System.out.println("MATCH found: " + ligand);
 					
-					if (ligand=="Imatinib") {
-						System.out.println("Printing out info for Imatinib from SMS:");
-						System.out.println("Drug: " + ligand);
-						System.out.println("Target " + targetToUse);
-						System.out.println("Target UniProt " + targetUniprot);
-						System.out.println("Assay: " +assayType + "_" + assayValueMedian);
-						System.out.println("Ref: "+ pubMedIDs[0]);
-					}
+//					if (ligand=="Imatinib") {
+//						System.out.println("Printing out info for Imatinib from SMS:");
+//						System.out.println("Drug: " + ligand);
+//						System.out.println("Target " + targetToUse);
+//						System.out.println("Target UniProt " + targetUniprot);
+//						System.out.println("Assay: " +assayType + "_" + assayValueMedian);
+//						System.out.println("Ref: "+ pubMedIDs[0]);
+//					}
 					//TARGET
 					//method either pulls existing target or creates new target
 					Target target = createTarget(currentSession, targetSet, targetToUse, targetUniprot, targetType, targetSpecies);
@@ -2403,10 +2408,10 @@ public class DrugInteractionsParser {
 					System.out.println("Interaction created: " + currentInteraction.getIntDrug() + " AND " + currentInteraction.getIntTarget());
 					currentSession.save(currentInteraction);
 					
-				}
+				}//ligand match loop - create entry
 
-		}
-		}
+		}//drug set loop
+		}//while loop
 		return currentSession;
 	}
 
@@ -3378,17 +3383,17 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//iuphar
 		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
 		System.out.println("Done persisting IUPHAR.");
-//		//drugbank
-//		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
-//		System.out.println("Done persisting DrugBank.");
-//		//ttd
-//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-//		System.out.println("Done persisting TTD.");
-//		//bindingDB
-//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-//		System.out.println("Done persisting BindingDB.");
+		//drugbank
+		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
+		System.out.println("Done persisting DrugBank.");
+		//ttd
+		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+		System.out.println("Done persisting TTD.");
+		//bindingDB
+		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+		System.out.println("Done persisting BindingDB.");
 		//sorger SMS, added 06/01/21
-		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionIUPHAR);
+		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionBindingDB);
 		System.out.println("Done persisting Sorger SMS.");
 				
 		//run check for uniprots and also assign the gene symbol as "target name"
@@ -3397,12 +3402,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210601_2.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210602_All.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210601_2.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210602_All.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
