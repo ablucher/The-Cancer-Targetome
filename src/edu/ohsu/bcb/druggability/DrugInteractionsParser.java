@@ -935,6 +935,155 @@ public class DrugInteractionsParser {
 		
 		return targetType;
 	}
+	
+	/**
+	 * Method persists DrugBank interactions to druggability database.
+	 * Updated May 20, 2021 for DrugBank V 5.1.8
+	 * Uses Sophia's parsed file for drug-target interactions here
+	 * @param currentSession
+	 * @return
+	 * @throws IOException
+	 */
+	public Session persistDrugBankUpdated(Session currentSession) throws IOException{
+		
+		//query session for current sets in our database
+		Set<Drug> drugSet = queryDrugSet(currentSession);
+		System.out.println("Drug set size check: " + drugSet.size());
+		Set<Target> targetSet = queryTargetSet(currentSession);
+		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
+		Set<LitEvidence> literatureSet = queryLitEvidenceSet(currentSession);
+		Set<ExpEvidence> experimentalSet = queryExpEvidenceSet(currentSession);
+		Set<Source> sourceSet= querySourceSet(currentSession);
+		Set<DatabaseRef> databaseSet = queryDatabaseSet(currentSession);
+
+		//use parsed file from Sophia's python notebook
+		FileUtility drugBankFile = new FileUtility();
+		drugBankFile.setInput("resources/beta_v2/drugbank_test_20210127.csv");
+		
+		//for debugging only, drugbank file
+		//PrintStream ps = new PrintStream("resources/DrugBank/DrugBank_Reference_Debugging_062917.txt");
+		
+		//create DatabaseRef for DrugBank
+		DatabaseRef drugBank = new DatabaseRef();
+		drugBank.setDatabaseName("DrugBank");
+		drugBank.setDownloadDate("01.27.21");
+		drugBank.setDownloadURL("NA");
+		drugBank.setVersion("5.1.8");
+		databaseSet.add(drugBank);//prob not necessary
+		currentSession.save(drugBank);
+		
+		//initialized empty ref counter
+		int emptyRefCounter=0;
+		
+		//parse file
+		int lineCounter = 0;
+		String line = null;
+		while ((line = drugBankFile.readLine()) != null){
+			String[] tokens = line.split(","); //comma separated
+			
+			if( tokens.length <= 2){//skip
+				continue;
+			}
+			
+			String drugName = tokens[0];
+			
+			//include escape for IMC-11F8 listing, no reference attached and drugbank now 
+			//has this resolved with necitumumab
+			if (drugName.equals("IMC-11F8")){
+				continue;
+			}
+			String targetName= tokens[1];
+			
+			if(tokens[2] == null || tokens[2].isEmpty()) {
+				continue;//then just move to next like
+			}
+			String targetUniProt =tokens[2];
+			
+			//assign target type based on name/uniprot entries
+			String targetType = assignTargetType(targetName, targetUniProt);
+			//check target type, if NA then just continue
+			if (targetType.equals("NA")){
+				continue;//then skip this entry in drugbank file
+			}
+			
+			//species name is tokens 4 TO DO
+			if(tokens[0].equals("Irinotecan") ||tokens[0].equals("Tretinoin") || tokens[0].equals("Imiquimod") ||
+					tokens[0].equals("Losartan") || tokens[0].equals("Tamoxifen Citrate") ||tokens[0].equals("Aprepitant")||
+					tokens[0].equals("Pemetrexed")||tokens[0].equals("Prednisone") || tokens[0].equals("Clofarabine")) {
+				continue;
+			}
+			if(tokens[1].equals("DNA topoisomerase 2-beta") || tokens[1].trim().equals("DNA topoisomerase I") ||
+					tokens[1].equals("Mitogen-activated protein kinase 8")) {
+				continue;//SKIP this problem line for now**
+			}
+			if (tokens[4].isEmpty() || tokens[4]== null || tokens[4].equals("null")) {
+				continue;
+			}
+			String targetOrg=tokens[4];
+			targetOrg= getSpeciesName(targetOrg);
+
+			String interactionType = null; //FIX this in future updates, try to get interaction info
+			
+			//iterate through drug set
+			for (Drug drug: drugSet){
+				
+				//check for match to drug set
+				if (drug.nameIsEquivalent(drugName)){//then persist
+					
+					
+					System.out.println("Drug match found");
+					System.out.println("Drug: " + drug.getDrugName());
+					
+					
+					//clean up references here - only if match found
+					//fixed 12/2/16
+				   // String refBlock=""; //initialize
+					String refBlock =  tokens[5]; //don't need to parse, just pass the whole block
+											      //our createSourceSet method will parse on "|"
+					//System.out.println("Num tokens: " + tokens.length);
+					if (refBlock.length() < 1){//no reference
+						
+						refBlock="NA_DrugBank";
+						//ps.println("Found as: " + drugName + " matched to: "+ drug.getDrugName() + "\t" + refBlock + "\t" + "because less than 5 tokens");
+						//ps.println("Printing original tokens" + tokens);
+						emptyRefCounter++;
+					}
+					//else{
+					//	refBlock = tokens[4];
+						//ps.println("Found as: " + drugName + " matched to: "+ drug.getDrugName() + "\t" + refBlock );
+						//ps.println("Printing original tokens" + tokens);
+						
+					//}
+					//create target
+					Target target = createTarget(currentSession, targetSet, targetName, targetUniProt, targetType, targetOrg);
+					System.out.println("Target: " + target.getTargetName());
+					currentSession.save(target);
+					
+					//create source set (sources are saved to session within method)
+					Set<Source> interactionSourceSet = createSourceSet(currentSession, sourceSet, literatureSet, drugBank, refBlock);
+					//added debugging
+					//ps.println("Checking sources:  ");
+					//for (Source sourceFound:interactionSourceSet){
+					//	ps.println(sourceFound.getSourceDatabase() + " " + sourceFound.getSourceLiterature().getPubMedID());
+					//}
+					
+					//create interaction **CENTERPIECE OF DATA MODEL
+					Interaction currentInteraction = createInteraction(currentSession, drug, target, interactionType, interactionSet, interactionSourceSet);
+					currentSession.save(currentInteraction);
+
+				}//end drug match if statement
+				else{
+					continue;
+				}
+			}//end drug loop	
+			
+		}//end file loop
+		//for checking the empty refs from drugbank, added 12/2/16
+		System.out.println("Num interactions no ref: " + emptyRefCounter);
+		
+		return currentSession;
+	}//end method
+
 
 	/**
 	 * Method persists DrugBank interactions to druggability database.
@@ -2262,15 +2411,19 @@ public class DrugInteractionsParser {
 	}
 
 	/**
-	 * Method converts species name listed in IUPHAR to 
+	 * Method converts species name listed in IUPHAR and DrugBank to 
 	 * standard species name.
+	 * Updated 05/20/21 for "Humans" listing in DrugBank 5.1.8 from Sophia
 	 * 
 	 * @param targetSpecies
 	 * @return
 	 */
 	private String getSpeciesName(String targetSpecies) {
-		if (targetSpecies.equals("Human")){
+		if (targetSpecies.equals("Human") || targetSpecies.equals("Humans") ){
 			targetSpecies="Homo sapiens";
+		}
+		else {
+			targetSpecies = null;
 		}
 		return targetSpecies;
 		
@@ -3226,7 +3379,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Session currentSessionIUPHAR = persistIUPHAR(currentSession);
 		System.out.println("Done persisting IUPHAR.");
 		//drugbank
-		Session currentSessionDrugBank = persistDrugBank(currentSessionIUPHAR);
+		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
 		System.out.println("Done persisting DrugBank.");
 		//ttd
 		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
@@ -3240,12 +3393,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_2_050421.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210521.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_2_050421.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210521.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
