@@ -981,7 +981,7 @@ public class DrugInteractionsParser {
 		while ((line = drugBankFile.readLine()) != null){
 			String[] tokens = line.split(","); //comma separated
 			
-			if( tokens.length !=5){//skip if we don't have all entries
+			if( tokens.length !=6){//skip if we don't have all entries
 				continue;
 			}
 			String drugName = tokens[0];
@@ -1000,6 +1000,15 @@ public class DrugInteractionsParser {
 			String targetOrg=tokens[4];
 			targetOrg= getSpeciesName(targetOrg);
 
+			//checking 6/1/
+			System.out.println("DrugBank debugging 6/1/21");
+			System.out.println("Drug: " + tokens[0]);
+			System.out.println("Target: " + tokens[1]);
+			System.out.println("Target Uniprot: " + tokens[2]);
+			System.out.println("Target ID Type: " + tokens[3]);
+			System.out.println("Species: " + tokens[4]);
+			System.out.println("Refs: " + tokens[5]);
+			
 			String interactionType = null; //FIX this in future updates, try to get interaction info
 			
 			//iterate through drug set
@@ -1062,132 +1071,6 @@ public class DrugInteractionsParser {
 		return currentSession;
 	}//end method
 
-
-	/**
-	 * Method persists DrugBank interactions to druggability database.
-	 * @param currentSession
-	 * @return
-	 * @throws IOException
-	 */
-	public Session persistDrugBank(Session currentSession) throws IOException{
-		
-		//query session for current sets in our database
-		Set<Drug> drugSet = queryDrugSet(currentSession);
-		System.out.println("Drug set size check: " + drugSet.size());
-		Set<Target> targetSet = queryTargetSet(currentSession);
-		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
-		Set<LitEvidence> literatureSet = queryLitEvidenceSet(currentSession);
-		Set<ExpEvidence> experimentalSet = queryExpEvidenceSet(currentSession);
-		Set<Source> sourceSet= querySourceSet(currentSession);
-		Set<DatabaseRef> databaseSet = queryDatabaseSet(currentSession);
-
-		//use previously parsed file from drugBankXMLParser
-		FileUtility drugBankFile = new FileUtility();
-		//drugBankFile.setInput("resources/DrugBank/DrugBank_ParsedInteractions_06.23.16_2.txt");
-		//updated 9/26/16
-		//drugBankFile.setInput("resources/DrugBank/DrugBank_ParsedInteractions_09.26.16.txt");
-		drugBankFile.setInput("resources/DrugBank/DrugBank_ParsedInteractions_062917.txt");
-		
-		//for debugging only, drugbank file
-		//PrintStream ps = new PrintStream("resources/DrugBank/DrugBank_Reference_Debugging_062917.txt");
-		
-		//create DatabaseRef for DrugBank
-		DatabaseRef drugBank = new DatabaseRef();
-		drugBank.setDatabaseName("DrugBank");
-		drugBank.setDownloadDate("06.21.2016");
-		drugBank.setDownloadURL("NA");
-		drugBank.setVersion("5.0.0");
-		databaseSet.add(drugBank);//prob not necessary
-		currentSession.save(drugBank);
-		
-		//initialized empty ref counter
-		int emptyRefCounter=0;
-		
-		//parse file
-		String[] headers = drugBankFile.readLine().split("\t");
-		int lineCounter = 2;
-		String line = null;
-		while ((line = drugBankFile.readLine()) != null){
-			String[] tokens = line.split("\t");
-			
-			String drugName = tokens[0];
-			
-			//include escape for IMC-11F8 listing, no reference attached and drugbank now 
-			//has this resolved with necitumumab
-			if (drugName.equals("IMC-11F8")){
-				continue;
-			}
-			String targetName= tokens[1];
-			String targetUniProt =tokens[2];
-			//assign target type based on name/uniprot entries
-			String targetType = assignTargetType(targetName, targetUniProt);
-			//check target type, if NA then just continue
-			if (targetType.equals("NA")){
-				continue;//then skip this entry in drugbank file
-			}
-					
-			String targetOrg=tokens[3];
-			targetOrg= getSpeciesName(targetOrg);
-
-			String interactionType = null; //FIX this in future updates, add interaction info
-			
-			//iterate through drug set
-			for (Drug drug: drugSet){
-				
-				//check for match to drug set
-				if (drug.nameIsEquivalent(drugName)){//then persist
-					
-					
-					System.out.println("Drug match found");
-					System.out.println("Drug: " + drug.getDrugName());
-					
-					
-					//clean up references here - only if match found
-					//fixed 12/2/16
-					String refBlock="";
-					System.out.println("Num tokens: " + tokens.length);
-					if (tokens.length < 5){//no reference
-						
-						refBlock="NA_DrugBank";
-						//ps.println("Found as: " + drugName + " matched to: "+ drug.getDrugName() + "\t" + refBlock + "\t" + "because less than 5 tokens");
-						//ps.println("Printing original tokens" + tokens);
-						emptyRefCounter++;
-					}
-					else{
-						refBlock = tokens[4];
-						//ps.println("Found as: " + drugName + " matched to: "+ drug.getDrugName() + "\t" + refBlock );
-						//ps.println("Printing original tokens" + tokens);
-						
-					}
-					//create target
-					Target target = createTarget(currentSession, targetSet, targetName, targetUniProt, targetType, targetOrg);
-					System.out.println("Target: " + target.getTargetName());
-					currentSession.save(target);
-					
-					//create source set (sources are saved to session within method)
-					Set<Source> interactionSourceSet = createSourceSet(currentSession, sourceSet, literatureSet, drugBank, refBlock);
-					//added debugging
-					//ps.println("Checking sources:  ");
-					//for (Source sourceFound:interactionSourceSet){
-					//	ps.println(sourceFound.getSourceDatabase() + " " + sourceFound.getSourceLiterature().getPubMedID());
-					//}
-					
-					//create interaction **CENTERPIECE OF DATA MODEL
-					Interaction currentInteraction = createInteraction(currentSession, drug, target, interactionType, interactionSet, interactionSourceSet);
-					currentSession.save(currentInteraction);
-
-				}//end drug match if statement
-				else{
-					continue;
-				}
-			}//end drug loop	
-			
-		}//end file loop
-		//for checking the empty refs from drugbank, added 12/2/16
-		System.out.println("Num interactions no ref: " + emptyRefCounter);
-		
-		return currentSession;
-	}//end method
 
 	/**
 	 * Method persists TTD interactions to druggability database. Iterates through
@@ -2849,7 +2732,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	    //for parsing drugbank xml file
 		System.out.println("Starting on persistDrugBank");
 		//persistDrugBank works off of DrugBank_ParseInteractions_06.21.16.txt
-	    Session currentSessionDrugBank = persistDrugBank(currentSession);
+	    Session currentSessionDrugBank = persistDrugBankUpdated(currentSession);
 
 	    //added query here to get file for drug set
 	    PrintStream ds = new PrintStream("resources/DruggabilityV2_AllDrugs_12.02.16.txt");
