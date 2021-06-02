@@ -2317,7 +2317,7 @@ public class DrugInteractionsParser {
 			String[] tokens = line.split("\t");
 
 			String ligand = tokens[1];
-			String[] targetGenes=tokens[2].split("|");//target gene name
+			String[] targetGenes=tokens[2].split("\\|");//target gene name
 			
 			int targetCounter=0;
 			String targetToUse="null"; //intialize
@@ -2330,14 +2330,14 @@ public class DrugInteractionsParser {
 			}
 			//String targetGeneName = targetGene[0]; //TODO - check whether first entry is OK
 			String targetUniprot=tokens[3];//uniprot
-			String targetType = "NA";
-			String targetSpecies = "NA";
+			String targetType = "Protein";
+			String targetSpecies = "Homo sapiens";
 			
 			String assayValueMedian= tokens[7];
 			String assayType=tokens[9];//IC50, KD, KI, EC50
 			String assayRelation=tokens[10];//>, <, or =
 			
-			String[] pubMedIDs = tokens[11].split("|");//add a split, even though we don't need here
+			String[] pubMedIDs = tokens[11].split("\\|");//add a split, even though we don't need here
 													   //b/c we need to format pubMedIDs into a String[]
 			
 //			if (pubMedIDs.length()==0){
@@ -2347,7 +2347,7 @@ public class DrugInteractionsParser {
 			System.out.println("Parsing entry: ");
 			System.out.println("Drug: " + ligand);
 			System.out.println("TargetName, first entry only: " + targetToUse);
-			System.out.println("TargetUniProt " + targetUniprot);
+			System.out.println("TargetUniProt: " + targetUniprot);
 			System.out.println("Refs: ");
 			for (String pub: pubMedIDs) {
 				System.out.println("PubMedID: " + pub);
@@ -2359,10 +2359,18 @@ public class DrugInteractionsParser {
 				if (drug.nameIsEquivalent(ligand)){
 					System.out.println("MATCH found: " + ligand);
 					
-					
+					if (ligand=="Imatinib") {
+						System.out.println("Printing out info for Imatinib from SMS:");
+						System.out.println("Drug: " + ligand);
+						System.out.println("Target " + targetToUse);
+						System.out.println("Target UniProt " + targetUniprot);
+						System.out.println("Assay: " +assayType + "_" + assayValueMedian);
+						System.out.println("Ref: "+ pubMedIDs[0]);
+					}
 					//TARGET
 					//method either pulls existing target or creates new target
 					Target target = createTarget(currentSession, targetSet, targetToUse, targetUniprot, targetType, targetSpecies);
+					System.out.println("Target created: " + target.getTargetName());
 					currentSession.save(target);
 				
 					
@@ -2378,6 +2386,12 @@ public class DrugInteractionsParser {
 											 //pass to create interaction method
 					currentSession.save(exp);
 					
+//					ExpEvidence exp = createExpEvidence(currentSession, iuphar, assayType, 
+//						    assayValueLow, assayValueMedian, assayValueHigh,
+//						    assayRelation, assayDescription, "NA", "NA",
+//						    pubMedIDs, literatureSet, sourceSet, experimentalSet);
+//				
+
 					//take exp and pass to createInteraction()
 					//within that method, checks existing interactionSet
 					//if interaction already present, evidence gets added to the evidence set
@@ -2386,6 +2400,7 @@ public class DrugInteractionsParser {
 					
 					//create interaction **CENTERPIECE OF DATA MODEL
 					Interaction currentInteraction = createInteractionWithExp(currentSession, drug, target,null, interactionSet, exp, null);
+					System.out.println("Interaction created: " + currentInteraction.getIntDrug() + " AND " + currentInteraction.getIntTarget());
 					currentSession.save(currentInteraction);
 					
 				}
