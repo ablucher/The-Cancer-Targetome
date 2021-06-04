@@ -18,7 +18,7 @@ Coverage assessment for V2
 
 ```{r}
 #read in file
-betaV2<-read_tsv(here("results_beta_042921", "Targetome_FullEvidence_2_050421.txt"))
+betaV2<-read_tsv(here("results_beta_042921", "Targetome_FullEvidence_210602_All.txt"))
 View(betaV2)
 #clean up
 
@@ -82,8 +82,13 @@ interactionsBindingDB<- drugInteractions %>%
                         filter(Database=="BindingDB") %>%
                         group_by(Drug_Found, Target_UniProt) 
 numInteractionsBindingDB<-nrow(summarize(interactionsBindingDB, count=n()) )
+#sms
+interactionsSMS<- drugInteractions %>% 
+                        filter(Database=="HiTS Small Molecule Suite") %>%
+                        group_by(Drug_Found, Target_UniProt) 
+numInteractionsSMS<-nrow(summarize(interactionsSMS, count=n()) )
 #bind together, do alphabetical ordering for each database
-statsInts<-rbind(numInteractionsBindingDB, numInteractionsDrugBank, numInteractionsIUPHAR, numInteractionsTTD)
+statsInts<-rbind(numInteractionsBindingDB, numInteractionsDrugBank, numInteractionsIUPHAR, numInteractionsTTD, numInteractionsSMS)
 colnames(statsInts)<-c("Interactions")
 #View(statsInts)
 #bind with stats from groupings by database
@@ -116,7 +121,7 @@ View(fullStatsLong)
 # #View(fullStatsNoIntLong)
 
 #level ordering
-fullStatsLong$Database<-factor(fullStatsLong$Database, levels = c("BindingDB", "DrugBank", "IUPHAR", "Therapeutic Target Database", "All"))
+fullStatsLong$Database<-factor(fullStatsLong$Database, levels = c("BindingDB", "DrugBank", "HiTS Small Molecule Suite", "IUPHAR", "Therapeutic Target Database", "All"))
 fullStatsLong$Item<-factor(fullStatsLong$Item, levels = c("Drugs", "Targets", "Interactions"))
 View(fullStatsLong)
 
@@ -309,7 +314,7 @@ vandetanib_under100_AllAssays<-ggplot(vandetanib_interactions_100_dis,
                                       ylab("Count") +
                                       xlab("Binding Assay Value (nM), under 100nM")+
                                       scale_x_continuous(breaks=c(0,5, 10, 15, 20, 25, 50, 75, 100))+ 
-                                      scale_y_continuous(breaks=c(0,1,2,3,4,5,6, 7, 8))+
+                                      scale_y_continuous(breaks=c(0,1,2,3, 4, 5, 10, 15, 20))+
                                       theme(axis.title.x=element_text(size=8, face="bold"))+
                                       theme(axis.text.x=element_text(size=8, face="bold"))+
                                       theme(axis.text.y=element_text(size=8, face="bold"))+ 
@@ -347,7 +352,7 @@ imatinib_interactions_100_dis<-imatinib_interactions_100 %>%
 #png("TIPS_Box1FigureI_edits.png", width = 4.8, height = 3.50, units = 'in', res = 300)
 imatinib_under100_AllAssays<-ggplot(imatinib_interactions_100_dis, #use for full assay plot
                                     aes(x=Assay_Value, fill=Target_Name))+
-                                    scale_fill_manual(values = tol14rainbow)+
+                                    scale_fill_manual(values = tol27rainbow_alt)+
                                     facet_grid(Assay_Type~.) + #facet by assay type
                                     geom_histogram(binwidth = 1.0, colour="black") + 
                                     ylab("Count") +
