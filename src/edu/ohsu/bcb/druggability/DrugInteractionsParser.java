@@ -3565,16 +3565,16 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
 		System.out.println("Done persisting DrugBank.");
 		//ttd
-//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-//		System.out.println("Done persisting TTD.");
-//		//bindingDB
-//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-//		System.out.println("Done persisting BindingDB.");
-//		//sorger SMS, added 06/01/21
-//		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionBindingDB);
-//		System.out.println("Done persisting Sorger SMS.");
+		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+		System.out.println("Done persisting TTD.");
+		//bindingDB
+    	Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+		System.out.println("Done persisting BindingDB.");
+		//sorger SMS, added 06/01/21
+		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionBindingDB);
+		System.out.println("Done persisting Sorger SMS.");
 		//pubchem - manuall fill-in for select drugs only
-		Session currentSessionPubChem = persistPubChemManual(currentSessionDrugBank);
+		Session currentSessionPubChem = persistPubChemManual(currentSessionSMS);
 		System.out.println("Done persisting PubChem.");
 		
 		//run check for uniprots and also assign the gene symbol as "target name"
@@ -3583,12 +3583,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210618_AddPubChemCheck.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210618_All.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210618_AddPubChemCheck.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210618_All.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
