@@ -1,0 +1,385 @@
+Drug	Approval_Date	ATC_ClassID	ATC_ClassName	ATC_ClassStatus	EPC_ClassID	EPC_ClassName
+Crizotinib	2011-08-26	null	null	null	null	null
+Hydroxyurea	1967-12-07	null	null	null	null	null
+Doxorubicin Hydrochloride	1974-08-07	null	null	null	null	null
+17-AAG	null	null	null	null	null	null
+Bosutinib	2012-09-04	null	null	null	null	null
+Defibrotide Sodium	2016-03-30	null	null	null	null	null
+Plerixafor	2008-12-15	null	null	null	null	null
+JAK Inhibitor INCB047986	null	null	null	null	null	null
+Oraxol	null	null	null	null	null	null
+Molibresib	null	null	null	null	null	null
+XMD 8-87	null	null	null	null	null	null
+Aurora Kinase Inhibitor MLN8054	null	null	null	null	null	null
+Pomalidomide	2013-02-08	null	null	null	null	null
+GW-2580	null	null	null	null	null	null
+Pembrolizumab	2014-09-04	null	null	null	null	null
+Ixazomib Citrate	2015-11-20	null	null	null	null	null
+Cobimetinib	2015-11-10	null	null	null	null	null
+Rolapitant Hydrochloride	2015-09-01	null	null	null	null	null
+MTF-1 Inhibitor APTO-253 HCl	null	null	null	null	null	null
+Ambazone	null	null	null	null	null	null
+SU14813	null	null	null	null	null	null
+NVP-AEW541	null	null	null	null	null	null
+S31-201	null	null	null	null	null	null
+Rituximab	1997-11-26	null	null	null	null	null
+MEK 1/2 Inhibitor FCN-159	null	null	null	null	null	null
+Olaparib	2014-12-19	null	null	null	null	null
+Tegavivint	null	null	null	null	null	null
+Procarbazine Hydrochloride	1969-07-22	null	null	null	null	null
+Akt Inhibitor MK2206	null	null	null	null	null	null
+DHA-Paclitaxel	null	null	null	null	null	null
+Pelitinib	null	null	null	null	null	null
+Lanreotide Acetate	2007-08-30	null	null	null	null	null
+LY-333531	null	null	null	null	null	null
+Sorafenib	2016-09-07	null	null	null	null	null
+Ropidoxuridine	null	null	null	null	null	null
+Mesna	1988-12-30	null	null	null	null	null
+BS-181	null	null	null	null	null	null
+DBZ	null	null	null	null	null	null
+Daniquidone	null	null	null	null	null	null
+Toremifene	null	null	null	null	null	null
+Gemtuzumab Ozogamicin	2000-05-17	null	null	null	null	null
+Retaspimycin	null	null	null	null	null	null
+MLN120B	null	null	null	null	null	null
+Vinblastine Sulfate	1965-11-05	null	null	null	null	null
+Cabazitaxel	2010-06-17	null	null	null	null	null
+Momelotinib	null	null	null	null	null	null
+Roscovitine	null	null	null	null	null	null
+Obinutuzumab	2013-11-01	null	null	null	null	null
+Palbociclib	2015-02-03	null	null	null	null	null
+Andrographolide	null	null	null	null	null	null
+Sunitinib	null	null	null	null	null	null
+Darolutamide	null	null	null	null	null	null
+Menatetrenone	null	null	null	null	null	null
+Dexrazoxane Hydrochloride	1995-05-26	null	null	null	null	null
+Romiplostim	2008-08-22	null	null	null	null	null
+Gilteritinib	null	null	null	null	null	null
+Ifosfamide	1988-12-30	null	null	null	null	null
+Fosgemcitabine Palabenamide	null	null	null	null	null	null
+FOLFOX	null	null	null	null	null	null
+Halofuginone	null	null	null	null	null	null
+Pamidronate Disodium	1991-10-31	null	null	null	null	null
+Canertinib	null	null	null	null	null	null
+Omacetaxine Mepesuccinate	2012-10-26	null	null	null	null	null
+Ethinylestradiol	null	null	null	null	null	null
+Gemcitabine	2016-09-07	null	null	null	null	null
+Quizartinib	null	null	null	null	null	null
+Atrasentan	null	null	null	null	null	null
+SB-431542	null	null	null	null	null	null
+Seliciclib	null	null	null	null	null	null
+PRT062607	null	null	null	null	null	null
+PHA-665752	null	null	null	null	null	null
+Methotrexate	1959-08-10	null	null	null	null	null
+Fulvestrant	2002-04-25	null	null	null	null	null
+Vemurafenib	2011-08-17	null	null	null	null	null
+STO609	null	null	null	null	null	null
+Vargetef	null	null	null	null	null	null
+XAV-939	null	null	null	null	null	null
+Uridine Triacetate	2015-09-04	null	null	null	null	null
+Vandetanib	2011-04-06	null	null	null	null	null
+Vistusertib	null	null	null	null	null	null
+Vincristine Sulfate	1963-07-10	null	null	null	null	null
+SR9011	null	null	null	null	null	null
+Brigatinib	null	null	null	null	null	null
+CDK Inhibitor AT7519	null	null	null	null	null	null
+Capecitabine	1998-04-30	null	null	null	null	null
+Carmustine	1977-03-07	null	null	null	null	null
+Sacituzumab	null	null	null	null	null	null
+Tofacitinib	2012-11-06	null	null	null	null	null
+Ginsenoside	null	null	null	null	null	null
+Cediranib	null	null	null	null	null	null
+Crenolanib	null	null	null	null	null	null
+Linifanib	null	null	null	null	null	null
+Entospletinib	null	null	null	null	null	null
+Anastrozole	1995-12-27	null	null	null	null	null
+Losartan	1995-04-14	null	null	null	null	null
+Zebularine	null	null	null	null	null	null
+Exicorilant	null	null	null	null	null	null
+Lucitanib	null	null	null	null	null	null
+Coenzyme Q10	null	null	null	null	null	null
+IGF-methotrexate Conjugate	null	null	null	null	null	null
+UAE Inhibitor TAK-243	null	null	null	null	null	null
+Dinutuximab	2015-03-10	null	null	null	null	null
+Neratinib	null	null	null	null	null	null
+Pictilisib	null	null	null	null	null	null
+Niraparib	null	null	null	null	null	null
+Etoposide Phosphate	1983-11-10	null	null	null	null	null
+Chlorambucil	1957-03-18	null	null	null	null	null
+Pazopanib	null	null	null	null	null	null
+Busulfan	1954-06-26	null	null	null	null	null
+Lomustine	1976-08-04	null	null	null	null	null
+Idarubicin Hydrochloride	1990-09-27	null	null	null	null	null
+Exemestane	1999-10-21	null	null	null	null	null
+B-Raf/VEGFR-2 Inhibitor RAF265	null	null	null	null	null	null
+Thiotepa	1959-03-09	null	null	null	null	null
+Vorinostat	2006-10-06	null	null	null	null	null
+Aprepitant	2003-03-27	null	null	null	null	null
+Vinorelbine	null	null	null	null	null	null
+PI-103	null	null	null	null	null	null
+Glesatinib	null	null	null	null	null	null
+Denosumab	2010-06-01	null	null	null	null	null
+Degarelix	2008-12-24	null	null	null	null	null
+Zoledronic Acid	2001-08-20	null	null	null	null	null
+Fludarabine Phosphate	1991-04-18	null	null	null	null	null
+Mivavotinib	null	null	null	null	null	null
+Dinaciclib	null	null	null	null	null	null
+JQ1	null	null	null	null	null	null
+Elesclomol	null	null	null	null	null	null
+Pertuzumab	2012-06-08	null	null	null	null	null
+Alpelisib	null	null	null	null	null	null
+Go6976	null	null	null	null	null	null
+Prednisone	1955-02-21	null	null	null	null	null
+Etomoxir	null	null	null	null	null	null
+Pan-AKT Kinase Inhibitor GSK690693	null	null	null	null	null	null
+MEK Inhibitor CI-1040	null	null	null	null	null	null
+Melphalan	1964-01-17	null	null	null	null	null
+Bendamustine Hydrochloride	2008-03-20	null	null	null	null	null
+Tyrosine Kinase Inhibitor SU5402	null	null	null	null	null	null
+AT-101	null	null	null	null	null	null
+Sipuleucel-T	null	null	null	null	null	null
+Leuprolide Acetate	1985-04-09	null	null	null	null	null
+APTO-253	null	null	null	null	null	null
+Lestaurtinib	null	null	null	null	null	null
+Ponatinib	null	null	null	null	null	null
+Bevacizumab	2004-02-26	null	null	null	null	null
+Lenalidomide	2005-12-27	null	null	null	null	null
+Ralimetinib	null	null	null	null	null	null
+Romidepsin	2009-11-05	null	null	null	null	null
+Panitumumab	2006-09-27	null	null	null	null	null
+Plk1 Inhibitor BI 2536	null	null	null	null	null	null
+Taselisib	null	null	null	null	null	null
+Tanespimycin	null	null	null	null	null	null
+Dactinomycin	1964-12-10	null	null	null	null	null
+Bexarotene	1999-12-29	null	null	null	null	null
+Copanlisib	null	null	null	null	null	null
+Oxaliplatin	2002-08-09	null	null	null	null	null
+Dactolisib	null	null	null	null	null	null
+Topotecan Hydrochloride	1996-05-28	null	null	null	null	null
+Arsenic Trioxide	2000-09-25	null	null	null	null	null
+Temozolomide	1999-08-11	null	null	null	null	null
+Erlotinib	null	null	null	null	null	null
+Alectinib	2015-12-11	null	null	null	null	null
+Ceritinib	2014-04-29	null	null	null	null	null
+GDC-0879	null	null	null	null	null	null
+Ramucirumab	2014-04-21	null	null	null	null	null
+VX-745	null	null	null	null	null	null
+Sapanisertib	null	null	null	null	null	null
+Tipifarnib	null	null	null	null	null	null
+Staurosporine	null	null	null	null	null	null
+Luteolin 	null	null	null	null	null	null
+Sacituzumab Govitecan	null	null	null	null	null	null
+mTOR Kinase Inhibitor PP242	null	null	null	null	null	null
+MET Tyrosine Kinase Inhibitor SGX523	null	null	null	null	null	null
+Serabelisib	null	null	null	null	null	null
+Foretinib	null	null	null	null	null	null
+Afatinib	null	null	null	null	null	null
+Birinapant	null	null	null	null	null	null
+Birabresib	null	null	null	null	null	null
+Genistein	null	null	null	null	null	null
+Sonidegib	2015-07-24	null	null	null	null	null
+Palonosetron Hydrochloride	2003-07-25	null	null	null	null	null
+Dovitinib	null	null	null	null	null	null
+Fluorouracil	1962-04-25	null	null	null	null	null
+Regorafenib	2012-09-27	null	null	null	null	null
+2-Hydroxyoleic Acid	null	null	null	null	null	null
+A-674563	null	null	null	null	null	null
+NVP-ADW742	null	null	null	null	null	null
+Radium 223 Dichloride	2013-05-15	null	null	null	null	null
+Filgrastim	1991-02-20	null	null	null	null	null
+Belinostat	2014-07-03	null	null	null	null	null
+Cerdulatinib	null	null	null	null	null	null
+Nilotinib	2007-10-29	null	null	null	null	null
+Abemaciclib	null	null	null	null	null	null
+Nutlin-3a	null	null	null	null	null	null
+Abiraterone	null	null	null	null	null	null
+Syk Inhibitor HMPL-523	null	null	null	null	null	null
+Glucarpidase	2012-01-17	null	null	null	null	null
+Azacitidine	2004-05-19	null	null	null	null	null
+Tamoxifen Citrate	1977-12-30	null	null	null	null	null
+Leucovorin Calcium	1952-06-20	null	null	null	null	null
+Mitomycin C	1981-08-24	null	null	null	null	null
+Selumetinib	null	null	null	null	null	null
+Erdafitinib	null	null	null	null	null	null
+PF-562271	null	null	null	null	null	null
+Tetrahydrouridine	null	null	null	null	null	null
+Volasertib	null	null	null	null	null	null
+Indisulam	null	null	null	null	null	null
+17beta-Hydroxysteroid Dehydrogenase Type 5 Inhibitor ASP9521	null	null	null	null	null	null
+BH3 Mimetic ABT-737	null	null	null	null	null	null
+Mitoxantrone	null	null	null	null	null	null
+Nelarabine	2005-10-28	null	null	null	null	null
+Tivozanib	null	null	null	null	null	null
+Paclitaxel	1992-12-29	null	null	null	null	null
+Masitinib	null	null	null	null	null	null
+Carboplatin	1989-03-03	null	null	null	null	null
+Clofarabine	2004-12-28	null	null	null	null	null
+Imiquimod	1997-02-27	null	null	null	null	null
+Tretinoin	1971-10-20	null	null	null	null	null
+Dual IGF-1R/InsR Inhibitor BMS-754807	null	null	null	null	null	null
+Motesanib	null	null	null	null	null	null
+Dihydrolenperone	null	null	null	null	null	null
+Curcumin	null	null	null	null	null	null
+Letrozole	1997-07-25	null	null	null	null	null
+Baiclein	null	null	null	null	null	null
+JNJ-7706621	null	null	null	null	null	null
+AZD1152-HQPA	null	null	null	null	null	null
+LSD1 Inhibitor GSK2879552	null	null	null	null	null	null
+Nivolumab	2014-12-22	null	null	null	null	null
+Tandutinib	null	null	null	null	null	null
+Alisertib	null	null	null	null	null	null
+Crenigacestat	null	null	null	null	null	null
+Osimertinib	2015-11-13	null	null	null	null	null
+R406	null	null	null	null	null	null
+Ribociclib/Letrozole	null	null	null	null	null	null
+Trastuzumab	1998-09-25	null	null	null	null	null
+FLT3/ABL/Aurora Kinase Inhibitor KW-2449	null	null	null	null	null	null
+Perhexiline	null	null	null	null	null	null
+MEK Inhibitor TAK-733	null	null	null	null	null	null
+Lovastatin	1987-08-31	null	null	null	null	null
+Ruxolotinib	2011-11-16	null	null	null	null	null
+SU11274	null	null	null	null	null	null
+Mechlorethamine Hydrochloride	1949-03-15	null	null	null	null	null
+GSK-1838705A	null	null	null	null	null	null
+TG100-115	null	null	null	null	null	null
+Ixabepilone	2007-10-16	null	null	null	null	null
+Elotuzumab	2015-11-30	null	null	null	null	null
+Cisplatin	1978-12-19	null	null	null	null	null
+CDK Inhibitor R547	null	null	null	null	null	null
+Ofatumumab	2009-10-26	null	null	null	null	null
+Epirubicin Hydrochloride	1999-09-15	null	null	null	null	null
+Ibritumomab Tiuxetan	2002-02-19	null	null	null	null	null
+2,6-Dimethoxyquinone	null	null	null	null	null	null
+Thalidomide	1998-07-16	null	null	null	null	null
+Pegaspargase	1994-02-01	null	null	null	null	null
+Daratumumab	2015-11-16	null	null	null	null	null
+Sepantronium	null	null	null	null	null	null
+ALK Inhibitor TAE684	null	null	null	null	null	null
+Mercaptopurine	1953-09-11	null	null	null	null	null
+Cabozantinib	null	null	null	null	null	null
+Satraplatin	null	null	null	null	null	null
+Etoposide	1983-11-10	null	null	null	null	null
+Lapatinib	2016-09-07	null	null	null	null	null
+Onalespib	null	null	null	null	null	null
+FGFR Inhibitor AZD4547	null	null	null	null	null	null
+Ziv-Aflibercept	2011-11-18	null	null	null	null	null
+Eribulin Mesylate	2010-11-15	null	null	null	null	null
+Aminolevulinic Acid	null	null	null	null	null	null
+BMX-IN-1	null	null	null	null	null	null
+JNJ-28312141	null	null	null	null	null	null
+Doramapimod	null	null	null	null	null	null
+Dacomitinib	null	null	null	null	null	null
+Thioguanine	1966-01-18	null	null	null	null	null
+Venetoclax	2016-04-11	null	null	null	null	null
+Iobenguane I-131	null	null	null	null	null	null
+Bay 11-7085	null	null	null	null	null	null
+Bicalutamide	1995-10-04	null	null	null	null	null
+Bortezomib	2003-05-13	null	null	null	null	null
+Ridaforolimus	null	null	null	null	null	null
+Durvalumab	null	null	null	null	null	null
+SCH-772984	null	null	null	null	null	null
+Aziridinylbenzoquinone	null	null	null	null	null	null
+Axitinib	2012-01-27	null	null	null	null	null
+Everolimus	2009-03-30	null	null	null	null	null
+Cyclophosphamide	1959-11-16	null	null	null	null	null
+Lenvatinib	null	null	null	null	null	null
+Torkinib	null	null	null	null	null	null
+Cetuximab	2004-02-12	null	null	null	null	null
+Ipilimumab	2011-03-25	null	null	null	null	null
+IMR 1	null	null	null	null	null	null
+Carfilzomib	2012-07-20	null	null	null	null	null
+Atezolizumab	2016-05-18	null	null	null	null	null
+Siltuximab	2014-04-23	null	null	null	null	null
+Blinatumomab	2014-12-03	null	null	null	null	null
+Eribulin	null	null	null	null	null	null
+Fedratinib	null	null	null	null	null	null
+Cytarabine	1969-06-17	null	null	null	null	null
+Gefitinib	2003-05-05	null	null	null	null	null
+Liposomal Doxorubicin 	null	null	null	null	null	null
+CHIR-99021	null	null	null	null	null	null
+Radgocitabine	null	null	null	null	null	null
+MALT1 Inhibitor JNJ-67856633	null	null	null	null	null	null
+Panobinostat	2015-02-23	null	null	null	null	null
+Larotrectinib	null	null	null	null	null	null
+Palifermin	2004-12-15	null	null	null	null	null
+Stauprimide	null	null	null	null	null	null
+Celecoxib	1998-12-31	null	null	null	null	null
+Temsirolimus	2007-05-30	null	null	null	null	null
+Trabectedin	2015-10-23	null	null	null	null	null
+Peginterferon Alfa-2b	2001-01-19	null	null	null	null	null
+Midostaurin	null	null	null	null	null	null
+Asparaginase Erwinia chrysanthemi	1994-02-01	null	null	null	null	null
+mTOR Kinase Inhibitor OSI-027	null	null	null	null	null	null
+Isocoumarin NM-3	null	null	null	null	null	null
+Infigratinib	null	null	null	null	null	null
+Idelalisib	2014-07-23	null	null	null	null	null
+Goserelin Acetate	1989-12-29	null	null	null	null	null
+MEK 1/2 Inhibitor AS703988/MSC2015103B	null	null	null	null	null	null
+Sirolimus	1999-09-15	null	null	null	null	null
+PHT-427	null	null	null	null	null	null
+SM-88	null	null	null	null	null	null
+Recombinant Interferon Alfa-2b	1986-06-04	null	null	null	null	null
+GSK-1904529A	null	null	null	null	null	null
+Dexamethasone	1958-10-30	null	null	null	null	null
+Saracatinib	null	null	null	null	null	null
+Docetaxel	1996-05-14	null	null	null	null	null
+Vadimezan	null	null	null	null	null	null
+Rapamycin	1999-09-15	null	null	null	null	null
+Ranolazine	2006-01-27	null	null	null	null	null
+Necitumumab	2015-11-24	null	null	null	null	null
+Pemetrexed	2004-08-19	null	null	null	null	null
+Rofecoxib	1999-05-20	null	null	null	null	null
+Talimogene Laherparepvec	null	null	null	null	null	null
+CSF-1R Inhibitor BLZ945	null	null	null	null	null	null
+Flutamide	1989-01-27	null	null	null	null	null
+Rasburicase	2002-07-12	null	null	null	null	null
+Aldesleukin	1992-05-05	null	null	null	null	null
+Denileukin Diftitox	1999-02-05	null	null	null	null	null
+KI20227	null	null	null	null	null	null
+AST-487	null	null	null	null	null	null
+Irinotecan	null	null	null	null	null	null
+Dacarbazine	1975-05-27	null	null	null	null	null
+Dubermatinib	null	null	null	null	null	null
+Ondansetron Hydrochloride	1991-01-04	null	null	null	null	null
+Megestrol Acetate	1971-08-18	null	null	null	null	null
+Selinexor	null	null	null	null	null	null
+Tozasertib	null	null	null	null	null	null
+Fluzoparib	null	null	null	null	null	null
+Trametinib	2013-05-29	null	null	null	null	null
+Dasatinib	2006-06-28	null	null	null	null	null
+Navitoclax	null	null	null	null	null	null
+PH-797804	null	null	null	null	null	null
+Etirinotecan Pegol	null	null	null	null	null	null
+Vatalanib	null	null	null	null	null	null
+c-Met Inhibitor JNJ-38877605	null	null	null	null	null	null
+PD153035	null	null	null	null	null	null
+Ibrutinib	2013-11-13	null	null	null	null	null
+Tamatinib	null	null	null	null	null	null
+Trioxifene	null	null	null	null	null	null
+Alemtuzumab	2001-05-07	null	null	null	null	null
+PLX-4720	null	null	null	null	null	null
+Eltrombopag Olamine	2008-11-20	null	null	null	null	null
+Caffeic Acid Phenethyl Ester	null	null	null	null	null	null
+Entrectinib	null	null	null	null	null	null
+Chaparrinone	null	null	null	null	null	null
+Pralatrexate	2009-09-24	null	null	null	null	null
+Bleomycin	null	null	null	null	null	null
+Brentuximab Vedotin	2011-08-19	null	null	null	null	null
+Vismodegib	2012-01-30	null	null	null	null	null
+Dabrafenib	2013-05-29	null	null	null	null	null
+Metformin	1995-03-03	null	null	null	null	null
+Decitabine	2006-05-02	null	null	null	null	null
+Sivifene	null	null	null	null	null	null
+Raloxifene	null	null	null	null	null	null
+Alvocidib	null	null	null	null	null	null
+Kunecatechins	null	null	null	null	null	null
+CDK Inhibitor SNS-032	null	null	null	null	null	null
+Lorlatinib	null	null	null	null	null	null
+Imatinib	null	null	null	null	null	null
+Enzalutamide	2012-08-31	null	null	null	null	null
+KU-55933	null	null	null	null	null	null
+Scopoletin	null	null	null	null	null	null
+BMS-345541	null	null	null	null	null	null
+JAK2 Inhibitor AZD1480	null	null	null	null	null	null
+Resveratrol	null	null	null	null	null	null
+Daunorubicin Hydrochloride	1979-12-19	null	null	null	null	null
