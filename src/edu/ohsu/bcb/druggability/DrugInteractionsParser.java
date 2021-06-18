@@ -2506,15 +2506,31 @@ public class DrugInteractionsParser {
 			String targetSpecies = "Homo sapiens";
 			
 			String assayValueMedian= tokens[10];
+			if (assayValueMedian.isEmpty() || assayValueMedian.equals("NA") || 
+					assayValueMedian.equals(null)){
+				continue;
+			}
+			
 			String assayType=tokens[8];//IC50, KD, KI, EC50
+			if (assayType.equals("AC50") || assayType.equals("Activity") || assayType.equals("EC150") ||
+				    assayType.equals("INH") || assayType.equals("Inhibition") || assayType.equals("k_off") || 
+					assayType.equals("Kcat") || assayType.equals("Km") || assayType.equals("kon") || assayType.equals("LogChange") || 
+					assayType.equals("pIC50") || assayType.equals("Potency") || assayType.equals("Vmax") || assayType.equals("#NAME?") ||
+					assayType.equals("NA") || assayType.equals(null) || assayType.isEmpty()) {
+				continue;
+			}
 			String assayRelation=tokens[9];//>, <, or =
+			if (assayRelation.isEmpty() || assayRelation.equals("NA") || 
+					assayRelation.equals(null)){
+				continue;
+			}
 			
 			String[] pubMedIDs = tokens[4].split("\\|");//add a split, even though we don't need here
 													   //b/c we need to format pubMedIDs into a String[]
 			
-//			if (pubMedIDs.length()==0){
-//				pubMedIDs = "NA_SMS";
-//			}
+			if (pubMedIDs.length==0){
+				pubMedIDs[0] = "NA_PubChemBioAssay";//then add an entry
+			}
 			
 			System.out.println("Parsing entry: ");
 			System.out.println("Drug: " + ligand);
