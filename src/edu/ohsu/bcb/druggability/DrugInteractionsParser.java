@@ -2413,6 +2413,159 @@ public class DrugInteractionsParser {
 	}
 
 	/**
+	 * Method parse Small Molecule Suite (Sorger) interactions and evidence and persists to our database.
+	 * Method returns currentSession. 
+	 * 
+	 * Added 06/18/21 - fm Sophia's parsed files
+	 * NOTE: This only adds drug-target interactions on a fill-in basis 
+	 * @throws IOException 
+	 */
+	public Session persistPubChemManual(Session currentSession) throws IOException{
+		//query database for current info
+		Set<Drug> drugSet = queryDrugSet(currentSession);
+		//no need to save these since these are saved throughout method
+		//each time we make a change or update
+		Set<Target> targetSet = queryTargetSet(currentSession);
+		Set<Interaction> interactionSet = queryInteractionSet(currentSession);
+		Set<LitEvidence> literatureSet = queryLitEvidenceSet(currentSession);
+		Set<ExpEvidence> experimentalSet = queryExpEvidenceSet(currentSession);
+		Set<Source> sourceSet= querySourceSet(currentSession);
+		Set<DatabaseRef> databaseSet = queryDatabaseSet(currentSession);
+		
+	
+		//PARSE IUPHAR INTERACTIONS, PERSIST
+		FileUtility fileUt1 = new FileUtility();
+		fileUt1.setInput("resources/beta_v2/pubchem_manual.txt");
+		//create DatabaseRef
+		DatabaseRef pubchem = new DatabaseRef();
+		pubchem.setDatabaseName("PubChem BioAssay");
+		pubchem.setDownloadDate("NA");
+		pubchem.setDownloadURL("NA");
+		pubchem.setVersion("NA");
+		databaseSet.add(pubchem);//prob not necessary
+		currentSession.save(pubchem);
+		
+		System.out.println("Parsing PubChem Manual Add");
+
+		System.out.println("Drug set size before: " + drugSet.size());
+		
+		//first loop, add drugs to drug set
+		String line1 = null;
+		fileUt1.readLine(); //skip headers
+		while ((line1 = fileUt1.readLine()) != null){
+			String[] tokens = line1.split("\t");
+
+			String ligand = tokens[0].trim();
+			for(Drug eachOldDrug: drugSet) {
+				if (eachOldDrug.nameIsEquivalent(ligand)) {
+					continue;//then skip
+				}
+				Drug newDrug = new Drug();
+				newDrug.setDrugName(ligand); //Create new drug ONLY for this limited set - on needs-be basis
+				drugSet.add(newDrug);
+				System.out.println("New Drug created: " + newDrug.getDrugName());
+		
+			}
+		}
+		
+		System.out.println("Drug set size after PubChem Manual add: " + drugSet.size());
+		
+		//NOW PARSE AND ADD TO TARGETOME
+		
+		//parse file > re-read in file from top
+		FileUtility fileUt = new FileUtility();
+		fileUt.setInput("resources/beta_v2/pubchem_manual.txt");
+		fileUt.readLine(); //skip headers
+		String line = null;
+		while ((line = fileUt.readLine()) != null){
+			String[] tokens = line.split("\t");
+
+			String ligand = tokens[0].trim();
+			if (ligand.equals("NaN")){//skip if no ligand entry
+				continue;
+			}
+			
+			String targetUniprot=tokens[5];//uniprot
+			if (targetUniprot == null || targetUniprot.isEmpty()){ //SKIP if no uniprot
+				continue;
+			}
+			
+			String targetToUse = tokens[1]; //full name - use for now
+			String targetType = "Protein";
+			String targetSpecies = "Homo sapiens";
+			
+			String assayValueMedian= tokens[10];
+			String assayType=tokens[8];//IC50, KD, KI, EC50
+			String assayRelation=tokens[9];//>, <, or =
+			
+			String[] pubMedIDs = tokens[4].split("\\|");//add a split, even though we don't need here
+													   //b/c we need to format pubMedIDs into a String[]
+			
+//			if (pubMedIDs.length()==0){
+//				pubMedIDs = "NA_SMS";
+//			}
+			
+			System.out.println("Parsing entry: ");
+			System.out.println("Drug: " + ligand);
+			System.out.println("TargetName, first entry only: " + targetToUse);
+			System.out.println("TargetUniProt: " + targetUniprot);
+			System.out.println("Refs: ");
+			for (String pub: pubMedIDs) {
+				System.out.println("PubMedID: " + pub);
+			}
+			
+			System.out.println("Checking PubChem for ligands in our drug set: ");
+			//for each of our drugs
+			for (Drug drug: drugSet){
+				//if ligand matches drug
+				if (drug.nameIsEquivalent(ligand)){
+					System.out.println("MATCH found: " + ligand);
+					
+					//TARGET
+					//method either pulls existing target or creates new target
+					Target target = createTarget(currentSession, targetSet, targetToUse, targetUniprot, targetType, targetSpecies);
+					System.out.println("Target created: " + target.getTargetName());
+					currentSession.save(target);
+				
+					
+					//INTERACTION WITH EXPERIMENTAL EVIDENCE
+					//create Exp evidence from current IUPHAR entry
+					//parent source = NA for now
+					//target species added 7/20/16
+					//TODO - check pubmed refs here for SMS database
+					ExpEvidence exp = createExpEvidence(currentSession, pubchem, assayType, 
+													    "NA", assayValueMedian, "NA",
+													    assayRelation, "NA", "NA", "NA",
+													    pubMedIDs, literatureSet, sourceSet, experimentalSet);
+											 //pass to create interaction method
+					currentSession.save(exp);
+					
+//					ExpEvidence exp = createExpEvidence(currentSession, iuphar, assayType, 
+//						    assayValueLow, assayValueMedian, assayValueHigh,
+//						    assayRelation, assayDescription, "NA", "NA",
+//						    pubMedIDs, literatureSet, sourceSet, experimentalSet);
+//				
+
+					//take exp and pass to createInteraction()
+					//within that method, checks existing interactionSet
+					//if interaction already present, evidence gets added to the evidence set
+					//otherwise, create new Interaction
+					//save to session
+					
+					//create interaction **CENTERPIECE OF DATA MODEL
+					Interaction currentInteraction = createInteractionWithExp(currentSession, drug, target,null, interactionSet, exp, null);
+					System.out.println("Interaction created: " + currentInteraction.getIntDrug() + " AND " + currentInteraction.getIntTarget());
+					currentSession.save(currentInteraction);
+					
+				}//ligand match loop - create entry
+				
+				
+		}//drug set loop
+		}//while loop
+		return currentSession;
+	}
+
+	/**
 	 * Method converts species name listed in IUPHAR and DrugBank to 
 	 * standard species name.
 	 * Updated 05/20/21 for "Humans" listing in DrugBank 5.1.8 from Sophia
@@ -3385,27 +3538,30 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		Session currentSessionDrugBank = persistDrugBankUpdated(currentSessionIUPHAR);
 		System.out.println("Done persisting DrugBank.");
 		//ttd
-		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
-		System.out.println("Done persisting TTD.");
-		//bindingDB
-		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
-		System.out.println("Done persisting BindingDB.");
-		//sorger SMS, added 06/01/21
-		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionBindingDB);
-		System.out.println("Done persisting Sorger SMS.");
-				
+//		Session currentSessionTTD = persistTTD(currentSessionDrugBank);
+//		System.out.println("Done persisting TTD.");
+//		//bindingDB
+//		Session currentSessionBindingDB = persistBindingDB(currentSessionTTD);
+//		System.out.println("Done persisting BindingDB.");
+//		//sorger SMS, added 06/01/21
+//		Session currentSessionSMS = persistSmallMoleculeSuite(currentSessionBindingDB);
+//		System.out.println("Done persisting Sorger SMS.");
+		//pubchem - manuall fill-in for select drugs only
+		Session currentSessionPubChem = persistPubChemManual(currentSessionDrugBank);
+		System.out.println("Done persisting PubChem.");
+		
 		//run check for uniprots and also assign the gene symbol as "target name"
-		Session currentSessionTargetsChecked = persistTargetNames(currentSessionSMS);
+		Session currentSessionTargetsChecked = persistTargetNames(currentSessionPubChem);
 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210618.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210618_AddPubChemCheck.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210618.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210618_AddPubChemCheck.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
