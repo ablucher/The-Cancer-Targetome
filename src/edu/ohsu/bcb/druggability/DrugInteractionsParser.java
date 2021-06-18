@@ -2449,10 +2449,10 @@ public class DrugInteractionsParser {
 
 		System.out.println("Drug set size before: " + drugSet.size());
 		
-		//first loop, add drugs to drug set
+		//first loop, create set of drugs
 		String line1 = null;
 		fileUt1.readLine(); //skip headers
-		Set<Drug> drugsToAddFromPubChem = new HashSet<Drug>();
+		Set<String> drugsToAddFromPubChem = new HashSet<String>();
 		while ((line1 = fileUt1.readLine()) != null){
 			String[] tokens = line1.split("\t");
 
@@ -2461,18 +2461,22 @@ public class DrugInteractionsParser {
 				if (eachOldDrug.nameIsEquivalent(ligand)) {
 					continue;//then skip
 				}
-				Drug newDrug = new Drug();
-				newDrug.setDrugName(ligand); //Create new drug ONLY for this limited set - on needs-be basis
-				drugsToAddFromPubChem.add(newDrug);
-				//System.out.println("New Drug TEMP created: " + newDrug.getDrugName());
+				drugsToAddFromPubChem.add(ligand);
 		
 			}
 		}
+		System.out.println("Total number of new drugs from PubChem manual file: " + drugsToAddFromPubChem.size());
 		
-		//okay, now add those drugs in
+		//okay, now add those drugs in -> should be ~20 or so
 		//should only add UNIQUE drugs
-		for (Drug eachNewDrug: drugsToAddFromPubChem) {
-			drugSet.add(eachNewDrug);
+		for (String eachNewDrug: drugsToAddFromPubChem) {
+
+				// create new drug
+				Drug newDrug = new Drug(); //new drug object
+				newDrug.setDrugName(eachNewDrug);
+				drugSet.add(newDrug);
+				currentSession.save(newDrug); //remember to save for hibernate session!
+		
 		}
 		
 		System.out.println("Drug set size after PubChem Manual add: " + drugSet.size());
