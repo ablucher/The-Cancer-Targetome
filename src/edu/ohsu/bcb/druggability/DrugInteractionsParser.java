@@ -962,11 +962,8 @@ public class DrugInteractionsParser {
 
 		//use parsed file from Sophia's python notebook
 		FileUtility drugBankFile = new FileUtility();
-		drugBankFile.setInput("resources/beta_v2/drugbank_test_20210127.csv");
-		
-		//for debugging only, drugbank file
-		//PrintStream ps = new PrintStream("resources/DrugBank/DrugBank_Reference_Debugging_062917.txt");
-		
+		drugBankFile.setInput("resources/beta_v2/drugbank_test_20210608.csv");
+				
 		//create DatabaseRef for DrugBank
 		DatabaseRef drugBank = new DatabaseRef();
 		drugBank.setDatabaseName("DrugBank");
@@ -3367,7 +3364,7 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 	 * New persistAll method for V2 Beta 04/28/21
 	 * see testPersistAll() for method formatting
 	 * 
-	 * WORKING HERE 06/01/21
+	 * WORKING HERE 06/18/21
 	 * 
 	 * @throws IOException
 	 * @throws ParseException
@@ -3402,12 +3399,12 @@ private Interaction createInteraction(Session currentSession, Drug drug, Target 
 		//OUTPUT INTERACTIONS HERE
 		//Drug info file - for EDA
 		Set<Drug> drugSet = queryDrugSet(currentSessionTargetsChecked);
-		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210602_All.txt");
+		PrintStream ds = new PrintStream("results_beta_042921/Targetome_DrugInformation_210618.txt");
 		ds.println("Drug" + "\t" +"Approval_Date"+"\t" + "ATC_ClassID" + "\t" + "ATC_ClassName" + "\t" + "ATC_ClassStatus" + "\t"+ "EPC_ClassID" + "\t" + "EPC_ClassName");
 
 		
 		//Drug-Target Interactions - for EDA
-		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210602_All.txt");
+		PrintStream ps = new PrintStream("results_beta_042921/Targetome_FullEvidence_210618.txt");
 		ps.println("Drug_Query" +"\t" +"Drug_Found" +"\t" + "Target_Name" + "\t" + "Target_Type"+ "\t"+ "Target_UniProt" + "\t" + "Target_Species" + "\t"+ "Database" + "\t"+ "Reference"+ "\t"+"Assay_Type"+"\t" + "Assay_Relation"+ "\t"+"Assay_Value" + "\t"+"EvidenceLevel_Assigned");
 		
 		//for each drug
