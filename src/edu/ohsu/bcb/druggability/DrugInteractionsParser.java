@@ -2452,6 +2452,7 @@ public class DrugInteractionsParser {
 		//first loop, add drugs to drug set
 		String line1 = null;
 		fileUt1.readLine(); //skip headers
+		Set<Drug> drugsToAddFromPubChem = new HashSet<Drug>();
 		while ((line1 = fileUt1.readLine()) != null){
 			String[] tokens = line1.split("\t");
 
@@ -2462,10 +2463,16 @@ public class DrugInteractionsParser {
 				}
 				Drug newDrug = new Drug();
 				newDrug.setDrugName(ligand); //Create new drug ONLY for this limited set - on needs-be basis
-				drugSet.add(newDrug);
-				System.out.println("New Drug created: " + newDrug.getDrugName());
+				drugsToAddFromPubChem.add(newDrug);
+				//System.out.println("New Drug TEMP created: " + newDrug.getDrugName());
 		
 			}
+		}
+		
+		//okay, now add those drugs in
+		//should only add UNIQUE drugs
+		for (Drug eachNewDrug: drugsToAddFromPubChem) {
+			drugSet.add(eachNewDrug);
 		}
 		
 		System.out.println("Drug set size after PubChem Manual add: " + drugSet.size());
